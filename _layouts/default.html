@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="{{ page.layout | slugify | prepend: 'layout-'}}">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      {%- if page.layout == 'home' -%}
+       {{ content }}
+      {%- else -%}
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      {%- endif -%}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

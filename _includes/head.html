@@ -1,0 +1,25 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  {%- seo -%}
+  {% unless page.image.size > 0 %}
+  <meta property="og:image" content="{{ site.logo | relative_url }}" />
+  {% endunless %}
+  <link rel="stylesheet" href="https://use.typekit.net/jrm7lzh.css" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  {%- if page.layout == 'home' -%}
+  <link rel="stylesheet" href="{{ '/assets/css/pages/home.css' | relative_url }}" />
+  {%- endif -%} {%- if page.title == '404' -%}
+  <link rel="stylesheet" href="{{ '/assets/css/pages/404.css' | relative_url }}" />
+  {%- endif -%}
+  {%- if page.layout == 'final-report' -%}
+  <link rel="stylesheet" href="{{ '/assets/css/pages/final-report.css' | relative_url }}" />
+  {%- endif -%}
+  <link rel="stylesheet" media="print" href="{{ '/assets/css/print.css' | relative_url }}" />
+
+  {%- feed_meta -%}
+  {%- include google-analytics.html -%}
+</head>

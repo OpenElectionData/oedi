@@ -1,13 +1,13 @@
-title: "Open Election Data Initiative"
-email:
-description: ""
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://openelectiondata.net" # the base hostname & protocol for your site, e.g. http://example.com
+title: 'Open Election Data Initiative'
+email: openelectiondata@ndi.org
+description: ''
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://openelectiondata.net' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 
 google_analytics:
 
-date_format: "%B %-d, %Y"
+date_format: '%B %-d, %Y'
 
 cloudinary_url: https://res.cloudinary.com/csisideaslab/image/upload/
 
@@ -29,38 +29,47 @@ collections:
 # Default front matter values for a collection will be defined here
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: 'posts'
     values:
       layout: post
-      permalink: "/blog/:slug/"
-      view_all_url: "/blog/"
+      permalink: '/blog/:slug/'
+      view_all_url: '/blog/'
       breadcrumbs: true
   - scope:
-      path: ""
-      type: "guide"
+      path: ''
+      type: 'guide'
     values:
       layout: post
-      permalink: "/guide/:slug/"
+      permalink: '/guide/:slug/'
   - scope:
-      path: ""
-      type: "inventory"
+      path: ''
+      type: 'inventory'
     values:
       layout: post
-      permalink: "/inventory/:slug/"
+      permalink: '/inventory/:slug/'
   - scope:
-      path: ""
-      type: "academy"
+      path: ''
+      type: 'academy'
     values:
       layout: post
-      permalink: "/academy/:slug/"
+      permalink: '/academy/:slug/'
+
+# Translation Settings
+languages: ['en', 'es', 'ru']
+default_lang: 'xx'
+exclude_from_localization: ['assets']
+parallel_localization: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: true
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-polyglot
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,21 +1,35 @@
-- url: /guide/
-  title: Election Data Guide
-  identifier: guide
-  inHeader: true
-  inFooter: true
-- url: /inventory/
-  title: Latin America Data Inventory
-  identifier: inventory
-  inHeader: true
-  inFooter: true
-- url: /academy/
-  title: Data Academy
-  identifier: academy
-  inHeader: true
-  inFooter: true
-- url: /contact
-  title: Contact
-  identifier: contact
-  inHeader: true
-  inFooter: true
-  desc: The research and studies that have informed this project can be found here.
+main:
+  - url: /guide/
+    title: Election Data Guide
+    identifier: guide
+    inHeader: true
+    inFooter: true
+  - url: /inventory/
+    title: Latin America Data Inventory
+    identifier: inventory
+    inHeader: true
+    inFooter: true
+  - url: /academy/
+    title: Data Academy
+    identifier: academy
+    inHeader: true
+    inFooter: true
+  - url: /contact
+    title: Contact
+    identifier: contact
+    inHeader: true
+    inFooter: true
+
+languages:
+  - identifier: en
+    title: English
+    url: '/'
+    weight: 1
+  - identifier: es
+    title: Español
+    url: '/es'
+    weight: 2
+  - identifier: ru
+    title: Русский
+    url: '/ru'
+    weight: 3

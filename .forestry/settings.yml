@@ -26,10 +26,10 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
-front_matter_path: ''
-use_front_matter_path: false
+upload_dir: oedi
+public_path: https://res.cloudinary.com/oedi/image/upload
+front_matter_path: https://res.cloudinary.com/oedi/image/upload
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:

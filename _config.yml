@@ -40,19 +40,19 @@ defaults:
       path: ''
       type: 'guide'
     values:
-      layout: post
+      layout: page-sidebar
       permalink: '/guide/:slug/'
   - scope:
       path: ''
       type: 'inventory'
     values:
-      layout: post
+      layout: page
       permalink: '/inventory/:slug/'
   - scope:
       path: ''
       type: 'academy'
     values:
-      layout: post
+      layout: page-sidebar
       permalink: '/academy/:slug/'
 
 # Translation Settings

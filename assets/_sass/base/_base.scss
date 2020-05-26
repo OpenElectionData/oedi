@@ -1,9 +1,31 @@
-html {
-  box-sizing: border-box;
+@use 'abstracts' as *;
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: $font__merriweather;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.container {
+  max-width: $size__container-max-width;
+  margin: 0 auto;
+  padding: rem(16);
+}
+
+.page-content {
+  margin: 1rem auto;
+}
+
+.blue-stripes {
+  color: $color__white;
+  background: $color__primary;
+  /* stylelint-disable */
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 2px,
+    $color__primary-light 2px,
+    $color__primary-light 4px
+  );
+  /* stylelint-enable */
 }

@@ -3,9 +3,12 @@
 @use 'vendors/reset';
 @use 'abstracts';
 
-@import 'base/typography';
-@import 'base/base';
-@import 'base/helpers';
+@use 'base/typography';
+@use 'base/base';
+@use 'base/helpers';
 
-@import 'layout/footer';
-@import 'layout/header';
+@use 'components/nav-lang';
+
+@use 'layout/footer';
+@use 'layout/header';
+@use 'layout/nav';

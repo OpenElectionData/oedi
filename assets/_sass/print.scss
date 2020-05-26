@@ -2,7 +2,7 @@
 =            Print Stylesheets            =
 =========================================*/
 
-@import 'abstracts/abstracts';
+@use 'abstracts' as *;
 
 // @media print {
 // }

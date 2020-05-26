@@ -7,18 +7,37 @@
 $color__black: #000;
 $color__white: #fff;
 
+$color__gray-100: #f8f8f8;
+$color__gray-200: #f1f2f2;
+$color__gray-300: #eee;
+$color__gray-400: #eaeef2;
+$color__gray-500: #ddd;
+$color__gray-900: #333;
+
+$color__blue-100: #eaf0f7;
+$color__blue-200: #19407a;
+$color__blue-300: #003467;
+
+$color__orange-100: #ed8968;
+$color__orange-200: #e55120;
+$color__orange-300: #cc4627;
+
+$color__primary: $color__blue-300;
+$color__primary-light: $color__blue-200;
+
 /*----------  Typography  ----------*/
+
+$font__merriweather: 'Merriweather', Georgia, serif;
+$font__raleway: 'Raleway', Arial, sans-serif;
 
 /*----------  Structure  ----------*/
 
 $breakpoints: (
   'small': 30em,
-  'medium': 40em,
+  'medium': 55em,
   'large': 64em,
   'xlarge': 80em
 );
 
-$size__container-max-width: 1280px;
+$size__container-max-width: 1170px;
 $size__content-max-width: 680px;
-$size__issues-content-max-width: 900px;
-$size__content-wide-max-width: 1152px;

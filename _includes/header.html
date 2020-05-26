@@ -1,7 +1,9 @@
-<header class="site-header" role="banner">
-  <div class="wrapper--expanded">
-    <a class="site-header__title" rel="author" href="{{ "/" | relative_url }}">
-     OEDI
+<header class="site-header blue-stripes" role="banner">
+  <div class="container">
+    <a class="site-header__title" href="{{ "/" | relative_url }}">
+      {% assign lang = site.active_lang | default: 'en' %}
+      {% assign logo = 'oedi-logo-' | append: lang | append: '.png' %}
+      <img src="{{ 'assets/images/logos/' | append: logo | relative_url }}" alt="{{ site.title }}" title="{{ site.title }}">
     </a>
     <nav class="site-header__nav" role="navigation">
       <button class="site-header__nav-trigger" aria-expanded="false" aria-label="Toggle Menu">
@@ -11,7 +13,8 @@
         <span class="line"></span>
         <span class="visually-hidden">Menu</span>
       </button>
-      {% include site-nav.html class="header__nav-menu" location="inHeader" %}
+      {% include site-nav.html class="header" location="inHeader" %}
+      {% include site-nav-languages.html %}
     </nav>
   </div>
 </header>

@@ -160,6 +160,7 @@ const filesToWatch = [
   './**/*.md',
   './**/*.markdown',
   '*.json',
+  config.jekyll.data + '/**/*',
   config.jekyll.includes + '/**/*',
   config.jekyll.layouts + '/**/*',
   config.jekyll.posts + '/**/*',

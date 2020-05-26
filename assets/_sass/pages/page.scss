@@ -1,0 +1,50 @@
+@use '../abstracts' as *;
+
+.page {
+  &--sidebar {
+    display: grid;
+    grid-gap: rem(32);
+
+    @include breakpoint('medium') {
+      grid-template-columns: 1fr 3fr;
+    }
+  }
+
+  &__sidebar {
+    padding: 1rem;
+    background: $color__gray-200;
+    border-top: 2px solid $color__blue-200;
+  }
+
+  &__title {
+    margin: 0 0 1rem;
+    font-weight: 500;
+    font-size: clamp(100%, calc(1rem + 2vw), 36px);
+  }
+
+  &__main {
+    @include font-size(16px);
+    line-height: 1.3;
+
+    > * + * {
+      margin-top: 1rem;
+    }
+
+    a {
+      color: $color__orange-300;
+
+      &:hover {
+        color: $color__orange-200;
+        text-decoration: underline;
+      }
+    }
+
+    ol,
+    ul {
+      /* stylelint-disable-next-line */
+      li + li {
+        margin-top: 1rem;
+      }
+    }
+  }
+}

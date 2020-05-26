@@ -1,0 +1,54 @@
+@use 'abstracts' as *;
+
+.site-footer {
+  .container {
+    display: grid;
+    grid-gap: rem(24);
+    grid-template-columns: 1fr;
+
+    @include breakpoint('medium') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__logos {
+    display: flex;
+    align-items: center;
+
+    @include breakpoint('medium') {
+      justify-content: flex-end;
+    }
+
+    li + li {
+      margin-left: 1.5rem;
+    }
+
+    li:last-of-type {
+      margin-top: 5px;
+    }
+
+    a {
+      display: block;
+    }
+
+    img {
+      height: 30px;
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    align-items: center;
+    @include font-size(12px);
+
+    @include breakpoint('medium') {
+      grid-column: 1 / -1;
+    }
+
+    a {
+      display: block;
+      margin-right: 5px;
+      line-height: 1;
+    }
+  }
+}

@@ -5,7 +5,7 @@
 // Rem output with px fallback
 @mixin font-size($size) {
   font-size: $size; //Fallback in px
-  font-size: calculate-rem($size);
+  font-size: rem($size);
 }
 
 // Breakpoints

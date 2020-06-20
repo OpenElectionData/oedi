@@ -5,6 +5,7 @@
   flex-direction: column;
   font-family: $font__raleway;
   font-weight: 700;
+  @include font-size(14px);
   letter-spacing: 0.5px;
   text-transform: uppercase;
 
@@ -13,15 +14,15 @@
   }
 
   li + li {
-    margin-top: rem(16);
-
     @include breakpoint('medium') {
-      margin-top: 0;
-      margin-left: rem(16);
+      margin-left: rem(32);
     }
   }
 
   a {
+    display: block;
+    padding: 0.5rem 0;
+
     &:hover {
       text-decoration: underline;
     }

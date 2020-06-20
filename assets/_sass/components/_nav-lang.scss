@@ -3,51 +3,83 @@
 .nav-lang {
   position: relative;
   z-index: 20;
-  display: flex;
-  align-items: baseline;
+  margin-top: 1.5rem;
   font-family: $font__raleway;
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 
   @include breakpoint('medium') {
+    margin-top: 0;
     margin-left: 2rem;
+
+    &:hover .nav-lang__menu {
+      display: block;
+    }
   }
 
-  &::after {
-    content: '';
-    display: block;
-    width: 0.5em;
-    height: 0.5em;
-    margin-left: 0.5rem;
-    border-radius: 0 0.15em 0 0;
-    box-shadow: inset -0.1em 0.1em 0 0 $color__white;
-    transform: translate(0, -0.3rem) rotate(135deg);
-    transform-origin: 50% 50%;
-    transition: all 0.5s ease-in-out;
-  }
+  &__trigger {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    padding: 0.5rem 0;
+    color: inherit;
+    text-transform: uppercase;
+    border: 0;
 
-  &:hover .nav-lang__menu {
-    display: block;
+    &::after {
+      content: '';
+      display: block;
+      width: 0.5em;
+      height: 0.5em;
+      margin-left: 0.5rem;
+      border-radius: 0 0.15em 0 0;
+      box-shadow: inset -0.1em 0.1em 0 0 $color__white;
+      transform: translate(0, -0.3rem) rotate(135deg);
+      transform-origin: 50% 50%;
+      transition: all 0.5s ease-in-out;
+    }
+
+    &::before {
+      @include breakpoint('medium') {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 1rem;
+      }
+    }
   }
 
   &__menu {
-    position: absolute;
-    top: 105%;
-    right: 0;
     display: none;
     min-width: 150px;
     margin: 0;
     padding: 0;
-    color: $color__gray-900;
     @include font-size(14px);
     text-align: left;
-    background: $color__white;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
+
+    @include breakpoint('medium') {
+      position: absolute;
+      top: 105%;
+      right: 0;
+      color: $color__gray-900;
+      background: $color__white;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
+    }
+
+    &.is-active {
+      display: block;
+    }
 
     a {
       display: block;
-      padding: 0.5rem;
+      padding: 0.5rem 0.5rem 0.5rem 1rem;
+
+      @include breakpoint('medium') {
+        padding-left: 0.5rem;
+      }
 
       &:hover {
         background: $color__orange-100;

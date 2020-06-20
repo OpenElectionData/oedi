@@ -1,5 +1,5 @@
 <header class="site-header blue-stripes" role="banner">
-  <div class="container">
+  <div class="container blue-stripes">
     <a class="site-header__title" href="{{ "/" | relative_url }}">
       {% assign lang = site.active_lang | default: 'en' %}
       {% assign logo = 'oedi-logo-' | append: lang | append: '.png' %}
@@ -13,8 +13,10 @@
         <span class="line"></span>
         <span class="visually-hidden">Menu</span>
       </button>
-      {% include site-nav.html class="header" location="inHeader" %}
-      {% include site-nav-languages.html %}
+      <div class="site-header__nav-links">
+        {% include site-nav.html class="header" location="inHeader" %}
+        {% include site-nav-languages.html %}
+      </div>
     </nav>
   </div>
 </header>

@@ -1,7 +1,13 @@
 {% if site.data.menus.languages.size > 1 %}
 <div class="nav-lang">
-  {% assign active_lang_string = site.data.menus.languages | where:
-  "identifier", site.active_lang | first %} {{ active_lang_string.title }}
+  <button
+    class="nav-lang__trigger btn--transparent"
+    aria-expanded="false"
+    aria-label="Change site language"
+  >
+    {% assign active_lang_string = site.data.menus.languages | where:
+    "identifier", site.active_lang | first %} {{ active_lang_string.title }}
+  </button>
   <ul class="nav-lang__menu">
     {% for item in site.data.menus.languages %} {% if item.identifier ==
     site.active_lang %} {% assign itemClass = ' active-item' %} {% else %} {%

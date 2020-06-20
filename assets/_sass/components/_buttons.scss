@@ -1,0 +1,15 @@
+@use 'abstracts' as *;
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &--transparent {
+    padding: 0;
+    background: transparent;
+  }
+}

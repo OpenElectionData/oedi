@@ -5,11 +5,23 @@
   padding: 8px 16px;
   text-align: center;
   border: 0;
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
   &--transparent {
     padding: 0;
     background: transparent;
+    border-radius: 0;
+  }
+
+  &--orange {
+    color: $color__white;
+    background: rgba($color__orange-300, 0.5);
+    border: 1px solid $color__orange-300;
+
+    &:hover {
+      background: $color__orange-300;
+    }
   }
 }

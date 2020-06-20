@@ -13,6 +13,13 @@
     flex-direction: row;
   }
 
+  li {
+    @include breakpoint('medium') {
+      flex: 0 1 auto;
+      max-width: fit-content;
+    }
+  }
+
   li + li {
     @include breakpoint('medium') {
       margin-left: rem(32);
@@ -27,6 +34,7 @@
       text-decoration: underline;
     }
 
+    /* stylelint-disable-next-line */
     .site-header &.active {
       text-decoration: underline;
     }

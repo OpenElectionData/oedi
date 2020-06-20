@@ -23,13 +23,13 @@ main:
 languages:
   - identifier: en
     title: English
-    url: '/'
+    url: "/"
     weight: 1
   - identifier: es
     title: Español
-    url: '/es'
+    url: "/es"
     weight: 2
   - identifier: ru
     title: Русский
-    url: '/ru'
+    url: "/ru"
     weight: 3

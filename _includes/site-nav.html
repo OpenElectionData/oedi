@@ -4,7 +4,10 @@ site.data.menus.main | where_exp:"item","item[location] == true" %}
 <ul class="site-nav site-nav--{{ include.class }}">
   {% for item in menu_items %}
   <li class="menu-item">
-    <a href="{{ item.url | relative_url }}" title="{{ item.identifier }}"
+    <a
+      href="{{ item.url | relative_url }}"
+      title="{{ item.identifier }}"
+      class="{% if page.url == item.url %}active{% endif %}"
       >{{ item.title }}</a
     >
   </li>

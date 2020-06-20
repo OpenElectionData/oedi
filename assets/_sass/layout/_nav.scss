@@ -26,5 +26,9 @@
     &:hover {
       text-decoration: underline;
     }
+
+    .site-header &.active {
+      text-decoration: underline;
+    }
   }
 }

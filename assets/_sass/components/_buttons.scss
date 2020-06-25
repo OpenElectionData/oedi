@@ -9,6 +9,20 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
+  &--small {
+    @include font-size(14px);
+  }
+
+  &--blue {
+    color: $color__white;
+    background: $color__blue-200;
+    border: 1px solid $color__blue-300;
+
+    &:hover {
+      background: $color__blue-300;
+    }
+  }
+
   &--transparent {
     padding: 0;
     background: transparent;
@@ -22,6 +36,16 @@
 
     &:hover {
       background: $color__orange-300;
+    }
+  }
+
+  &--close {
+    padding: 0.5rem;
+    color: $color__gray-600;
+
+    &:hover,
+    &:focus {
+      color: $color__primary;
     }
   }
 }

@@ -1,0 +1,31 @@
+@use 'abstracts' as *;
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: $color__primary;
+}
+
+/* stylelint-disable */
+input[type='text'],
+input[type='password'],
+input[type='email'],
+/* stylelint-enable */
+textarea {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem 0.75rem;
+  @include font-size(14px);
+  background: $color__white;
+  border: 1px solid $color__gray-400;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+  &:focus {
+    border-color: $color__blue-200;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 8px rgba(102, 175, 233, 0.6);
+  }
+}

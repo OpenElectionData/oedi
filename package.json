@@ -71,6 +71,7 @@
     "yargs": "^15.3.1"
   },
   "dependencies": {
+    "a11y-dialog": "^5.3.2",
     "core-js": "^3.6.5"
   }
 }

@@ -1,13 +1,51 @@
+@use 'abstracts' as *;
 /*==================================
 =            Typography            =
 ==================================*/
-
 
 /*============================
 =            Copy            =
 ============================*/
 
+$headers: (
+  1: 48px,
+  2: 39px,
+  3: 31px,
+  4: 25px,
+  5: 20px
+);
 
+.page__main {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 2.75rem 0 1.05rem;
+    font-weight: 400;
+    line-height: 1.15;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  @each $header, $size in $headers {
+    h#{$header} {
+      @include font-size($size);
+    }
+  }
+}
+
+.text {
+  &--small {
+    @include font-size(14px);
+  }
+
+  &--xs {
+    @include font-size(12px);
+  }
+}
 
 /*=============================
 =            Links            =

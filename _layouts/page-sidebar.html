@@ -4,10 +4,41 @@ layout: default
 
 <article class="page page--sidebar">
   <aside class="page__sidebar">
-    Sidebar Content
+    {% if page.is_guide == true %}
+      <h2>{{ site.data.strings.toc }}</h2>
+      {% assign sections = site.guide | where: 'section', nil | sort: 'chapter_id', 'last' %}
+      <ul>
+        {% for section in sections %}
+          {% assign subsections = site.guide | where: 'section', section.chapter_id | sort: 'chapter_id', 'last' %}
+
+          {% if subsections.size == 0 %}
+            <li><a href="{{ section.url | relative_url }}" class="{% if page.url == section.url %}is-active{% endif %}">{{ section.title_short | default: section.title }}</a></li>
+          {% else %}
+            <li class="{% if page.chapter_id == section.chapter_id or page.section == section.chapter_id %}is-active{% endif %}">
+              <a href="{{ section.url | relative_url }}" class="{% if page.url == section.url %}is-active{% endif %}">{{ section.title }}</a>
+              <ul>
+                {% for subsection in subsections %}
+                <li><a href="{{ subsection.url | relative_url }}" class="{% if page.url == subsection.url %}is-active{% endif %}">{{ subsection.title_short | default: subsection.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% else %}
+    Sidebar test
+    {% endif %}
   </aside>
   <section class="page__main">
-    <h1 class="page__title">{{ page.title }}</h1>
+    <h1 class="page__title">
+      {% if page.section %}
+        {% assign section = site.guide | where: 'chapter_id', page.section %}
+        {{ section[0].title }}
+        <span>{{ page.title }}</span>
+      {% else %}
+      {{ page.title }}
+      {% endif %}
+    </h1>
     {{ content }}
   </section>
 </article>

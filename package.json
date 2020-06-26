@@ -72,6 +72,9 @@
   },
   "dependencies": {
     "a11y-dialog": "^5.3.2",
-    "core-js": "^3.6.5"
+    "core-js": "^3.6.5",
+    "csvtojson": "^2.0.10",
+    "mustache": "^4.0.1",
+    "turndown": "^6.0.0"
   }
 }

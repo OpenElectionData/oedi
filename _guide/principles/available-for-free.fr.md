@@ -1,0 +1,17 @@
+---
+title: 'Principe 3: Les données électorales sont ouvertes quand elles sont disponibles gratuitement sur Internet'
+title_short: 'Principle 3: Disponibles gratuitement sur Internet'
+lang: fr
+chapter_id: 12
+section: 9
+permalink: '/guide/principles/available-for-free/'
+---
+
+![Disponibles gratuitement sur internet](/images/inventory/principles/available-for-free.png)
+
+Bien que cela puisse sembler évident, il est nécessaire de préciser que les données ouvertes doivent être gratuites; en d'autres termes, les données doivent être disponibles sans restrictions monétaires. Le principe d'être «disponible sur Internet gratuitement» est parfois raccourci et renvoyé à des données accessibles. Plusieurs études ont documenté le fait que de nombreux citoyens utilisent Internet pour rechercher des informations sur le gouvernement ou sa politique[\[1\]](#footnote-1). Ainsi, l'affichage des données électorales sur Internet est un moyen de les rendre ouvertes et accessibles. La plupart des OGE publient déjà de façon proactive certains types de données sur leurs sites web et les rendent disponibles sans frais pour l'utilisateur. Dans les contextes où les connexions à internet ne sont pas fiables ou faibles, les citoyens peuvent demander des données électorales dans un format hors connexion, comme un CD ou une clé USB. Les OGE doivent avoir des mécanismes raisonnables en place pour fournir des données dans ce type de circonstances.
+
+Intégré dans le concept de «disponible sur Internet» est l'idée que les données doivent être faciles à trouver («découvrable»). Lorsque les données de l'élection sont clairement étiquetées et répertoriées dans les plans de sites et des endroits bien connus, il devient plus facile de les trouver. Une autre bonne pratique est de créer un lien stable vers les données afin que les gens puissent facilement retrouver l'information et renvoyer à d'autres l'emplacement correct. Si le lien a changé, ceux reliés à l'emplacement d'origine (par exemple, par le biais d'un signet ou d'autres liens) devront alors chercher de nouveau les données. Dans leurs [Orientations de Politiques pour les Données Ouvertes](http://sunlightfoundation.com/opendataguidelines/#data-portals-and-websites), la Fondation Sunlight suggère aux fournisseurs de créer un emplacement central consacré à la publication d'ensemble de données et aux politiques de données. Par exemple, le gouvernement Argentin dispose d'un portail en ligne avec [un catalogue de données](http://datospublicos.gob.ar/data/dataset) publiques qui comprend les résultats des élections. Un utilisateur peut rechercher le catalogue et filtrer les informations par thème, source, format de fichier (csv, txt, pdf) ou type de licence. Des portails de données ou des sites similaires rendent les données plus détectables, car ils fournissent «un accès facile, un centre consultable pour un nombre multiples de séries de données.»[\[2\]](#footnote-2)
+
+1.  [](#reference-1)[Rapport du Pew Research Center de 2010 intitulé Gouvernement en Ligne](http://www.pewinternet.org/2010/04/27/government-online/) est l'une des premières études qui a mesuré la façon dont les citoyens utilisent l'internet pour obtenir des informations sur les institutions publiques.
+2.  [](#reference-2)[Directive 18](http://sunlightfoundation.com/opendataguidelines/#data-portals-and-websites) dans Orientations de Politiques pour les Données Ouvertes, de la Fondation Sunlight.

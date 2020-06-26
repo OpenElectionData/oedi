@@ -1,0 +1,10 @@
+---
+title: 'Chile'
+title_short: ''
+lang: uk
+chapter_id: 39
+section: 36
+permalink: '/guide/country-examples/chile/'
+---
+
+скоро буде

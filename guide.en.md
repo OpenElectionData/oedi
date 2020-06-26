@@ -3,6 +3,7 @@ layout: page-sidebar
 title: Election Data Guide
 lang: en
 permalink: /guide/
+is_guide: true
 ---
 
 This guide has several potential audiences and uses, for:

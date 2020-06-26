@@ -3,4 +3,5 @@ signup: Sign up
 signup_updates: Sign up for updates
 signup_email_label: Please enter your email to receive updates when new modules or tools are added
 signup_email_placeholder: Enter email
-signup_captcha: 'To reassure us that you are human:'
+signup_captcha: "To reassure us that you are human:"
+toc: Table of Contents

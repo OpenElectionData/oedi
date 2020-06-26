@@ -1,0 +1,18 @@
+---
+title: 'Principle 1: Election data is open when it is timely'
+title_short: 'Principle 1: Timely'
+lang: en
+chapter_id: 10
+section: 9
+permalink: '/guide/principles/timely/'
+---
+
+![Timely](/images/inventory/principles/timely.png)
+
+Election data should be made available as quickly as necessary for it to be useful. Timely publication of election data is essential because it feeds into several decision making and participatory processes. Citizens need information on how to register, which parties or candidates are running and where to vote so they can participate in the process and make informed decisions. Potential contestants need information on ballot qualification so they can compete in the election. Contestants need information on media access and allocation so they can get their message out. The timely publication of election data is also an essential component of transparency. Election monitoring organizations, political parties, and the media need election data to assess the transparency of a particular process and whether it is accurate and fraud free. Since the phases that make up the [election cycle](http://www.idea.int/elections/eea/images/Electoral-cycle.png) are interdependent and build on one another, the timely release of data takes on a greater importance in elections than some other subject areas.
+
+The timely release of data often means the data must be frequently updated, as happens during voter registration and when preliminary polling station results are released. Users should be able to quickly identify and locate the updates. For example, if the results for a polling station are changed and a new, corrected form issued, then the data should explicitly note the change(s), why the changes were made (e.g., small mathematical errors were corrected), and when they were made (e.g., a timestamp of when last updated). Releasing data in a timely manner is a way the election management body (EMB) demonstrates that the process is trustworthy.
+
+> **How does data timeliness play out during the election cycle?**
+> 
+> During the planning and implementation phase, it is important that the EMB release data related to the budget so that its implementation can be properly monitored. Data about who is running the election at which level is necessary so they can be contacted with questions and held accountable for their part in the process. Timely information on procurement, especially if electronic technologies are involved, is needed to evaluate the terms of the contract and whether the contractor can meet the necessary requirements. Often, it is important that the data related to a particular phase is released before that phase is even finished. Voters need timely information about their registration status and where to register so they can take action before the voter registration phase ends. Parties and issue-based civil society organizations need timely information during the voter registration process so they can conduct registration drives and make sure their supporters are registered and can vote on election day. Data about campaign finance and media allocation must be released quickly to make sure the campaign period is fair. Near real-time publication of provisional polling station results helps provide transparency in the counting process. Data on electoral complaints must be released quickly so it is clear how they may affect results or so that parties can appeal. Releasing data on the progress of tabulation helps election monitoring organizations and the media to evaluate the transparency of the process and contributes to public confidence.

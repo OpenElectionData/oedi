@@ -5,3 +5,4 @@ signup_email_label: Please enter your email to receive updates when new modules 
 signup_email_placeholder: Enter email
 signup_captcha: "To reassure us that you are human:"
 toc: Table of Contents
+modules: Modules

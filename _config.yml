@@ -53,7 +53,7 @@ defaults:
       type: "academy"
     values:
       layout: page-sidebar
-      permalink: "/academy/:slug/"
+      is_academy: true
 
 # Translation Settings
 languages: ["en", "es", "ar", "fr", "uk"]

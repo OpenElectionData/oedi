@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="page">
+  {{ content }}
+
+  {% assign categories = site.data.inventory_categories | where: "is_subcategory", false %}
+
+  <table>
+    <thead>
+      <tr>
+        <th>Country</th>
+        {% for category in categories %}
+        <th>{{ category.slug }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for country in site.data.inventory_countries %}
+      <tr>
+        <td>
+          <a href="{{ page.url | append: country.country }}">{{ country.country }}</a>
+        </td>
+        {% for category in categories %}
+        <td>{{ country.categories[category.slug].value }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</article>

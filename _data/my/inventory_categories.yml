@@ -1,0 +1,62 @@
+inventory_categories:
+  election-management-body-and-administration: ရွေးကောက်ပွဲ စီမံကျင်းပရေးအဖွဲ့နှင့် အုပ်ချုပ်ရေး
+  location-1: တည်နေရာ (လိပ်စာအပြည့်အစုံ)
+  individual-name-and-contact-info-1: အဖွဲ့ဝင်တစ်ဦးချင်း၏ အမည်နှင့် ဆက်သွယ်နိုင်သည့်လိပ်စာ
+  location-2: တည်နေရာ (လိပ်စာအပြည့်အစုံ)
+  individual-name-and-contact-info-2: အဖွဲ့ဝင်တစ်ဦးချင်း၏ အမည်နှင့် ဆက်သွယ်နိုင်သည့်လိပ်စာ
+  location-3: တည်နေရာ (လိပ်စာအပြည့်အစုံ)
+  individual-name-and-contact-info-3: အဖွဲ့ဝင်တစ်ဦးချင်း၏ အမည်နှင့် ဆက်သွယ်နိုင်သည့်လိပ်စာ
+  election-management-body-processes: ရွေးကောက်ပွဲ စီမံခန့်ခွဲရေး ဖြစ်စဉ်အဆင့်ဆင့်
+  meeting-minutes-or-decisions: အစည်းအဝေး မှတ်တမ်းများ သို့မဟုတ် ဆုံးဖြတ်ချက်များ
+  budget: ဘက်ဂျတ်
+  expenditures: သုံးစွဲမှုများ
+  public-recruitment-data: ပြည်သူသို့ ထုတ်ပြန်ထားသည့် ဝန်ထမ်းများ ခန့်အပ်ခြင်း ဆိုင်ရာ အချက်အလက်များ
+  training-materials: သင်တန်းဆက်စပ် ပစ္စည်းများ
+  election-observation-organizations-registered: မှတ်ပုံတင်ထားသည့် ရွေးကောက်ပွဲ စောင့်ကြည့်လေ့လာရေး အဖွဲ့အစည်းများ
+  electoral-boundaries: ရွေးကောက်ပွဲနယ်နိမိတ်များ (မဲဆန္ဒနယ်များ)
+  electoral-boundary-names-and-hierarchy: ရွေးကောက်ပွဲ နယ်နိမိတ်အမည်များနှင့် အဆင့်ဆင့် ဖွဲ့စည်းပုံ
+  political-party-registration: နိုင်ငံရေးပါတီများ မှတ်ပုံတင်ခြင်း
+  parties-registered: မှတ်ပုံတင်ထားသည့် ပါတီများ
+  parties-rejected: မှတ်ပုံတင် မအောင်မြင်သည့် ပါတီများ
+  party-membership: ပါတီဝင်များ
+  ballot-qualification: မဲပြားပေါ်တွင် ဖော်ပြခံရန် အရည်အချင်း ပြည့်မီခြင်း
+  contestants-accepted: ကိုယ်စားလှယ်လောင်းအဖြစ် လက်ခံခဲ့သူများ
+  contestants-rejected: ကိုယ်စားလှယ်လောင်း အဖြစ် ပယ်ချခဲ့သူများ
+  election-campaigns: ရွေးကောက်ပွဲ မဲဆွယ်စည်းရုံးရေး
+  media-allocation: မီဒီယာတွင် ထုတ်လွှင့်ခွင့်ရသည့် ပမာဏ
+  campaign-finance: မဲဆွယ်စည်းရုံးရေး ဆိုင်ရာ ငွေကြေးသုံးစွဲမှု
+  party-campaign-funding: မဲဆွယ်စည်းရုံးရေး ရံပုံငွေ
+  party-campaign-spending: မဲဆွယ်စည်းရုံးရေး သုံးစွဲမှု
+  candidate-campaign-funding: ကိုယ်စားလှယ်များ၏ မဲဆွယ်စည်းရုံးရေး ရံပုံငွေ
+  candidate-campaign-spending: ကိုယ်စားလှယ်များ၏ မဲဆွယ်စည်းရုံးရေး သုံးစွဲမှု
+  political-party-annual-accounts: ပါတီများ၏ နှစ်စဉ် ငွေစာရင်း
+  voter-registration: မဲဆန္ဒရှင်များ မှတ်ပုံတင်ခြင်း
+  registration-center-locations: Registration center locations
+  voter-lists: မဲဆန္ဒရှင်စာရင်း
+  registration-look-up: မှတ်ပုံတင်ထားခြင်းရှိ မရှိ ရှာခြင်း
+  voter-education: မဲဆန္ဒရှင်များကို ပညာပေးခြင်း
+  electoral-calendar: ရွေးကောက်ပွဲကာလ ပြက္ခဒိန်
+  voting-process-information: Voting process information
+  political-programs: နိုင်ငံရေး အစီအစဉ်များ
+  polling-stations: မဲရုံ
+  location: တည်နေရာ
+  polling-station-workers: မဲရုံဝန်ထမ်းများ
+  election-results-provisional: ရွေးကောက်ပွဲရလာဒ် (ပဏာမ)
+  voters-registered-provisional:  မှတ်ပုံတင်ထားသည့် မဲဆန္ဒရှင်များ
+  voters-that-participated-provisional: မဲပေးခဲ့သည့် မဲဆန္ဒရှင်များ
+  ballots-spoiled-provisional: ပျက်စီး မဲပြားများ (ထုတ်ပေးခဲ့သည့် သို့သော်လည်း အသုံးမပြုခဲ့)
+  invalid-votes-provisional: ပယ်မဲ
+  votes-challenged-provisional: အငြင်းပွားခဲ့သည့် မဲများ
+  blank-votes-cast-provisional: ဗလာမဲ (မည်သည့် ကိုယ်စားလှယ်လောင်းကိုမျှ ရွေးချယ်ခဲ့ခြင်း မရှိသည့် မဲပြားများ)
+  valid-votes-for-each-contestant-provisional: ကိုယ်စားလှယ်လောင်း တစ်ဦးချင်းစီ၏ရမဲ
+  election-results-official-final: ရွေးကောက်ပွဲရလာဒ်  (နောက်ဆုံးတရားဝင်)
+  voters-registered-official-final: မှတ်ပုံတင်ထားသည့် မဲဆန္ဒရှင်များ
+  voters-that-participated-official-final: မဲပေးခဲ့သည့် မဲဆန္ဒရှင်များ
+  ballots-spoiled-official-final: ပျက်စီး မဲပြားများ (ထုတ်ပေးခဲ့သည့် သို့သော်လည်း အသုံးမပြုခဲ့)
+  invalid-votes-official-final: ပယ်မဲ
+  votes-challenged-official-final: အငြင်းပွားခဲ့သည့် မဲများ
+  blank-votes-cast-official-final: ဗလာမဲ (မည်သည့်ကိုယ်စားလှယ်လောင်းကိုမျှ ရွေးချယ်ခဲ့ခြင်း မရှိသည့် မဲပြားများ)
+  valid-votes-for-each-contestant-official-final: ကိုယ်စားလှယ်လောင်း တစ်ဦးချင်းစီ၏ ရမဲ
+  electoral-complaints-and-disputes: တိုင်ကြားချက်များ၊ အငြင်းပွားမှုများ
+  complaints-submitted: တင်သွင်းခဲ့သည့် တိုင်ကြားမှုများ
+  complaints-resolved: ဖြေရှင်းပေးခဲ့သည့် တိုင်ကြားမှုများ

@@ -1,0 +1,62 @@
+inventory_categories:
+  election-management-body-and-administration: Election Management Body and Administration
+  location-1: Location (full address)
+  individual-name-and-contact-info-1: Individual name and contact info
+  location-2: Location (full address)
+  individual-name-and-contact-info-2: Individual name and contact info
+  location-3: Location (full address)
+  individual-name-and-contact-info-3: Individual name and contact info
+  election-management-body-processes: Election Management Body Processes
+  meeting-minutes-or-decisions: Meeting minutes or decisions
+  budget: Budget
+  expenditures: Expenditures
+  public-recruitment-data: Public recruitment data
+  training-materials: Training materials
+  election-observation-organizations-registered: Election observation organizations registered
+  electoral-boundaries: Electoral Boundaries
+  electoral-boundary-names-and-hierarchy: Electoral boundary names and hierarchy
+  political-party-registration: Political Party Registration
+  parties-registered: Parties registered
+  parties-rejected: Parties rejected
+  party-membership: Party membership
+  ballot-qualification: Ballot Qualification
+  contestants-accepted: Contestants accepted
+  contestants-rejected: Contestants rejected
+  election-campaigns: Election Campaigns
+  media-allocation: Media allocation
+  campaign-finance: Campaign Finance
+  party-campaign-funding: Party campaign funding
+  party-campaign-spending: Party campaign spending
+  candidate-campaign-funding: Candidate campaign funding
+  candidate-campaign-spending: Candidate campaign spending
+  political-party-annual-accounts: Political party annual accounts
+  voter-registration: Voter Registration
+  registration-center-locations: Registration center locations
+  voter-lists: Voter Lists
+  registration-look-up: Registration look-up
+  voter-education: Voter Education
+  electoral-calendar: Electoral calendar
+  voting-process-information: Voting process information
+  political-programs: Political programs
+  polling-stations: Polling Stations
+  location: Location
+  polling-station-workers: Polling station workers
+  election-results-provisional: Election Results (Provisional)
+  voters-registered-provisional: Voters registered
+  voters-that-participated-provisional: Voters that participated
+  ballots-spoiled-provisional: Ballots spoiled
+  invalid-votes-provisional: Invalid votes
+  votes-challenged-provisional: Votes challenged
+  blank-votes-cast-provisional: Blank votes cast
+  valid-votes-for-each-contestant-provisional: Valid votes for each contestant
+  election-results-official-final: Election Results (Official final)
+  voters-registered-official-final: Voters registered
+  voters-that-participated-official-final: Voters that participated
+  ballots-spoiled-official-final: Ballots spoiled
+  invalid-votes-official-final: Invalid votes
+  votes-challenged-official-final: Votes challenged
+  blank-votes-cast-official-final: Blank votes cast
+  valid-votes-for-each-contestant-official-final: Valid votes for each contestant
+  electoral-complaints-and-disputes: Electoral Complaints and Disputes
+  complaints-submitted: Complaints submitted
+  complaints-resolved: Complaints resolved

@@ -46,7 +46,7 @@ defaults:
       path: ""
       type: "inventory"
     values:
-      layout: page
+      layout: inventory-country
       permalink: "/inventory/:slug/"
   - scope:
       path: ""

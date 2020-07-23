@@ -1,0 +1,45 @@
+@use '../abstracts' as *;
+@use '../components/status';
+
+.country {
+  &__info {
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: $color__gray-200;
+
+    dl {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      column-gap: 0.5rem;
+      row-gap: 0.75rem;
+    }
+
+    dt {
+      font-family: $font__raleway;
+      font-weight: bold;
+      text-align: right;
+    }
+  }
+
+  &__table {
+    th {
+      font-weight: normal;
+    }
+
+    th,
+    td {
+      &:first-of-type {
+        text-align: left;
+      }
+
+      &:not(:first-of-type) {
+        text-align: center;
+      }
+    }
+
+    &-category {
+      background: $color__blue-100;
+    }
+  }
+}

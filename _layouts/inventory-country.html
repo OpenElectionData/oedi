@@ -2,59 +2,66 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post__header">
-    <h1 class="post__title" itemprop="name headline">
+<article
+  class="page country"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="page__header">
+    <h1 class="page__title" itemprop="name headline">
       {{ page.title | escape }}
     </h1>
-    <section>
+    <section class="country__info text--small">
       <dl>
         <dt>Election Evaluated:</dt>
         <dd>{{ page.election_evaluated }}</dd>
         <dt>Last Checked:</dt>
         <dd>{{ page.last_checked }}</dd>
         <dt>Open Data Information:</dt>
-        <dd>{{ page.open_data_information }}</dd>
+        <dd>{{ page.open_data_information | markdownify }}</dd>
       </dl>
+      <div>MAP GOES HERE</div>
     </section>
   </header>
 
   <div class="post__content e-content" itemprop="articleBody">
-    {% assign country_slug = page.title | slugify %} 
-    {% assign country = site.data.inventory_countries | find: "country", country_slug %}
+    {% assign country_slug = page.title | slugify %} {% assign country =
+    site.data.inventory_countries | find: "country", country_slug %}
 
-    <table>
-      <thead>
-        <tr>
-          <th>Categories</th>
-          <th>Openness</th>
-          {% for principle in site.data.inventory_principles %}
-          <th>{{ principle.slug }}</th>
-          {% endfor %}
-        </tr>
-      </thead>
-      <tbody>
-      {% for category in site.data.inventory_categories %}
-      <tr>
-      {% if category.is_subcategory %}
-        <td colspan="2">{{ category.slug }}</td>
-        {% for principle in site.data.inventory_principles %}
-          <td>{{ country.principles[category.slug][principle.slug] }}</td>
-          {% endfor %}
-      {% else %}
-        <td>
-          {{ category.slug }}
-          {% if country.categories[category.slug].body_name != "" %}
-          ( {{ country.categories[category.slug].body_name }})
-          {% endif %}
-        </td>
-        <td colspan="2">{{ country.categories[category.slug].value }}</td>
-      {% endif %}
-      </tr>
-      {% endfor %}
-      </tbody>
-    </table>
-
+    <div class="table__wrapper">
+      <table class="table country__table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Openness</th>
+            {% for principle in site.data.inventory_principles %}
+            <th>{{ principle.slug }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for category in site.data.inventory_categories %} {% if
+          category.is_subcategory %}
+          <tr>
+            <td colspan="2">{{ category.slug }}</td>
+            {% for principle in site.data.inventory_principles %}
+            <td>{{ country.principles[category.slug][principle.slug] }}</td>
+            {% endfor %}
+          </tr>
+          {% else %}
+          <tr class="country__table-category">
+            <td>
+              {{ category.slug }} {% if
+              country.categories[category.slug].body_name != "" %} ( {{
+              country.categories[category.slug].body_name }}) {% endif %}
+            </td>
+            <td>{{ country.categories[category.slug].value }}</td>
+            <td colspan="{{ site.data.inventory_principles | size }}"></td>
+          </tr>
+          {% endif %} {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </div>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

@@ -1,0 +1,7 @@
+$status: ('mostly', 'partially', 'not');
+
+@each $type in $status {
+  .#{$type} {
+    --status: var(--status-#{$type});
+  }
+}

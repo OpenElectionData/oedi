@@ -1,5 +1,11 @@
 @use 'abstracts' as *;
 
+:root {
+  --status-mostly: #{$color__mostly};
+  --status-partially: #{$color__partially};
+  --status-not: #{$color__not};
+}
+
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;

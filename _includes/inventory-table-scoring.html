@@ -1,0 +1,27 @@
+<aside class="scoring">
+  <h2>{{ page.scoring.title }}</h2>
+  {{ page.scoring.desc }} {% assign total = 0 %}
+  <table class="scoring__table">
+    <thead>
+      <tr>
+        <th>Principle</th>
+        <th>Points Possible</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for principle in site.data.inventory_principles %} {% assign total =
+      total | plus: principle.points %}
+      <tr>
+        <td>{{ principle.slug }}</td>
+        <td>{{ principle.points }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>{{ total }}</td>
+      </tr>
+    </tfoot>
+  </table>
+</aside>

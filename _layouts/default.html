@@ -23,6 +23,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/pages/page.css' | relative_url }}" />
     {%- endif -%} {%- if page.title == '404' -%}
     <link rel="stylesheet" href="{{ '/assets/css/pages/404.css' | relative_url }}" />
+    {%- endif -%} {%- if page.layout == 'inventory' -%}
+    <link rel="stylesheet" href="{{ '/assets/css/pages/inventory.css' | relative_url }}" />
+    {%- endif -%}
+    {%- if page.layout == 'inventory-country' -%}
+    <link rel="stylesheet" href="{{ '/assets/css/pages/inventory-country.css' | relative_url }}" />
     {%- endif -%}
     <link rel="stylesheet" media="print" href="{{ '/assets/css/print.css' | relative_url }}" />
   

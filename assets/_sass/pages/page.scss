@@ -92,8 +92,8 @@
       }
     }
 
-    ol,
-    ul {
+    ol:not([class]),
+    ul:not([class]) {
       /* stylelint-disable-next-line */
       li + li {
         margin-top: 1rem;

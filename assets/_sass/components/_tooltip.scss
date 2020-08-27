@@ -1,0 +1,8 @@
+@use 'abstracts' as *;
+
+.tippy-content {
+  font-family: $font__raleway;
+  font-weight: normal;
+  @include font-size(14px);
+  line-height: 1.2;
+}

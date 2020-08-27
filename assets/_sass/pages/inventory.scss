@@ -22,14 +22,28 @@
   }
 
   &__table {
+    &-wrapper {
+      overflow: scroll;
+    }
+
     th {
       font-weight: normal;
     }
 
     th,
     td {
+      text-align: left;
+      
       &:not(:first-of-type) {
         text-align: center;
+      }
+    }
+
+    td {
+      color: var(--status);
+
+      &:first-child {
+        white-space: nowrap;
       }
     }
   }

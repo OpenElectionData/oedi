@@ -16,6 +16,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Raleway:wght@700&display=swap"
       rel="stylesheet">
+  
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
     {%- if page.layout == 'home' -%}
     <link rel="stylesheet" href="{{ '/assets/css/pages/home.css' | relative_url }}" />
@@ -42,6 +43,7 @@
       gtag('config', '{{ site.google_analytics}}');
     </script>
     {%- endif -%}
+    <script src="https://kit.fontawesome.com/bc58bc506e.js" crossorigin="anonymous"></script>
   </head>
 
   <body class="{{ page.layout | slugify | prepend: 'layout-'}}">
@@ -71,6 +73,16 @@
     </div>
 
     {%- include footer.html -%}
+    {% if page.layout == 'inventory' %}
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        const tippyInstances = tippy('[data-tippy-content]');
+        const singleton = tippy.createSingleton(tippyInstances, { delay: 500 });
+      })
+    </script>
+    {% endif %}
 
     <script src="{{ "/assets/js/bundle.js" | relative_url }}" type="text/javascript"></script>
   </body>

@@ -2,37 +2,61 @@
 false %}
 
 <div class="inventory__legend text--small">
-  Legend:
+  {{ site.data.strings.legend }}
   <ul class="inventory__legend-items">
-    <li class="mostly">Mostly open;</li>
-    <li class="partially">Partially open;</li>
-    <li class="not">Not open;</li>
+    <li class="mostly">{{ site.data.strings.mostly_open }};</li>
+    <li class="partially">{{ site.data.strings.partially_open }};</li>
+    <li class="not">{{ site.data.strings.not_open }};</li>
   </ul>
 </div>
 
-<table class="table inventory__table">
-  <thead>
-    <tr>
-      <th >Country</th>
-      {% for category in categories %}
-      <th>{{ category.slug }}</th>
+<div class="inventory__table-wrapper">
+  <table class="table inventory__table">
+    <thead>
+      <tr>
+        <th>{{ site.data.strings.country }}</th>
+        {% for category in categories %}
+        {%- assign value = site.data.inventory_categories_strings[category.slug] %}
+        <th>
+          <div data-tippy-content="{{ value }}" aria-label="{{ value }}">{{ value }}</div>
+        </th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for country in site.data.inventory_countries %} {% assign
+      country_page_url = '/inventory/' | append: country.country | append: '/'
+      %} {% assign country_page = site.inventory | find_exp: "item",
+      "item.permalink == country_page_url" %}
+      <tr>
+        <td>
+          <a href="{{ country_page.url }}">{{ country_page.title }}</a>
+        </td>
+        {% for category in categories %}
+          {%- assign value = country.categories[category.slug].value -%}
+          {%- assign class = '' -%}
+          {%- assign status = '' %}
+          {%- if value == '1' -%}
+            {% assign class = 'not' -%}
+            {% assign status = site.data.strings.not_open %}
+          {%- elsif value == '2' -%}
+            {%- assign class = 'partially' -%}
+            {% assign status = site.data.strings.partially_open %}
+          {%- elsif value == '3' -%}
+            {%- assign class = 'mostly' -%}
+            {% assign status = site.data.strings.mostly_open %}
+          {%- endif -%}
+          {%- assign tooltip = site.data.inventory_categories_strings[category.slug] | append: '; ' | append: status -%}
+        <td class="{{ class }}">
+          {%- if value == '1' -%}
+          <i class="fas fa-times" data-tippy-content="{{ tooltip }}" aria-label="{{ status }}"></i>
+          {% else %}
+          <i class="fas fa-check" data-tippy-content="{{ tooltip }}" aria-label="{{ status }}"></i>
+          {% endif %}
+        </td>
+        {% endfor %}
+      </tr>
       {% endfor %}
-    </tr>
-  </thead>
-  <tbody>
-    {% for country in site.data.inventory_countries %}
-    {% assign country_page_url = '/inventory/' | append: country.country | append: '/' %}
-    {% assign country_page = site.inventory | find_exp: "item", "item.permalink == country_page_url" %}
-    <tr>
-      <td>
-        <a href="{{ country_page.url }}"
-          >{{ country_page.title }}</a
-        >
-      </td>
-      {% for category in categories %}
-      <td>{{ country.categories[category.slug].value }}</td>
-      {% endfor %}
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+    </tbody>
+  </table>
+</div>

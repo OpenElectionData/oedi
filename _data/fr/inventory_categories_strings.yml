@@ -1,0 +1,61 @@
+election-management-body-and-administration: Organisme de Gestion Electorale et Administrative
+location-1: Adresse (adresse complète)
+individual-name-and-contact-info-1: Noms Individuels et Coordonnées
+location-2: Adresse (adresse complète)
+individual-name-and-contact-info-2: Noms Individuels et Coordonnées
+location-3: Adresse (adresse complète)
+individual-name-and-contact-info-3: Noms Individuels et Coordonnées
+election-management-body-processes: Processus des Organismes de Gestion des Elections
+meeting-minutes-or-decisions: Procès-Verbaux des Réunions ou des Décisions
+budget: Budget
+expenditures: Dépenses
+public-recruitment-data: Données Publiques de Recrutement
+training-materials: Matériels de Formation
+election-observation-organizations-registered: Organisations d'Observation Electorale Enregistrées
+electoral-boundaries: Circonscriptions Electorales
+electoral-boundary-names-and-hierarchy: Nom et Hiérarchies des Circonscriptions Electorales
+political-party-registration: Enregistrement des Partis Politiques
+parties-registered: Partis Enregistrés
+parties-rejected: Partis Rejetés
+party-membership: Appartenance aux Parti
+ballot-qualification: Enregistrement des Candidats
+contestants-accepted: Candidats Acceptés
+contestants-rejected: Candidats Rejetés
+election-campaigns: Campagnes Electorales
+media-allocation: Les Allocations au Média
+campaign-finance: Financement de Campagne
+party-campaign-funding: Financement de la Campagne des Partis
+party-campaign-spending: Dépenses de Campagne des Partis
+candidate-campaign-funding: Financement de la Campagne des Candidats
+candidate-campaign-spending: Dépenses de Campagne des Candidats
+political-party-annual-accounts: Les Comptes Annuels des Partis Politiques
+voter-registration: Inscription des Electeurs
+registration-center-locations: Registration center locations
+voter-lists: Liste Electorale
+registration-look-up: Enregistrement
+voter-education: Education des Electeurs
+electoral-calendar: Calendrier Electoral
+voting-process-information: Procédures de Vote  ('Comment voter')
+political-programs: Programmes Politiques
+polling-stations: Bureaux de Vote
+location: Localisation
+polling-station-workers: Personnel des Bureaux de Vote
+election-results-provisional: Résultats Electoraux (Provisoires)
+voters-registered-provisional: Electeurs Inscrits
+voters-that-participated-provisional: Electeurs qui ont participé
+ballots-spoiled-provisional: Bulletins de Vote (c.à.d. le vote a été déposé mais pas exprimé)
+invalid-votes-provisional: Votes Invalides
+votes-challenged-provisional: Votes Contestés
+blank-votes-cast-provisional: Votes blancs exprimés (c.à.d, pas de candidats nommés)
+valid-votes-for-each-contestant-provisional: Votes valides pour chaque candidat
+election-results-official-final: Résultats Electoraux (Officiels et Finaux)
+voters-registered-official-final: Electeurs Inscrits
+voters-that-participated-official-final: Electeurs qui ont participé
+ballots-spoiled-official-final: Bulletins de Vote (c.à.d. le vote a été déposé mais pas exprimé)
+invalid-votes-official-final: Votes Invalides
+votes-challenged-official-final: Votes Contestés
+blank-votes-cast-official-final: Votes blancs exprimés (c.à.d., pas de candidats nommés)
+valid-votes-for-each-contestant-official-final: Votes valides pour chaque candidat
+electoral-complaints-and-disputes: Plaintes et Litiges Electoraux
+complaints-submitted: Plaintes Déposées
+complaints-resolved: Plaintes Résolues

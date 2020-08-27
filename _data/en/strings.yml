@@ -6,3 +6,11 @@ signup_email_placeholder: Enter email
 signup_captcha: "To reassure us that you are human:"
 toc: Table of Contents
 modules: Modules
+legend: "Legend:"
+mostly_open: Mostly Open
+partially_open: Partially Open
+not_open: Not Open
+country: Country
+principle: Principle
+points_possible: Points Possible
+total: Total

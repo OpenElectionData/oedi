@@ -4,22 +4,22 @@
   <table class="scoring__table">
     <thead>
       <tr>
-        <th>Principle</th>
-        <th>Points Possible</th>
+        <th>{{ site.data.strings.principle }}</th>
+        <th>{{ site.data.strings.points_possible }}</th>
       </tr>
     </thead>
     <tbody>
       {% for principle in site.data.inventory_principles %} {% assign total =
       total | plus: principle.points %}
       <tr>
-        <td>{{ principle.slug }}</td>
+        <td>{{ site.data.inventory_principles_strings[principle.slug] }}</td>
         <td>{{ principle.points }}</td>
       </tr>
       {% endfor %}
     </tbody>
     <tfoot>
       <tr>
-        <td>Total</td>
+        <td>{{ site.data.strings.total }}</td>
         <td>{{ total }}</td>
       </tr>
     </tfoot>

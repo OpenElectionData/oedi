@@ -13,11 +13,11 @@ layout: default
     </h1>
     <section class="country__info text--small">
       <dl>
-        <dt>Election Evaluated:</dt>
+        <dt>{{ site.data.strings.election_evaluated }}</dt>
         <dd>{{ page.election_evaluated }}</dd>
-        <dt>Last Checked:</dt>
+        <dt>{{ site.data.strings.last_checked }}</dt>
         <dd>{{ page.last_checked }}</dd>
-        <dt>Open Data Information:</dt>
+        <dt>{{ site.data.strings.open_data_info }}</dt>
         <dd>{{ page.open_data_information | markdownify }}</dd>
       </dl>
       <div>MAP GOES HERE</div>
@@ -32,30 +32,53 @@ layout: default
       <table class="table country__table">
         <thead>
           <tr>
-            <th>Category</th>
-            <th>Openness</th>
+            <th>{{ site.data.strings.category }}</th>
+            <th>{{ site.data.strings.openness }}</th>
             {% for principle in site.data.inventory_principles %}
-            <th>{{ principle.slug }}</th>
+            {% assign principleName = site.data.inventory_principles_strings[principle.slug] %}
+            <th><div data-tippy-content="{{ principleName }}" aria-label="{{ principleName }}">{{ principleName }}</div></th>
             {% endfor %}
           </tr>
         </thead>
         <tbody>
-          {% for category in site.data.inventory_categories %} {% if
-          category.is_subcategory %}
+          {% for category in site.data.inventory_categories %}
+          {%- assign categoryName = site.data.inventory_categories_strings[category.slug] %}
+          {% if category.is_subcategory %}
           <tr>
-            <td colspan="2">{{ category.slug }}</td>
+            <td colspan="2">{{ categoryName }}</td>
             {% for principle in site.data.inventory_principles %}
-            <td>{{ country.principles[category.slug][principle.slug] }}</td>
+            {% assign value = country.principles[category.slug][principle.slug] %}
+            {% assign status = '' %}
+            {%- if value == '1' -%}
+            {% assign status = site.data.strings.yes %}
+            {%- elsif value == '2' -%}
+            {% assign status = site.data.strings.no %}
+            {%- elsif value == '3' -%}
+            {% assign status = site.data.strings.mostly_open %}
+            {%- endif -%}
+            <td>{{ status }}</td>
             {% endfor %}
           </tr>
           {% else %}
+            {%- assign value = country.categories[category.slug].value -%}
+            {%- assign status = '' %}
+            {%- if value == '1' -%}
+            {% assign class = 'not' -%}
+            {% assign status = site.data.strings.not_open %}
+            {%- elsif value == '2' -%}
+            {%- assign class = 'partially' -%}
+            {% assign status = site.data.strings.partially_open %}
+            {%- elsif value == '3' -%}
+            {%- assign class = 'mostly' -%}
+            {% assign status = site.data.strings.mostly_open %}
+            {%- endif -%}
           <tr class="country__table-category">
             <td>
-              {{ category.slug }} {% if
+              {{ categoryName }} {% if
               country.categories[category.slug].body_name != "" %} ( {{
               country.categories[category.slug].body_name }}) {% endif %}
             </td>
-            <td>{{ country.categories[category.slug].value }}</td>
+            <td><div class="label {{ class }}">{{ status }}</div></td>
             <td colspan="{{ site.data.inventory_principles | size }}"></td>
           </tr>
           {% endif %} {% endfor %}

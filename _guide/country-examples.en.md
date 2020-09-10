@@ -3,7 +3,7 @@ title: 'Section 4: Open Election Data in Practice: Examples from Latin America'
 title_short: ''
 lang: en
 chapter_id: 36
-section: 
+section:
 permalink: '/guide/country-examples/'
 ---
 
@@ -11,7 +11,7 @@ permalink: '/guide/country-examples/'
 
 The open election data principles outlined in [Section 2](/en/guide/principles/) are meant to provide clear, concrete guidance to those responsible for publishing election data, as well as a framework by which election observers, political parties, the media and other oversight actors can evaluate how "open" a given country's election data truly is. In this section, NDI moves from principles to reality by applying the open election data principles to existing election data in 18 countries in South and Central America.
 
- ![UN Photo, Martine Perret](/images/guide/UN-Photo-Martine-Perret-408086.jpg) 
+![UN Photo, Martine Perret](/assets/images/guide/UN-Photo-Martine-Perret-408086.jpg)
 
 The Institute chose South and Central America because, while anecdotal information has suggested that election management bodies (EMBs) in some countries of the region release election data in a variety of categories in an open manner, these efforts have not been assessed systematically. As a result, potentially valuable lessons and examples may not be captured and drawn from within and outside the region. In addition, South and Central America provide a diverse set of countries in which to assess how well the open election data principles in [Section 2](/en/guide/principles/) of this report are adhered to in practice.
 

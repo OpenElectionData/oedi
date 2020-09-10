@@ -16,7 +16,7 @@ permalink: '/guide/country-examples/argentina/'
 **Figura 1: Argentina - Datos de egresos de campaña, Provincia de Mendoza**  
 Los datos se pueden descargar en Excel o accederse a detalle más granular (por cada partido individual de las agrupaciones o "frentes").
 
-[![Argentina - Datos de egresos de campaña, Provincia de Mendoza](/images/guide/figure_1_argentina.png)](/images/guide/figure_1_argentina.png)
+[![Argentina - Datos de egresos de campaña, Provincia de Mendoza](/assets/images/guide/figure_1_argentina.png)](/assets/images/guide/figure_1_argentina.png)
 
 **Resultados electorales:** Los [resultados electorales provisionales de Argentina](http://datospublicos.gob.ar/data/dataset/a4e05b80-6331-4a6f-a110-35ebc29e8ffc) son un ejemplo particularmente bueno de datos que cumplen con casi todos los principios de los datos electorales abiertos. Los datos se ofrecen a través del Portal de Datos Públicos de Argentina, que es una plataforma fácil de usar. Notablemente, la plataforma no es exclusiva (véase el principio de datos electorales abiertos número seis), y utiliza una licencia de base de datos abierta (ODbL) de Open Data Commons. Argentina ofrece los datos de los resultados electorales preliminares para descargarse en un formato analizable y no exclusivo (CSV). Los resultados son granulares o primarios (se ofrecen hasta el nivel de centro de votación) y están disponibles para descargarse por tipo de elección (nivel nacional o subnacional). Asimismo, a diferencia de la mayoría de los países, el conjunto de datos completo de los resultados de todos los tipos de elecciones llevadas a cabo el 27 de octubre de 2013, está disponible para descargarse en bloque en formato CSV.
 

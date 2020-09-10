@@ -7,17 +7,17 @@ section: 19
 permalink: '/guide/key-categories/emb-administration/'
 ---
 
-![Un Organisme de Gestion Electorale et Administrative](/images/inventory/categories/election-management-body-and-administration.png)
+![Un Organisme de Gestion Electorale et Administrative](/assets/images/inventory/categories/election-management-body-and-administration.png)
 
 ### Qu'est qu'un organisme de gestion des élections?
 
 Un organisme de gestion des élections (OGE) est l'organisme légalement responsable de gérer tout ou une partie des éléments essentiels à une élection. Ces éléments fondamentaux incluent, entre autres:
 
-*   de déterminer qui est admissible pour voter (voir [Inscription des Electeurs](/fr/guide/key-categories/voter-registration/));
-*   de recevoir et valider les candidatures des partis politiques et / ou des candidats et de produire les bulletins de vote (voir [les Modalités d'Enregistrement des Candidats](/fr/guide/key-categories/ballot-qualification/));
-*   de mener un scrutin;
-*   de dépouiller les bulletins de votes; et
-*   de calculer et d'annoncer les résultats des élections.
+- de déterminer qui est admissible pour voter (voir [Inscription des Electeurs](/fr/guide/key-categories/voter-registration/));
+- de recevoir et valider les candidatures des partis politiques et / ou des candidats et de produire les bulletins de vote (voir [les Modalités d'Enregistrement des Candidats](/fr/guide/key-categories/ballot-qualification/));
+- de mener un scrutin;
+- de dépouiller les bulletins de votes; et
+- de calculer et d'annoncer les résultats des élections.
 
 Si ces éléments essentiels sont attribués à différents organismes, alors tous ces organismes qui partagent ces responsabilités sont des OGE àcertains égards. Au Pérou, trois organismes se partagent la responsabilité des différents volets d'une élection: le Registre National d'Identification et de l'Etat Civil qui met à jour la liste électorale; le Jury National des Elections proclame les résultats et règle les différends, entre autres choses; et le Bureau Décentralisé des Processus Electoraux forme le personnel des bureaux de vote, vérifie les signatures d'enregistrement des partis politiques et mène entre autres fonctions, la journée électorale.
 

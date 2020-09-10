@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/security/'
 ---
 
-![Seguridad de las elecciones](/images/inventory/categories/security.png)
+![Seguridad de las elecciones](/assets/images/inventory/categories/security.png)
 
 ### ¿Qué es la seguridad de las elecciones?
 

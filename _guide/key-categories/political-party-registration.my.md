@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/political-party-registration/'
 ---
 
-![Political Party Registration](/images/inventory/categories/political-party-registration.png)
+![Political Party Registration](/assets/images/inventory/categories/political-party-registration.png)
 
 ### နိုင်ငံရေးပါတီများ မှတ်ပုံတင်ခြင်းဟူသည် အဘယ်နည်း။
 
@@ -21,4 +21,4 @@ permalink: '/guide/key-categories/political-party-registration/'
 
 နိုင်ငံရေးပါတီများ မှတ်ပုံတင်ခြင်းနှင့်ဆက်စပ်သည့် သတင်းအချက်အလက်များတွင် မှတ်ပုံတင် လျှောက်ထားခဲ့သည် ပါတီများအပါအဝင် နိုင်ငံရေးပါတီစာရင်း၊ ရွေးကောက်ပွဲစီမံကျင်းပရေးအဖွဲ့က လက်ခံ/ငြင်းပယ် ခဲ့သည့် ပါတီများ၊ ပါတီဝင်များ၏ အမည်များ၊ အမည်တင်သွင်းခြင်းနှင့် သက်ဆိုင်သည့် စည်းမျဉ်းစည်းကမ်းများ (မှတ်ပုံတင်ရန်လိုအပ်သည့် လက်မှတ်အရေအတွက်၊ မှတ်ပုံတင်ကြေးနှင့် အခြားအချက်များ အပါအဝင်) တို့ပါဝင်သည်။ ကော်စတာရီကာနိုင်ငံရှိ ဗဟိုရွေးကောက်ပွဲခုံရုံး (TSE) သည် [ပါတီမှတ်ပုံတင်ခြင်းနှင့် ဆက်စပ် သည့် သတင်းအချက်အလက်များ](http://www.tse.go.cr/info_partidos.htm) ထုတ်ပြန်သည့် နမူနာကောင်း တစ်ခုဖြစ်သည်။ ယင်းခုံရုံးသည် မှတ်ပုံတင်လျှောက်ခဲ့သည် ပါတီများစာရင်း၊ မှတ်ပုံတင်ခွင့်ရခဲ့သည့် ပါတီများ၊ ငြင်းပယ်ခြင်းခံရသည့် ပါတီများ၊ မှတ်ပုံတင်ခွင့်လျှောက်ထားမှုအား ရုပ်သိမ်းခဲ့သည့် ပါတီများစာရင်း စသည်တို့ကို ထုတ်ပြန်သည်။.
 
-1.  [](#reference-1)ဤအချက်ကို စဉ်းစားရန် Kenneth Janda ရေးသားပြီး NDI မှထုတ်ဝေသည့် "Adopting Political Party Law" ကို ဖတ်ရှုနိုင်ပါသည်။ [https://www.ndi.org/files/1948\_polpart\_janda\_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)
+1.  [](#reference-1)ဤအချက်ကို စဉ်းစားရန် Kenneth Janda ရေးသားပြီး NDI မှထုတ်ဝေသည့် "Adopting Political Party Law" ကို ဖတ်ရှုနိုင်ပါသည်။ [https://www.ndi.org/files/1948_polpart_janda_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)

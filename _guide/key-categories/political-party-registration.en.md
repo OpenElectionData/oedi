@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/political-party-registration/'
 ---
 
-![Political Party Registration](/images/inventory/categories/political-party-registration.png)
+![Political Party Registration](/assets/images/inventory/categories/political-party-registration.png)
 
 ### What is political party registration?
 
@@ -21,4 +21,4 @@ Citizens should be allowed to freely associate into political organizations and 
 
 Information relating to political party registration includes: a list of parties, including who applied, was accepted and was rejected by the EMB; party member names; and rules for nomination (including number of signatories required to be registered, filing fees and other details). The Supreme Tribunal of Elections (TSE) in Costa Rica serves as a good example of how to make [political party registration information](http://www.tse.go.cr/info_partidos.htm) available. They publish a list of which parties applied for registration, which were accepted and which were canceled or denied registration.
 
-1.  [](#reference-1)See NDI's "Adopting Political Party Law" by Kenneth Janda for questions to consider in this area: [https://www.ndi.org/files/1948\_polpart\_janda\_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)
+1.  [](#reference-1)See NDI's "Adopting Political Party Law" by Kenneth Janda for questions to consider in this area: [https://www.ndi.org/files/1948_polpart_janda_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)

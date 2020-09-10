@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-registration/'
 ---
 
-![تسجيل الناخبين](/images/inventory/categories/voter-registration.png)
+![تسجيل الناخبين](/assets/images/inventory/categories/voter-registration.png)
 
 ### ما هي عملية تسجيل الناخبين؟
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/electronic-voting/'
 ---
 
-![Votación y conteo electrónicos](/images/inventory/categories/electronic-voting.png)
+![Votación y conteo electrónicos](/assets/images/inventory/categories/electronic-voting.png)
 
 ### ¿Qué son la votación y el conteo electrónicos?
 

@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/available-for-free/'
 ---
 
-![Disponibles gratuitamente en Internet](/images/inventory/principles/available-for-free.png)
+![Disponibles gratuitamente en Internet](/assets/images/inventory/principles/available-for-free.png)
 
 Aunque puede parecer obvio, es necesario decir que los datos abiertos deben ser gratuitos; en otras palabras, los datos deben estar disponibles sin ninguna restricción monetaria. El principio de "disponible gratuitamente en Internet" algunas veces se abrevia y se le hace referencia simplemente como datos accesibles. Varios estudios han documentado el hecho de que muchos ciudadanos usan Internet para buscar información acerca del Gobierno o las políticas gubernamentales.[\[1\]](#footnote-1) Por lo tanto, publicar datos electorales en Internet es una manera de convertirlos en datos abiertos y accesibles. La mayoría de los EMB ya publican de manera proactiva algunos tipos de datos en sus sitios web y los ponen a disposición de los usuarios de manera gratuita. En contextos donde las conexiones a Internet no son confiables o son débiles, los ciudadanos pueden solicitar los datos electorales en un formato que no requiera conexión, como en un CD o un dispositivo USB. Los EMB deben tener implementados mecanismos razonables para ofrecer los datos en esas circunstancias.
 

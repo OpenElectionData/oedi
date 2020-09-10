@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/non-proprietary/'
 ---
 
-![Non exclusives](/images/inventory/principles/non-proprietary.png)
+![Non exclusives](/assets/images/inventory/principles/non-proprietary.png)
 
 Les formats exclusifs sont, par définition, restrictifs pour utiliser ou partager des informations. Ainsi, pour que les données des élections soient ouvertes, elles doivent être dans un format sur lequel aucune entité n'a un contrôle exclusif. La définition d' «[Ouvert](http://opendefinition.org/od/)» de la Fondation pour les Données Ouvertes définit un format ouvert (c. à-d., non-exclusif) comme un format «qui ne met aucune restriction, monétaire ou autre, sur son utilisation» et poursuit en indiquant expressément que, «ou tout au moins, \[les données\] peuvent être traitées avec **au moins un outil logiciel gratuit / libre / ouvert**». En plus de l'objectif de rendre les données électorales largement disponibles, il y a une raison pratique qui pousse à éviter des formats exclusifs: ils ne sont pas créés en ayant pour but explicite de durer. Les formats exclusifs sont contrôlés par une société ou une entité bien particulière de logiciel et ces entités peuvent cesser de soutenir leur format de fichier ou sortir du marché, ce qui signifierait que le soutien à ce format exclusif prendrait fin.
 

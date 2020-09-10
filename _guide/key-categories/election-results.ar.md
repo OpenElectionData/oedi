@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/election-results/'
 ---
 
-![نتائج الانتخابات](/images/inventory/categories/election-results-official-final.png)
+![نتائج الانتخابات](/assets/images/inventory/categories/election-results-official-final.png)
 
 ### ما هي نتائج الانتخابات؟
 

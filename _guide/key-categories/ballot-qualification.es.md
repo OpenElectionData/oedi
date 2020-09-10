@@ -7,15 +7,15 @@ section: 19
 permalink: '/guide/key-categories/ballot-qualification/'
 ---
 
-![Requisitos para el registro de candidatos](/images/inventory/categories/ballot-qualification.png)
+![Requisitos para el registro de candidatos](/assets/images/inventory/categories/ballot-qualification.png)
 
 ### ¿Qué son los requisitos para el registro de candidatos?
 
 Cada elección tiene reglas acerca de quién puede postularse para las elecciones y cómo se selecciona a dichas personas. Estas reglas para el registro de candidatos deben establecer criterios claros para:
 
-*   la manera en que los partidos o candidatos solicitan el registro para contender en una elección,
-*   la manera en que serán seleccionados, y
-*   la manera en que aparecerán en la boleta electoral.[\[1\]](#footnote-1)
+- la manera en que los partidos o candidatos solicitan el registro para contender en una elección,
+- la manera en que serán seleccionados, y
+- la manera en que aparecerán en la boleta electoral.[\[1\]](#footnote-1)
 
 Estas reglas no deben ser demasiado restrictivas ni discriminar a ningún grupo de ciudadanos (aunque normalmente, las reglas definen una edad mínima y, en algunos casos, limitaciones relacionadas con la ciudadanía de los padres y la doble nacionalidad). El proceso de registro de candidatos también debe tener un cronograma claro y realista, donde se les dé a los posibles contendientes electorales suficiente tiempo para emprender las acciones necesarias para calificar como candidatos. En muchos países, para obtener un lugar en la boleta electoral se requieren las firmas de cierto número de votantes registrados, algunas veces con una distribución geográfica mínima, o el pago de una cuota. En Kenia, por ejemplo, cualquier persona que quisiera lanzarse como candidato para las elecciones presidenciales de 2013, necesitaba 2,000 firmas de votantes registrados en más de la mitad (24) de los 47 condados del país.
 

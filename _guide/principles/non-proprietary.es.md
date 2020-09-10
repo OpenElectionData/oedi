@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/non-proprietary/'
 ---
 
-![No exclusivos](/images/inventory/principles/non-proprietary.png)
+![No exclusivos](/assets/images/inventory/principles/non-proprietary.png)
 
 Los formatos exclusivos son, por definición, restrictivos, ya sea mediante la capacidad de usar la información o la capacidad de compartir la información. Por lo tanto, para que los datos electorales se consideren abiertos, deben estar en un formato sobre el cual ninguna entidad tenga el control exclusivo. La "[Definición de conocimiento abierto](http://opendefinition.org/od/2.0/es/)" de la Fundación Conocimiento Abierto define un formato abierto (es decir, no exclusivo), como aquel "que no imponga restricciones, económicas ni de otro tipo sobre su uso" y además dice específicamente que, "como mínimo, \[los datos\] puedan ser procesados con **una herramienta de software libre**". Además del objetivo de hacer que los datos electorales estén ampliamente disponibles, existe un motivo práctico para evitar los formatos exclusivos: la permanencia no es una meta explícita de su creación. Los formatos exclusivos están controlados por una compañía o entidad de software específica y esas entidades pueden dejar de soportar su formato de archivo exclusivo o incluso salir del mercado, lo cual podría significar que el soporte para ese formato exclusivo terminaría.
 

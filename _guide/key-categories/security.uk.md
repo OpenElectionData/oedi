@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/security/'
 ---
 
-![Election Security](/images/inventory/categories/security.png)
+![Election Security](/assets/images/inventory/categories/security.png)
 
 ### Що таке безпека під час виборів?
 

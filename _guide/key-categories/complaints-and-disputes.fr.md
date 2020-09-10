@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/complaints-and-disputes/'
 ---
 
-![Les plaintes électorales, les litiges et les résolutions](/images/inventory/categories/electoral-complaints-and-disputes.png)
+![Les plaintes électorales, les litiges et les résolutions](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
 
 ### Que sont les plaintes, litiges et résolutions électorales?
 

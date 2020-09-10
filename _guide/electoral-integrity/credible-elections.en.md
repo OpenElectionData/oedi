@@ -9,7 +9,7 @@ permalink: '/guide/electoral-integrity/credible-elections/'
 
 Credible elections are characterized by inclusiveness, transparency, accountability, and competitiveness.[\[1\]](#footnote-1)
 
- ![UN Photo, Tim McKulka](/images/guide/UN-Photo-Tim-McKulka-460567.jpg) 
+![UN Photo, Tim McKulka](/assets/images/guide/UN-Photo-Tim-McKulka-460567.jpg)
 
 **Inclusive** elections provide equal opportunities for all eligible citizens to participate as voters in selecting their representatives and as candidates for election to government. This right to participate is a broad concept and can only be subject to reasonable restrictions that are provided by law. Authorities must take steps to assess and remove any barriers to the participation of all citizens. This includes removing barriers for traditionally marginalized populations such as ethnic, religious or linguistic minorities; women, youth or elderly citizens; and persons with disabilities. Reasonable restrictions on participation should be narrow, like a minimum age for voting and standing as an electoral contestant.
 

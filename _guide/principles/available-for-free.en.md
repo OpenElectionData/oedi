@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/available-for-free/'
 ---
 
-![Available for free on the internet](/images/inventory/principles/available-for-free.png)
+![Available for free on the internet](/assets/images/inventory/principles/available-for-free.png)
 
 Although it might seem obvious, it is necessary to state that open data should be free; in other words, the data should be available without any monetary restrictions. The principle of "available on the internet for free" is sometimes shortened and referred to as accessible data. Several studies have documented the fact that many citizens use the internet to look for information about the government or government policy.[\[1\]](#footnote-1) Thus, posting election data on the internet is a way of making it open and accessible. Most EMBs already proactively publish some types of data on their websites and make them available at no charge to the user. In contexts where internet connections are unreliable or weak, citizens might request election data in an offline format, like a CD or thumbdrive. EMBs should have reasonable mechanisms in place to provide data in those circumstances.
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/polling-stations/'
 ---
 
-![مكاتب الاقتراع](/images/inventory/categories/polling-stations.png)
+![مكاتب الاقتراع](/assets/images/inventory/categories/polling-stations.png)
 
 ### ما هو مكتب الاقتراع؟
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-education/'
 ---
 
-![Voter Education](/images/inventory/categories/voter-education.png)
+![Voter Education](/assets/images/inventory/categories/voter-education.png)
 
 ### What is voter education?
 

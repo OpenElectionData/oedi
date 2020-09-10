@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/available-for-free/'
 ---
 
-![Disponibles gratuitement sur internet](/images/inventory/principles/available-for-free.png)
+![Disponibles gratuitement sur internet](/assets/images/inventory/principles/available-for-free.png)
 
 Bien que cela puisse sembler évident, il est nécessaire de préciser que les données ouvertes doivent être gratuites; en d'autres termes, les données doivent être disponibles sans restrictions monétaires. Le principe d'être «disponible sur Internet gratuitement» est parfois raccourci et renvoyé à des données accessibles. Plusieurs études ont documenté le fait que de nombreux citoyens utilisent Internet pour rechercher des informations sur le gouvernement ou sa politique[\[1\]](#footnote-1). Ainsi, l'affichage des données électorales sur Internet est un moyen de les rendre ouvertes et accessibles. La plupart des OGE publient déjà de façon proactive certains types de données sur leurs sites web et les rendent disponibles sans frais pour l'utilisateur. Dans les contextes où les connexions à internet ne sont pas fiables ou faibles, les citoyens peuvent demander des données électorales dans un format hors connexion, comme un CD ou une clé USB. Les OGE doivent avoir des mécanismes raisonnables en place pour fournir des données dans ce type de circonstances.
 

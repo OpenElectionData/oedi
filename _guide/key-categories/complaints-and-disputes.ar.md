@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/complaints-and-disputes/'
 ---
 
-![الشكاوى والمنازعات الانتخابية وسبل البتّ فيها](/images/inventory/categories/electoral-complaints-and-disputes.png)
+![الشكاوى والمنازعات الانتخابية وسبل البتّ فيها](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
 
 ### ما هي الشكاوى والمنازعات الانتخابية، وسبل البتّ فيها؟
 

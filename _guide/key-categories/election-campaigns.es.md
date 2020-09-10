@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/election-campaigns/'
 ---
 
-![Campañas electorales](/images/inventory/categories/election-campaigns.png)
+![Campañas electorales](/assets/images/inventory/categories/election-campaigns.png)
 
 ### ¿Qué son las campañas electorales?
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-registration/'
 ---
 
-![Voter Registration](/images/inventory/categories/voter-registration.png)
+![Voter Registration](/assets/images/inventory/categories/voter-registration.png)
 
 ### What is voter registration?
 

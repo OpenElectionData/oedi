@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/granular/'
 ---
 
-![Granular](/images/inventory/principles/granular.png)
+![Granular](/assets/images/inventory/principles/granular.png)
 
 Election data should be available at the finest possible level of granularity or detail. Data that is finely-grained, or full resolution, is not in an aggregate or modified form. This principle has also been expressed as making data available at the "primary" level or the level at which the source data is collected. Granularity is necessary for promoting transparency and accountability.
 
@@ -18,11 +18,11 @@ In terms of the voter registration process, the most granular level is the indiv
 The emerging field of election forensics uses different statistical methods[\[3\]](#footnote-3) to analyze and identify suspicious patterns in data published at the primary level (e.g., polling stations). Additionally, the places used for polling (e.g., administrative buildings, schools, markets) are often the places where voter registration is conducted and complaints are lodged. Thus, access to data at the most granular level is key for citizens and other stakeholders to assess the transparency of most parts of the election process.
 
 > **Questions to help determine what level of data is the primary or source level:**
-> 
-> *   Where was the data originally collected? This might give an indication as to the lowest level.
-> *   What is the lowest level possible where an individual data point might vary from another data point?
-> *   Is it data related to voting? If so, then polling station is likely the lowest level.
-> *   It is data related to qualifying to be listed on the ballot or to be registered to vote? If so, then 'individuals' (voters or voters' signatures) is likely the lowest level.
+>
+> - Where was the data originally collected? This might give an indication as to the lowest level.
+> - What is the lowest level possible where an individual data point might vary from another data point?
+> - Is it data related to voting? If so, then polling station is likely the lowest level.
+> - It is data related to qualifying to be listed on the ballot or to be registered to vote? If so, then 'individuals' (voters or voters' signatures) is likely the lowest level.
 
 Leaders of the G8 governments explicitly acknowledged the importance of this principle when they signed the [G8 Open Data Charter (and Technical Annex)](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex#principle-2-quality-and-quantity) in June of 2013. In the Open Data Charter, the governments of Canada, France, Germany, Italy, Japan, Russia, the United States and the United Kingdom commit to releasing high-quality open data and state that the data will be "in their original, unmodified form and **at the finest level of granularity available**."
 

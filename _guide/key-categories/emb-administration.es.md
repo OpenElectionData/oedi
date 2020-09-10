@@ -7,17 +7,17 @@ section: 19
 permalink: '/guide/key-categories/emb-administration/'
 ---
 
-![Órgano de Gestión Electoral y Administración](/images/inventory/categories/election-management-body-and-administration.png)
+![Órgano de Gestión Electoral y Administración](/assets/images/inventory/categories/election-management-body-and-administration.png)
 
 ### ¿Qué es un órgano de gestión electoral?
 
 Un órgano de gestión electoral (EMB) es el órgano legalmente responsable de administrar algunos o todos los elementos esenciales de una elección. Estos elementos principales incluyen, entre otros:
 
-*   la determinación de quién es apto para votar (véase la categoría [Registro de votantes](/es/guide/key-categories/voter-registration/));
-*   la recepción y validación de las nominaciones de los partidos o candidatos políticos y la elaboración de las boletas electorales (véase la categoría [Requisitos para el registro de candidatos](/es/guide/key-categories/ballot-qualification/));
-*   la coordinación de las votaciones;
-*   el conteo de los votos; y
-*   la tabulación y la proclamación de los resultados de las elecciones.
+- la determinación de quién es apto para votar (véase la categoría [Registro de votantes](/es/guide/key-categories/voter-registration/));
+- la recepción y validación de las nominaciones de los partidos o candidatos políticos y la elaboración de las boletas electorales (véase la categoría [Requisitos para el registro de candidatos](/es/guide/key-categories/ballot-qualification/));
+- la coordinación de las votaciones;
+- el conteo de los votos; y
+- la tabulación y la proclamación de los resultados de las elecciones.
 
 Si estos elementos esenciales se les asignan a varios órganos, entonces todos los órganos que comparten estas responsabilidades son EMB de alguna manera. En Perú, tres órganos comparten la responsabilidad de distintos aspectos de una elección: el Registro Nacional de Identificación y Estado Civil actualiza el padrón electoral; el Jurado Nacional de Elecciones proclama los resultados y resuelve los conflictos, entre otras cosas; y la Oficina Descentralizada de Procesos Electorales capacita a los funcionarios de los centros de votación, verifica las firmas del registro de los partidos políticos y coordina las actividades de la jornada electoral, entre otras funciones.
 

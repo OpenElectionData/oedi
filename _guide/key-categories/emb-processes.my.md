@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/emb-processes/'
 ---
 
-![EMB Processes](/images/inventory/categories/election-management-body-processes.png)
+![EMB Processes](/assets/images/inventory/categories/election-management-body-processes.png)
 
 ### ရွေးကောက်ပွဲ စီမံကျင်းပရေးအဖွဲ့ ဖြစ်စဉ်များ ဟူသည် အဘယ်နည်း။
 

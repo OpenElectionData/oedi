@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/security/'
 ---
 
-![La Sécurité Electorale](/images/inventory/categories/security.png)
+![La Sécurité Electorale](/assets/images/inventory/categories/security.png)
 
 ### Qu'est-ce que la sécurité électorale?
 

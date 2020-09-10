@@ -3,7 +3,7 @@ title: 'Sección 3: Categorías de los procesos electorales clave'
 title_short: ''
 lang: es
 chapter_id: 19
-section: 
+section:
 permalink: '/guide/key-categories/'
 ---
 
@@ -13,97 +13,97 @@ Las elecciones son procesos complejos que conllevan varios pasos. Los "datos ele
 
 Esta sección describe 16 de las categorías clave de los datos electorales, comenzando con el periodo preelectoral, y avanzando hasta el día de las elecciones, para llegar finalmente al periodo postelectoral. A continuación se presentan las definiciones de cada categoría; explicaciones sobre la manera en que cada una se relaciona con los [principios de integridad electoral descritos en la Sección 1](/es/guide/electoral-integrity/); y descripciones de los tipos específicos de información que se incluyen en cada categoría. Estas categorías incluyen:
 
-[![Marco legal de las elecciones](/images/inventory/categories/legal-framework.png)
+[![Marco legal de las elecciones](/assets/images/inventory/categories/legal-framework.png)
 
 Marco legal de las elecciones
 
 ](/es/guide/key-categories/legal-framework/)
 
-[![Límites de los distritos electorales](/images/inventory/categories/electoral-boundaries.png)
+[![Límites de los distritos electorales](/assets/images/inventory/categories/electoral-boundaries.png)
 
 Límites de los distritos electorales
 
 ](/es/guide/key-categories/electoral-boundaries/)
 
-[![Órgano de Gestión Electoral y Administración](/images/inventory/categories/election-management-body-and-administration.png)
+[![Órgano de Gestión Electoral y Administración](/assets/images/inventory/categories/election-management-body-and-administration.png)
 
 Órgano de Gestión Electoral y Administración
 
 ](/es/guide/key-categories/emb-administration/)
 
-[![Procesos del Órgano de Gestión Electoral](/images/inventory/categories/election-management-body-processes.png)
+[![Procesos del Órgano de Gestión Electoral](/assets/images/inventory/categories/election-management-body-processes.png)
 
 Procesos del Órgano de Gestión Electoral
 
 ](/es/guide/key-categories/emb-processes/)
 
-[![Seguridad de las elecciones](/images/inventory/categories/security.png)
+[![Seguridad de las elecciones](/assets/images/inventory/categories/security.png)
 
 Seguridad de las elecciones
 
 ](/es/guide/key-categories/security/)
 
-[![Registro de los partidos políticos](/images/inventory/categories/political-party-registration.png)
+[![Registro de los partidos políticos](/assets/images/inventory/categories/political-party-registration.png)
 
 Registro de los partidos políticos
 
 ](/es/guide/key-categories/political-party-registration/)
 
-[![Requisitos para el registro de candidatos](/images/inventory/categories/ballot-qualification.png)
+[![Requisitos para el registro de candidatos](/assets/images/inventory/categories/ballot-qualification.png)
 
 Requisitos para el registro de candidatos
 
 ](/es/guide/key-categories/ballot-qualification/)
 
-[![Campañas electorales](/images/inventory/categories/election-campaigns.png)
+[![Campañas electorales](/assets/images/inventory/categories/election-campaigns.png)
 
 Campañas electorales
 
 ](/es/guide/key-categories/election-campaigns/)
 
-[![Financiamiento de las campañas](/images/inventory/categories/campaign-finance.png)
+[![Financiamiento de las campañas](/assets/images/inventory/categories/campaign-finance.png)
 
 Financiamiento de las campañas
 
 ](/es/guide/key-categories/campaign-finance/)
 
-[![Registro de votantes](/images/inventory/categories/voter-registration.png)
+[![Registro de votantes](/assets/images/inventory/categories/voter-registration.png)
 
 Registro de votantes
 
 ](/es/guide/key-categories/voter-registration/)
 
-[![Padrón electoral](/images/inventory/categories/voter-lists.png)
+[![Padrón electoral](/assets/images/inventory/categories/voter-lists.png)
 
 Padrón electoral
 
 ](/es/guide/key-categories/voter-lists/)
 
-[![Educación de los votantes](/images/inventory/categories/voter-education.png)
+[![Educación de los votantes](/assets/images/inventory/categories/voter-education.png)
 
 Educación de los votantes
 
 ](/es/guide/key-categories/voter-education/)
 
-[![Centros de votación](/images/inventory/categories/polling-stations.png)
+[![Centros de votación](/assets/images/inventory/categories/polling-stations.png)
 
 Centros de votación
 
 ](/es/guide/key-categories/polling-stations/)
 
-[![Resultados electorales](/images/inventory/categories/election-results-official-final.png)
+[![Resultados electorales](/assets/images/inventory/categories/election-results-official-final.png)
 
 Resultados electorales
 
 ](/es/guide/key-categories/election-results/)
 
-[![Votación y conteo electrónicos](/images/inventory/categories/electronic-voting.png)
+[![Votación y conteo electrónicos](/assets/images/inventory/categories/electronic-voting.png)
 
 Votación y conteo electrónicos
 
 ](/es/guide/key-categories/electronic-voting/)
 
-[![Denuncias, controversias y resolución de conflictos electorales](/images/inventory/categories/electoral-complaints-and-disputes.png)
+[![Denuncias, controversias y resolución de conflictos electorales](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
 
 Denuncias, controversias y resolución de conflictos electorales
 

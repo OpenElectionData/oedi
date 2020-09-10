@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/election-campaigns/'
 ---
 
-![Election Campaigns](/images/inventory/categories/election-campaigns.png)
+![Election Campaigns](/assets/images/inventory/categories/election-campaigns.png)
 
 ### ရွေးကောက်ပွဲ ကမ်ပိန်းဟူသည် အဘယ်နည်း။
 

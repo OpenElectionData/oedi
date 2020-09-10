@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-education/'
 ---
 
-![Educación de los votantes](/images/inventory/categories/voter-education.png)
+![Educación de los votantes](/assets/images/inventory/categories/voter-education.png)
 
 ### ¿Qué es la educación de los votantes?
 

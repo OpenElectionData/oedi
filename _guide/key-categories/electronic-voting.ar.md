@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/electronic-voting/'
 ---
 
-![التصويت والفرز الإلكتروني](/images/inventory/categories/electronic-voting.png)
+![التصويت والفرز الإلكتروني](/assets/images/inventory/categories/electronic-voting.png)
 
 ### ما هو التصويت والفرز الإلكتروني؟
 

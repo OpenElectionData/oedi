@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/campaign-finance/'
 ---
 
-![Campaign Finance](/images/inventory/categories/campaign-finance.png)
+![Campaign Finance](/assets/images/inventory/categories/campaign-finance.png)
 
 ### မဲဆွယ်စည်းရုံးရေး ဆိုင်ရာ ငွေကြေးသုံးစွဲမှု ဟူသည် အဘယ်နည်း။
 

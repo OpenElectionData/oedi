@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-registration/'
 ---
 
-![Registro de votantes](/images/inventory/categories/voter-registration.png)
+![Registro de votantes](/assets/images/inventory/categories/voter-registration.png)
 
 ### ¿Qué es el registro de votantes?
 

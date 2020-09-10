@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/campaign-finance/'
 ---
 
-![تمويل الحملات](/images/inventory/categories/campaign-finance.png)
+![تمويل الحملات](/assets/images/inventory/categories/campaign-finance.png)
 
 ### ما هو تمويل الحملات؟
 

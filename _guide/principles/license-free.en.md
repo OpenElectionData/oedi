@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/license-free/'
 ---
 
-![License-free](/images/inventory/principles/license-free.png)
+![License-free](/assets/images/inventory/principles/license-free.png)
 
 Licenses are used to delineate how information is to be re-used or shared. To make election data truly open and public, it must be "maximally re-usable" and there should be no barriers for that re-use.[\[1\]](#footnote-1) License-free data is data that is open for re-use and redistribution for any purpose.
 

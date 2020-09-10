@@ -8,8 +8,7 @@ excerpt: "In this tutorial we are going to define some common terms and concepts
 
 In this tutorial we are going to define some common terms and concepts including the basic types, or categories, of data. Then we'll learn how to describe a dataset. By the end you will be prepared to take the concepts here and use them to summarize the polling station list in the next module.
 
-Data Terms
-----------
+## Data Terms
 
 We begin by learning some common terms used in examining data.
 
@@ -31,8 +30,7 @@ Data is stored as different types, which are sometimes referred to as the "level
 
 By first understanding what type of data a variable is, we can then decide how to best summarize or describe that variable.
 
-Describing & Summarizing Data
------------------------------
+## Describing & Summarizing Data
 
 Why do we summarize? We summarize data to "simplify" the data and quickly identify what looks "normal" and what looks odd. The **distribution** of a variable shows what values the variable takes and how often the variable takes these values.
 
@@ -51,11 +49,11 @@ The three common ways of looking at the center are **average** (also called mean
 
 In the example dataset below, we have information about the names of some animals. We also have measurements of the height of each animal. The dataset has two variables -- name and height -- and five observations. Here is the dataset:
 
-[![Image 1](/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)
+[![Image 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)
 
 Here we've made a quick chart that plots the height of each animal:
 
-[![Image 2](/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)
+[![Image 2](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)
 
 To calculate the Average height (in cm) we sum up all the values and divide by the total count of observations:
 
@@ -63,7 +61,7 @@ To calculate the Average height (in cm) we sum up all the values and divide by t
 
 The average value for height is 171.4 centimeters. Here we have added a reference line marking the average on our chart so we can see how that looks:
 
-[![Image 3](/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)
+[![Image 3](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)
 
 ### 2\. The Spread: How is the data distributed around the center? (Measures of Dispersion)
 
@@ -78,11 +76,11 @@ In the same example, what is the smallest value (minimum)? 159 cm
 The range in our small dataset of heights is 181 - 159 = 22 cm  
 Here we added some reference lines on the chart to indicate the maximum and minimum:
 
-[![Image 4](/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)
+[![Image 4](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)
 
 In practical terms, the animal with the maximum value is the tallest, and the animal with the minimum value is the shortest. So Harry the Horse is the tallest, and Fran the Fox is the shortest.
 
-[![Image 5](/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)
+[![Image 5](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)
 
 While the range gives us the endpoints (i.e., extremes), it does not tell us anything about how tightly or loosely the data are distributed between those two endpoints. We also do not know whether more of the data is closer to the average, the maximum or the minimum. From our chart, it looks like just over half of the animals are tall (i.e., above the average height).
 
@@ -94,7 +92,7 @@ The standard deviation provides us with a standard way of knowing what is normal
 
 The standard deviation is very useful for understanding the spread of a variable. For most "normally" distributed data, generally almost all of the values will be within three standard deviations of the average. In statistics, this is sometimes referred to as the **68-95-99.7 rule**. About 68.27% of the values lie within 1 standard deviation of the average (mean). Similarly, approximately 95.45% of the values lie within 2 standard deviations of the mean. Nearly all (99.73%) of the values lie within 3 standard deviations of the mean.
 
-[![Image 6](/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)
+[![Image 6](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)
 
 A diagram of the [68-95-99.7 rule](http://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule) from wikipedia
 
@@ -102,18 +100,17 @@ In [Module 3](/en/academy/application-summarizing-the-polling-station-data/), we
 
 In the sample animal heights dataset, we've calculated the standard deviation for heights. It is 9.1 cm[\[3\]](#footnote-3). On the chart we have shaded the area to show what data is within three standard deviations (9.1 x 3) of the average. Any data within this range is "normal."
 
-[![Image 7](/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
+[![Image 7](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
 
 The standard deviation gives us a standardized way of knowing what is normal, what is extra large or what is extra small. We know that Fran the Fox is short. When we consider the standard deviation and that nearly all (99.73%) of all values are generally within 3 standard deviations, we can conclude that Fran is short but not abnormally short.
 
-[![Image 8](/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)
+[![Image 8](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)
 
 #### Variance
 
 Similar to standard deviation, variance measures how tightly or loosely numbers are spread around the average. So, a larger variance means data is spread further out from the average, and a smaller variance means they are more tightly grouped around the average. The variance is the average of the squared differences (or deviations) of each number from the average (the mathematical formula is at the end of this note). We are not going to focus on the formula in this module, but it's important to understand that variance provides the basis for calculating the standard deviation.
 
-Test Yourself
--------------
+## Test Yourself
 
 Test your knowledge by answering these questions:
 
@@ -124,23 +121,21 @@ Test your knowledge by answering these questions:
 5.  List the two most useful ways of describing the distribution of data?
 6.  Is Fran the Fox abnormally short?
 
-Play with the Data
-------------------
+## Play with the Data
 
 If you want to perform your own calculations, here is the [heights dataset](/files/academy/exercise/Heights.csv). The data along with some calculations are available as an [Excel file](/files/academy/exercise/Heights_calculations.xlsx) or an [Open Spreadsheets file](/files/academy/exercise/Heights_calculations.ods).
 
-Mathematical Formulas
----------------------
+## Mathematical Formulas
 
 Here are the two formulas for Standard Deviation, explained in the [Standard Deviation Formulas](http://www.mathsisfun.com/data/standard-deviation-formulas.html) section at the [Math is Fun](http://www.mathsisfun.com/) site.
 
 The **Population**[\[4\]](#footnote-4) Standard Deviation":
 
-![Formula 1](/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
+![Formula 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
 
 The **Sample** Standard Deviation":
 
-![Formula 2](/images/academy/a-gentle-introduction-to-summarizing-data/formula2.gif)
+![Formula 2](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula2.gif)
 
 It looks complicated, but the important change is to divide by **N-1** (instead of **N**) when calculating a Sample Variance. (Remember that the Standard Deviation is just the square root of the **Variance**, so the formula for calculating the Variance is the same formula above but without the Square root part.)
 

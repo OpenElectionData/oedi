@@ -7,15 +7,15 @@ section: 19
 permalink: '/guide/key-categories/ballot-qualification/'
 ---
 
-![Ballot Qualification](/images/inventory/categories/ballot-qualification.png)
+![Ballot Qualification](/assets/images/inventory/categories/ballot-qualification.png)
 
 ### What is ballot qualification?
 
 Every election has rules about who can compete to be elected and how those individuals are selected. These ballot qualification rules should set clear criteria for:
 
-*   how political parties and/or candidates apply to run in an election,
-*   how they will be selected, and
-*   how they will be listed on the ballot.[\[1\]](#footnote-1)
+- how political parties and/or candidates apply to run in an election,
+- how they will be selected, and
+- how they will be listed on the ballot.[\[1\]](#footnote-1)
 
 The rules should not be too restrictive or discriminate against certain groups of citizens (although typically, rules define a minimum age and, in some cases, limitations related to parental or dual citizenship). The ballot qualification process should also have a clear and realistic timeline, giving prospective electoral contestants enough time to take the required steps to qualify as candidates. In many countries, getting a spot on the ballot requires signatures from registered voters, sometimes with a minimum geographic distribution and/or fees. In Kenya, for example, anyone who wanted to run in the 2013 presidential election needed 2,000 signatures from registered voters in more than half (24) of the country's 47 counties.
 

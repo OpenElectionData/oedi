@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/license-free/'
 ---
 
-![Avec une licence libre](/images/inventory/principles/license-free.png)
+![Avec une licence libre](/assets/images/inventory/principles/license-free.png)
 
 Les licences sont utilisées pour délimiter la façon dont les informations doivent être réutilisées ou partagées. Pour rendre les données des élections véritablement ouvertes et publiques, leurs réutilisations doivent être maximisées et il ne doit y avoir aucun obstacles pour ces réutilisations[\[1\]](#footnote-1). Les données sans licence sont des données qui sont ouvertes pour la réutilisation et la redistribution à d'autres fins.
 

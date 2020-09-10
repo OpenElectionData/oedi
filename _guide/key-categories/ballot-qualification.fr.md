@@ -7,15 +7,15 @@ section: 19
 permalink: '/guide/key-categories/ballot-qualification/'
 ---
 
-![Les Modalités d'Enregistrement des Candidats](/images/inventory/categories/ballot-qualification.png)
+![Les Modalités d'Enregistrement des Candidats](/assets/images/inventory/categories/ballot-qualification.png)
 
 ### Que sont les modalités d'enregistrement des candidats?
 
 Chaque élection dispose de règles sur qui peut rivaliser lors d'élections et sur comment ces individus sont choisis. Ces règles d'engagement dans une compétition électorale doivent fixer des critères clairs pour savoir:
 
-*   comment les partis politiques et / ou les candidats postulent pour se lancer dans une élection,
-*   comment ils seront choisis, et
-*   comment ils figureront sur le bulletin de vote[\[1\]](#footnote-1).
+- comment les partis politiques et / ou les candidats postulent pour se lancer dans une élection,
+- comment ils seront choisis, et
+- comment ils figureront sur le bulletin de vote[\[1\]](#footnote-1).
 
 Les règles ne doivent pas être trop restrictives ou discriminer contre certains groupes de citoyens (bien que généralement, les règles définissent un âge minimum et, dans certains cas, des limitations sont aussi liées à la nationalité des parents ou à des cas de doubles nationalités). Le processus d'enregistrement des candidats doit également avoir un calendrier clair et réaliste, en donnant aux candidats électoraux potentiels suffisamment de temps pour prendre les mesures nécessaires pour être qualifier en tant que candidats. Dans de nombreux pays, pour trouver une place sur le bulletin de vote, on exige des signatures d'électeurs inscrits, parfois avec une distribution géographique et / ou des frais minimums. Au Kenya, par exemple, quelqu'un qui voulait concourir à l'élection présidentielle de 2013 devait rassembler 2.000 signatures d'électeurs inscrits dans plus de la moitié (24) des 47 provinces du pays.
 

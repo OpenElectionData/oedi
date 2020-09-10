@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/electronic-voting/'
 ---
 
-![Electronic Voting and Counting](/images/inventory/categories/electronic-voting.png)
+![Electronic Voting and Counting](/assets/images/inventory/categories/electronic-voting.png)
 
 ### အီလက်ထရွန်နစ်စနစ်ဖြင့် မဲပေးခြင်း၊ မဲရေတွက်ခြင်းဟူသည် အဘယ်နည်း။
 

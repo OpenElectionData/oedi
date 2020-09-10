@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/electoral-boundaries/'
 ---
 
-![حدود الدوائر الانتخابية](/images/inventory/categories/electoral-boundaries.png)
+![حدود الدوائر الانتخابية](/assets/images/inventory/categories/electoral-boundaries.png)
 
 ### ما هي حدود الدوائر الانتخابية؟
 

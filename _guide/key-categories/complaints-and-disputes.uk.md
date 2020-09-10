@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/complaints-and-disputes/'
 ---
 
-![Electoral Complaints, Disputes and Resolution](/images/inventory/categories/electoral-complaints-and-disputes.png)
+![Electoral Complaints, Disputes and Resolution](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
 
 ### Що таке виборчі скарги, спори та їх вирішення?
 

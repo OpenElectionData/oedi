@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/complaints-and-disputes/'
 ---
 
-![Denuncias, controversias y resolución de conflictos electorales](/images/inventory/categories/electoral-complaints-and-disputes.png)
+![Denuncias, controversias y resolución de conflictos electorales](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
 
 ### ¿Qué son las denuncias, las controversias y la resolución de conflictos electorales?
 

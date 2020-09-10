@@ -3,7 +3,7 @@ title: 'Sección 4: Datos electorales abiertos en la práctica: Ejemplos de Amé
 title_short: ''
 lang: es
 chapter_id: 36
-section: 
+section:
 permalink: '/guide/country-examples/'
 ---
 
@@ -11,7 +11,7 @@ permalink: '/guide/country-examples/'
 
 Los principios de datos electorales abiertos que se describen en la [Sección 2](/es/guide/principles/) pretenden brindar una guía clara y concisa para aquellas personas que son responsables de la publicación de los datos electorales, así como un marco de trabajo mediante el cual los observadores electorales, los partidos políticos, los medios de comunicación y demás actores supervisores puedan evaluar qué tan "abiertos" son en realidad los datos electorales de un país determinado. En esta sección, el NDI pasa de los principios a la realidad al aplicar los principios de los datos electorales abiertos a datos electorales reales de 18 países en Centro y Sudamérica.
 
- ![Foto tomada por la ONU, Martine Perret](/images/guide/UN-Photo-Martine-Perret-408086.jpg) 
+![Foto tomada por la ONU, Martine Perret](/assets/images/guide/UN-Photo-Martine-Perret-408086.jpg)
 
 El Instituto eligió a Centro y Sudamérica porque, si bien la información anecdótica ha indicado que los órganos de gestión electoral en algunos países de la región publican datos electorales en una variedad de categorías de una manera abierta, estas labores no han sido evaluadas de manera sistemática. Como resultado, es posible que algunas lecciones y ejemplos potencialmente valiosos dejen de capturarse y capitalizarse, tanto dentro como fuera de la región. Asimismo, Centro y Sudamérica ofrecen un conjunto diverso de países en los cuales se puede evaluar la medida en que se apegan los datos electorales, ya en la práctica, a los principios de los datos electorales abiertos descritos en la [Sección 2](/es/guide/principles/) de este informe.
 

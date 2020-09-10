@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/election-results/'
 ---
 
-![Les Résultats Electoraux](/images/inventory/categories/election-results-official-final.png)
+![Les Résultats Electoraux](/assets/images/inventory/categories/election-results-official-final.png)
 
 ### Que sont les résultats électoraux?
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/polling-stations/'
 ---
 
-![Polling Stations](/images/inventory/categories/polling-stations.png)
+![Polling Stations](/assets/images/inventory/categories/polling-stations.png)
 
 ### Що таке виборча дільниця?
 

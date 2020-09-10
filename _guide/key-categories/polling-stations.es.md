@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/polling-stations/'
 ---
 
-![Centros de votación](/images/inventory/categories/polling-stations.png)
+![Centros de votación](/assets/images/inventory/categories/polling-stations.png)
 
 ### ¿Qué son los centros de votación?
 

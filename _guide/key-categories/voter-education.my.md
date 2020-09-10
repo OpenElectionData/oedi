@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-education/'
 ---
 
-![Voter Education](/images/inventory/categories/voter-education.png)
+![Voter Education](/assets/images/inventory/categories/voter-education.png)
 
 ### မဲဆန္ဒရှင်များအား ပညာပေးခြင်းဟူသည် အဘယ်နည်း။
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/emb-processes/'
 ---
 
-![Les Processus des Organismes de Gestion des Elections](/images/inventory/categories/election-management-body-processes.png)
+![Les Processus des Organismes de Gestion des Elections](/assets/images/inventory/categories/election-management-body-processes.png)
 
 ### Quels sont les processus des organismes de gestion des élections?
 

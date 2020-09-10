@@ -9,7 +9,7 @@ permalink: '/guide/electoral-integrity/credible-elections/'
 
 Des élections crédibles sont caractérisées par l'inclusion, la transparence, la responsabilité, et la compétitivité.[\[1\]](#footnote-1)
 
- ![Photo d'ONU, Tim McKulka](/images/guide/UN-Photo-Tim-McKulka-460567.jpg) 
+![Photo d'ONU, Tim McKulka](/assets/images/guide/UN-Photo-Tim-McKulka-460567.jpg)
 
 Des élections **inclusives** offrent l'égalité des chances pour tous les citoyens admissibles à participer au choix de leurs représentants en tant qu'électeurs et en tant que candidats à se présenter aux élections pour participer au gouvernement. Ce droit de participer est un concept large et peut être soumis à des restrictions raisonnables qui sont prévues par la loi. Les autorités doivent prendre des mesures pour évaluer et éliminer les obstacles éventuels à la participation de tous les citoyens. Cela comprend l'élimination d'obstacles pour les populations traditionnellement marginalisées telles que les minorités ethniques, religieuses ou linguistiques; les femmes, les jeunes ou les personnes âgées; et les personnes handicapées. Les restrictions raisonnables sur la participation doivent être réduites à des paramètres comme un âge minimum pour voter ou se présenter au suffrage électoral.
 

@@ -7,17 +7,17 @@ section: 19
 permalink: '/guide/key-categories/emb-administration/'
 ---
 
-![EMB Administration](/images/inventory/categories/election-management-body-and-administration.png)
+![EMB Administration](/assets/images/inventory/categories/election-management-body-and-administration.png)
 
 ### What is an election management body?
 
 An election management body (EMB) is the body legally responsible for managing some or all of the essential elements to an election. These core elements include, among others:
 
-*   determining who is eligible to vote (see [Voter Registration](/en/guide/key-categories/voter-registration/));
-*   receiving and validating the nominations of political parties and/or candidates and producing ballots (see [Ballot Qualification](/en/guide/key-categories/ballot-qualification/));
-*   conducting polling;
-*   counting the votes; and
-*   tabulating and announcing the election results.
+- determining who is eligible to vote (see [Voter Registration](/en/guide/key-categories/voter-registration/));
+- receiving and validating the nominations of political parties and/or candidates and producing ballots (see [Ballot Qualification](/en/guide/key-categories/ballot-qualification/));
+- conducting polling;
+- counting the votes; and
+- tabulating and announcing the election results.
 
 If these essential elements are allocated to various bodies, then all bodies sharing these responsibilities are EMBs in some respect. In Peru, three bodies share responsibility for different aspects of an election: the National Registry of Identification and Civil Status updates the voter list; the National Jury of Elections proclaims results and resolves disputes, among other things; and the Decentralized Office of Electoral Processes trains pollworkers, verifies political party registration signatures and runs election day, among other roles.
 

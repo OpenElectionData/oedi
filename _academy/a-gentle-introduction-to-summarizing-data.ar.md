@@ -3,13 +3,12 @@ title: '1. مدخل سهل إلى تلخيص البيانات'
 lang: ar
 module_id: 1
 permalink: '/academy/a-gentle-introduction-to-summarizing-data/'
-excerpt: "في هذا الدرس، سنعرّف ببعض المصطلحات والمفاهيم المعتمدة، بما فيها تلك المتعلقة بالأنواع أو الفئات الأساسية للبيانات، قبل أن نتعلّم كيفية وصف مجموعة معيّنة من البيانات. فنصبح جاهزين في الختام لتبنّي المفاهيم الواردة هنا، واستخدامها لتلخيص قائمة مكاتب الاقتراع في الوحدة اللاحقة."
+excerpt: 'في هذا الدرس، سنعرّف ببعض المصطلحات والمفاهيم المعتمدة، بما فيها تلك المتعلقة بالأنواع أو الفئات الأساسية للبيانات، قبل أن نتعلّم كيفية وصف مجموعة معيّنة من البيانات. فنصبح جاهزين في الختام لتبنّي المفاهيم الواردة هنا، واستخدامها لتلخيص قائمة مكاتب الاقتراع في الوحدة اللاحقة.'
 ---
 
 في هذا الدرس، سنعرّف ببعض المصطلحات والمفاهيم المعتمدة، بما فيها تلك المتعلقة بالأنواع أو الفئات الأساسية للبيانات، قبل أن نتعلّم كيفية وصف مجموعة معيّنة من البيانات. فنصبح جاهزين في الختام لتبنّي المفاهيم الواردة هنا، واستخدامها لتلخيص قائمة مكاتب الاقتراع في الوحدة اللاحقة.
 
-المصطلحات المتعلقة بالبيانات
-----------------------------
+## المصطلحات المتعلقة بالبيانات
 
 سنبدأ أولاً بفهم بعض المصطلحات المتداولة عند دراسة البيانات.
 
@@ -31,8 +30,7 @@ excerpt: "في هذا الدرس، سنعرّف ببعض المصطلحات وا
 
 عندما نفهم أولاً أنواع البيانات التي تشكّل محور المتغيّرة، نستطيع أن نختار أفضل وسيلة لتلخيص تلك المتغيّرة، أو وصفها.
 
-وصف البيانات وتلخيصها
----------------------
+## وصف البيانات وتلخيصها
 
 لماذا نلخّص البيانات؟ نلخّص البيانات بهدف “simplify” (تبسيطها)، والتمييز بسرعة بين ما كان منها “normal” (طبيعياً) وغير طبيعي. ويتبيّن من طريقة **توزيع** المتغيّرة القيم التي تكتسبها، وكم مرة تكتسبها.
 
@@ -51,11 +49,11 @@ excerpt: "في هذا الدرس، سنعرّف ببعض المصطلحات وا
 
 تتضمّن مجموعة البيانات النموذجية المبيّنة أدناه معلومات عن أسماء بعض الحيوانات، إضافة إلى قياس طول كل حيوان. وتحتوي على متغيّرتين، وهما “name” (الإسم) و“height” (الطول)، إضافة إلى خمس مشاهدات. إليك في ما يلي مجموعة البيانات:
 
-[![Image 1](/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)
+[![Image 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)
 
 أعددنا هنا رسماً بيانياً سريعاً يعيّن طول كل حيوان:
 
-[![Image 2](/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)
+[![Image 2](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)
 
 لاحتساب متوسط الطول (بالسم)، نجمع جميع القيم، ثمّ نقسمها على إجمالي عدد المشاهدات:
 
@@ -63,7 +61,7 @@ excerpt: "في هذا الدرس، سنعرّف ببعض المصطلحات وا
 
 يتبيّن ممّا تقدّم أنّ متوسط قيمة الطول يبلغ 171,4 سنتمترات. وقد أضفنا في هذه المرحلة خطاً متمايزاً للدلالة على موقع هذا المتوسط في الرسم البياني الذي أعددناه، لتنتبه إليه:
 
-[![Image 3](/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)
+[![Image 3](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)
 
 ### 2\. تشتّت البيانات: كيف تتوزّع البيانات حول النقطة المركزية؟ (مقاييس الانتشار)
 
@@ -75,11 +73,11 @@ excerpt: "في هذا الدرس، سنعرّف ببعض المصطلحات وا
 
 في مجموعة البيانات التي نستند إليها، ما هي أعلى قيمة “maximum” ("الحدّ الأقصى")؟ 181 سم في المثال عينه، ما هي أدنى قيمة “minimum” ("الحدّ الأدنى")؟ 159 سم لذا، فإنّ المدى الذي تسجّله مجموعة البيانات القليلة حول قياس الطول هي 181 – 159 = 22 سم أضفنا في هذا الإطار بعض الخطوط المتمايزة إلى الجدول للدلالة على الأعلى “maximum” ("الحدّ الأقصى") و“minimum” الأدنى ("الحدّ الأدنى"):
 
-[![Image 4](/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)
+[![Image 4](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)
 
 من الناحية العملية، يصنّف الحيوان الذي سجّل أعلى قيمة بالحيوان الأطول، والحيوان الذي سجّل أدنى قيمة بالحيوان الأقصر. بالتالي نستنتج أنّ الحصان هاري هو الأطول، فيما الثعلب فران هو الأقصر.
 
-[![Image 5](/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)
+[![Image 5](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)
 
 يزوّدنا حساب المدى بالحدّين (أي النقيضين)، لكنه لا يعطينا فكرة عن مدى تقارب أو تباعد البيانات عند توزّعها بين هذين الحدّين. ولا نعلم أيضاً إذا كانت تلك البيانات هي بأكثرها أقرب إلى الوسط الحسابي، أو الحدّ الأقصى، أو الحدّ الأدنى. يتبيّن من الجدول الذي نعتمده أنّ ما يزيد عن نصف الحيوانات هي طويلة (أي أعلى من متوسط الطول).
 
@@ -91,7 +89,7 @@ excerpt: "في هذا الدرس، سنعرّف ببعض المصطلحات وا
 
 يساعد الانحراف المعياري كثيراً في فهم مدى تشتّت المتغيّرة. بالنسبة إلى معظم البيانات الموزّعة بطريقة عادية، تتراوح جميع القيم تقريباً، وبشكل عام، بين ثلاث انحرافات معيارية عن الوسط الحسابي. وهذا ما يُعرف في علم الإحصاءات بقاعدة **68-95-99,7**. يقع نحو 68,27% من القيم ضمن نطاق انحراف معياري واحد عن الوسط الحسابي (المتوسط). في خط موازٍ، يقع 95,45% من القيم تقريباً ضمن انحرافين معياريين عن المتوسط، فيما يقع ما يقارب (99,73%) من القيم ضمن ثلاثة معيارات انحرافية عن المتوسط.
 
-[![Image 6](/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)
+[![Image 6](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)
 
 مخطط بياني مستمدّ من ويكيبيديا حول [قاعدة 68-95-99,7](http://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule)
 
@@ -99,18 +97,17 @@ excerpt: "في هذا الدرس، سنعرّف ببعض المصطلحات وا
 
 في نموذج مجموعة البيانات حول قياس طول الحيوانات، احتسبنا الانحراف المعياري لمجمل مقاييس الطول، الذي بلغ 9,1 سم[\[3\]](#footnote-3). وظلّلنا تلك المنطقة في الجدول لإبراز البيانات الواقعة ضمن الانحرافات المعيارية الثلاثة (9,1 × 3) عن الوسط الحسابي، حيث تُعدّ عادية كل بيانات تتراوح ضمن تلك الانحرافات.
 
-[![Image 7](/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
+[![Image 7](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
 
 يوفّر الانحراف المعياري وسيلة موحّدة لمعرفة ما يندرج ضمن خانة الطبيعي والعادي، وما يعتبر بالغ الطول أو القصر. نحن نعلم أنّ الثعلب فران هو قصير. عندما نتوقّف عند الانحراف المعياري، ونلاحظ أنّ ما يقارب جميع (99,73%) من إجمالي القيم يقع ضمن الانحرافات المعيارية الثلاثة، نستخلص أنّ فران قصير، إنما قصره طبيعي.
 
-[![Image 8](/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)
+[![Image 8](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)
 
 #### التباين
 
 يقيس التباين، على مثال الانحراف المعياري، مدى تقارب أو تباعد القيم عن وسطها الحسابي. بالتالي، يشير التباين الأعلى إلى أنّ البيانات هي متباعدة جداً عن هذا المعدل، والأدنى إلى أنها متقاربة جداً منه. يساوي التباين متوسط مربعات اختلافات (أو انحرافات) كل قيمة عن وسطها الحسابي (تجد صيغتها الرياضية في نهاية هذه الملاحظة). لن نركّز على تلك الصيغة في هذه الوحدة، ولكن من المهم أن تعرف أنّ التباين هو نقطة الانطلاق لاحتساب الانحراف المعياري.
 
-إختبر نفسك
-----------
+## إختبر نفسك
 
 اختبر معارفك من خلال الإجابة عن الأسئلة التالية:
 
@@ -121,23 +118,21 @@ excerpt: "في هذا الدرس، سنعرّف ببعض المصطلحات وا
 5.  عدّد أكثر وسيلتين مفيدتين لوصف طريقة توزيع البيانات.
 6.  هل قصر الثعلب فران غير طبيعي؟
 
-استكشف البيانات
----------------
+## استكشف البيانات
 
 إذا أردت إجراء حساباتك الخاصة، إليك [مجموعة بيانات الطول](/files/academy/exercise/Heights.csv)، علماً أنّ البيانات، إلى جانب بعض العمليات الحسابية، هي متوافرة على شكل [ملف آكسيل](/files/academy/exercise/Heights_calculations.xlsx) أو [ملف جداول البيانات المفتوحة](/files/academy/exercise/Heights_calculations.ods).
 
-صيغ رياضية
-----------
+## صيغ رياضية
 
 إليك في ما يلي الصيغتان الرياضيتان لاحتساب الانحراف المعياري، اللتين يتوسّع في شرحهما قسم [صيغ الانحراف المعياري](http://www.mathsisfun.com/data/standard-deviation-formulas.html) على موقع ["الرياضيات تمرين مسلٍّ"](http://www.mathsisfun.com/) الإلكتروني.
 
 الانحراف المعياري لعدد السكان[\[4\]](#footnote-4):
 
-![Formula 1](/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
+![Formula 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
 
 الانحراف المعياري للعيّنة:
 
-![Formula 2](/images/academy/a-gentle-introduction-to-summarizing-data/formula2.gif)
+![Formula 2](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula2.gif)
 
 تبدو هاتان الصيغتان معقدتين، لكنّ التغيير الأهم يكمن في القسمة على **N-1** (عوض **N**) عند احتساب التباين لعيّنة. (تذكّر أنّ الانحراف المعياري ما هو إلاّ الجذر التربيعي للتباين، ممّا يعني أنّ الصيغة المعتمدة لاحتساب التباين هي ذاتها الواردة أعلاه، إنما من دون شق الجذر التربيعي).
 

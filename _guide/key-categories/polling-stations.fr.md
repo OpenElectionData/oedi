@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/polling-stations/'
 ---
 
-![Les Bureaux de Vote](/images/inventory/categories/polling-stations.png)
+![Les Bureaux de Vote](/assets/images/inventory/categories/polling-stations.png)
 
 ### Qu'est-ce qu'un bureau de vote?
 

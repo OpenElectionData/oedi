@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-lists/'
 ---
 
-![Padrón electoral](/images/inventory/categories/voter-lists.png)
+![Padrón electoral](/assets/images/inventory/categories/voter-lists.png)
 
 ### ¿Qué es un padrón electoral?
 
@@ -17,9 +17,9 @@ Un padrón electoral es un registro detallado de cada persona que está registra
 
 Con el objetivo de garantizar que los votantes con derecho a votar puedan hacerlo y que las personas que no tienen derecho a votar no lo puedan hacer, el padrón electoral debe:
 
-*   Estar **completo**: las personas con derecho a votar y sus datos relevantes aparecen en el padrón, mientras que los de las personas que no tienen derecho a votar no están incluidas.
-*   Ser **exacto**: la información incluida en el padrón es correcta. Las listas nominales de los centros de votación también pueden ser inexactas si se obtienen incorrectamente del padrón electoral general.
-*   Estar **actualizado**: incorpora los fallecimientos recientes y a las nuevas personas con derecho a votar y refleja los cambios de residencia, identificación personal u otros datos de los votantes.
+- Estar **completo**: las personas con derecho a votar y sus datos relevantes aparecen en el padrón, mientras que los de las personas que no tienen derecho a votar no están incluidas.
+- Ser **exacto**: la información incluida en el padrón es correcta. Las listas nominales de los centros de votación también pueden ser inexactas si se obtienen incorrectamente del padrón electoral general.
+- Estar **actualizado**: incorpora los fallecimientos recientes y a las nuevas personas con derecho a votar y refleja los cambios de residencia, identificación personal u otros datos de los votantes.
 
 Si cuentan con el acceso al padrón electoral, los ciudadanos pueden verificar la situación en que se encuentra su registro individual y que sus datos estén correctos. En varios países, los votantes también pueden verificar la ubicación de su centro de votación, a fin de que sepan a dónde deben acudir el día de las elecciones.
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/electronic-voting/'
 ---
 
-![Le Vote et le Dépouillement Electroniques](/images/inventory/categories/electronic-voting.png)
+![Le Vote et le Dépouillement Electroniques](/assets/images/inventory/categories/electronic-voting.png)
 
 ### Qu'est-ce que le vote et le dépouillement électroniques?
 

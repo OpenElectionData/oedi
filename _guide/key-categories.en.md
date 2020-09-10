@@ -3,7 +3,7 @@ title: 'Section 3: Key Election Process Categories'
 title_short: ''
 lang: en
 chapter_id: 19
-section: 
+section:
 permalink: '/guide/key-categories/'
 ---
 
@@ -13,112 +13,112 @@ Elections are complex, multi-step processes. "Election data" refers to informati
 
 This section outlines 16 of the key categories of election data starting with the pre-election period, progressing through election day and moving into the post-election period. Provided in this section are definitions of each category; explanations of how each relates to the [electoral integrity principles outlined in Section 1](/en/guide/electoral-integrity/); and descriptions of the specific types of information that fall under each category. Categories covered include:
 
-[![Legal Framework](/images/inventory/categories/legal-framework.png)
+[![Legal Framework](/assets/images/inventory/categories/legal-framework.png)
 
 Legal  
 Framework
 
 ](/en/guide/key-categories/legal-framework/)
 
-[![Electoral Boundaries](/images/inventory/categories/electoral-boundaries.png)
+[![Electoral Boundaries](/assets/images/inventory/categories/electoral-boundaries.png)
 
 Electoral  
 Boundaries
 
 ](/en/guide/key-categories/electoral-boundaries/)
 
-[![EMB Administration](/images/inventory/categories/election-management-body-and-administration.png)
+[![EMB Administration](/assets/images/inventory/categories/election-management-body-and-administration.png)
 
 EMB  
 Administration
 
 ](/en/guide/key-categories/emb-administration/)
 
-[![EMB Processes](/images/inventory/categories/election-management-body-processes.png)
+[![EMB Processes](/assets/images/inventory/categories/election-management-body-processes.png)
 
 EMB  
 Processes
 
 ](/en/guide/key-categories/emb-processes/)
 
-[![Election Security](/images/inventory/categories/security.png)
+[![Election Security](/assets/images/inventory/categories/security.png)
 
 Election  
 Security
 
 ](/en/guide/key-categories/security/)
 
-[![Political Party Registration](/images/inventory/categories/political-party-registration.png)
+[![Political Party Registration](/assets/images/inventory/categories/political-party-registration.png)
 
 Political Party  
 Registration
 
 ](/en/guide/key-categories/political-party-registration/)
 
-[![Ballot Qualification](/images/inventory/categories/ballot-qualification.png)
+[![Ballot Qualification](/assets/images/inventory/categories/ballot-qualification.png)
 
 Ballot  
 Qualification
 
 ](/en/guide/key-categories/ballot-qualification/)
 
-[![Election Campaigns](/images/inventory/categories/election-campaigns.png)
+[![Election Campaigns](/assets/images/inventory/categories/election-campaigns.png)
 
 Election  
 Campaigns
 
 ](/en/guide/key-categories/election-campaigns/)
 
-[![Campaign Finance](/images/inventory/categories/campaign-finance.png)
+[![Campaign Finance](/assets/images/inventory/categories/campaign-finance.png)
 
 Campaign  
 Finance
 
 ](/en/guide/key-categories/campaign-finance/)
 
-[![Voter Registration](/images/inventory/categories/voter-registration.png)
+[![Voter Registration](/assets/images/inventory/categories/voter-registration.png)
 
 Voter  
 Registration
 
 ](/en/guide/key-categories/voter-registration/)
 
-[![Voter Lists](/images/inventory/categories/voter-lists.png)
+[![Voter Lists](/assets/images/inventory/categories/voter-lists.png)
 
 Voter  
 Lists
 
 ](/en/guide/key-categories/voter-lists/)
 
-[![Voter Education](/images/inventory/categories/voter-education.png)
+[![Voter Education](/assets/images/inventory/categories/voter-education.png)
 
 Voter  
 Education
 
 ](/en/guide/key-categories/voter-education/)
 
-[![Polling Stations](/images/inventory/categories/polling-stations.png)
+[![Polling Stations](/assets/images/inventory/categories/polling-stations.png)
 
 Polling  
 Stations
 
 ](/en/guide/key-categories/polling-stations/)
 
-[![Election Results](/images/inventory/categories/election-results-official-final.png)
+[![Election Results](/assets/images/inventory/categories/election-results-official-final.png)
 
 Election  
 Results
 
 ](/en/guide/key-categories/election-results/)
 
-[![E-voting and Counting](/images/inventory/categories/electronic-voting.png)
+[![E-voting and Counting](/assets/images/inventory/categories/electronic-voting.png)
 
 E-voting  
 and Counting
 
 ](/en/guide/key-categories/electronic-voting/)
 
-[![Electoral Complaints, Disputes and Resolution](/images/inventory/categories/electoral-complaints-and-disputes.png)
+[![Electoral Complaints, Disputes and Resolution](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
 
 Electoral Complaints,  
 Disputes and Resolution

@@ -3,13 +3,12 @@ title: '1. Una breve introducción sobre cómo resumir datos'
 lang: es
 module_id: 1
 permalink: '/academy/a-gentle-introduction-to-summarizing-data/'
-excerpt: "En este tutorial vamos a definir algunos términos y conceptos comunes, incluyendo los tipos o las categorías básicas(os) de datos. Luego aprenderemos a describir un conjunto de datos. Al finalizar este módulo, usted estará preparado para aplicar estos conceptos para resumir la lista de centros de votación en el siguiente módulo."
+excerpt: 'En este tutorial vamos a definir algunos términos y conceptos comunes, incluyendo los tipos o las categorías básicas(os) de datos. Luego aprenderemos a describir un conjunto de datos. Al finalizar este módulo, usted estará preparado para aplicar estos conceptos para resumir la lista de centros de votación en el siguiente módulo.'
 ---
 
 En este tutorial vamos a definir algunos términos y conceptos comunes, incluyendo los tipos o las categorías básicas(os) de datos. Luego aprenderemos a describir un conjunto de datos. Al finalizar este módulo, usted estará preparado para aplicar estos conceptos para resumir la lista de centros de votación en el siguiente módulo.
 
-Términos de datos
------------------
+## Términos de datos
 
 Para comenzar aprenderemos algunos términos comunes empleados en el análisis de datos.
 
@@ -31,8 +30,7 @@ Los datos se almacenan como tipos distintos, a los que algunas veces se les deno
 
 Si entendemos primero a qué tipo de dato corresponde una variable, podremos entonces decidir cuál es la mejor manera de resumir o describir esa variable.
 
-Cómo describir y resumir datos
-------------------------------
+## Cómo describir y resumir datos
 
 ¿Por qué resumimos? Resumimos datos para "simplificarlos" e identificar rápidamente lo que parece "normal" y lo que parece extraño. La **distribución** de una variable muestra qué valores toma la variable y con qué frecuencia la variable toma esos valores.
 
@@ -51,11 +49,11 @@ Las tres maneras más comunes de ver el punto medio son: el **promedio** (tambi�
 
 En el ejemplo del conjunto de datos que se muestra a continuación, tenemos información acerca de los nombres de ciertos animales. También tenemos las medidas de altura de cada animal. El conjunto de datos contiene dos variables: "name" (nombre) y "height" (altura), y cinco observaciones. Aquí está el conjunto de datos:
 
-[![Image 1](/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)
+[![Image 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)
 
 Hicimos una sencilla representación gráfica de la altura de cada animal:
 
-[![Image 2](/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)
+[![Image 2](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)
 
 Para calcular la Altura promedio (en cm) sumamos todos los valores y luego los dividimos entre el número total de observaciones:
 
@@ -63,7 +61,7 @@ Para calcular la Altura promedio (en cm) sumamos todos los valores y luego los d
 
 El valor promedio de la altura es 171.4 centímetros. En la siguiente gráfica agregamos una línea de referencia que marca el promedio para fines de comparación:
 
-[![Image 3](/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)
+[![Image 3](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)
 
 ### 2\. La dispersión: ¿Cómo están distribuidos los datos alrededor del punto medio? (Medidas de dispersión)
 
@@ -78,11 +76,11 @@ En el mismo ejemplo, ¿cuál es el valor más pequeño ("mínimo")? 159 cm
 El rango de nuestro pequeño conjunto de datos de alturas es entonces: 181 - 159 = 22 cm.  
 En la siguiente gráfica agregamos algunas líneas de referencia para indicar el "máximum" (máximo) y el "mínimum" (mínimo):
 
-[![Image 4](/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)
+[![Image 4](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)
 
 En términos prácticos, el animal con el valor máximo es el más alto, y el animal con el valor mínimo es el más bajo, de manera que, Harry the Horse (Harry el Caballo) es el más alto y Fran the Fox (Fran el Zorro) es el más pequeño.
 
-[![Image 5](/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)
+[![Image 5](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)
 
 Si bien el rango nos da los valores extremos, no nos dice nada acerca de cuán dispersa o concentrada es la distribución de los datos entre estos dos extremos. Tampoco sabemos si la mayoría de los datos se encuentran más cerca del promedio, del máximo o del mínimo. Por lo que vemos en la gráfica, pareciera que un poco más de la mitad de los animales son altos (es decir, por encima de la altura promedio).
 
@@ -94,7 +92,7 @@ Otras dos medidas de dispersión relacionadas (la varianza y la desviación est�
 
 La desviación estándar es muy útil para entender el grado de dispersión de una variable. Para la mayoría de los datos distribuidos normalmente, generalmente casi todos los valores estarán dentro de tres desviaciones estándar del promedio. En la estadística, a esto algunas veces se le conoce como la regla del 68-95-99.7. Cerca del 68.27% de los valores están dentro de 1 desviación estándar del promedio (la media). De manera similar, aproximadamente el 95.45% de los valores se encuentran dentro de 2 desviaciones estándar de la media. Casi todos (99.73%) los valores están dentro de 3 desviaciones estándar de la media.
 
-[![Image 6](/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)
+[![Image 6](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)
 
 Diagrama de la regla [68-95-99.7 rule](http://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule) obtenido de Wikipedia
 
@@ -102,18 +100,17 @@ En el [Módulo 3](/es/academy/application-summarizing-the-polling-station-data/)
 
 En el conjunto de datos de las alturas de los animales que tenemos como muestra calculamos la desviación estándar de las alturas, y el resultado[\[3\]](#footnote-3) fue 9.1 cm. En la gráfica sombreamos el área para mostrar qué datos están dentro de 3 desviaciones estándar (9.1 x 3) del promedio. Todo dato que se encuentre dentro de este rango se considera normal.
 
-[![Image 7](/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
+[![Image 7](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
 
 La desviación estándar nos da una manera estandarizada de saber qué se considera normal, qué se considera muy grande o qué se considera muy pequeño. Sabemos que Fran el Zorro es pequeño, pero cuando consideramos la desviación estándar y que casi todos (99.73%) los valores están generalmente dentro de 3 desviaciones estándar, podemos concluir que Fran es pequeño, mas no anormalmente pequeño.
 
-[![Image 8](/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)
+[![Image 8](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)
 
 #### Varianza
 
 De manera similar a la desviación estándar, la varianza mide qué tan estrecha o ampliamente dispersos están los números alrededor del promedio. De esta manera, una varianza grande significa que los datos están más alejados del promedio, y una varianza más reducida significa que están agrupados más cerca alrededor del promedio. La varianza es el promedio de las diferencias cuadradas (o desviaciones) de cada número con respecto al promedio (la fórmula matemática se encuentra al final de esta nota). En este módulo no nos vamos a enfocar en la fórmula, pero es importante entender que la varianza es la base para el cálculo de la desviación estándar.
 
-Autoevaluación
---------------
+## Autoevaluación
 
 Responda las siguientes preguntas para evaluar su conocimiento:
 
@@ -124,23 +121,21 @@ Responda las siguientes preguntas para evaluar su conocimiento:
 5.  Enumere las dos maneras más útiles de describir la distribución de los datos.
 6.  ¿Es Fran el Zorro anormalmente pequeño?
 
-Juegue con los datos
---------------------
+## Juegue con los datos
 
 Si quiere realizar sus propios cálculos, le proporcionamos el [conjunto de datos de alturas](/files/academy/exercise/Heights.csv). Los datos, junto con algunos cálculos, están disponibles como [archivo de Excel](/files/academy/exercise/Heights_calculations.xlsx) o como [archivo de hojas de cálculo de OpenOffice](/files/academy/exercise/Heights_calculations.ods) (Open Spreadsheets).
 
-Fórmulas matemáticas
---------------------
+## Fórmulas matemáticas
 
 Aquí están las dos fórmulas para la desviación estándar que se explican en la sección de [Fórmulas de la Desviación Estándar](http://www.mathsisfun.com/data/standard-deviation-formulas.html) del sitio ["Math is Fun"](http://www.mathsisfun.com/) (Las matemáticas son divertidas).
 
 La desviación estándar de la **población**[\[4\]](#footnote-4):
 
-![Formula 1](/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
+![Formula 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
 
 La desviación estándar de la **muestra**:
 
-![Formula 2](/images/academy/a-gentle-introduction-to-summarizing-data/formula2.gif)
+![Formula 2](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula2.gif)
 
 Parece complicado, pero el cambio importante es dividir entre **N-1** (en lugar de **N**) cuando se calcula la varianza de una muestra. (Recuerde que la Desviación Estándar es tan solo la raíz cuadrada de la **Varianza**, así que la fórmula para calcular la varianza es la misma fórmula que se indica arriba pero sin la parte de la raíz cuadrada).
 

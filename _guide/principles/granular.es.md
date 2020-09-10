@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/granular/'
 ---
 
-![Granulares](/images/inventory/principles/granular.png)
+![Granulares](/assets/images/inventory/principles/granular.png)
 
 Los datos electorales deben estar disponibles al nivel de granulación o detalle más fino posible. Los datos se consideran finamente granulados, o exhaustivos, cuando no son datos agregados ni modificados. Este principio también se ha expresado en el sentido de hacer que los datos estén disponibles al nivel "primario" o al nivel en el que se recopilan los datos fuente. La granularidad es necesaria para promover la transparencia y la rendición de cuentas.
 
@@ -18,11 +18,11 @@ En términos del proceso de registro de votantes, el nivel más granular es el v
 El campo emergente de la práctica forense electoral emplea distintos métodos estadísticos[\[3\]](#footnote-3) para analizar e identificar patrones sospechosos en datos publicados al nivel primario (por ejemplo, los centros de votación). Adicionalmente, los lugares utilizados para las votaciones (por ejemplo: edificios administrativos, escuelas, mercados) a menudo son los mismos lugares donde se lleva a cabo el registro de votantes y se presentan las denuncias. De este modo, el acceso a los datos en el nivel más granular o primario es clave para que los ciudadanos y otras partes interesadas puedan evaluar la transparencia de la mayoría de las partes del proceso electoral.
 
 > **Preguntas para ayudar a determinar qué nivel de datos es el nivel primario o fuente:**
-> 
-> *   ¿Dónde se recopilaron originalmente los datos? Esto puede dar una idea sobre el nivel más bajo de desagregación.
-> *   ¿Cuál es nivel más bajo posible en el que un dato en particular puede distinguirse de otro dato?
-> *   ¿Los datos se relacionan con la votación? Si es así, entonces lo más probable es que el centro de votación sea el nivel más bajo.
-> *   ¿Los datos se relacionan con los requisitos que hay que cumplir para poder aparecer en una boleta o para registrarse para votar? Si es así, entonces lo más probable es que el nivel más bajo sea el "individuo" (los votantes o las firmas de los votantes).
+>
+> - ¿Dónde se recopilaron originalmente los datos? Esto puede dar una idea sobre el nivel más bajo de desagregación.
+> - ¿Cuál es nivel más bajo posible en el que un dato en particular puede distinguirse de otro dato?
+> - ¿Los datos se relacionan con la votación? Si es así, entonces lo más probable es que el centro de votación sea el nivel más bajo.
+> - ¿Los datos se relacionan con los requisitos que hay que cumplir para poder aparecer en una boleta o para registrarse para votar? Si es así, entonces lo más probable es que el nivel más bajo sea el "individuo" (los votantes o las firmas de los votantes).
 
 Los líderes de los Gobiernos del G8 explícitamente reconocieron la importancia de este principio cuando firmaron la [Carta de Datos Abiertos del G8 (y el Anexo Técnico)](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex#principle-2-quality-and-quantity) en junio de 2013. En la Carta de Datos Abiertos, los Gobiernos de Alemania, Canadá, Estados Unidos, Francia, Italia, Japón, el Reino Unido y Rusia se comprometen a publicar datos abiertos de alta calidad y declaran que los datos estarán "en su forma original, sin alteración alguna y **al nivel más fino de granularidad disponible**".
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-registration/'
 ---
 
-![L'Inscription des Electeurs](/images/inventory/categories/voter-registration.png)
+![L'Inscription des Electeurs](/assets/images/inventory/categories/voter-registration.png)
 
 ### Qu'est-ce que l'inscription des électeurs?
 

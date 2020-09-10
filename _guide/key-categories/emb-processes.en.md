@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/emb-processes/'
 ---
 
-![EMB Processes](/images/inventory/categories/election-management-body-processes.png)
+![EMB Processes](/assets/images/inventory/categories/election-management-body-processes.png)
 
 ### What are election management body processes?
 

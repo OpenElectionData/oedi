@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/election-campaigns/'
 ---
 
-![الحملات الانتخابية](/images/inventory/categories/election-campaigns.png)
+![الحملات الانتخابية](/assets/images/inventory/categories/election-campaigns.png)
 
 ### ما هي الحملات الانتخابية؟
 

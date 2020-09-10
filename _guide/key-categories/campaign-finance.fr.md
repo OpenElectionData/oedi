@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/campaign-finance/'
 ---
 
-![Le Financement de la Campagne](/images/inventory/categories/campaign-finance.png)
+![Le Financement de la Campagne](/assets/images/inventory/categories/campaign-finance.png)
 
 ### Qu'est-ce que le financement de la campagne?
 

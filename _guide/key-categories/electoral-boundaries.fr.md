@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/electoral-boundaries/'
 ---
 
-![Electoral Boundaries](/images/inventory/categories/electoral-boundaries.png)
+![Electoral Boundaries](/assets/images/inventory/categories/electoral-boundaries.png)
 
 ### Que sont les limites de circonscriptions électorales?
 

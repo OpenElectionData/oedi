@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/political-party-registration/'
 ---
 
-![Registro de los partidos políticos](/images/inventory/categories/political-party-registration.png)
+![Registro de los partidos políticos](/assets/images/inventory/categories/political-party-registration.png)
 
 ### ¿Qué es el registro de los partidos políticos?
 
@@ -21,4 +21,4 @@ Se les debe permitir a los ciudadanos asociarse libremente en organizaciones pol
 
 Entre la información relacionada con el registro de los partidos políticos se incluye: una lista de partidos, incluyendo quiénes presentaron solicitud, quiénes fueron aceptados y quiénes fueron rechazados por el EMB; nombres de los miembros de cada partido; y las reglas de nominación (incluyendo el número de firmas que se requieren para poder registrarse, las cuotas de registro y otros detalles). El Tribunal Supremo de Elecciones (TSE) de Costa Rica es un buen ejemplo de cómo poner a disposición del público la [información del registro de los partidos políticos](http://www.tse.go.cr/info_partidos.htm), ya que publican una lista de los partidos que solicitaron el registro, los que fueron aceptados y los que fueron cancelados o a los que se les negó el registro.
 
-1.  [](#reference-1)Para cuestiones a considerar en esta área, consulte el documento del NDI "Adopción de una Ley de Partidos", de Kenneth Janda: [https://www.ndi.org/files/1948\_polpart\_janda\_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)
+1.  [](#reference-1)Para cuestiones a considerar en esta área, consulte el documento del NDI "Adopción de una Ley de Partidos", de Kenneth Janda: [https://www.ndi.org/files/1948_polpart_janda_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)

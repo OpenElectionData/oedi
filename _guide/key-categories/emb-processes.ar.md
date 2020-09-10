@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/emb-processes/'
 ---
 
-![العمليات الخاصة بهيئة إدارة الانتخابات](/images/inventory/categories/election-management-body-processes.png)
+![العمليات الخاصة بهيئة إدارة الانتخابات](/assets/images/inventory/categories/election-management-body-processes.png)
 
 ### ما هي آليات عمل هيئة إدارة الانتخابات؟
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/security/'
 ---
 
-![أمن الانتخابات](/images/inventory/categories/security.png)
+![أمن الانتخابات](/assets/images/inventory/categories/security.png)
 
 ### ما هو أمن الانتخابات؟
 

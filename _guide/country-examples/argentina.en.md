@@ -16,7 +16,7 @@ permalink: '/guide/country-examples/argentina/'
 **Figure 1: Argentina - Campaign Expenditure Data, Mendoza Province**  
 Data can be downloaded in Excel or accessed in more granular detail (by each individual party among coalitions or "fronts").
 
-[![Argentina - Campaign Expenditure Data, Mendoza Province](/images/guide/figure_1_argentina.png)](/images/guide/figure_1_argentina.png)
+[![Argentina - Campaign Expenditure Data, Mendoza Province](/assets/images/guide/figure_1_argentina.png)](/assets/images/guide/figure_1_argentina.png)
 
 **Election results:** [Argentina's preliminary election results](http://datospublicos.gob.ar/data/dataset/a4e05b80-6331-4a6f-a110-35ebc29e8ffc) are a particularly good example of data that meets nearly all open election data principles. The data is provided through Argentina's Portal of Public Data, which is a user-friendly platform. Notably, the platform is non-proprietary (see open election data principle six), utilizing an Open Data Commons Open Database License ODbL. Argentina provides preliminary election results data for download in an analyzable, non-proprietary format (CSV). The results are granular (provided down to the polling station level) and are available to download for each election type (national or sub-national levels). In addition, unlike most countries, the complete dataset for the results for all types of elections held on October 27, 2013 if available in a bulk download in CSV format.
 

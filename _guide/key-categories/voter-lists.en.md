@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-lists/'
 ---
 
-![Voter Lists](/images/inventory/categories/voter-lists.png)
+![Voter Lists](/assets/images/inventory/categories/voter-lists.png)
 
 ### What is a voter list?
 
@@ -17,9 +17,9 @@ A voter list is a detailed record of every person who is registered (see [Voter 
 
 In order to make sure that eligible voters are able to vote and ineligible people are not, voter lists must be:
 
-*   **Complete:** eligible people and their relevant details are on the list, while ineligible people are not on the list.
-*   **Accurate:** the information included in the list is correct. Polling station lists can also be inaccurate if they are incorrectly drawn from the master voter list.
-*   **Current:** updated to acknowledge recent deaths, recognize newly eligible voters and reflect changes in residency, personal identification or other voter details.
+- **Complete:** eligible people and their relevant details are on the list, while ineligible people are not on the list.
+- **Accurate:** the information included in the list is correct. Polling station lists can also be inaccurate if they are incorrectly drawn from the master voter list.
+- **Current:** updated to acknowledge recent deaths, recognize newly eligible voters and reflect changes in residency, personal identification or other voter details.
 
 With access to the voter list, citizens can check their individual registration status and details for accuracy. In a number of countries, voters can also verify the location of their polling station, so they know where to go on election day.
 

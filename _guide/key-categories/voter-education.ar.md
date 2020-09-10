@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-education/'
 ---
 
-![تثقيف الناخبين](/images/inventory/categories/voter-education.png)
+![تثقيف الناخبين](/assets/images/inventory/categories/voter-education.png)
 
 ### ما هو تثقيف الناخبين؟
 

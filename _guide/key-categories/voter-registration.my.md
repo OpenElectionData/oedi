@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-registration/'
 ---
 
-![Voter Registration](/images/inventory/categories/voter-registration.png)
+![Voter Registration](/assets/images/inventory/categories/voter-registration.png)
 
 ### မဲဆန္ဒရှင်များ မှတ်ပုံတင်ခြင်း ဟူသည် အဘယ်နည်း။
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/voter-lists/'
 ---
 
-![La Liste Electorale](/images/inventory/categories/voter-lists.png)
+![La Liste Electorale](/assets/images/inventory/categories/voter-lists.png)
 
 ### Qu'est-ce qu'une liste électorale?
 
@@ -17,9 +17,9 @@ Une liste électorale est un compte rendu détaillé de chaque personne qui est 
 
 Afin de faire en sorte que les électeurs admissibles puissent voter et que les individus non- admissibles en soient empêchés, les listes électorales doivent être:
 
-*   **complètes:** les personnes admissibles et leurs détails pertinents sont sur la liste, alors que les gens non-admissibles ne sont pas sur la liste.
-*   **précises:** les informations contenues dans la liste sont correctes. Les listes des bureaux de vote peuvent également être inexactes si elles sont mal extraites de la liste principale des électeurs.
-*   **actualisées:** mises à jour pour identifier des décès récents, identifier les électeurs nouvellement admissibles et refléter les changements de résidence, l'identification personnelle ou d'autres détails de l'électeur.
+- **complètes:** les personnes admissibles et leurs détails pertinents sont sur la liste, alors que les gens non-admissibles ne sont pas sur la liste.
+- **précises:** les informations contenues dans la liste sont correctes. Les listes des bureaux de vote peuvent également être inexactes si elles sont mal extraites de la liste principale des électeurs.
+- **actualisées:** mises à jour pour identifier des décès récents, identifier les électeurs nouvellement admissibles et refléter les changements de résidence, l'identification personnelle ou d'autres détails de l'électeur.
 
 Avec un accès à la liste électorale, les citoyens peuvent vérifier les détails et le statut de leurs inscriptions pour plus de précisions. Dans un certain nombre de pays, les électeurs peuvent également vérifier l'emplacement de leur bureau de vote, afin qu'ils sachent où aller le jour du scrutin.
 

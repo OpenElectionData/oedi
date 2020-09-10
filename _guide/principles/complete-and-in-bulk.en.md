@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/complete-and-in-bulk/'
 ---
 
-![Complete and in bulk](/images/inventory/principles/complete-and-in-bulk.png)
+![Complete and in bulk](/assets/images/inventory/principles/complete-and-in-bulk.png)
 
 Data that is **complete** and made available as a **whole** is open data. Releasing a complete dataset is a clear act of transparency. Any data that is omitted is not accessible and cannot be used. Even when a user is particularly interested in exactly one part of the data, it is still useful for them to have the whole dataset so they can put their specific interest in context. For example, an organization may wish to analyze the voter registration rate for districts in their region. They may focus most of their analysis on the data for that region but, if they have the entire dataset, they can quickly calculate the registration rate for the entire country and use that to put the regional rate in proper context. When an EMB publishes an incomplete dataset, they risk being accused of trying to (purposefully) hide the information that is not included. The risk is often higher when the difference between what is released and what is not released has a geographic dimension. In many countries, support for a particular candidate or party is highly correlated with geography (for instance, urban areas may support one candidate while more rural areas may support a different candidate). Completeness is especially important when there is a geographic component to the data because leaving out one area can appear as though the EMB is somehow biased against a particular candidate or party.
 

@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/political-party-registration/'
 ---
 
-![تسجيل الأحزاب السياسية](/images/inventory/categories/political-party-registration.png)
+![تسجيل الأحزاب السياسية](/assets/images/inventory/categories/political-party-registration.png)
 
 ### ما هي عملية تسجيل الأحزاب السياسية؟
 
@@ -21,4 +21,4 @@ permalink: '/guide/key-categories/political-party-registration/'
 
 من المعلومات التي يمكن الإدلاء بها بشأن عملية تسجيل الأحزاب السياسية: لائحة الأحزاب، بما في ذلك الأحزاب التي قدّمت طلب تسجيل، وتلك التي وافقت هيئة إدارة الانتخابات على طلبها أو رفضته؛ وأسماء أعضاء الأحزاب؛ وقواعد الترشيح (بما في ذلك عدد التواقيع المطلوبة للتسجيل، ورسوم التسجيل وغيرها من التفاصيل). في هذا الإطار، يمكن الاستشهاد بالمجلس الأعلى للانتخابات في كوستا ريكا كمثال على كيفية توفير [المعلومات المتعلقة بتسجيل الأحزاب السياسية](http://www.tse.go.cr/info_partidos.htm). فقد نشر المجلس لائحة بالأحزاب السياسية التي قدّمت طلب تسجيل، وتلك التي تمّ قبولها، وتلك التي أُلغي أو رُفض طلب تسجيلها.
 
-1.  [](#reference-1)لمزيد من المعلومات عن هذا الموضوع، راجع كتيّب "إقرار قانون الأحزاب" الصادر عن المعهد الديمقراطي الوطني لكينيث جاندا: [https://www.ndi.org/files/1948\_polpart\_janda\_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)
+1.  [](#reference-1)لمزيد من المعلومات عن هذا الموضوع، راجع كتيّب "إقرار قانون الأحزاب" الصادر عن المعهد الديمقراطي الوطني لكينيث جاندا: [https://www.ndi.org/files/1948_polpart_janda_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)

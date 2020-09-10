@@ -3,7 +3,7 @@ title: 'Section 4: Les Données Electorales Ouvertes en Pratique: Exemples d&#39
 title_short: ''
 lang: fr
 chapter_id: 36
-section: 
+section:
 permalink: '/guide/country-examples/'
 ---
 
@@ -11,7 +11,7 @@ permalink: '/guide/country-examples/'
 
 Les principes de données électorales ouvertes décrits dans la [Section 2](/fr/guide/principles/) sont destinés à fournir, une orientation claire et concrète aux responsables de la publication des données électorales, ainsi qu'un cadre par lequel les observateurs électoraux, les partis politiques, les médias et d'autres acteurs de surveillance peuvent évaluer «l'ouverture» des données électorales d'un pays donné. Dans cette section, le NDI effectue une transition des principes à la réalité en appliquant les principes de données électorales ouvertes aux données électorales existantes dans 18 pays en Amérique du Sud et Centrale.
 
- ![Photo d'ONU, Martine Perret](/images/guide/UN-Photo-Martine-Perret-408086.jpg) 
+![Photo d'ONU, Martine Perret](/assets/images/guide/UN-Photo-Martine-Perret-408086.jpg)
 
 L'Institut a choisi l'Amérique du Sud et Centrale puisque, bien que des informations anecdotiques aient suggéré que les organismes de gestion des élections (OGE) dans certains pays de la région publient des données électorales dans une variété de catégories de manière ouverte, ces efforts n'ont pas été systématiquement évalués. En conséquence, des leçons et des exemples précieux ne peuvent pas être capturés et tirés depuis l'intérieur ou l'extérieur de la région. De plus, l'Amérique du Sud et Centrale offrent un ensemble diversifié de pays pour évaluer le niveau des principes de données électorales ouvertes abordés à la [section 2](/fr/guide/principles/) du présent rapport, en examinant s'ils sont respectés dans la pratique.
 

@@ -3,13 +3,12 @@ title: '၁။ Data များကို အနှစ်ချုပ်ခြ�
 lang: my
 module_id: 1
 permalink: '/academy/a-gentle-introduction-to-summarizing-data/'
-excerpt: "ဤသင်ခန်းစာတွင် အချက်အလက်ကဏ္ဍ (data category) နှင့် အချက်အလက် အမျိုးအစားများ (types of data) အပါအဝင် အသုံးများသည့် အခေါ်အဝေါ်များ၊ အယူအဆများကို အဓိပ္ပါယ် ဖွင့်ဆိုမည်။ သင်ခန်းစာ အဆုံး၌ ဤအယူအဆများကိုယူ၍ နောက်သင်ခန်းစာရှိ မဲရုံစာရင်းကို အကျဉ်းချုံး (summarise) နိုင်မည်။"
+excerpt: 'ဤသင်ခန်းစာတွင် အချက်အလက်ကဏ္ဍ (data category) နှင့် အချက်အလက် အမျိုးအစားများ (types of data) အပါအဝင် အသုံးများသည့် အခေါ်အဝေါ်များ၊ အယူအဆများကို အဓိပ္ပါယ် ဖွင့်ဆိုမည်။ သင်ခန်းစာ အဆုံး၌ ဤအယူအဆများကိုယူ၍ နောက်သင်ခန်းစာရှိ မဲရုံစာရင်းကို အကျဉ်းချုံး (summarise) နိုင်မည်။'
 ---
 
 ဤသင်ခန်းစာတွင် အချက်အလက်ကဏ္ဍ (data category) နှင့် အချက်အလက် အမျိုးအစားများ (types of data) အပါအဝင် အသုံးများသည့် အခေါ်အဝေါ်များ၊ အယူအဆများကို အဓိပ္ပါယ် ဖွင့်ဆိုမည်။ သင်ခန်းစာ အဆုံး၌ ဤအယူအဆများကိုယူ၍ နောက်သင်ခန်းစာရှိ မဲရုံစာရင်းကို အကျဉ်းချုံး (summarise) နိုင်မည်။
 
-Data နှင့် ပတ်သက်သည့် အခေါ်အဝေါ်များ
-------------------------------------
+## Data နှင့် ပတ်သက်သည့် အခေါ်အဝေါ်များ
 
 Data များကို ဆန်းစစ်ရာတွင် အသုံးများသည့် ခေါ်အဝေါ်တချို့ကို သင်ယူခြင်းဖြင့် စတင်ပါမည်။
 
@@ -31,8 +30,7 @@ Dataset တစ်ခုတွင် သီးခြားယူနစ် (indivi
 
 Variable (ကိန်းရှင်) တစ်ခုသည် မည်သည့် data အမျိုးအစားဖြစ်သည်ကို ပထမဦးစွာ နားလည်ထားခြင်းဖြင့် ၄င်း variable ကို မည်ကဲ့သို့ဖော်ပြမည်၊ မည်ကဲ့သို့ အနှစ်ချုပ်မည်ကို ဆုံးဖြတ်နိုင်သည်။
 
-အချက်အလက်များကို ဖော်ပြခြင်းနှင့် အနှစ်ချုပ်ခြင်း
--------------------------------------------------
+## အချက်အလက်များကို ဖော်ပြခြင်းနှင့် အနှစ်ချုပ်ခြင်း
 
 အဘယ်ကြောင့် အချက်အလက်များကို အနှစ်ချုပ် ကြသနည်း။ အချက်အလက်များကို ရိုးရှင်းစေရန်နှင့် အချက်အလက်ထဲတွင် ပုံမှန်ဟု ထင်ရသည့်အရာ၊ ပုံမှန်မဟုတ်ဟု ထင်ရသည့်အရာများကို ဖော်ထုတ်ရန် အလို့ငှာ အနှစ်ချုပ်ရသည်။ Variable (ကိန်းရှင်) များ၏ ဖြန့်ကျက်နေမှုသည် ယင်း variable (ကိန်းရှင်) တို့တွင် မည်သည့် တန်ဖိုးများပါရှိသည်၊ ယင်းတန်ဖိုးများကို အကြိမ်မည်မျှ ပါရှိသည် စသည်တို့ကို ပြသသည်။
 
@@ -51,11 +49,11 @@ Variable (ကိန်းရှင်) တစ်ခုသည် မည်သည�
 
 အောက်ပါ dataset ရှိ ဥပမာတွင် တိရစ္ဆာန်တချို့၏အမည်များနှင့်ဆက်စပ်သည့် အချက်အလက်များရှိသည်။ တိရစ္ဆာန် တစ်ကောင်းချင်းစီ၏ အမြင့် အတိုင်းအတာများလည်း ရှိသည်။ Dataset တွင် variable (ကိန်းရှင်) ၂မျိုး (အမည်နှင့် အမြင့်) နှင့် observation (သီးခြားယူနစ်) ၅ ခုရှိသည်။ dataset ကိုအောက်ပါအတိုင်းတွေ့နိုင်သည်။
 
-[![Image 1](/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)
+[![Image 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image1.png)
 
 ဤနေရာတွင် တိရစ္ဆာန်တစ်ကောင်ချင်းစီ၏ အမြင့်ကိုဖော်ပြထားသည့် ပုံချပ်ကိုပါ ဆွဲပေးထားသည်။
 
-[![Image 2](/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)
+[![Image 2](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image2.png)
 
 ပျမ်းမျှအမြင့် (average height) ကိုတွက်ရန် တန်ဖိုးများအားလုံးကိုပေါင်း၍ observation (သီးခြားယူနစ်) အရေအတွက်နှင့် စားသည်။
 
@@ -63,7 +61,7 @@ Variable (ကိန်းရှင်) တစ်ခုသည် မည်သည�
 
 အမြင့်အတွက် ပျမ်းမျှတန်ဖိုးမှာ ၁၇၁.၄ စင်တီမီတာဖြစ်သည်။ ဤနေရာ၌ ကျွန်ုပ်တို့၏ ပျမ်းမျှသည် ပုံချပ်ပေါ်တွင် မည်သည့်ပုံပေါ်ကြောင်းမြင်နိုင်ရန် ရည်ညွှန်းမျဉ်းတစ်ကြောင်းထည့်ပေးထားသည်။
 
-[![Image 3](/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)
+[![Image 3](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image3.png)
 
 ### ၂။ ဖြန့်ကျက်မှု။ ဗဟိုအနီးအနားတစ်ဝိုက်တွင် အချက်အလက်များကို မည်ကဲ့သို့ ပျံ့ကြဲနေသနည်း။ (measures of dispersion)
 
@@ -78,11 +76,11 @@ Data ဖြန့်ဖြူးမှု၏ ဖြန့်ကျက်နေ�
 အရပ်အမြင့် dataset ရှိ range မှာ 181 - 159 = 22 cm ဖြစ်သည်။  
 အများဆုံးနှင့်အနည်းဆုံးတို့ကိုညွှန်ပြရန် ရည်ညွှန်း မျဉ်းများ ထည့်ပေးထားသည်။
 
-[![Image 4](/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)
+[![Image 4](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image4.png)
 
 လက်တွေ့ကျကျပြောရလျှင် အမြင့်ဆုံးတန်ဖိုးနှင့် တိရစ္ဆာန်မှာ အရပ်အမြင့်ဆုံးဖြစ်ပြီး အနိမ့်ဆုံးတန်ဖိုးနှင့် တိရစ္ဆာန်မှာ အရပ်အနိမ့်ဆုံး ဖြစ်သည်။ ထို့ကြောင့် Harry ဟုခေါ်သည့် မြင်းမှာ အမြင့်ဆုံးဖြစ်ပြီး Fran ဟုခေါ်သည့် မြေခွေးမှာ အပုဆုံးဖြစ်သည်။
 
-[![Image 5](/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)
+[![Image 5](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image5.png)
 
 Range သည် အဆုံးမှတ်များ (အစွန်များ) ကိုပြသော်လည်း ယင်းအဆုံးမှတ်များအကြား အချက်အလက်များ သည် မည်၍မည်မျှ စိပ်ကြောင်း/ကျဲကြောင်း မပြသပေ။ ထို့ပြင် အချက်အလက်အများစုမှာ ပျမ်းမျှ နှင့် နီးသလား၊ အများဆုံးနှင့် နီးသလား၊ အနည်းဆုံးနှင့် နီးသလား လည်းမသိနိုင်ပေ။ ကျွန်ုပ်တို့၏ ပုံချပ်တွင် ကြည့်လျှင် တိရစ္ဆာန်များ၏ တစ်ဝက် ကျော်ကျော်ခန့် သည် အရပ်မြင့်ကြောင်း (ပျဉ်းမျှ အရပ်ထက်ပိုမြင့်) တွေ့နိုင်သည်။
 
@@ -94,7 +92,7 @@ Range သည် အဆုံးမှတ်များ (အစွန်မျ�
 
 Standard deviation သည် ကိန်းရှင် (variable) တစ်ခု၏ ဖြန့်ကျက်မှုကို နားလည်ရန်အတွက် အလွန်အသုံးဝင်သည်။ ပုံမှန် ပျံ့နှံ့နေသည့် အချက်အလက်များအတွက် တန်ဖိုးအားလုံးနီးပါးသည် ယေဘုယျအားဖြင့် ပျမ်းမျှတန်ဖိုး (average) ၏ standard deviation ၃ ခုအတွင်းမှာပင်ရှိလိမ့်မည်။ စာရင်းအင်းပညာတွင် ဤအချက်ကို 68-95-99.7 စည်းမျဉ်း ဟူ၍ ရည်ညွှန်းပြောဆိုကြသည်။ 68.7 ရာခိုင်နှုန်းခန့်သည် average (ပျမ်းမျှ) ၏ standard deviation (mean) တစ်ခုအတွင်းကျရောက်သည်။ ထိုနည်းတူစွာ 95.45 ရာခိုင်နှုန်းခန့်သည် mean ၏ standard deviation ၂ ခုအတွင်းကျရောက်သည်။ 99.73 ရာခိုင်နှုန်းနီးပါးသည် mean ၏ standard deviation ၃ ခုအတွင်းကျရောက်သည်။
 
-[![Image 6](/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)
+[![Image 6](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image6.png)
 
 Wikipedia မှ [68-95-99.7](http://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule) စည်းမျဉ်းကို ဖော်ပြသည့် ပုံတစ်ပုံ
 
@@ -102,18 +100,17 @@ Wikipedia မှ [68-95-99.7](http://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9
 
 တိရစ္ဆာန်များ၏ အမြင့် dataset တွင် အမြင့်အတွက် standard deviation ကို တွက်ထားပြီးပြီ။ 9.1 cm ရသည်။[\[3\]](#footnote-3) ပျမ်းမျှ (Average) ၏ standard deviation ၃ ခုအတွင်း ကျရောက်နိုင်သည့် data များကိုပြရန် ပုံချပ်၏ သက်ဆိုင်သည့်နေရာများကို အရိပ်ခြယ်ထားပေးသည်။ ဤ range အတွင်း ကျရောက်သည့် အချက်အလက် များသည် ပုံမှန်ဖြစ်သည်။
 
-[![Image 7](/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
+[![Image 7](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
 
 Standard deviation က ကျွန်ုပ်တို့အား ပုံမှန်ဖြစ်သော အချက်အလက်၊ အလွန်ကြီးမားသော အချက်အလက်၊ အလွန်သေးငယ်သော အချက်အလက် စသည်တို့ကို သိနိုင်သည့် ပုံသေနည်းတစ်ခုကိုပေးသည်။ မြေခွေး Fran သည် အရပ်ပုကြောင်း ကျွန်ုပ်တို့ သိသည်။ Standard deviation နှင့် တန်ဖိုးများအားလုံးနီးပါး (99.73%) သည် standard deviation ၃ ခုအတွင်းကျရောက်ကြသည် ဟူသည့်အချက်တို့ကိုထောက်၍ Fran သည် အရပ်ပုသော်လည်း သာမန်ထက်လွန်၍ ပုခြင်းကား မဟုတ်ကြောင်း ကောက်ချက်ချနိုင်သည်။
 
-[![Image 8](/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)](/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)
+[![Image 8](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image8.png)
 
 #### ကွဲလွဲချက် (Variance)
 
 စံသွေဖည်ကိန်း (Standard deviation) ကဲ့သို့ပင် ကွဲလွဲချက် (variance) သည်လည်း ပျမ်းမျှ အနီးအနားတစ်ဝိုက်တွင် ကိန်းဂဏန်းများ ပျံ့နှံ့နေမှုသည် မည်မျှစိပ် သို့မဟုတ် မည်မျှကျဲကြောင်းကို တိုင်းတာသည်။ ထို့ကြောင့် variance ကြီးခြင်းက data များသည် ပျမ်းမျှတန်ဖိုး (average) မှ အဝေးသို့ ဖြန့်ကျက်နေဟု ဆိုလိုပြီး variance ငယ်ခြင်းမှာ အချက်အလက်များသည် ပျမ်းမျှတန်ဖိုး (average) နားတစ်ဝိုက်တွင် ဖြန့်ကျက်နေသည်ဟု နားလည်ရမည်။ Variance သည် ပျမ်းမျှမှ ကိန်းဂဏန်း တစ်ခုစီ၏ ဆတိုးခြားနားခြင်းများကို ပျမ်းမျှရှာထားခြင်းပင်ဖြစ်သည် (အောက်တွင် သင်္ချာ ပုံသေနည်းကို ပေးထားသည်)။ ယခု သင်ခန်းစာတွင် ဤပုံသေနည်းကို အဓိကသင်ကြားမည်မဟုတ်သော်လည်း variance သည် standard deviation တွက်ခြင်း၏ အခြေခံအုတ်မြစ်ဖြစ်ကြောင်းတော့ နားလည်သဘောပေါက်ထား သင့်သည်။
 
-သင့်ကိုယ်သင် စာမေးပွဲစစ်ကြည့်ပါ။
---------------------------------
+## သင့်ကိုယ်သင် စာမေးပွဲစစ်ကြည့်ပါ။
 
 အောက်ပါမေးခွန်းများကို ဖြေခြင်းဖြင့် သင်ဗဟုသုတကို စစ်ဆေးကြည့်ပါ။
 
@@ -124,23 +121,21 @@ Standard deviation က ကျွန်ုပ်တို့အား ပုံ�
 5.  ၅။ အချက်အလက်များ ဖြန့်ဖြူးမှုကို ဖော်ပြရန် အသုံးအဝင်ဆုံး နည်းလမ်း (၂) ခု ကို ရေးပြပါ။
 6.  ၆။ မြေခွေး Fran သည် သာမန်ထက်လွန်၍ အရပ်ပုသလား။
 
-အချက်အလက်များနှင့် ဆော့ကစားခြင်း
---------------------------------
+## အချက်အလက်များနှင့် ဆော့ကစားခြင်း
 
 သင်ကိုယ်တိုင် တွက်ချက်မှုများ ပြုလုပ်လိုလျှင် [အမြင့်နှင့်ဆက်စပ်သည့် dataset](/files/academy/exercise/Heights.csv) ကို ဤနေရာတွင် ရယူပါ။ Data များကို တွက်ချက်မှု အချို့နှင့်အတူ [Excel file](/files/academy/exercise/Heights_calculations.xlsx) သို့မဟုတ် [Open Spreadsheets file](/files/academy/exercise/Heights_calculations.ods) အဖြစ်ရယူနိုင်ပါသည်။
 
-သင်္ချာ ပုံသေနည်းများ
----------------------
+## သင်္ချာ ပုံသေနည်းများ
 
 [Math is Fun](http://www.mathsisfun.com/) ဝက်ဆိုက်ရှိ [Standard Deviation Formulas](http://www.mathsisfun.com/data/standard-deviation-formulas.html) အခန်းတွင် ရှင်းပြထားသည့် standard deviation ပုံသေနည်း ၂ ခုမှာ အောက်ပါအတိုင်းဖြစ်သည်။
 
 The **Population**[\[4\]](#footnote-4) Standard Deviation":
 
-![Formula 1](/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
+![Formula 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
 
 The **Sample** Standard Deviation":
 
-![Formula 2](/images/academy/a-gentle-introduction-to-summarizing-data/formula2.gif)
+![Formula 2](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula2.gif)
 
 ကြည့်လိုက်လျှင် ရှုပ်ထွေးစရာကောင်းနေသည်။ သို့သော် အဓိက အပြောင်းအလဲမှာ Sample variance ကိုတွက်သည့်အခါ **N-1** (**N** နှင့်မဟုတ်ဘဲ) နှင့် စားခြင်းဖြစ်သည်။ (Standard deviation သည် **Variance** ၏ square root ဖြစ်သည်ကိုသာ သတိချပ်ပါ၊ ထို့အတွက် variance ကိုတွက်သည့် formula မှာ square root မပါဘဲ အပေါ်က အတိုင်းပင် ဖြစ်ကြောင်း မှတ်သားပါ။
 

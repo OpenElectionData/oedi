@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/electoral-boundaries/'
 ---
 
-![Electoral Boundaries](/images/inventory/categories/electoral-boundaries.png)
+![Electoral Boundaries](/assets/images/inventory/categories/electoral-boundaries.png)
 
 ### ရွေးကောက်ပွဲ ဘောင်နယ်နိမိတ်များဟူသည် အဘယ်နည်း။
 

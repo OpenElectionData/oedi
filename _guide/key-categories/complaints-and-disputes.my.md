@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/complaints-and-disputes/'
 ---
 
-![Electoral Complaints, Disputes and Resolution](/images/inventory/categories/electoral-complaints-and-disputes.png)
+![Electoral Complaints, Disputes and Resolution](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
 
 ### ရွေးကောက်ပွဲနှင့်ဆက်စပ်သည့် တိုင်တန်းချက်များ၊ အငြင်းပွားမှုများနှင့် အငြင်းပွားမှုများဖြေရှင်းခြင်း တို့ဟူသည် အဘယ်နည်း။
 

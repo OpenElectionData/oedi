@@ -7,7 +7,7 @@ section: 9
 permalink: '/guide/principles/license-free/'
 ---
 
-![Libres de licencia](/images/inventory/principles/license-free.png)
+![Libres de licencia](/assets/images/inventory/principles/license-free.png)
 
 Las licencias se usan para determinar la manera en que la información se puede reutilizar o compartir. Para que los datos electorales realmente sean abiertos y públicos, deben ser "reutilizables al máximo" y no debe haber barreras para dicha reutilización.[\[1\]](#footnote-1) Los datos libres de licencia son datos que están abiertos para ser reutilizados y redistribuidos con cualquier fin.
 

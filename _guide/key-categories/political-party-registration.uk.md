@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/political-party-registration/'
 ---
 
-![Political Party Registration](/images/inventory/categories/political-party-registration.png)
+![Political Party Registration](/assets/images/inventory/categories/political-party-registration.png)
 
 ### Що таке реєстрація політичних партій?
 
@@ -21,4 +21,4 @@ permalink: '/guide/key-categories/political-party-registration/'
 
 Інформація, що стосується реєстрації політичних партій включає: список партій, включаючи тих які подавали документи на реєстрацію, які були зареєстровані, та яким було відмовлено в реєстрації ОУВП; імена членів партій; правила висування (включаючи вимогу щодо кількості підписантів, комісійний збір при поданні документів та інші деталі). Верховний трибунал по проведенню виборів (ВТВ) в Коста Риці є гарним прикладом забезпечення доступності [інформації по реєстрації політичних партій](http://www.tse.go.cr/info_partidos.htm). Вони публікують список партій які подали документи на реєстрацію, партії які були зареєстровані, які відмінили подання та яким було відмовлено в реєстрації.
 
-1.  [](#reference-1)Щодо інших питань у цій сфері, див. видання НДІ «Приймаючи закон про політичні партії» авторства Кеннета Джанда: [https://www.ndi.org/files/1948\_polpart\_janda\_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)
+1.  [](#reference-1)Щодо інших питань у цій сфері, див. видання НДІ «Приймаючи закон про політичні партії» авторства Кеннета Джанда: [https://www.ndi.org/files/1948_polpart_janda_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)

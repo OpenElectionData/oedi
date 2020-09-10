@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/electoral-boundaries/'
 ---
 
-![Límites de los distritos electorales](/images/inventory/categories/electoral-boundaries.png)
+![Límites de los distritos electorales](/assets/images/inventory/categories/electoral-boundaries.png)
 
 ### ¿Qué son los límites de los distritos electorales?
 

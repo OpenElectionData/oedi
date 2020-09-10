@@ -7,7 +7,7 @@ section: 19
 permalink: '/guide/key-categories/political-party-registration/'
 ---
 
-![L'Enregistrement des Partis Politiques](/images/inventory/categories/political-party-registration.png)
+![L'Enregistrement des Partis Politiques](/assets/images/inventory/categories/political-party-registration.png)
 
 ### Qu'est-ce que l'enregistrement des partis politiques?
 
@@ -21,4 +21,4 @@ Les citoyens doivent être autorisés à s'associer librement dans des organisat
 
 Les informations relatives à l'enregistrement des partis politiques comprennent: une liste des partis, y compris qui a demandé, a été accepté et a été rejetée par l'OGE; noms des membres du parti; et les règles de nomination (notamment le nombre de signataires requis pour être enregistré, les frais de dépôt et autres détails). Le Tribunal Electoral Suprême (TSE) au Costa Rica est un bon exemple sur la manière de rendre disponible [les informations sur l'enregistrement des partis politiques](http://www.tse.go.cr/info_partidos.htm). Ils publient une liste des partis politiques qui ont postulé pour l'enregistrement, qui ont été acceptés et qui ont été annulés ou rejetés.
 
-1.  [](#reference-1)Voir «L'adoption de Loi sur les Partis Politiques» de NDI par Kenneth Janda sur les questions à prendre en compte dans ce domaine: [https://www.ndi.org/files/1948\_polpart\_janda\_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)
+1.  [](#reference-1)Voir «L'adoption de Loi sur les Partis Politiques» de NDI par Kenneth Janda sur les questions à prendre en compte dans ce domaine: [https://www.ndi.org/files/1948_polpart_janda_110105.pdf](https://www.ndi.org/files/1948_polpart_janda_110105.pdf)

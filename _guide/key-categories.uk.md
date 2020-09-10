@@ -3,7 +3,7 @@ title: 'Частина 3: Ключові категорії виборчого �
 title_short: ''
 lang: uk
 chapter_id: 19
-section: 
+section:
 permalink: '/guide/key-categories/'
 ---
 
@@ -13,97 +13,97 @@ permalink: '/guide/key-categories/'
 
 В цій частині описано 16 категорій виборчих даних починаючи з передвиборчого періоду, зупиняючись на дні виборів та закінчуючи післявиборчим періодом. Нижче наведено визначення кожної категорії, пояснення як кожна категорія стосується [принципів виборчої цілісності, описаних в Частині 1](/uk/guide/electoral-integrity/), та опис певних типів інформації, яка підпадає під кожну з категорій. Ці категорії включають:
 
-[![виборче правове поле](/images/inventory/categories/legal-framework.png)
+[![виборче правове поле](/assets/images/inventory/categories/legal-framework.png)
 
 виборче правове поле
 
 ](/uk/guide/key-categories/legal-framework/)
 
-[![межі виборчих округів](/images/inventory/categories/electoral-boundaries.png)
+[![межі виборчих округів](/assets/images/inventory/categories/electoral-boundaries.png)
 
 межі виборчих округів
 
 ](/uk/guide/key-categories/electoral-boundaries/)
 
-[![органи управління виборчим процесом (ОУВП) та адміністрування](/images/inventory/categories/election-management-body-and-administration.png)
+[![органи управління виборчим процесом (ОУВП) та адміністрування](/assets/images/inventory/categories/election-management-body-and-administration.png)
 
 органи управління виборчим процесом (ОУВП) та адміністрування
 
 ](/uk/guide/key-categories/emb-administration/)
 
-[![процеси ОУВП](/images/inventory/categories/election-management-body-processes.png)
+[![процеси ОУВП](/assets/images/inventory/categories/election-management-body-processes.png)
 
 процеси ОУВП
 
 ](/uk/guide/key-categories/emb-processes/)
 
-[![безпека під час виборів](/images/inventory/categories/security.png)
+[![безпека під час виборів](/assets/images/inventory/categories/security.png)
 
 безпека під час виборів
 
 ](/uk/guide/key-categories/security/)
 
-[![реєстрація політичних партій](/images/inventory/categories/political-party-registration.png)
+[![реєстрація політичних партій](/assets/images/inventory/categories/political-party-registration.png)
 
 реєстрація політичних партій
 
 ](/uk/guide/key-categories/political-party-registration/)
 
-[![вимоги для балотування](/images/inventory/categories/ballot-qualification.png)
+[![вимоги для балотування](/assets/images/inventory/categories/ballot-qualification.png)
 
 вимоги для балотування
 
 ](/uk/guide/key-categories/ballot-qualification/)
 
-[![виборча кампанія](/images/inventory/categories/election-campaigns.png)
+[![виборча кампанія](/assets/images/inventory/categories/election-campaigns.png)
 
 виборча кампанія
 
 ](/uk/guide/key-categories/election-campaigns/)
 
-[![фінансування виборчої кампанії](/images/inventory/categories/campaign-finance.png)
+[![фінансування виборчої кампанії](/assets/images/inventory/categories/campaign-finance.png)
 
 фінансування виборчої кампанії
 
 ](/uk/guide/key-categories/campaign-finance/)
 
-[![реєстрація виборців](/images/inventory/categories/voter-registration.png)
+[![реєстрація виборців](/assets/images/inventory/categories/voter-registration.png)
 
 реєстрація виборців
 
 ](/uk/guide/key-categories/voter-registration/)
 
-[![список виборців](/images/inventory/categories/voter-lists.png)
+[![список виборців](/assets/images/inventory/categories/voter-lists.png)
 
 список виборців
 
 ](/uk/guide/key-categories/voter-lists/)
 
-[![просвіта виборців](/images/inventory/categories/voter-education.png)
+[![просвіта виборців](/assets/images/inventory/categories/voter-education.png)
 
 просвіта виборців
 
 ](/uk/guide/key-categories/voter-education/)
 
-[![виборчі дільниці](/images/inventory/categories/polling-stations.png)
+[![виборчі дільниці](/assets/images/inventory/categories/polling-stations.png)
 
 виборчі дільниці
 
 ](/uk/guide/key-categories/polling-stations/)
 
-[![результати голосування](/images/inventory/categories/election-results-official-final.png)
+[![результати голосування](/assets/images/inventory/categories/election-results-official-final.png)
 
 результати голосування
 
 ](/uk/guide/key-categories/election-results/)
 
-[![електронне голосування та підрахунок](/images/inventory/categories/electronic-voting.png)
+[![електронне голосування та підрахунок](/assets/images/inventory/categories/electronic-voting.png)
 
 електронне голосування та підрахунок (якщо застосовно)
 
 ](/uk/guide/key-categories/electronic-voting/)
 
-[![Виборчі скарги, спори та їх вирішення](/images/inventory/categories/electoral-complaints-and-disputes.png)
+[![Виборчі скарги, спори та їх вирішення](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
 
 Виборчі скарги, спори та їх вирішення
 

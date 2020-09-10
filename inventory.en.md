@@ -1,5 +1,6 @@
 ---
 layout: inventory
+useTippy: true
 title: Latin America Data Inventory
 lang: en
 permalink: /inventory/

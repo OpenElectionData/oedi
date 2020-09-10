@@ -48,6 +48,7 @@ defaults:
     values:
       layout: inventory-country
       permalink: "/inventory/:slug/"
+      useTippy: true
   - scope:
       path: ""
       type: "academy"

@@ -23,4 +23,13 @@
   tr + tr {
     border-top: 1px solid $color__gray-500;
   }
+
+  a {
+    color: $color__orange-400;
+
+    &:hover {
+      color: $color__orange-500;
+      text-decoration: underline;
+    }
+  }
 }

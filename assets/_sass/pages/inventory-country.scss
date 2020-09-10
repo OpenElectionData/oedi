@@ -2,8 +2,18 @@
 @use '../components/status';
 
 .country {
+  a {
+    color: $color__orange-300;
+
+    &:hover {
+      color: $color__orange-200;
+      text-decoration: underline;
+    }
+  }
+
   &__info {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 2rem;
     padding: 1rem;
     background: $color__gray-200;
@@ -19,6 +29,10 @@
       font-family: $font__raleway;
       font-weight: bold;
       text-align: right;
+    }
+
+    p {
+      line-height: 1.6;
     }
   }
 
@@ -38,8 +52,24 @@
       }
     }
 
+    &-principle {
+      width: 60px;
+    }
+
     &-category {
       background: $color__blue-100;
+
+      span {
+        @include font-size(12px);
+      }
+    }
+
+    td:not(:first-of-type) {
+      @include font-size(12px);
+    }
+
+    img {
+      margin: 0 auto;
     }
   }
 
@@ -53,5 +83,10 @@
     text-transform: uppercase;
     background: var(--status);
     border-radius: 2px;
+  }
+
+  .has-tooltip {
+    border-bottom: 1px dotted $color__black;
+    cursor: pointer;
   }
 }

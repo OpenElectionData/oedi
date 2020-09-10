@@ -139,5 +139,10 @@ layout: default
       </table>
     </div>
   </div>
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <footer>
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    {% assign prevLabel = site.data.strings.back_to | append: ' ' | append:
+    site.data.strings.data_inventory %} {% include pagination.html
+    prev=prevLabel prev_url="/inventory/" %}
+  </footer>
 </article>

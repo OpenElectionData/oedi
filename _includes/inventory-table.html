@@ -15,10 +15,19 @@ false %}
     <thead>
       <tr>
         <th>{{ site.data.strings.country }}</th>
-        {% for category in categories %}
-        {%- assign value = site.data.inventory_categories_strings[category.slug] %}
+        {% for category in categories %} {%- assign value =
+        site.data.inventory_categories_strings[category.slug] %} {% assign
+        categoryImg = 'assets/images/inventory/categories/' | append:
+        category.slug | append: '.png' %}
         <th>
-          <div data-tippy-content="{{ value }}" aria-label="{{ value }}">{{ value }}</div>
+          <div data-tippy-content="{{ value }}" aria-label="{{ value }}">
+            <img
+              src="{{ categoryImg | relative_url }}"
+              alt="{{ value }}"
+              width="36"
+              height="36"
+            />
+          </div>
         </th>
         {% endfor %}
       </tr>
@@ -32,26 +41,29 @@ false %}
         <td>
           <a href="{{ country_page.url }}">{{ country_page.title }}</a>
         </td>
-        {% for category in categories %}
-          {%- assign value = country.categories[category.slug].value -%}
-          {%- assign class = '' -%}
-          {%- assign status = '' %}
-          {%- if value == '1' -%}
-            {% assign class = 'not' -%}
-            {% assign status = site.data.strings.not_open %}
-          {%- elsif value == '2' -%}
-            {%- assign class = 'partially' -%}
-            {% assign status = site.data.strings.partially_open %}
-          {%- elsif value == '3' -%}
-            {%- assign class = 'mostly' -%}
-            {% assign status = site.data.strings.mostly_open %}
-          {%- endif -%}
-          {%- assign tooltip = site.data.inventory_categories_strings[category.slug] | append: '; ' | append: status -%}
+        {% for category in categories %} {%- assign value =
+        country.categories[category.slug].value -%} {%- assign class = '' -%}
+        {%- assign status = '' %} {%- if value == '1' -%} {% assign class =
+        'not' -%} {% assign status = site.data.strings.not_open %} {%- elsif
+        value == '2' -%} {%- assign class = 'partially' -%} {% assign status =
+        site.data.strings.partially_open %} {%- elsif value == '3' -%} {%-
+        assign class = 'mostly' -%} {% assign status =
+        site.data.strings.mostly_open %} {%- endif -%} {%- assign tooltip =
+        site.data.inventory_categories_strings[category.slug] | append: '; ' |
+        append: status -%}
         <td class="{{ class }}">
           {%- if value == '1' -%}
-          <i class="fas fa-times" data-tippy-content="{{ tooltip }}" aria-label="{{ status }}"></i>
+          <i
+            class="fas fa-times"
+            data-tippy-content="{{ tooltip }}"
+            aria-label="{{ status }}"
+          ></i>
           {% else %}
-          <i class="fas fa-check" data-tippy-content="{{ tooltip }}" aria-label="{{ status }}"></i>
+          <i
+            class="fas fa-check"
+            data-tippy-content="{{ tooltip }}"
+            aria-label="{{ status }}"
+          ></i>
           {% endif %}
         </td>
         {% endfor %}

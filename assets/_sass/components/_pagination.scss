@@ -1,18 +1,26 @@
 @use 'abstracts' as *;
 
-ul.pagination {
+.pagination {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
-  padding-top: 2rem;
+  margin: 2rem 0 0;
+  padding: 2rem 0 0;
   border-top: 1px solid $color__gray-300;
 
   &__prev {
     justify-self: flex-start;
+
+    &:only-child {
+      margin: 0 auto 0 0;
+    }
   }
 
   &__next {
     justify-self: flex-end;
+
+    &:only-child {
+      margin: 0 0 0 auto;
+    }
   }
 
   i {

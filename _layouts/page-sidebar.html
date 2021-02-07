@@ -2,12 +2,15 @@
 layout: default
 ---
 
+{% assign prevLabel = null %} {% assign prevUrl = null %} {% assign nextLabel =
+null %} {% assign nextURL = null %}
+
 <article class="page page--sidebar">
   <aside class="page__sidebar">
     {% if page.is_guide == true %}
     <h2>{{ site.data.strings.toc }}</h2>
     {% assign sections = site.guide | where: 'section', nil | sort:
-    'chapter_id', 'last' %} {{ sections | inspect }}
+    'chapter_id', 'last' %}
     <ul>
       {% for section in sections %} {% assign subsections = site.guide | where:
       'section', section.chapter_id | sort: 'chapter_id', 'last' %} {% if
@@ -47,18 +50,13 @@ layout: default
     site.academy | where: 'lang', lang | sort: 'module_id', 'last' %}
     <h2>{{ site.data.strings.modules }}</h2>
     <ul>
-      {% for item in items %} {% assign nextId = forloop.index0 | plus: 1 %} {%
-      assign prevId = forloop.index0 | minus: 1 %}
-
-      {{ prevId }}
-      {{ nextId }}
-      
-      {% assign prevLabel = items[prevId].title %} {% assign nextLabel =
-            items[nextId].title %}
-      {% assign prevUrl = items[prevId].url %}
-      {% assign nextUrl = items[nextId].url %}
-
-      {{ prevLabel }}{{ nextLabel }}
+      {% for item in items %} {%- if page.url == item.url -%} {%- unless
+      forloop.first -%} {%- assign prevId = forloop.index0 | minus: 1 -%} {%-
+      assign prevLabel = items[prevId].title -%} {%- assign prevUrl =
+      items[prevId].url -%} {%- endunless -%} {%- unless forloop.last -%} {%-
+      assign nextId = forloop.index0 | plus: 1 -%} {%- assign nextLabel =
+      items[nextId].title -%} {%- assign nextUrl = items[nextId].url -%} {%-
+      endunless -%} {%- endif -%}
       <li>
         <a
           href="{{ item.url | relative_url }}"
@@ -92,7 +90,7 @@ layout: default
     </ul>
     {% endif %}
   </section>
-  <footer>
+  <footer class="page__footer">
     {% include pagination.html prev=prevLabel prev_url=prevUrl next=nextLabel
     next_url=nextUrl %}
   </footer>

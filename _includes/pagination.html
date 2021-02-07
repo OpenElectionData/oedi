@@ -1,11 +1,11 @@
-<ul class="pagination">
-  {% if include.prev != '' %}
+<ul class="pagination" role="list">
+  {% if include.prev != null %}
   <li class="pagination__prev">
     <a href="{{ include.prev_url }}"
       ><i class="fas fa-long-arrow-alt-left"></i> {{ include.prev }}</a
     >
   </li>
-  {% endif %} {% if include.next != '' %}
+  {% endif %} {% if include.next != null %}
   <li class="pagination__next">
     <a href="{{ include.next_url }}"
       ><i class="fas fa-long-arrow-alt-right"></i> {{ include.next }}</a

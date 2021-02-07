@@ -111,7 +111,7 @@ Column F ရှိ "Registered_Voters" (မှတ်ပုံတင်ထား�
 
 [![Image 8](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)
 
-ထို့နောက် input ညာဘက်ရှိ ခလုပ်ကို ပြန်နှိပ်လိုက်ပါ။ (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png)).
+ထို့နောက် input ညာဘက်ရှိ ခလုပ်ကို ပြန်နှိပ်လိုက်ပါ။ (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png){:class="img--inline"}).
 
 [![Image 9](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)
 

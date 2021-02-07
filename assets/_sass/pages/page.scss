@@ -103,6 +103,11 @@
     img {
       margin: 2rem auto;
     }
+
+    .img--inline {
+      display: inline-block;
+      margin: 0;
+    }
   }
 
   &__footer {

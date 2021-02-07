@@ -43,7 +43,7 @@ Estas dos maneras de describir los datos también se conocen como estadística d
 
 ### 1\. El punto medio: ¿Qué es típico? (Tendencias centrales)
 
-Las tres maneras más comunes de ver el punto medio son: el **promedio** (también llamado media), la **moda** y la **mediana**. Los tres resumen la distribución de los datos al describir el valor típico de la variable (el promedio), el número que se repite con mayor frecuencia (la moda), o el número que está en medio de todos los demás números en un conjunto de datos (la mediana).[\[1\]](#footnote-1) En este módulo nos vamos a enfocar en el promedio, ya que es la manera más adecuada de medir el centro de los datos de intervalo o continuos (por ejemplo, el número de votantes registrados). Para calcular el promedio se suman todos los números de una variable y luego se divide entre la cantidad total de números que hay. Dicho de otra manera, **el promedio (la media), es la suma dividida entre el número total de observaciones**.
+Las tres maneras más comunes de ver el punto medio son: el **promedio** (también llamado media), la **moda** y la **mediana**. Los tres resumen la distribución de los datos al describir el valor típico de la variable (el promedio), el número que se repite con mayor frecuencia (la moda), o el número que está en medio de todos los demás números en un conjunto de datos (la mediana).[^1] En este módulo nos vamos a enfocar en el promedio, ya que es la manera más adecuada de medir el centro de los datos de intervalo o continuos (por ejemplo, el número de votantes registrados). Para calcular el promedio se suman todos los números de una variable y luego se divide entre la cantidad total de números que hay. Dicho de otra manera, **el promedio (la media), es la suma dividida entre el número total de observaciones**.
 
 #### Ejemplo sencillo
 
@@ -88,7 +88,7 @@ Otras dos medidas de dispersión relacionadas (la varianza y la desviación est�
 
 #### Desviación estándar
 
-"Standard deviation" (la desviación estándar) nos ofrece una manera estándar de saber qué es lo normal[\[2\]](#footnote-2) de acuerdo con el promedio. Un atributo muy útil de la desviación estándar es que se expresa en las mismas unidades que los propios datos. La desviación estándar es una especie de índice de variabilidad, porque es proporcional a la dispersión de los datos. Entre más diversa sea la distribución (es decir, cuando los datos están dispersos más ampliamente), más grande será la desviación estándar, mientras que entre menos diversa sea la distribución (es decir, cuando los datos están agrupados muy juntos), más pequeña será la desviación estándar.
+"Standard deviation" (la desviación estándar) nos ofrece una manera estándar de saber qué es lo normal[^2] de acuerdo con el promedio. Un atributo muy útil de la desviación estándar es que se expresa en las mismas unidades que los propios datos. La desviación estándar es una especie de índice de variabilidad, porque es proporcional a la dispersión de los datos. Entre más diversa sea la distribución (es decir, cuando los datos están dispersos más ampliamente), más grande será la desviación estándar, mientras que entre menos diversa sea la distribución (es decir, cuando los datos están agrupados muy juntos), más pequeña será la desviación estándar.
 
 La desviación estándar es muy útil para entender el grado de dispersión de una variable. Para la mayoría de los datos distribuidos normalmente, generalmente casi todos los valores estarán dentro de tres desviaciones estándar del promedio. En la estadística, a esto algunas veces se le conoce como la regla del 68-95-99.7. Cerca del 68.27% de los valores están dentro de 1 desviación estándar del promedio (la media). De manera similar, aproximadamente el 95.45% de los valores se encuentran dentro de 2 desviaciones estándar de la media. Casi todos (99.73%) los valores están dentro de 3 desviaciones estándar de la media.
 
@@ -98,7 +98,7 @@ Diagrama de la regla [68-95-99.7 rule](http://en.wikipedia.org/wiki/68%E2%80%939
 
 En el [Módulo 3](/es/academy/application-summarizing-the-polling-station-data/) usaremos Excel para resumir los datos contenidos en la lista de centros de votación de 2008.
 
-En el conjunto de datos de las alturas de los animales que tenemos como muestra calculamos la desviación estándar de las alturas, y el resultado[\[3\]](#footnote-3) fue 9.1 cm. En la gráfica sombreamos el área para mostrar qué datos están dentro de 3 desviaciones estándar (9.1 x 3) del promedio. Todo dato que se encuentre dentro de este rango se considera normal.
+En el conjunto de datos de las alturas de los animales que tenemos como muestra calculamos la desviación estándar de las alturas, y el resultado[^3] fue 9.1 cm. En la gráfica sombreamos el área para mostrar qué datos están dentro de 3 desviaciones estándar (9.1 x 3) del promedio. Todo dato que se encuentre dentro de este rango se considera normal.
 
 [![Image 7](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
 
@@ -129,7 +129,7 @@ Si quiere realizar sus propios cálculos, le proporcionamos el [conjunto de dato
 
 Aquí están las dos fórmulas para la desviación estándar que se explican en la sección de [Fórmulas de la Desviación Estándar](http://www.mathsisfun.com/data/standard-deviation-formulas.html) del sitio ["Math is Fun"](http://www.mathsisfun.com/) (Las matemáticas son divertidas).
 
-La desviación estándar de la **población**[\[4\]](#footnote-4):
+La desviación estándar de la **población**[^4]:
 
 ![Formula 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
 
@@ -143,7 +143,7 @@ Parece complicado, pero el cambio importante es dividir entre **N-1** (en lugar 
 
 Todos los derechos reservados de las imágenes de animales [Dashikka/Shutterstock](http://www.shutterstock.com/gallery-2155625p1.html).
 
-1.  [](#reference-1)Para encontrar la mediana, la fórmula es (\[el número de puntos de datos\] + 1) ÷ 2, pero no es obligatorio usar la fórmula. Si lo prefiere, puede simplemente contar de afuera hacia adentro por ambos extremos de la lista hasta que llegue al centro. La moda es el número que se repite más que cualquier otro número. En la serie de valores: 2, 3, 4, 5, 4, 4, 6, 10, 12, la moda sería el 4.
-2.  [](#reference-2)Es útil definir qué es normal en términos probabilísticos, donde lo normal significa algo que es altamente posible o muy típico.
-3.  [](#reference-3)Nos saltamos el cálculo de la desviación estándar en este módulo porque queremos enfocarnos en ella como concepto y no quedarnos atorados en la fórmula. Las fórmulas de la desviación estándar y la varianza se incluyen al final de este módulo para aquellos que quieran verlas.
-4.  [](#reference-4)El término "población" significa que se está resumiendo el conjunto de datos en su totalidad (es decir, completo). El término "muestra" significa que está trabajando con un subconjunto más pequeño (es decir, una muestra) del conjunto de datos más grande (es decir, la población).
+[^1]: Para encontrar la mediana, la fórmula es (\[el número de puntos de datos\] + 1) ÷ 2, pero no es obligatorio usar la fórmula. Si lo prefiere, puede simplemente contar de afuera hacia adentro por ambos extremos de la lista hasta que llegue al centro. La moda es el número que se repite más que cualquier otro número. En la serie de valores: 2, 3, 4, 5, 4, 4, 6, 10, 12, la moda sería el 4.
+[^2]: Es útil definir qué es normal en términos probabilísticos, donde lo normal significa algo que es altamente posible o muy típico.
+[^3]: Nos saltamos el cálculo de la desviación estándar en este módulo porque queremos enfocarnos en ella como concepto y no quedarnos atorados en la fórmula. Las fórmulas de la desviación estándar y la varianza se incluyen al final de este módulo para aquellos que quieran verlas.
+[^4]: El término "población" significa que se está resumiendo el conjunto de datos en su totalidad (es decir, completo). El término "muestra" significa que está trabajando con un subconjunto más pequeño (es decir, una muestra) del conjunto de datos más grande (es decir, la población).

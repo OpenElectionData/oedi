@@ -95,35 +95,25 @@ Given what you know about the three political parties competing in the upcoming 
 
 Follow these easy steps to make your pivot table.
 
-\*\*
-
 #### 1\. Select All
-
-\*\*
 
 To begin, you’ll need to select all of the data in the “Candidate_Information” tab of your spreadsheet. To do so, click on the top left square of the sheet containing the little triangle. You could also click cell A1 ("Full_name") and then click Control+A (i.e., hold down the "Ctrl" button while also pressing the "A" button on the keyboard).
 
-[![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)\*\*
+[![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)
 
 #### 2\. Inserting your Pivot Table
 
-\*\*
-
 Now all of the data is selected. \[If you are using Excel 2013\], click on the "Insert" tab in the top menu and then click "Pivot Table" along the left. A pop-up window will appear that says "Create Pivot Table.” Leave the options as their defaults and just click "OK", and Excel will make a new pivot table in a new worksheet.
 
-[![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)\*\*
+[![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)
 
 #### 3\. Sorting by Party
 
-\*\*
-
 Now that your skeleton pivot table is ready, we can make some calculations. On the right is a window titled "Pivot Table Field List." Click on "Party" and drag/add it to the "Row Labels" area. This will sort everything by whatever value is listed in the "Party" field. Notice that "Party" is now listed in the lower right window called "Row Labels." If done correctly, we'll get all three of our parties loaded into Column A.
 
-[![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)\*\*
+[![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)
 
 #### 4\. Determine average age
-
-\*\*
 
 Next, let's check out the age composition of Opendya’s three parties: Draconia, Shireling and Zalog. Take "Age" and drag and drop the field into the "Values" section on the bottom of your Pivot Table Field List. If all goes well, the pivot table should default to showing a count all of the cells that have a value for "Age" according to political party. You can check this by hovering your mouse pointer over the values in Column B, and a note should say "Count of Age." Notice that now "Count of Age" is listed in the lower right window under "Values." If you've done it correctly, it should display 131 for Draconia, 92 for Shireling, and 67 for Zalog. See the image below for confirmation.
 

@@ -51,7 +51,7 @@ Now that you know how to practice good data hygiene, let's re-examine that polli
 
 ## Practical Exercise: (Re)Examine the Polling Station List using Excel
 
-In the [first module of Election Data Academy](/en/academy/reviewing-a-polling-station-list/), we examined a [polling station list (in XLS format)](/files/academy/exercise/Polling_Station_List_2008.xls). In theory, the file is supposed to contain the list of all polling stations in a country.[\[1\]](#footnote-1) Open that file and take another look at the data. As you scroll through it, ask yourself these questions:
+In the [first module of Election Data Academy](/en/academy/reviewing-a-polling-station-list/), we examined a [polling station list (in XLS format)](/files/academy/exercise/Polling_Station_List_2008.xls). In theory, the file is supposed to contain the list of all polling stations in a country.[^1] Open that file and take another look at the data. As you scroll through it, ask yourself these questions:
 
 - Does it seem like anything is missing?
 - Is the data structured in a way that makes sense?
@@ -96,7 +96,7 @@ In this 2008 Polling Station List, you can see that the average number of regist
 
 ### Or Use the Analysis Toolpak and Have Excel Calculate All of the Statistics
 
-If you have the "Analysis Toolpak" installed[\[2\]](#footnote-2), go to the Data tab where you should see "Data Analysis" listed on the far right.
+If you have the "Analysis Toolpak" installed[^2], go to the Data tab where you should see "Data Analysis" listed on the far right.
 
 [![Image 5](/assets/images/academy/application-summarizing-the-polling-station-data/image5.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image5.png)
 
@@ -112,7 +112,7 @@ Now you will be able to select the range you want to describe. We are interested
 
 [![Image 8](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)
 
-Then, click back on that box to the right of input (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png)).
+Then, click back on that box to the right of input (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png){:class="img--inline"}).
 
 [![Image 9](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)
 
@@ -135,5 +135,5 @@ Now that you have the summary statistics for the Registered Voters variable, how
 - What is in each row?
 - What is in each column?
 
-1.  [](#reference-1)The list is based on the 2008 list of polling stations for Ghana. Some of the information may have been modified and adjusted to highlight the concepts here.
-2.  [](#reference-2)To install it, select the File tab, then choose "Options" near the end of the list on the left. In the new "Excel Options" window, select "Add-ins." "Analysis Toolpak" should be listed. Click to highlight it and then click "Go" at the bottom of that window. A new window will pop up called "Add-Ins." Under "Add-Ins Available", click the checkbox next to "Analysis Tookpak" and then click "OK." Now under the "Data" tab, you should have "Data Analysis" should appear as an option on the far right.
+[^1]: The list is based on the 2008 list of polling stations for Ghana. Some of the information may have been modified and adjusted to highlight the concepts here.
+[^2]: To install it, select the File tab, then choose "Options" near the end of the list on the left. In the new "Excel Options" window, select "Add-ins." "Analysis Toolpak" should be listed. Click to highlight it and then click "Go" at the bottom of that window. A new window will pop up called "Add-Ins." Under "Add-Ins Available", click the checkbox next to "Analysis Tookpak" and then click "OK." Now under the "Data" tab, you should have "Data Analysis" should appear as an option on the far right.

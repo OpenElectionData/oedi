@@ -97,35 +97,25 @@ Compte tenu de ce que vous savez sur les trois partis politiques en compétition
 
 Suivez ces étapes faciles pour réaliser votre tableau croisé dynamique.
 
-\*\*
-
 #### 1\. Sélectionnez Tout
-
-\*\*
 
 Pour commencer, vous devez sélectionner toutes les données dans l'onglet "Candidate_Information" de votre feuille de calcul. Pour ce faire, cliquez sur le carré en haut à gauche de la feuille contenant le petit triangle. Vous pouvez également cliquer sur la cellule A1 ("Full_name"), puis sur Control + A (en maintenant le bouton "Ctrl" enfoncé tout en appuyant sur la touche "A" du clavier).
 
-[![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)\*\*
+[![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)
 
 #### 2\. Insérer votre tableau croisé dynamique
 
-\*\*
-
 Maintenant, toutes les données sont sélectionnées. \[Si vous utilisez Excel 2013\], cliquez sur l'onglet "Insert" dans le menu supérieur, puis cliquez sur "Pivot Table" sur la gauche. Une fenêtre apparaîtra qui dit «"Create Pivot Table». Laissez les options comme valeurs par défaut et cliquez sur «OK», et Excel créera un nouveau tableau croisé dynamique dans une nouvelle feuille de calcul.
 
-[![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)\*\*
+[![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)
 
 #### 3\. Trier par parti
 
-\*\*
-
 Maintenant que votre tableau croisé dynamique est prêt, nous pouvons faire quelques calculs. Sur la droite vous trouverez une fenêtre intitulée "Pivot Table Field List". Cliquez sur "Party" et faites-le glisser / ajouter à la zone "Row Labels". Cela va tout trier pour toutes les valeurs répertoriées dans le champ "Party". Notez que "Party" est maintenant répertorié dans la fenêtre inférieure droite appelée "Row Labels". Si cela est fait correctement, les trois partis seront insérés dans la colonne A.
 
-[![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)\*\*
+[![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)
 
 #### 4\. Déterminer l'âge moyen
-
-\*\*
 
 Ensuite, observons la composition par âge des trois partis d'Opendya: Draconia, Shireling et Zalog. Prenez "Age" et faites le glisser et déposez le dans la section "Values" sur le bas de votre liste de champs du tableau croisé dynamique. Si tout se passe bien, le tableau croisé dynamique devrait afficher par défaut toutes les cellules qui ont une valeur pour "Age" selon le parti politique. Vous pouvez vérifier cela en passant le pointeur de votre souris sur les valeurs de la colonne B, et une note doit indiquer «Count of Age». Notez que maintenant "Count of Age" est répertorié dans la fenêtre inférieure droite sous "Values". Si vous l'avez fait correctement, le tableau doit afficher 131 pour Draconia, 92 pour Shireling et 67 pour Zalog. Voir l'image ci-dessous pour confirmation.
 

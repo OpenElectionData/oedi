@@ -95,35 +95,25 @@ Considerando lo que sabe acerca de los tres partidos políticos que contienden e
 
 Siga estos sencillos pasos para crear la tabla dinámica.
 
-\*\*
-
 #### 1\. Seleccionar todo
-
-\*\*
 
 Para comenzar, necesita seleccionar todos los datos que se encuentran en la pestaña “Candidate_Information” \[Información de candidatos\] de su hoja de cálculo. Para hacerlo, haga clic en el recuadro del lado superior izquierdo con el pequeño triángulo. También puede hacer clic en la celda A1 (“Full_name”) y luego oprima Control+T (es decir, oprima las teclas “Ctrl” y “T” al mismo tiempo).
 
-[![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)\*\*
+[![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)
 
 #### 2\. Insertar tabla dinámica
 
-\*\*
-
 Ahora que todos los datos están seleccionados, (si está utilizando Excel 2013) haga clic en la pestaña “Insert” \[Insertar\] que se encuentra en el menú superior y luego haga clic en “Pivot Table” \[Tabla dinámica\] del lado izquierdo. Aparecerá una ventana que dice “Create Pivot Table” \[Crear tabla dinámica\]. Deje las opciones como predeterminadas y solo haga clic en “OK” \[Aceptar\], y Excel creará una nueva tabla dinámica en una nueva hoja de cálculo.
 
-[![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)\*\*
+[![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)
 
 #### 3\. Ordenar por partido
 
-\*\*
-
 Una vez que ya se tiene la estructura de la tabla dinámica, podemos hacer algunos cálculos. En el lado derecho hay una ventana llamada “Pivot Table Field List” \[Campos de tabla dinámica\]. Haga clic en “Party” \[Partido\] y arrástrelo hacia abajo para agregarlo al área “Row Labels” \[Filas\]. Esto ordenará todo por el valor que se indica en el campo “Party”. Observe que “Party” ahora está incluido en la ventana inferior derecha llamada “Row Labels” \[Filas\]. Si se ha hecho correctamente, los tres partidos aparecerán en la Columna A.
 
-[![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)\*\*
+[![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)
 
 #### 4\. Determinar la edad promedio
-
-\*\*
 
 Ahora veremos cuál es la composición de edad de los tres partidos de Opendya: Draconia, Shireling y Zalog. Tome el campo “Age” \[Edad\] y arrástrelo hasta la sección “Values” \[Valores\] en la parte inferior de la tabla dinámica. Si todo sale bien, la tabla dinámica mostrará un conteo de todas las celdas que contengan un valor para el campo “Age” según el partido político. Para verificarlo, coloque el cursor sobre los valores de la Columna B y deberá aparecer una nota con la leyenda “Count of Age” \[Cuenta de Edad\]. Observe que ahora el texto “Count of Age” \[Cuenta de Edad\] aparece en la ventana inferior derecha, en el cuadro “Values” \[Valores\]. Si lo ha hecho correctamente, debe mostrar 131 para Draconia, 92 para Shireling, y 67 para Zalog. Vea la imagen que se muestra a continuación para confirmarlo.
 

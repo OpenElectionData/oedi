@@ -15,7 +15,7 @@ Cada elección tiene reglas acerca de quién puede postularse para las eleccione
 
 - la manera en que los partidos o candidatos solicitan el registro para contender en una elección,
 - la manera en que serán seleccionados, y
-- la manera en que aparecerán en la boleta electoral.[\[1\]](#footnote-1)
+- la manera en que aparecerán en la boleta electoral.[^1]
 
 Estas reglas no deben ser demasiado restrictivas ni discriminar a ningún grupo de ciudadanos (aunque normalmente, las reglas definen una edad mínima y, en algunos casos, limitaciones relacionadas con la ciudadanía de los padres y la doble nacionalidad). El proceso de registro de candidatos también debe tener un cronograma claro y realista, donde se les dé a los posibles contendientes electorales suficiente tiempo para emprender las acciones necesarias para calificar como candidatos. En muchos países, para obtener un lugar en la boleta electoral se requieren las firmas de cierto número de votantes registrados, algunas veces con una distribución geográfica mínima, o el pago de una cuota. En Kenia, por ejemplo, cualquier persona que quisiera lanzarse como candidato para las elecciones presidenciales de 2013, necesitaba 2,000 firmas de votantes registrados en más de la mitad (24) de los 47 condados del país.
 
@@ -27,4 +27,4 @@ El proceso de registro de candidatos ayuda a garantizar que los ciudadanos tenga
 
 Entre la información relacionada con el registro de candidatos se incluye: el cronograma y las reglas del proceso; información acerca de qué candidatos presentaron solicitud, qué candidatos fueron aceptados y qué candidatos fueron rechazados y por qué; los nombres de los signatarios de las nominaciones para cada candidato (con información geográfica, en su caso); y el número de firmas de nominación presentadas, aceptadas y rechazadas.
 
-1.  [](#reference-1)Las reglas para el registro de candidatos también se pueden aplicar al registro relacionado con referendos u otras iniciativas.
+[^1]: Las reglas para el registro de candidatos también se pueden aplicar al registro relacionado con referendos u otras iniciativas.

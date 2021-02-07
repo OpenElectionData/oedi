@@ -9,7 +9,7 @@ permalink: '/guide/key-categories/'
 
 ### Introduction
 
-Elections are complex, multi-step processes. "Election data" refers to information relating to aspects of the process throughout the electoral cycle.[\[1\]](#footnote-1) The [principles for open election data in Section 2](/en/guide/principles/) should be applied to all types of election data, keeping in mind that the specific data category and country context will affect exactly how the principles play out in practice. Actual applications of the open election data principles to specific categories of election data are explored in greater detail in [Section 4: Open Election Data in Practice: Examples from Latin America](/en/guide/country-examples/).
+Elections are complex, multi-step processes. "Election data" refers to information relating to aspects of the process throughout the electoral cycle.[^1] The [principles for open election data in Section 2](/en/guide/principles/) should be applied to all types of election data, keeping in mind that the specific data category and country context will affect exactly how the principles play out in practice. Actual applications of the open election data principles to specific categories of election data are explored in greater detail in [Section 4: Open Election Data in Practice: Examples from Latin America](/en/guide/country-examples/).
 
 This section outlines 16 of the key categories of election data starting with the pre-election period, progressing through election day and moving into the post-election period. Provided in this section are definitions of each category; explanations of how each relates to the [electoral integrity principles outlined in Section 1](/en/guide/electoral-integrity/); and descriptions of the specific types of information that fall under each category. Categories covered include:
 
@@ -125,4 +125,4 @@ Disputes and Resolution
 
 ](/en/guide/key-categories/complaints-and-disputes/)
 
-1.  [](#reference-1)For a detailed set of government commitments relating to the various areas of electoral transparency, including open electoral data, see the chapter by NDI entitled "Elections" in the Open Government Guide by the Transparency & Accountability Initiative: [http://www.opengovguide.com/topics/elections/](http://www.opengovguide.com/topics/elections/).
+[^1]: For a detailed set of government commitments relating to the various areas of electoral transparency, including open electoral data, see the chapter by NDI entitled "Elections" in the Open Government Guide by the Transparency & Accountability Initiative: [http://www.opengovguide.com/topics/elections/](http://www.opengovguide.com/topics/elections/).

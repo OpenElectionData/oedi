@@ -15,7 +15,7 @@ Electoral boundaries create geographical divisions or electoral constituencies f
 
 ### Why do electoral boundaries matter?
 
-Electoral boundaries create a strong geographic link between constituents and representatives, which allows constituents to hold their representatives accountable. Access to data on electoral districting provides the opportunity to evaluate the "equality of the vote" (equal suffrage) by comparing the proportion of voters to representatives across districts. With access to data about electoral boundaries, groups can identify discrimination in boundary delimitation or evidence of "gerrymandering[\[1\]](#footnote-1)." Population data such as a census is key to determining whether electoral districts are equitable. Civic groups, political parties and media can use information about the make-up and legal role of the boundary authority to determine if the entity is impartial and independent.
+Electoral boundaries create a strong geographic link between constituents and representatives, which allows constituents to hold their representatives accountable. Access to data on electoral districting provides the opportunity to evaluate the "equality of the vote" (equal suffrage) by comparing the proportion of voters to representatives across districts. With access to data about electoral boundaries, groups can identify discrimination in boundary delimitation or evidence of "gerrymandering[^1]." Population data such as a census is key to determining whether electoral districts are equitable. Civic groups, political parties and media can use information about the make-up and legal role of the boundary authority to determine if the entity is impartial and independent.
 
 ### Example electoral boundary data
 
@@ -23,4 +23,4 @@ Relevant data includes nominal, spatial and population data about electoral dist
 
 The public also should have access to the districting criteria used to justify electoral districting (in the electoral law, for example) as well as information on the composition of the boundary authority. For example, Canada's ten Federal Electoral Boundaries Commissions (FEBCs) operate independently to propose new boundaries, create new electoral maps and consult with citizens in their respective provinces. Each FEBC provides a list of scheduled public hearings, prior and proposed boundaries with maps and contact information on its website.
 
-1.  [](#reference-1)In the process of defining electoral districts, "gerrymandering" is a practice that establishes a political advantage for a particular party or group by manipulating district boundaries.
+[^1]: In the process of defining electoral districts, "gerrymandering" is a practice that establishes a political advantage for a particular party or group by manipulating district boundaries.

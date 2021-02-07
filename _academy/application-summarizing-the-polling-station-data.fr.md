@@ -51,7 +51,7 @@ Maintenant que vous savez comment pratiquer une «bonne hygiène de données», 
 
 ## Exercice Pratique: Examiner ou Réexaminer la Liste de Bureaux de Vote en utilisant Excel
 
-Dans [le deuxième module de l'Académie de Données Electorales](/fr/academy/reviewing-a-polling-station-list/), nous avons examiné [une liste de bureaux de vote (au format XLS)](/files/academy/exercise/Polling_Station_List_2008.xls). En théorie, le fichier est censé contenir la liste de tous les bureaux de vote dans un pays[\[1\]](#footnote-1). Ouvrez le fichier et jetez à nouveau un oeil aux données. Lorsque vous les faites défiler, posez-vous ces questions:
+Dans [le deuxième module de l'Académie de Données Electorales](/fr/academy/reviewing-a-polling-station-list/), nous avons examiné [une liste de bureaux de vote (au format XLS)](/files/academy/exercise/Polling_Station_List_2008.xls). En théorie, le fichier est censé contenir la liste de tous les bureaux de vote dans un pays[^1]. Ouvrez le fichier et jetez à nouveau un oeil aux données. Lorsque vous les faites défiler, posez-vous ces questions:
 
 - Est-ce qu'il y a quelque chose qui manque?
 - Est-ce que les données sont structurées d'une manière logique?
@@ -96,7 +96,7 @@ Dans cette liste des bureaux de vote 2008, vous pouvez voir que le nombre moyen 
 
 ### Ou Utilisez l'Utilitaire d'Analyse et Demandez à Excel de Calculer toutes les Statistiques
 
-Si vous avez le «Analysis Toolpak» («l'Utilitaire d'analyse») installé[\[2\]](#footnote-2), passez à l'onglet de Données où vous devez voir «Data Analysis» («Analyse des données») figurant à l'extrême droite.
+Si vous avez le «Analysis Toolpak» («l'Utilitaire d'analyse») installé[^2], passez à l'onglet de Données où vous devez voir «Data Analysis» («Analyse des données») figurant à l'extrême droite.
 
 [![Image 5](/assets/images/academy/application-summarizing-the-polling-station-data/image5.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image5.png)
 
@@ -112,7 +112,7 @@ Maintenant, vous serez en mesure de sélectionner la plage que vous voulez décr
 
 [![Image 8](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)
 
-Ensuite, cliquez pour revenir sur cette case à droite de la plage d'entrée (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png)).
+Ensuite, cliquez pour revenir sur cette case à droite de la plage d'entrée (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png){:class="img--inline"}).
 
 [![Image 9](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)
 
@@ -135,5 +135,5 @@ Maintenant que vous avez les statistiques sommaires pour la variable des «Regis
 - Qu'est-ce que l'on trouve dans chaque ligne?
 - Qu'est-ce que l'on trouve dans chaque colonne?
 
-1.  [](#reference-1)La liste est basée sur la liste des bureaux de vote au Ghana en 2008. Certains renseignements peuvent avoir été modifiés et ajustés pour mettre en évidence les concepts présentés ici.
-2.  [](#reference-2)Pour l' installer, sélectionnez l'onglet Fichier, puis sélectionnez «Options» («Options») vers la fin de la liste à gauche. Dans la nouvelle fenêtre «Excel Options» («Options Excel»), sélectionnez «Compléments.» «Analysis Tookpak» («Analysis Tookpak») doit être répertorié. Cliquez pour mettre en surbrillance, puis cliquez sur «Atteindre» au bas de cette fenêtre. Une nouvelle fenêtre apparaitra appelée «Add-Ins.» («Macro-Complémentaires») Sous «Add-Ins Available» («Macro-Complémentaires Disponibles»), cliquez sur la case à côté de «Analysis Tookpak» («Analysis Tookpak») puis cliquez sur «OK». Maintenant, sous l'onglet «Data» (Données), vous devriez avoir «Data Analysis» («Analyse des données») doit apparaître comme une option à l'extrême droite.
+[^1]: La liste est basée sur la liste des bureaux de vote au Ghana en 2008. Certains renseignements peuvent avoir été modifiés et ajustés pour mettre en évidence les concepts présentés ici.
+[^2]: Pour l' installer, sélectionnez l'onglet Fichier, puis sélectionnez «Options» («Options») vers la fin de la liste à gauche. Dans la nouvelle fenêtre «Excel Options» («Options Excel»), sélectionnez «Compléments.» «Analysis Tookpak» («Analysis Tookpak») doit être répertorié. Cliquez pour mettre en surbrillance, puis cliquez sur «Atteindre» au bas de cette fenêtre. Une nouvelle fenêtre apparaitra appelée «Add-Ins.» («Macro-Complémentaires») Sous «Add-Ins Available» («Macro-Complémentaires Disponibles»), cliquez sur la case à côté de «Analysis Tookpak» («Analysis Tookpak») puis cliquez sur «OK». Maintenant, sous l'onglet «Data» (Données), vous devriez avoir «Data Analysis» («Analyse des données») doit apparaître comme une option à l'extrême droite.

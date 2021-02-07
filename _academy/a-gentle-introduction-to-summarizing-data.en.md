@@ -43,7 +43,7 @@ These two ways of describing the data are also referred to as descriptive statis
 
 ### 1\. The Center: What is Typical? (Central Tendencies)
 
-The three common ways of looking at the center are **average** (also called mean), **mode** and **median**. All three summarize a distribution of the data by describing the typical value of a variable (average), the most frequently repeated number (mode), or the number in the middle of all the other numbers in a data set (median).[\[1\]](#footnote-1) In this module, we are going to focus on the average. The average is the most appropriate way to measure the center for interval/continuous data (e.g, numbers of registered voters). To calculate the average, we add up all the numbers for a variable and then divide by how many numbers there are. Put another way the **average (mean) is the sum divided by the count**.
+The three common ways of looking at the center are **average** (also called mean), **mode** and **median**. All three summarize a distribution of the data by describing the typical value of a variable (average), the most frequently repeated number (mode), or the number in the middle of all the other numbers in a data set (median).[^1] In this module, we are going to focus on the average. The average is the most appropriate way to measure the center for interval/continuous data (e.g, numbers of registered voters). To calculate the average, we add up all the numbers for a variable and then divide by how many numbers there are. Put another way the **average (mean) is the sum divided by the count**.
 
 #### Simple Example
 
@@ -88,7 +88,7 @@ Two other related measures of dispersion--the variance and the standard deviatio
 
 #### Standard Deviation
 
-The standard deviation provides us with a standard way of knowing what is normal[\[2\]](#footnote-2) given the average. A really helpful attribute of the standard deviation is that it is expressed in the same units as the data itself. The standard deviation is like an "index of variability," because it is proportional to the scatter of the data. The standard deviation is larger for more diverse distributions (i.e., the data are widely scattered). The standard deviation is smaller for less diverse distributions (i.e., the data are clustered together).
+The standard deviation provides us with a standard way of knowing what is normal[^2] given the average. A really helpful attribute of the standard deviation is that it is expressed in the same units as the data itself. The standard deviation is like an "index of variability," because it is proportional to the scatter of the data. The standard deviation is larger for more diverse distributions (i.e., the data are widely scattered). The standard deviation is smaller for less diverse distributions (i.e., the data are clustered together).
 
 The standard deviation is very useful for understanding the spread of a variable. For most "normally" distributed data, generally almost all of the values will be within three standard deviations of the average. In statistics, this is sometimes referred to as the **68-95-99.7 rule**. About 68.27% of the values lie within 1 standard deviation of the average (mean). Similarly, approximately 95.45% of the values lie within 2 standard deviations of the mean. Nearly all (99.73%) of the values lie within 3 standard deviations of the mean.
 
@@ -98,7 +98,7 @@ A diagram of the [68-95-99.7 rule](http://en.wikipedia.org/wiki/68%E2%80%9395%E2
 
 In [Module 3](/en/academy/application-summarizing-the-polling-station-data/), we use Excel to summarize the data in the 2008 polling station list.
 
-In the sample animal heights dataset, we've calculated the standard deviation for heights. It is 9.1 cm[\[3\]](#footnote-3). On the chart we have shaded the area to show what data is within three standard deviations (9.1 x 3) of the average. Any data within this range is "normal."
+In the sample animal heights dataset, we've calculated the standard deviation for heights. It is 9.1 cm[^3]. On the chart we have shaded the area to show what data is within three standard deviations (9.1 x 3) of the average. Any data within this range is "normal."
 
 [![Image 7](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
 
@@ -129,7 +129,7 @@ If you want to perform your own calculations, here is the [heights dataset](/fil
 
 Here are the two formulas for Standard Deviation, explained in the [Standard Deviation Formulas](http://www.mathsisfun.com/data/standard-deviation-formulas.html) section at the [Math is Fun](http://www.mathsisfun.com/) site.
 
-The **Population**[\[4\]](#footnote-4) Standard Deviation":
+The **Population**[^4] Standard Deviation":
 
 ![Formula 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
 
@@ -143,7 +143,7 @@ It looks complicated, but the important change is to divide by **N-1** (instead 
 
 All animal images copyright [Dashikka/Shutterstock](http://www.shutterstock.com/gallery-2155625p1.html).
 
-1.  [](#reference-1)To find the median, the formula is "( \[the number of data points\] + 1) ÷ 2", but you don't have to use the formula. If you prefer, you can just count in from both ends of the list until you meet in the middle. The mode is the number that is repeated more often than any other number. In a series of values of 2, 3, 4, 5, 4, 4, 6, 10, 12; the mode would be 4.
-2.  [](#reference-2)It is helpful to think of "normal" in probabilistic terms, where normal means something is highly possible or very typical.
-3.  [](#reference-3)We are skipping the calculation for the standard deviation for this module, because we want to focus on it as a concept and not get caught up in the formula. The formula for the standard deviation and variance are at the end of this module for those who may want it.
-4.  [](#reference-4)The term "population" means you are summarizing the entire (i.e., whole) dataset. The term "sample" means that you working with a smaller subset (i.e., a sample) of the larger dataset (i.e., population).
+[^1]: To find the median, the formula is "( \[the number of data points\] + 1) ÷ 2", but you don't have to use the formula. If you prefer, you can just count in from both ends of the list until you meet in the middle. The mode is the number that is repeated more often than any other number. In a series of values of 2, 3, 4, 5, 4, 4, 6, 10, 12; the mode would be 4.
+[^2]: It is helpful to think of "normal" in probabilistic terms, where normal means something is highly possible or very typical.
+[^3]: We are skipping the calculation for the standard deviation for this module, because we want to focus on it as a concept and not get caught up in the formula. The formula for the standard deviation and variance are at the end of this module for those who may want it.
+[^4]: The term "population" means you are summarizing the entire (i.e., whole) dataset. The term "sample" means that you working with a smaller subset (i.e., a sample) of the larger dataset (i.e., population).

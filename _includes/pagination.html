@@ -8,8 +8,8 @@
   {% endif %} {% if include.next != null %}
   <li class="pagination__next">
     <a href="{{ include.next_url }}"
-      ><i class="fas fa-long-arrow-alt-right"></i> {{ include.next }}</a
-    >
+      >{{ include.next }} <i class="fas fa-long-arrow-alt-right"></i
+    ></a>
   </li>
   {% endif %}
 </ul>

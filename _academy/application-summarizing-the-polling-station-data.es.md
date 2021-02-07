@@ -51,7 +51,7 @@ Ahora que ya sabe cuáles son las buenas prácticas de higiene de datos, revisem
 
 ## Ejercicio práctico: Analizar nuevamente la Lista de Centros de Votación utilizando Excel
 
-En el [segundo módulo de la Academia de Datos Electorales](/en/academy/reviewing-a-polling-station-list/) analizamos una [lista de centros de votación (en formato XLS)](/files/academy/exercise/Polling_Station_List_2008.xls). En teoría, se supone que el archivo contiene la lista de todos los centros de votación de un país[\[1\]](#footnote-1). Abra el archivo y revise nuevamente los datos. A medida que se desplace hacia abajo, hágase las siguientes preguntas:
+En el [segundo módulo de la Academia de Datos Electorales](/en/academy/reviewing-a-polling-station-list/) analizamos una [lista de centros de votación (en formato XLS)](/files/academy/exercise/Polling_Station_List_2008.xls). En teoría, se supone que el archivo contiene la lista de todos los centros de votación de un país[^1]. Abra el archivo y revise nuevamente los datos. A medida que se desplace hacia abajo, hágase las siguientes preguntas:
 
 - ¿Pareciera que falta algo?
 - ¿Los datos están estructurados de manera que tengan sentido?
@@ -96,7 +96,7 @@ En esta Lista de Centros de Votación de 2008 se puede apreciar que el número p
 
 ### Utilice las herramientas para análisis (Analysis Toolpak) y haga que Excel calcule todas las estadísticas.
 
-Si tiene instaladas "Analysis Toolpak" (las Herramientas para análisis)[\[2\]](#footnote-2), vaya a la pestaña "Data" (Datos), donde verá la opción "Data Analysis" (Análisis de datos) en el extremo derecho.
+Si tiene instaladas "Analysis Toolpak" (las Herramientas para análisis)[^2], vaya a la pestaña "Data" (Datos), donde verá la opción "Data Analysis" (Análisis de datos) en el extremo derecho.
 
 [![Image 5](/assets/images/academy/application-summarizing-the-polling-station-data/image5.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image5.png)
 
@@ -112,7 +112,7 @@ Ahora podrá seleccionar el rango que quiera describir. Estamos interesados en l
 
 [![Image 8](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)
 
-Luego, haga clic nuevamente en la casilla a la derecha de "input" (entrada) (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png)) y
+Luego, haga clic nuevamente en la casilla a la derecha de "input" (entrada) (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png){:class="img--inline"}) y
 
 [![Image 9](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)
 
@@ -135,5 +135,5 @@ Ahora que ya tiene el resumen de las estadísticas para la variable "Registered_
 - ¿Qué hay en cada fila?
 - ¿Qué hay en cada columna?
 
-1.  [](#reference-1)La lista se basa en la lista de centros de votación de 2008 en Ghana. Parte de la información puede haberse modificado y ajustado para resaltar los conceptos vistos aquí.
-2.  [](#reference-2)Para instalarlas, seleccione la pestaña "File" (Archivo), luego elija "Options" (Opciones) casi al final de la lista, del lado izquierdo. En la nueva ventana "Excel Options" (Opciones de Excel), seleccione "Add-in" (Complementos). La opción "Analysis Toolpak" (Herramientas para análisis) debe aparecer en la lista. Selecciónela y luego haga clic en "Go" (Ir) en la parte inferior de la ventana. Aparecerá una nueva ventana llamada "Add-ins" (Complementos). Debajo de "Add-ins Available" (Complementos disponibles), seleccione la casilla que está junto a "Analysis Toolpak" (Herramientas para análisis) y luego haga clic en "OK" (Aceptar). Ahora, en la pestaña "Data" (Datos), debe aparecer "Data Analysis" (Análisis de datos) como una opción en el extremo derecho.
+[^1]: La lista se basa en la lista de centros de votación de 2008 en Ghana. Parte de la información puede haberse modificado y ajustado para resaltar los conceptos vistos aquí.
+[^2]: Para instalarlas, seleccione la pestaña "File" (Archivo), luego elija "Options" (Opciones) casi al final de la lista, del lado izquierdo. En la nueva ventana "Excel Options" (Opciones de Excel), seleccione "Add-in" (Complementos). La opción "Analysis Toolpak" (Herramientas para análisis) debe aparecer en la lista. Selecciónela y luego haga clic en "Go" (Ir) en la parte inferior de la ventana. Aparecerá una nueva ventana llamada "Add-ins" (Complementos). Debajo de "Add-ins Available" (Complementos disponibles), seleccione la casilla que está junto a "Analysis Toolpak" (Herramientas para análisis) y luego haga clic en "OK" (Aceptar). Ahora, en la pestaña "Data" (Datos), debe aparecer "Data Analysis" (Análisis de datos) como una opción en el extremo derecho.

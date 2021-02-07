@@ -9,6 +9,13 @@
   padding: 2rem 0 0;
   border-top: 1px solid $color__gray-300;
 
+  > * {
+    @include breakpoint('medium') {
+      flex: 1 1 45%;
+      max-width: 50%;
+    }
+  }
+
   &__prev {
     justify-self: flex-start;
     margin: 0 auto 0 0;
@@ -20,11 +27,12 @@
   }
 
   i {
-    margin-right: 0.5rem;
+    margin: 0 0.5rem;
   }
 
   a {
-    display: block;
+    display: flex;
+    align-items: baseline;
     padding: 8px 16px;
     border: 1px solid $color__gray-500;
     border-radius: 50px;

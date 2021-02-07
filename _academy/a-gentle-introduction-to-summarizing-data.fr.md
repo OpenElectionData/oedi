@@ -43,7 +43,7 @@ Ces deux façons de décrire les données sont aussi appelées statistiques desc
 
 ### 1\. Le Centre : Qu'est ce qui est Typique? (Tendances Centrales)
 
-Les trois manières communes d'observer le centre sont la **moyenne**, le **mode** et la **médiane**. Elles résument toutes les trois une distribution de données en décrivant la valeur typique d'une variable (en moyenne), le nombre le plus fréquemment répété (mode), ou le nombre au milieu de tous les autres nombres dans un ensemble de données (médiane).[\[1\]](#footnote-1) Dans ce module, nous allons mettre l'accent sur la moyenne. La moyenne est la façon la plus appropriée pour mesurer le centre de données d'intervalle / continue (par exemple, nombre d'électeurs inscrits). Pour calculer la moyenne, on additionne tous les chiffres pour une variable, puis on divise par le nombre de chiffres qu'il y a. En d'autres termes **la moyenne est la somme divisée par le nombre**.
+Les trois manières communes d'observer le centre sont la **moyenne**, le **mode** et la **médiane**. Elles résument toutes les trois une distribution de données en décrivant la valeur typique d'une variable (en moyenne), le nombre le plus fréquemment répété (mode), ou le nombre au milieu de tous les autres nombres dans un ensemble de données (médiane).[^1] Dans ce module, nous allons mettre l'accent sur la moyenne. La moyenne est la façon la plus appropriée pour mesurer le centre de données d'intervalle / continue (par exemple, nombre d'électeurs inscrits). Pour calculer la moyenne, on additionne tous les chiffres pour une variable, puis on divise par le nombre de chiffres qu'il y a. En d'autres termes **la moyenne est la somme divisée par le nombre**.
 
 #### Exemple Simple
 
@@ -88,7 +88,7 @@ Deux autres mesures connexes de la dispersion - la variance et l'écart type - p
 
 #### L'Ecart-Type
 
-L'écart-type («écart-type») nous fournit un moyen standard de savoir ce qui est normal[\[2\]](#footnote-2) compte tenu de la moyenne. Un attribut très utile de l'écart type est qu'il est exprimé dans les mêmes unités que les données elles-même. L'écart type est comme un indice de la variabilité, car il est proportionnel à la dispersion des données. L'écart type est plus grand pour des distributions diverses (c., les données sont largement dispersés). L'écart type est plus faible pour des distributions moins diverses (par exemple, les données sont regroupées).
+L'écart-type («écart-type») nous fournit un moyen standard de savoir ce qui est normal[^2] compte tenu de la moyenne. Un attribut très utile de l'écart type est qu'il est exprimé dans les mêmes unités que les données elles-même. L'écart type est comme un indice de la variabilité, car il est proportionnel à la dispersion des données. L'écart type est plus grand pour des distributions diverses (c., les données sont largement dispersés). L'écart type est plus faible pour des distributions moins diverses (par exemple, les données sont regroupées).
 
 L'écart-type est très utile pour comprendre la répartition d'une variable. Pour la plupart des données normalement distribuées, généralement la quasi-totalité des valeurs aura un écart de trois écarts-types à la moyenne. Dans les statistiques, ce qui est parfois appelé **la règle 68-95-99.7**. 68,27% des valeurs se trouvent à moins d' 1 écart type de la moyenne (moyenne). De même, environ 95,45% des valeurs se situent à l'intérieur de deux écarts types de la moyenne. Presque toutes (99,73%) les valeurs se situent à trois écarts-types de la moyenne.
 
@@ -98,7 +98,7 @@ Un diagramme sur [la règle 68-95-99.7](https://en.wikipedia.org/wiki/68%E2%80%9
 
 Dans le [Module 3](/fr/academy/application-summarizing-the-polling-station-data/), nous utilisons Excel pour résumer les données dans la liste des bureaux de vote de 2008.
 
-Dans l'échantillon sur la série de données sur la taille des animaux nous avons calculé l'écart-type pour les tailles. Il est de 9,1 cm.[\[3\]](#footnote-3) Sur le graphique, nous avons la zone ombragée pour montrer quelles sont les données comprises dans les trois écart-types (9.1 x 3) à la moyenne. Toutes les données dans cette distribution sont normales.
+Dans l'échantillon sur la série de données sur la taille des animaux nous avons calculé l'écart-type pour les tailles. Il est de 9,1 cm.[^3] Sur le graphique, nous avons la zone ombragée pour montrer quelles sont les données comprises dans les trois écart-types (9.1 x 3) à la moyenne. Toutes les données dans cette distribution sont normales.
 
 [![Image 7](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)](/assets/images/academy/a-gentle-introduction-to-summarizing-data/image7.png)
 
@@ -129,7 +129,7 @@ Si vous voulez effectuer vos propres calculs, voici [la série de données sur l
 
 Voici les deux formules pour l'écart-type, expliquées dans la section [Formules des Ecart-Types](http://www.mathsisfun.com/data/standard-deviation-formulas.html) sur le site [Math is Fun](http://www.mathsisfun.com/) (les Maths c'est amusant).
 
-L'Ecart Type de **Population**[\[4\]](#footnote-4) «Standard Deviation»:
+L'Ecart Type de **Population**[^4] «Standard Deviation»:
 
 ![Formula 1](/assets/images/academy/a-gentle-introduction-to-summarizing-data/formula1.gif)
 
@@ -143,7 +143,7 @@ Cela semble compliqué, mais le changement important est de diviser par **N-1** 
 
 Toutes les images d'animaux sont de l'auteur [Dashikka/Shutterstock](http://www.shutterstock.com/gallery-2155625p1.html).
 
-1.  [](#reference-1)Pour trouver la médiane, la formule est «(\[le nombre de points de données\] + 1) ÷ 2», mais vous n'avez pas à utiliser la formule. Si vous préférez, vous pouvez simplement compter à partir des deux extremités jusqu'à ce que vous rencontrez le milieu. Le mode est le nombre qui se répète le plus souvent dans une distribution. Dans une série de valeurs de 2, 3, 4, 5, 4, 4, 6, 10, 12; le mode est 4.
-2.  [](#reference-2)Il est utile de penser à «normale» en termes probabilistes, où «normal» signifie quelque chose de très possible ou très typique.
-3.  [](#reference-3)Nous passons le calcul de l'écart-type pour ce module, parce que nous voulons nous concentrer sur le concept plutôt que de se laisser prendre dans la formule. La formule pour l'écart-type et la variance sont à la fin de ce module pour ceux veulent les consulter.
-4.  [](#reference-4)Le terme «population» signifie que vous résumez l'ensemble de la série de données. Le terme «échantillon» signifie que vous travaillez avec un petit sous-ensemble (ie, un échantillon) d'un ensemble de données plus vaste (population).
+[^1]: Pour trouver la médiane, la formule est «(\[le nombre de points de données\] + 1) ÷ 2», mais vous n'avez pas à utiliser la formule. Si vous préférez, vous pouvez simplement compter à partir des deux extremités jusqu'à ce que vous rencontrez le milieu. Le mode est le nombre qui se répète le plus souvent dans une distribution. Dans une série de valeurs de 2, 3, 4, 5, 4, 4, 6, 10, 12; le mode est 4.
+[^2]: Il est utile de penser à «normale» en termes probabilistes, où «normal» signifie quelque chose de très possible ou très typique.
+[^3]: Nous passons le calcul de l'écart-type pour ce module, parce que nous voulons nous concentrer sur le concept plutôt que de se laisser prendre dans la formule. La formule pour l'écart-type et la variance sont à la fin de ce module pour ceux veulent les consulter.
+[^4]: Le terme «population» signifie que vous résumez l'ensemble de la série de données. Le terme «échantillon» signifie que vous travaillez avec un petit sous-ensemble (ie, un échantillon) d'un ensemble de données plus vaste (population).

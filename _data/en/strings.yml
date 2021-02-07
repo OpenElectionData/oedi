@@ -3,10 +3,10 @@ signup: Sign up
 signup_updates: Sign up for updates
 signup_email_label: Please enter your email to receive updates when new modules or tools are added
 signup_email_placeholder: Enter email
-signup_captcha: "To reassure us that you are human:"
+signup_captcha: 'To reassure us that you are human:'
 toc: Table of Contents
 modules: Modules
-legend: "Legend:"
+legend: 'Legend:'
 openness: Openness
 mostly_open: Mostly Open
 partially_open: Partially Open
@@ -15,12 +15,12 @@ country: Country
 principle: Principle
 points_possible: Points Possible
 total: Total
-election_evaluated: "Election Evaluated:"
-last_checked: "Last Checked:"
-open_data_info: "Open Data Information:"
+election_evaluated: 'Election Evaluated:'
+last_checked: 'Last Checked:'
+open_data_info: 'Open Data Information:'
 category: Category
-"yes": "Yes"
-"no": "No"
+'yes': 'Yes'
+'no': 'No'
 unclear: Unclear
 not_found: Not Found
 previous: Previous
@@ -29,3 +29,6 @@ back: Back
 back_to: Back to
 data_inventory: Data Inventory
 read_more: Read More
+name: Name
+email: Email
+signup_looking_for_info: "I'm looking for information on:"

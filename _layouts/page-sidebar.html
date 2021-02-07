@@ -45,9 +45,17 @@ null %} {% assign nextUrl = null %}
       </li>
       {% endif %} {% endfor %}
     </ul>
-    {% elsif page.is_academy == true %} {% assign lang = site.active_lang %} {%
-    if lang.nil %} {% assign lang = 'en' %} {% endif %} {% assign items =
-    site.academy | where: 'lang', lang | sort: 'module_id', 'last' %}
+    {% assign lang = site.active_lang %} {% assign items = site.guide | where:
+    'lang', lang | sort: 'chapter_id', 'last' %} {% for item in items %} {%- if
+    page.url == item.url -%} {%- unless forloop.first -%} {%- assign prevId =
+    forloop.index0 | minus: 1 -%} {%- assign prevLabel = items[prevId].title -%}
+    {%- assign prevUrl = items[prevId].url -%} {%- endunless -%} {%- unless
+    forloop.last -%} {%- assign nextId = forloop.index0 | plus: 1 -%} {%- assign
+    nextLabel = items[nextId].title -%} {%- assign nextUrl = items[nextId].url
+    -%} {%- endunless -%} {%- endif -%} {%- endfor -%} {% elsif page.is_academy
+    == true %} {% assign lang = site.active_lang %} {% if lang.nil %} {% assign
+    lang = 'en' %} {% endif %} {% assign items = site.academy | where: 'lang',
+    lang | sort: 'module_id', 'last' %}
 
     <h2>{{ site.data.strings.modules }}</h2>
     <ul>
@@ -92,8 +100,9 @@ null %} {% assign nextUrl = null %}
     {% endif %}
   </section>
   <footer class="page__footer">
-    {% if page.url == '/academy/' %} {% assign nextLabel = items[0].title %} {%
-    assign nextUrl = items[0].url %} {% endif %} {% include pagination.html
-    prev=prevLabel prev_url=prevUrl next=nextLabel next_url=nextUrl %}
+    {% if page.url == '/academy/' or page.url == '/guide/' %} {% assign
+    nextLabel = items[0].title %} {% assign nextUrl = items[0].url %} {% endif
+    %} {% include pagination.html prev=prevLabel prev_url=prevUrl next=nextLabel
+    next_url=nextUrl %}
   </footer>
 </article>

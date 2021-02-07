@@ -13,59 +13,71 @@ permalink: '/guide/principles/'
 
 ဤအပိုင်းတွင် ဖော်ပြထားသည့်အတိုင်း ရွေးကောက်ပွဲ သတင်းအချက်အလက် ‘ပွင့်လင်းမြင်သာဖြစ်ခြင်း’ ဆိုသည်မှာ
 
-[![Timely](/assets/images/inventory/principles/timely.png)
+<div class="img-grid text--small">
+  <figure>
+  <a href="/my/guide/principles/timely/">
+  <img src="/assets/images/inventory/principles/timely.png" alt="" />
+  <figcaption>အချိန်နှင့်တပြေးညီဖြစ်ခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-အချိန်နှင့်တပြေးညီဖြစ်ခြင်း၊
+  <figure>
+  <a href="/my/guide/principles/granular/">
+  <img src="/assets/images/inventory/principles/granular.png" alt="" />
+  <figcaption>အသေးစိတ်လုပ်ထားခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-](/my/guide/principles/timely/)
+  <figure>
+  <a href="/my/guide/principles/available-for-free/">
+  <img src="/assets/images/inventory/principles/available-for-free.png" alt="" />
+  <figcaption>အင်တာနက်တွင် အခမဲ့ရယူနိုင်ခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-[![Granular](/assets/images/inventory/principles/granular.png)
+  <figure>
+  <a href="/my/guide/principles/complete-and-in-bulk/">
+  <img src="/assets/images/inventory/principles/complete-and-in-bulk.png" alt="" />
+  <figcaption>ပြီးပြည့်စုံပြီး တစ်စုတစ်စည်းတည်းဖြစ်ခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-အသေးစိတ်လုပ်ထားခြင်း၊
+  <figure>
+  <a href="/my/guide/principles/analyzable/">
+  <img src="/assets/images/inventory/principles/analyzable.png" alt="" />
+  <figcaption>သုံးသပ်မှုပြုနိုင်ခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-](/my/guide/principles/granular/)
+  <figure>
+  <a href="/my/guide/principles/non-proprietary/">
+  <img src="/assets/images/inventory/principles/non-proprietary.png" alt="" />
+  <figcaption>ဘက်လိုက်မှုကင်းခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-[![Available for free on the internet](/assets/images/inventory/principles/available-for-free.png)
+  <figure>
+  <a href="/my/guide/principles/non-discriminatory/">
+  <img src="/assets/images/inventory/principles/non-discriminatory.png" alt="" />
+  <figcaption>မူပိုင်ခွင့်ကင်းလွတ်ခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-အင်တာနက်တွင် အခမဲ့ရယူနိုင်ခြင်း၊
+  <figure>
+  <a href="/my/guide/principles/license-free/">
+  <img src="/assets/images/inventory/principles/license-free.png" alt="" />
+  <figcaption>လိုင်စင်မဲ့ဖြစ်ခြင်းနှင့် အမြဲတမ်းရရှိနိုင်ခြင်း</figcaption>
+  </a>
+  </figure>
 
-](/my/guide/principles/available-for-free/)
+  <figure>
+  <a href="/my/guide/principles/permanently-available/">
+  <img src="/assets/images/inventory/principles/permanently-available.png" alt="" />
+  <figcaption>တို့ဖြစ်သည်။</figcaption>
+  </a>
+  </figure>
 
-[![Complete and in bulk](/assets/images/inventory/principles/complete-and-in-bulk.png)
-
-ပြီးပြည့်စုံပြီး တစ်စုတစ်စည်းတည်းဖြစ်ခြင်း၊
-
-](/my/guide/principles/complete-and-in-bulk/)
-
-[![Analyzable](/assets/images/inventory/principles/analyzable.png)
-
-သုံးသပ်မှုပြုနိုင်ခြင်း၊
-
-](/my/guide/principles/analyzable/)
-
-[![Non-proprietary](/assets/images/inventory/principles/non-proprietary.png)
-
-ဘက်လိုက်မှုကင်းခြင်း၊
-
-](/my/guide/principles/non-proprietary/)
-
-[![Non-discriminatory](/assets/images/inventory/principles/non-discriminatory.png)
-
-မူပိုင်ခွင့်ကင်းလွတ်ခြင်း၊
-
-](/my/guide/principles/non-discriminatory/)
-
-[![License-free](/assets/images/inventory/principles/license-free.png)
-
-လိုင်စင်မဲ့ဖြစ်ခြင်းနှင့် အမြဲတမ်းရရှိနိုင်ခြင်း
-
-](/my/guide/principles/license-free/)
-
-[![Permanently available](/assets/images/inventory/principles/permanently-available.png)
-
-တို့ဖြစ်သည်။
-
-](/my/guide/principles/permanently-available/)
+</div>
 
 ပွင့်လင်းသတင်းအချက်အလက် အထူးသဖြင့် ရွေးကောက်ပွဲဆိုင်ရာ ပွင့်လင်းသတင်းအချက်လက်များအား ကြီးမားသည့် အရင်းအမြစ်တစ်ခုအဖြစ် အသုံးပြုလာကြသည်မှာ အချိန် မကြာသေးပေ။ နယ်ပယ်တစ်ခုအနေဖြင့် နုနယ်သေးသော်လည်း ကမ္ဘာတစ်ဝှမ်းလုံးတွင် ပွင့်လင်းသတင်းအချက်အလက်ကို လူမှုရေး၊ စီးပွားရေးတန်ဖိုးများ ဖန်တီးရန်အတွက် အသုံးချသည့် သာဓကများစွာ ရှိနင့်နေပြီဖြစ်သည်။ ရွေးကောက်ပွဲသတင်းအချက်အလက်များအား “ဖွင့်”ပေးလိုက်သည့်အခါ
 

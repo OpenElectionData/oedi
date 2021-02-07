@@ -13,100 +13,119 @@ permalink: '/guide/key-categories/'
 
 ဤအပိုင်းတွင် ရွေးကောက်ပွဲအကြို၊ ရွေးကောက်ပွဲနေ့နှင့် ရွေးကောက်ပွဲလွန် ကာလသုံးခုလုံးနှင့် အကျုံးဝင်သည့် ရွေးကောက်ပွဲ အချက်အလက် ကဏ္ဍ (၁၆) ခုအား ဖော်ပြထားသည်။ ဤအပိုင်းတွင် ကဏ္ဍတစ်ခုချင်းစီ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်၊ ကဏ္ဍတစ်ခုချင်းစီနှင့် အခန်း (၁) ဖော်ပြခဲ့သည့် [ရွေးကောက်ပွဲ သမာသမတ်ကျမှု မူများ](/my/guide/electoral-integrity/) ဆက်စပ်ပုံများအား ရှင်းပြချက်၊ ကဏ္ဍတစ်ခုချင်းစီအတွက် အကျုံးဝင်သည့် သတင်းအချက်အလက် အမျိုးအစား ဖော်ပြချက်များ ပါဝင်သည်။ ဖော်ပြထားသည့် ကဏ္ဍရပ်များမှာ
 
-[![Legal Framework](/assets/images/inventory/categories/legal-framework.png)
+<div class="img-grid text--small">
+  <figure>
+  <a href="/my/guide/key-categories/legal-framework/">
+  <img src="/assets/images/inventory/categories/legal-framework.png" alt="" />
+  <figcaption>တရားဥပဒေမူဘောင်၊ မဲဆန္ဒနယ်များ၊</figcaption>
+  </a>
+  </figure>
 
-တရားဥပဒေမူဘောင်၊ မဲဆန္ဒနယ်များ၊
+  <figure>
+  <a href="/my/guide/key-categories/electoral-boundaries/">
+  <img src="/assets/images/inventory/categories/electoral-boundaries.png" alt="" />
+  <figcaption>ရွေးကောက်ပွဲ စီမံကျင်းပရေးအဖွဲ့နှင့် အုပ်ချုပ်ရေး၊</figcaption>
+  </a>
+  </figure>
 
-](/my/guide/key-categories/legal-framework/)
+  <figure>
+  <a href="/my/guide/key-categories/emb-administration/">
+  <img src="/assets/images/inventory/categories/election-management-body-and-administration.png" alt="" />
+  <figcaption>ရွေးကောက်ပွဲ စီမံကျင်းပရေး အဖွဲ့နှင့် သက်ဆိုင်သည့် ဖြစ်စဉ်များ၊</figcaption>
+  </a>
+  </figure>
 
-[![Electoral Boundaries](/assets/images/inventory/categories/electoral-boundaries.png)
+  <figure>
+  <a href="/my/guide/key-categories/emb-processes/">
+  <img src="/assets/images/inventory/categories/election-management-body-processes.png" alt="" />
+  <figcaption>ရွေးကောက်ပွဲလုံခြုံရေး၊</figcaption>
+  </a>
+  </figure>
 
-ရွေးကောက်ပွဲ စီမံကျင်းပရေးအဖွဲ့နှင့် အုပ်ချုပ်ရေး၊
+  <figure>
+  <a href="/my/guide/key-categories/security/">
+  <img src="/assets/images/inventory/categories/security.png" alt="" />
+  <figcaption>နိုင်ငံရေးပါတီများ မှတ်ပုံတင်ခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-](/my/guide/key-categories/electoral-boundaries/)
+  <figure>
+  <a href="/my/guide/key-categories/political-party-registration/">
+  <img src="/assets/images/inventory/categories/political-party-registration.png" alt="" />
+  <figcaption>မဲပြားပေါ်တွင်ဖော်ပြခံရန် လိုအပ်သည့် အရည်အချင်းများ၊</figcaption>
+  </a>
+  </figure>
 
-[![EMB Administration](/assets/images/inventory/categories/election-management-body-and-administration.png)
+  <figure>
+  <a href="/my/guide/key-categories/ballot-qualification/">
+  <img src="/assets/images/inventory/categories/ballot-qualification.png" alt="" />
+  <figcaption>မဲဆွယ်စည်းရုံးရေး၊</figcaption>
+  </a>
+  </figure>
 
-ရွေးကောက်ပွဲ စီမံကျင်းပရေး အဖွဲ့နှင့် သက်ဆိုင်သည့် ဖြစ်စဉ်များ၊
+  <figure>
+  <a href="/my/guide/key-categories/election-campaigns/">
+  <img src="/assets/images/inventory/categories/election-campaigns.png" alt="" />
+  <figcaption>မဲဆွယ်စည်းရုံးရေးဆိုင်ရာ ငွေကြေးသုံးစွဲမှု၊ မဲဆန္ဒရှင်များအား</figcaption>
+  </a>
+  </figure>
 
-](/my/guide/key-categories/emb-administration/)
+  <figure>
+  <a href="/my/guide/key-categories/campaign-finance/">
+  <img src="/assets/images/inventory/categories/campaign-finance.png" alt="" />
+  <figcaption>မှတ်ပုံတင်ခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-[![EMB Processes](/assets/images/inventory/categories/election-management-body-processes.png)
+  <figure>
+  <a href="/my/guide/key-categories/voter-registration/">
+  <img src="/assets/images/inventory/categories/voter-registration.png" alt="" />
+  <figcaption>မဲဆန္ဒရှင်စာရင်း၊</figcaption>
+  </a>
+  </figure>
 
-ရွေးကောက်ပွဲလုံခြုံရေး၊
+  <figure>
+  <a href="/my/guide/key-categories/voter-lists/">
+  <img src="/assets/images/inventory/categories/voter-lists.png" alt="" />
+  <figcaption>မဲဆန္ဒရှင်များအား ပညာပေးခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-](/my/guide/key-categories/emb-processes/)
+  <figure>
+  <a href="/my/guide/key-categories/voter-education/">
+  <img src="/assets/images/inventory/categories/voter-education.png" alt="" />
+  <figcaption>မဲရုံများ၊</figcaption>
+  </a>
+  </figure>
 
-[![Election Security](/assets/images/inventory/categories/security.png)
+  <figure>
+  <a href="/my/guide/key-categories/polling-stations/">
+  <img src="/assets/images/inventory/categories/polling-stations.png" alt="" />
+  <figcaption>ရွေးကောက်ပွဲရလဒ်၊ အီလက်ထရွန်းနစ် စနစ်ဖြင့် မဲပေးခြင်း/မဲရေတွက်ခြင်း၊</figcaption>
+  </a>
+  </figure>
 
-နိုင်ငံရေးပါတီများ မှတ်ပုံတင်ခြင်း၊
+  <figure>
+  <a href="/my/guide/key-categories/election-results/">
+  <img src="/assets/images/inventory/categories/election-results-official-final.png" alt="" />
+  <figcaption>ရွေးကောက်ပွဲနှင့်ဆက်စပ်သည့် တိုင်တန်းချက်များ၊</figcaption>
+  </a>
+  </figure>
 
-](/my/guide/key-categories/security/)
+  <figure>
+  <a href="/my/guide/key-categories/electronic-voting/">
+  <img src="/assets/images/inventory/categories/electronic-voting.png" alt="" />
+  <figcaption>အငြင်းပွားမှုများနှင့် အငြင်းပွားမှုများ</figcaption>
+  </a>
+  </figure>
 
-[![Political Party Registration](/assets/images/inventory/categories/political-party-registration.png)
+  <figure>
+  <a href="/my/guide/key-categories/complaints-and-disputes/">
+  <img src="/assets/images/inventory/categories/electoral-complaints-and-disputes.png" alt="" />
+  <figcaption>ဖြေရှင်းခြင်း တို့ဖြစ်သည်။</figcaption>
+  </a>
+  </figure>
 
-မဲပြားပေါ်တွင်ဖော်ပြခံရန် လိုအပ်သည့် အရည်အချင်းများ၊
-
-](/my/guide/key-categories/political-party-registration/)
-
-[![Ballot Qualification](/assets/images/inventory/categories/ballot-qualification.png)
-
-မဲဆွယ်စည်းရုံးရေး၊
-
-](/my/guide/key-categories/ballot-qualification/)
-
-[![Election Campaigns](/assets/images/inventory/categories/election-campaigns.png)
-
-မဲဆွယ်စည်းရုံးရေးဆိုင်ရာ ငွေကြေးသုံးစွဲမှု၊ မဲဆန္ဒရှင်များအား
-
-](/my/guide/key-categories/election-campaigns/)
-
-[![Campaign Finance](/assets/images/inventory/categories/campaign-finance.png)
-
-မှတ်ပုံတင်ခြင်း၊
-
-](/my/guide/key-categories/campaign-finance/)
-
-[![Voter Registration](/assets/images/inventory/categories/voter-registration.png)
-
-မဲဆန္ဒရှင်စာရင်း၊
-
-](/my/guide/key-categories/voter-registration/)
-
-[![Voter Lists](/assets/images/inventory/categories/voter-lists.png)
-
-မဲဆန္ဒရှင်များအား ပညာပေးခြင်း၊
-
-](/my/guide/key-categories/voter-lists/)
-
-[![Voter Education](/assets/images/inventory/categories/voter-education.png)
-
-မဲရုံများ၊
-
-](/my/guide/key-categories/voter-education/)
-
-[![Polling Stations](/assets/images/inventory/categories/polling-stations.png)
-
-ရွေးကောက်ပွဲရလဒ်၊ အီလက်ထရွန်းနစ် စနစ်ဖြင့် မဲပေးခြင်း/မဲရေတွက်ခြင်း၊
-
-](/my/guide/key-categories/polling-stations/)
-
-[![Election Results](/assets/images/inventory/categories/election-results-official-final.png)
-
-ရွေးကောက်ပွဲနှင့်ဆက်စပ်သည့် တိုင်တန်းချက်များ၊
-
-](/my/guide/key-categories/election-results/)
-
-[![E-voting and Counting](/assets/images/inventory/categories/electronic-voting.png)
-
-အငြင်းပွားမှုများနှင့် အငြင်းပွားမှုများ
-
-](/my/guide/key-categories/electronic-voting/)
-
-[![Electoral Complaints, Disputes and Resolution](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
-
-ဖြေရှင်းခြင်း တို့ဖြစ်သည်။
-
-](/my/guide/key-categories/complaints-and-disputes/)
+</div>
 
 [^1]: ပွင့်လင်းရွေးကောက်ပွဲ သတင်းအချက်အလက်များ အပါအဝင် ရွေးကောက်ပွဲ ပွင့်လင်းမြင်သာမှုဆိုင်ရာ အပိုင်းအမျိုးမျိုးနှင့် စပ်လျဉ်းသည့် အစိုးရ၏ ကတိကဝတ်ပြုမှုများကို အသေးစိတ် လေ့လာလိုပါက NDI မှ ထုတ်ဝေသည့် Open Government Guide by the Transparency & Accountability Initiative စာမျက်နှာမှ ရွေးကောက်ပွဲများ (Elections) အပိုင်းကို [http://www.opengovguide.com/topics/elections/](http://www.opengovguide.com/topics/elections/) တွင် လေ့လာနိုင်ပါသည်။

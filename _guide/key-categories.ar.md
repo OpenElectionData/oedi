@@ -13,100 +13,119 @@ permalink: '/guide/key-categories/'
 
 يوجز هذا القسم 16 فئة أساسية من البيانات الانتخابية بدءاً من فترة ما قبل الانتخابات، مروراً باليوم الانتخابي، ووصولاً إلى فترة ما بعد الانتخابات. في هذا القسم تعريفات لكلّ فئة، مع شرح كيفية ارتباط كلّ منها [بمبادئ نزاهة الانتخابات الواردة في القسم 1](/ar/guide/electoral-integrity/)، ووصف الأنواع المحدّدة للمعلومات التي تندرج ضمن كلّ فئة. وتشمل الفئات ما يلي:
 
-[![طار العمل القانوني للانتخابات](/assets/images/inventory/categories/legal-framework.png)
+<div class="img-grid text--small">
+  <figure>
+  <a href="/ar/guide/key-categories/legal-framework/">
+  <img src="/assets/images/inventory/categories/legal-framework.png" alt="" />
+  <figcaption>طار العمل القانوني للانتخابات</figcaption>
+  </a>
+  </figure>
 
-طار العمل القانوني للانتخابات
+  <figure>
+  <a href="/ar/guide/key-categories/electoral-boundaries/">
+  <img src="/assets/images/inventory/categories/electoral-boundaries.png" alt="" />
+  <figcaption>حدود الدوائر الانتخابية</figcaption>
+  </a>
+  </figure>
 
-](/ar/guide/key-categories/legal-framework/)
+  <figure>
+  <a href="/ar/guide/key-categories/emb-administration/">
+  <img src="/assets/images/inventory/categories/election-management-body-and-administration.png" alt="" />
+  <figcaption>هيئة إدارة الانتخابات وكيفية إدارتها</figcaption>
+  </a>
+  </figure>
 
-[![حدود الدوائر الانتخابية](/assets/images/inventory/categories/electoral-boundaries.png)
+  <figure>
+  <a href="/ar/guide/key-categories/emb-processes/">
+  <img src="/assets/images/inventory/categories/election-management-body-processes.png" alt="" />
+  <figcaption>العمليات الخاصة بهيئة إدارة الانتخابات</figcaption>
+  </a>
+  </figure>
 
-حدود الدوائر الانتخابية
+  <figure>
+  <a href="/ar/guide/key-categories/security/">
+  <img src="/assets/images/inventory/categories/security.png" alt="" />
+  <figcaption>أمن الانتخابات</figcaption>
+  </a>
+  </figure>
 
-](/ar/guide/key-categories/electoral-boundaries/)
+  <figure>
+  <a href="/ar/guide/key-categories/political-party-registration/">
+  <img src="/assets/images/inventory/categories/political-party-registration.png" alt="" />
+  <figcaption>تسجيل الأحزاب السياسية</figcaption>
+  </a>
+  </figure>
 
-[![هيئة إدارة الانتخابات وكيفية إدارتها](/assets/images/inventory/categories/election-management-body-and-administration.png)
+  <figure>
+  <a href="/ar/guide/key-categories/ballot-qualification/">
+  <img src="/assets/images/inventory/categories/ballot-qualification.png" alt="" />
+  <figcaption>المؤهلات المطلوبة للترشّح</figcaption>
+  </a>
+  </figure>
 
-هيئة إدارة الانتخابات وكيفية إدارتها
+  <figure>
+  <a href="/ar/guide/key-categories/election-campaigns/">
+  <img src="/assets/images/inventory/categories/election-campaigns.png" alt="" />
+  <figcaption>أمن الانتخابات</figcaption>
+  </a>
+  </figure>
 
-](/ar/guide/key-categories/emb-administration/)
+  <figure>
+  <a href="/ar/guide/key-categories/campaign-finance/">
+  <img src="/assets/images/inventory/categories/campaign-finance.png" alt="" />
+  <figcaption>تمويل الحملات</figcaption>
+  </a>
+  </figure>
 
-[![العمليات الخاصة بهيئة إدارة الانتخابات](/assets/images/inventory/categories/election-management-body-processes.png)
+  <figure>
+  <a href="/ar/guide/key-categories/voter-registration/">
+  <img src="/assets/images/inventory/categories/voter-registration.png" alt="" />
+  <figcaption>تسجيل الناخبين</figcaption>
+  </a>
+  </figure>
 
-العمليات الخاصة بهيئة إدارة الانتخابات
+  <figure>
+  <a href="/ar/guide/key-categories/voter-lists/">
+  <img src="/assets/images/inventory/categories/voter-lists.png" alt="" />
+  <figcaption>قوائم الناخبين</figcaption>
+  </a>
+  </figure>
 
-](/ar/guide/key-categories/emb-processes/)
+  <figure>
+  <a href="/ar/guide/key-categories/voter-education/">
+  <img src="/assets/images/inventory/categories/voter-education.png" alt="" />
+  <figcaption>تثقيف الناخبين</figcaption>
+  </a>
+  </figure>
 
-[![أمن الانتخابات](/assets/images/inventory/categories/security.png)
+  <figure>
+  <a href="/ar/guide/key-categories/polling-stations/">
+  <img src="/assets/images/inventory/categories/polling-stations.png" alt="" />
+  <figcaption>مكاتب الاقتراع</figcaption>
+  </a>
+  </figure>
 
-أمن الانتخابات
+  <figure>
+  <a href="/ar/guide/key-categories/election-results/">
+  <img src="/assets/images/inventory/categories/election-results-official-final.png" alt="" />
+  <figcaption>نتائج الانتخابات</figcaption>
+  </a>
+  </figure>
 
-](/ar/guide/key-categories/security/)
+  <figure>
+  <a href="/ar/guide/key-categories/electronic-voting/">
+  <img src="/assets/images/inventory/categories/electronic-voting.png" alt="" />
+  <figcaption>التصويت والفرز الإلكتروني</figcaption>
+  </a>
+  </figure>
 
-[![تسجيل الأحزاب السياسية](/assets/images/inventory/categories/political-party-registration.png)
+  <figure>
+  <a href="/ar/guide/key-categories/complaints-and-disputes/">
+  <img src="/assets/images/inventory/categories/electoral-complaints-and-disputes.png" alt="" />
+  <figcaption>الشكاوى والمنازعات الانتخابية وسبل البتّ فيها</figcaption>
+  </a>
+  </figure>
 
-تسجيل الأحزاب السياسية
-
-](/ar/guide/key-categories/political-party-registration/)
-
-[![المؤهلات المطلوبة للترشّح](/assets/images/inventory/categories/ballot-qualification.png)
-
-المؤهلات المطلوبة للترشّح
-
-](/ar/guide/key-categories/ballot-qualification/)
-
-[![الحملات الانتخابية](/assets/images/inventory/categories/election-campaigns.png)
-
-الحملات الانتخابية
-
-](/ar/guide/key-categories/election-campaigns/)
-
-[![تمويل الحملات](/assets/images/inventory/categories/campaign-finance.png)
-
-تمويل الحملات
-
-](/ar/guide/key-categories/campaign-finance/)
-
-[![تسجيل الناخبين](/assets/images/inventory/categories/voter-registration.png)
-
-تسجيل الناخبين
-
-](/ar/guide/key-categories/voter-registration/)
-
-[![قوائم الناخبين](/assets/images/inventory/categories/voter-lists.png)
-
-قوائم الناخبين
-
-](/ar/guide/key-categories/voter-lists/)
-
-[![تثقيف الناخبين](/assets/images/inventory/categories/voter-education.png)
-
-تثقيف الناخبين
-
-](/ar/guide/key-categories/voter-education/)
-
-[![مكاتب الاقتراع](/assets/images/inventory/categories/polling-stations.png)
-
-مكاتب الاقتراع
-
-](/ar/guide/key-categories/polling-stations/)
-
-[![نتائج الانتخابات](/assets/images/inventory/categories/election-results-official-final.png)
-
-نتائج الانتخابات
-
-](/ar/guide/key-categories/election-results/)
-
-[![التصويت والفرز الإلكتروني](/assets/images/inventory/categories/electronic-voting.png)
-
-التصويت والفرز الإلكتروني
-
-](/ar/guide/key-categories/electronic-voting/)
-
-[![الشكاوى والمنازعات الانتخابية وسبل البتّ فيها](/assets/images/inventory/categories/electoral-complaints-and-disputes.png)
-
-الشكاوى والمنازعات الانتخابية وسبل البتّ فيها
-
-](/ar/guide/key-categories/complaints-and-disputes/)
+</div>
 
 [^1]: للاطلاع على مجموعة مفصّلة من اللجان الحكومية المتعلقة بمختلف محاور الشفافية الانتخابية، بما في ذلك البيانات الانتخابية المفتوحة، يمكن العودة إلى الفصل الذي أعدّه المعهد الديمقراطي الوطني بعنوان "الانتخابات" ضمن دليل الحكومة المفتوحة الذي أشرفت عليه مبادرة الشفافية والمساءلة، على الرابط التالي: [http://www.opengovguide.com/topics/elections/](http://www.opengovguide.com/topics/elections/)

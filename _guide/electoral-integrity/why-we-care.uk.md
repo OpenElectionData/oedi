@@ -13,7 +13,7 @@ permalink: '/guide/electoral-integrity/why-we-care/'
 
 > _«Якщо електорат вірить в те, що вибори були проведені чесно та справедливо, вони можуть стати ефективним каталізатором для кращого урядування, безпеки та розвитку людства. Однак, за відсутності надійних виборів, громадяни не мають шансу змінити політичну владу мирним шляхом.»_
 >
-> **Кофі Аннан**
+> <cite>Кофі Аннан</cite>
 >
 > зі звіту [«Поглиблюючи демократію: Стратегія підвищення цілісності виборів по всьому світі»](http://www.idea.int/news/deepening-democracy-a-strategy-for-improving-the-integrity-of-elections-worldwide.cfm), створеного [Глобальною комісією з виборів, демократії та безпеки](http://www.kofiannanfoundation.org/topics/supporting-democracy-and-elections-with-integrity/).
 

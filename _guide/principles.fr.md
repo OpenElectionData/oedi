@@ -13,61 +13,71 @@ De nombreuses organisations recueillent des données pour remplir leurs fonction
 
 Comme décrit dans cette section, les données «ouvertes» de l'élection sont:
 
-[![Timely](/assets/images/inventory/principles/timely.png)
+<div class="img-grid text--small">
+  <figure>
+  <a href="/fr/guide/principles/timely/">
+  <img src="/assets/images/inventory/principles/timely.png" alt="" />
+  <figcaption>fournies en temps utile</figcaption>
+  </a>
+  </figure>
 
-fournies en temps utile
+  <figure>
+  <a href="/fr/guide/principles/granular/">
+  <img src="/assets/images/inventory/principles/granular.png" alt="" />
+  <figcaption>granulaires</figcaption>
+  </a>
+  </figure>
 
-](/fr/guide/principles/timely/)
+  <figure>
+  <a href="/fr/guide/principles/available-for-free/">
+  <img src="/assets/images/inventory/principles/available-for-free.png" alt="" />
+  <figcaption>disponibles gratuitement sur Internet</figcaption>
+  </a>
+  </figure>
 
-[![Granular](/assets/images/inventory/principles/granular.png)
+  <figure>
+  <a href="/fr/guide/principles/complete-and-in-bulk/">
+  <img src="/assets/images/inventory/principles/complete-and-in-bulk.png" alt="" />
+  <figcaption>complètes et en vrac</figcaption>
+  </a>
+  </figure>
 
-granulaires
+  <figure>
+  <a href="/fr/guide/principles/analyzable/">
+  <img src="/assets/images/inventory/principles/analyzable.png" alt="" />
+  <figcaption>analysables</figcaption>
+  </a>
+  </figure>
 
-](/fr/guide/principles/granular/)
+  <figure>
+  <a href="/fr/guide/principles/non-proprietary/">
+  <img src="/assets/images/inventory/principles/non-proprietary.png" alt="" />
+  <figcaption>non exclusives</figcaption>
+  </a>
+  </figure>
 
-[![Available for free on the internet](/assets/images/inventory/principles/available-for-free.png)
+  <figure>
+  <a href="/fr/guide/principles/non-discriminatory/">
+  <img src="/assets/images/inventory/principles/non-discriminatory.png" alt="" />
+  <figcaption>non discriminatoires</figcaption>
+  </a>
+  </figure>
 
-disponibles gratuitement sur Internet
+  <figure>
+  <a href="/fr/guide/principles/license-free/">
+  <img src="/assets/images/inventory/principles/license-free.png" alt="" />
+  <figcaption>avec une licence libre</figcaption>
+  </a>
+  </figure>
 
-](/fr/guide/principles/available-for-free/)
+  <figure>
+  <a href="/fr/guide/principles/permanently-available/">
+  <img src="/assets/images/inventory/principles/permanently-available.png" alt="" />
+  <figcaption>disponibles en permanence</figcaption>
+  </a>
+  </figure>
 
-[![Complete and in bulk](/assets/images/inventory/principles/complete-and-in-bulk.png)
-
-complètes et  
-en vrac
-
-](/fr/guide/principles/complete-and-in-bulk/)
-
-[![Analyzable](/assets/images/inventory/principles/analyzable.png)
-
-analysables
-
-](/fr/guide/principles/analyzable/)
-
-[![Non-proprietary](/assets/images/inventory/principles/non-proprietary.png)
-
-non  
-exclusives
-
-](/fr/guide/principles/non-proprietary/)
-
-[![Non-discriminatory](/assets/images/inventory/principles/non-discriminatory.png)
-
-non discriminatoires
-
-](/fr/guide/principles/non-discriminatory/)
-
-[![License-free](/assets/images/inventory/principles/license-free.png)
-
-avec une licence libre
-
-](/fr/guide/principles/license-free/)
-
-[![Permanently available](/assets/images/inventory/principles/permanently-available.png)
-
-disponibles en permanence
-
-](/fr/guide/principles/permanently-available/)
+</div>
 
 Les données ouvertes, en particulier les données électorales ouvertes, sont une immense ressource qui a récemment été exploitée. Même si le champ «données ouvertes» est jeune, il y a déjà de nombreux exemples sur la manière dont elles ont déjà créé de la valeur sociale et économique dans le monde. **Lorsque les données de l'élection sont «ouvertes», cela peut:**
 

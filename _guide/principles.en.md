@@ -13,64 +13,71 @@ Many organizations collect data to perform their functions or to provide a servi
 
 As described in this section,'open' election data is:
 
-[![Timely](/assets/images/inventory/principles/timely.png)
+<div class="img-grid text--small">
+  <figure>
+  <a href="/en/guide/principles/timely/">
+  <img src="/assets/images/inventory/principles/timely.png" alt="" />
+  <figcaption>Timely</figcaption>
+  </a>
+  </figure>
 
-Timely
+  <figure>
+  <a href="/en/guide/principles/granular/">
+  <img src="/assets/images/inventory/principles/granular.png" alt="" />
+  <figcaption>Granular</figcaption>
+  </a>
+  </figure>
 
-](/en/guide/principles/timely/)
+  <figure>
+  <a href="/en/guide/principles/available-for-free/">
+  <img src="/assets/images/inventory/principles/available-for-free.png" alt="" />
+  <figcaption>Available for free on the internet</figcaption>
+  </a>
+  </figure>
 
-[![Granular](/assets/images/inventory/principles/granular.png)
+  <figure>
+  <a href="/en/guide/principles/complete-and-in-bulk/">
+  <img src="/assets/images/inventory/principles/complete-and-in-bulk.png" alt="" />
+  <figcaption>Complete and in bulk</figcaption>
+  </a>
+  </figure>
 
-Granular
+  <figure>
+  <a href="/en/guide/principles/analyzable/">
+  <img src="/assets/images/inventory/principles/analyzable.png" alt="" />
+  <figcaption>Analyzable</figcaption>
+  </a>
+  </figure>
 
-](/en/guide/principles/granular/)
+  <figure>
+  <a href="/en/guide/principles/non-proprietary/">
+  <img src="/assets/images/inventory/principles/non-proprietary.png" alt="" />
+  <figcaption>Non-proprietary</figcaption>
+  </a>
+  </figure>
 
-[![Available for free on the internet](/assets/images/inventory/principles/available-for-free.png)
+  <figure>
+  <a href="/en/guide/principles/non-discriminatory/">
+  <img src="/assets/images/inventory/principles/non-discriminatory.png" alt="" />
+  <figcaption>Non-discriminatory</figcaption>
+  </a>
+  </figure>
 
-Available for free on the internet
+  <figure>
+  <a href="/en/guide/principles/license-free/">
+  <img src="/assets/images/inventory/principles/license-free.png" alt="" />
+  <figcaption>License Free</figcaption>
+  </a>
+  </figure>
 
-](/en/guide/principles/available-for-free/)
+  <figure>
+  <a href="/en/guide/principles/permanently-available/">
+  <img src="/assets/images/inventory/principles/permanently-available.png" alt="" />
+  <figcaption>Permanently Available</figcaption>
+  </a>
+  </figure>
 
-[![Complete and in bulk](/assets/images/inventory/principles/complete-and-in-bulk.png)
-
-Complete and  
-in bulk
-
-](/en/guide/principles/complete-and-in-bulk/)
-
-[![Analyzable](/assets/images/inventory/principles/analyzable.png)
-
-Analyzable
-
-](/en/guide/principles/analyzable/)
-
-[![Non-proprietary](/assets/images/inventory/principles/non-proprietary.png)
-
-Non-  
-proprietary
-
-](/en/guide/principles/non-proprietary/)
-
-[![Non-discriminatory](/assets/images/inventory/principles/non-discriminatory.png)
-
-Non-  
-discriminatory
-
-](/en/guide/principles/non-discriminatory/)
-
-[![License-free](/assets/images/inventory/principles/license-free.png)
-
-License-  
-free
-
-](/en/guide/principles/license-free/)
-
-[![Permanently available](/assets/images/inventory/principles/permanently-available.png)
-
-Permanently  
-available
-
-](/en/guide/principles/permanently-available/)
+</div>
 
 Open data, especially open election data, is an immense resource that has only recently been tapped. Even though the 'open data' field is young, there are already numerous examples of the ways in which it has already created both social and economic value around the world. **When election data is "opened up," it can:**
 

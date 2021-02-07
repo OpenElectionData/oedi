@@ -13,60 +13,71 @@ permalink: '/guide/principles/'
 
 Як вже було вказано в цій частині, «Відкритими» виборчі дані є такі що:
 
-[![вчасно надані](/assets/images/inventory/principles/timely.png)
+<div class="img-grid text--small">
+  <figure>
+  <a href="/uk/guide/principles/timely/">
+  <img src="/assets/images/inventory/principles/timely.png" alt="" />
+  <figcaption>вчасно надані</figcaption>
+  </a>
+  </figure>
 
-вчасно надані
+  <figure>
+  <a href="/uk/guide/principles/granular/">
+  <img src="/assets/images/inventory/principles/granular.png" alt="" />
+  <figcaption>детальні та вичерпні</figcaption>
+  </a>
+  </figure>
 
-](/uk/guide/principles/timely/)
+  <figure>
+  <a href="/uk/guide/principles/available-for-free/">
+  <img src="/assets/images/inventory/principles/available-for-free.png" alt="" />
+  <figcaption>вільно доступні онлайн</figcaption>
+  </a>
+  </figure>
 
-[![детальні та вичерпні](/assets/images/inventory/principles/granular.png)
+  <figure>
+  <a href="/uk/guide/principles/complete-and-in-bulk/">
+  <img src="/assets/images/inventory/principles/complete-and-in-bulk.png" alt="" />
+  <figcaption>повні та в великих об'ємах</figcaption>
+  </a>
+  </figure>
 
-детальні та вичерпні
+  <figure>
+  <a href="/uk/guide/principles/analyzable/">
+  <img src="/assets/images/inventory/principles/analyzable.png" alt="" />
+  <figcaption>придатні для аналізу</figcaption>
+  </a>
+  </figure>
 
-](/uk/guide/principles/granular/)
+  <figure>
+  <a href="/uk/guide/principles/non-proprietary/">
+  <img src="/assets/images/inventory/principles/non-proprietary.png" alt="" />
+  <figcaption>не мають власника</figcaption>
+  </a>
+  </figure>
 
-[![вільно доступні онлайн](/assets/images/inventory/principles/available-for-free.png)
+  <figure>
+  <a href="/uk/guide/principles/non-discriminatory/">
+  <img src="/assets/images/inventory/principles/non-discriminatory.png" alt="" />
+  <figcaption>не містять дискримінаційних обмежень</figcaption>
+  </a>
+  </figure>
 
-вільно доступні онлайн
+  <figure>
+  <a href="/uk/guide/principles/license-free/">
+  <img src="/assets/images/inventory/principles/license-free.png" alt="" />
+  <figcaption>не потребують ліцензії</figcaption>
+  </a>
+  </figure>
 
-](/uk/guide/principles/available-for-free/)
+  <figure>
+  <a href="/uk/guide/principles/permanently-available/">
+  <img src="/assets/images/inventory/principles/permanently-available.png" alt="" />
+  <figcaption>знаходяться в постійному доступі</figcaption>
+  </a>
+  </figure>
 
-[![повні та в великих об'ємах](/assets/images/inventory/principles/complete-and-in-bulk.png)
-
-повні та в великих об'ємах
-
-](/uk/guide/principles/complete-and-in-bulk/)
-
-[![придатні для аналізу](/assets/images/inventory/principles/analyzable.png)
-
-придатні для аналізу
-
-](/uk/guide/principles/analyzable/)
-
-[![не мають власника](/assets/images/inventory/principles/non-proprietary.png)
-
-не мають власника
-
-](/uk/guide/principles/non-proprietary/)
-
-[![не містять дискримінаційних обмежень](/assets/images/inventory/principles/non-discriminatory.png)
-
-не містять  
-дискримінаційних обмежень
-
-](/uk/guide/principles/non-discriminatory/)
-
-[![не потребують ліцензії](/assets/images/inventory/principles/license-free.png)
-
-не потребують ліцензії
-
-](/uk/guide/principles/license-free/)
-
-[![знаходяться в постійному доступі](/assets/images/inventory/principles/permanently-available.png)
-
-знаходяться в постійному доступі
-
-](/uk/guide/principles/permanently-available/)
+</div>
 
 Відкриті дані, особливо відкриті виборчі дані, – це колосальний ресурс, який почали використовувати зовсім недавно. Хоча сфера «відкритих даних» є досить молодою, вже налічується безліч прикладів того, як вона набула соціально-економічного значення по всьому світу. Коли виборчі дані «відкриваються», вони можуть:
 

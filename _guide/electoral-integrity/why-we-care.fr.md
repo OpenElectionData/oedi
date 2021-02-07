@@ -13,7 +13,7 @@ La démocratie exige plus que des élections, mais un pays ne peut pas être une
 
 > _«Quand l'électorat estime que les élections ont été libres et équitables, ils peuvent être un puissant catalyseur pour une meilleure gouvernance, pour une plus grande sécurité et développement humain Mais en l'absence d'élections crédibles, les citoyens n'ont pas de recours à un changement politique pacifique.»_
 >
-> **Kofi Annan**
+> <cite>Kofi Annan</cite>
 >
 > [Approfondir la Démocratie: une Stratégie pour Améliorer l'Intégrité des Elections dans le Monde](http://www.idea.int/news/deepening-democracy-a-strategy-for-improving-the-integrity-of-elections-worldwide.cfm),  
 > Un rapport de la [Commission Mondiale sur les Elections, la Démocratie et la Sécurité](http://www.kofiannanfoundation.org/topics/supporting-democracy-and-elections-with-integrity/).

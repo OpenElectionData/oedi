@@ -13,7 +13,7 @@ La democracia requiere más que elecciones, pero un país no puede considerase u
 
 > _"Cuando el electorado cree que las elecciones fueron libres y justas, estas pueden actuar como potentes catalizadores para mejorar la gobernabilidad e incrementar la seguridad y el desarrollo humano. Sin embargo, cuando las elecciones carecen de credibilidad, los ciudadanos no disponen de recursos que permitan un cambio político pacífico"._
 >
-> **Kofi Annan**
+> <cite>Kofi Annan</cite>
 >
 > [Profundizando la democracia: Una estrategia para mejorar la integridad electoral en el mundo](http://www.ine.mx/docs/IFE-v2/CAI/CAI-Varios/2012/3erForoDemocraciaLat/3erForoDemocraciaLat-docs/Informe-Comision-Global.pdf),  
 > un informe de la [Comisión Global sobre Elecciones, Democracia y Seguridad](http://www.kofiannanfoundation.org/topics/supporting-democracy-and-elections-with-integrity/).

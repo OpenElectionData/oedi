@@ -100,6 +100,17 @@
       }
     }
 
+    blockquote {
+      margin: 2rem 0 !important;
+      padding: 1rem;
+      background: $color__gray-200;
+
+      /* stylelint-disable-next-line */
+      p + p {
+        margin-top: 0.5rem;
+      }
+    }
+
     img {
       margin: 2rem auto;
     }
@@ -107,6 +118,23 @@
     .img--inline {
       display: inline-block;
       margin: 0;
+    }
+
+    .img-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+
+      img {
+        margin: 0;
+      }
+
+      figcaption {
+        margin-top: 0.5rem;
+      }
     }
   }
 

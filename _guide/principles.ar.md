@@ -13,59 +13,71 @@ permalink: '/guide/principles/'
 
 الانتخابية "مفتوحة" عندما تكون:
 
-[![آنية](/assets/images/inventory/principles/timely.png)
+<div class="img-grid text--small">
+  <figure>
+  <a href="/ar/guide/principles/timely/">
+  <img src="/assets/images/inventory/principles/timely.png" alt="" />
+  <figcaption>آنية</figcaption>
+  </a>
+  </figure>
 
-آنية
+  <figure>
+  <a href="/ar/guide/principles/granular/">
+  <img src="/assets/images/inventory/principles/granular.png" alt="" />
+  <figcaption>تفصيلية</figcaption>
+  </a>
+  </figure>
 
-](/ar/guide/principles/timely/)
+  <figure>
+  <a href="/ar/guide/principles/available-for-free/">
+  <img src="/assets/images/inventory/principles/available-for-free.png" alt="" />
+  <figcaption>متوافرة مجاناً على شبكة الإنترنت</figcaption>
+  </a>
+  </figure>
 
-[![تفصيلية](/assets/images/inventory/principles/granular.png)
+  <figure>
+  <a href="/ar/guide/principles/complete-and-in-bulk/">
+  <img src="/assets/images/inventory/principles/complete-and-in-bulk.png" alt="" />
+  <figcaption>كاملة وبدفعة واحدة</figcaption>
+  </a>
+  </figure>
 
-تفصيلية
+  <figure>
+  <a href="/ar/guide/principles/analyzable/">
+  <img src="/assets/images/inventory/principles/analyzable.png" alt="" />
+  <figcaption>قابلة للتحليل</figcaption>
+  </a>
+  </figure>
 
-](/ar/guide/principles/granular/)
+  <figure>
+  <a href="/ar/guide/principles/non-proprietary/">
+  <img src="/assets/images/inventory/principles/non-proprietary.png" alt="" />
+  <figcaption>غير مقيّدة</figcaption>
+  </a>
+  </figure>
 
-[![متوافرة مجاناً على شبكة الإنترنت](/assets/images/inventory/principles/available-for-free.png)
+  <figure>
+  <a href="/ar/guide/principles/non-discriminatory/">
+  <img src="/assets/images/inventory/principles/non-discriminatory.png" alt="" />
+  <figcaption>غير تمييزية</figcaption>
+  </a>
+  </figure>
 
-متوافرة مجاناً على شبكة الإنترنت
+  <figure>
+  <a href="/ar/guide/principles/license-free/">
+  <img src="/assets/images/inventory/principles/license-free.png" alt="" />
+  <figcaption>متاحة بدون رخصة</figcaption>
+  </a>
+  </figure>
 
-](/ar/guide/principles/available-for-free/)
+  <figure>
+  <a href="/ar/guide/principles/permanently-available/">
+  <img src="/assets/images/inventory/principles/permanently-available.png" alt="" />
+  <figcaption>متوافرة على الدوام</figcaption>
+  </a>
+  </figure>
 
-[![كاملة وبدفعة واحدة](/assets/images/inventory/principles/complete-and-in-bulk.png)
-
-كاملة وبدفعة واحدة
-
-](/ar/guide/principles/complete-and-in-bulk/)
-
-[![قابلة للتحليل](/assets/images/inventory/principles/analyzable.png)
-
-قابلة للتحليل
-
-](/ar/guide/principles/analyzable/)
-
-[![Non-proprietary](/assets/images/inventory/principles/non-proprietary.png)
-
-غير مقيّدة
-
-](/ar/guide/principles/non-proprietary/)
-
-[![غير تمييزية](/assets/images/inventory/principles/non-discriminatory.png)
-
-غير تمييزية
-
-](/ar/guide/principles/non-discriminatory/)
-
-[![متاحة بدون رخصة](/assets/images/inventory/principles/license-free.png)
-
-متاحة بدون رخصة
-
-](/ar/guide/principles/license-free/)
-
-[![متوافرة على الدوام](/assets/images/inventory/principles/permanently-available.png)
-
-متوافرة على الدوام
-
-](/ar/guide/principles/permanently-available/)
+</div>
 
 تعتبر البيانات المفتوحة، وبخاصة البيانات الانتخابية المفتوحة، بمثابة مصدر قيّم من المعلومات لم يتم استكشافه سوى مؤخراً. وعلى الرغم من أنّ مجال "البيانات المفتوحة" لا يزال يانعاً، تتعدّد الأمثلة المتوفرة حول سبل الاستفادة من "البيانات المفتوحة" على الصعيدين الاجتماعي والاقتصادي من حول العالم. **عندما تكون البيانات الانتخابية "مفتوحةً"، فهي تسهم في ما يلي:**
 

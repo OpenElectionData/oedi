@@ -1,5 +1,9 @@
 @use 'abstracts' as *;
 
+.input-wrapper {
+  margin-top: 1rem;
+}
+
 label {
   display: block;
   margin-bottom: 0.5rem;
@@ -11,7 +15,8 @@ input[type='text'],
 input[type='password'],
 input[type='email'],
 /* stylelint-enable */
-textarea {
+textarea,
+select {
   display: block;
   width: 100%;
   margin: 1rem 0;
@@ -27,5 +32,11 @@ textarea {
     border-color: $color__blue-200;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
       0 0 8px rgba(102, 175, 233, 0.6);
+  }
+}
+
+.layout-contact {
+  .btn--submit {
+    margin-top: 1rem;
   }
 }

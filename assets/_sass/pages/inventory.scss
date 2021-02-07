@@ -33,7 +33,7 @@
     th,
     td {
       text-align: left;
-      
+
       &:not(:first-of-type) {
         text-align: center;
       }
@@ -46,6 +46,10 @@
         white-space: nowrap;
       }
     }
+  }
+
+  img {
+    margin: 0 auto;
   }
 }
 

@@ -10,35 +10,48 @@ false %}
   </ul>
 </div>
 
-<div class="inventory__table-wrapper">
-  <table class="table inventory__table">
+<div class="inventory__table-wrapper" id="inventory">
+  <table class="table inventory__table sortable">
     <thead>
       <tr>
-        <th>{{ site.data.strings.country }}</th>
+        <th>
+          <button
+            class="btn btn--transparent btn--sort sort asc"
+            data-sort="country"
+            data-default-order="asc"
+          >
+            {{ site.data.strings.country }}
+          </button>
+        </th>
         {% for category in categories %} {%- assign value =
         site.data.inventory_categories_strings[category.slug] %} {% assign
         categoryImg = 'assets/images/inventory/categories/' | append:
         category.slug | append: '.png' %}
         <th>
-          <div data-tippy-content="{{ value }}" aria-label="{{ value }}">
+          <button
+            class="btn btn--transparent btn--sort sort"
+            data-sort="{{ value | slugify }}"
+            data-tippy-content="{{ value }}"
+            aria-label="{{ value }}"
+          >
             <img
               src="{{ categoryImg | relative_url }}"
               alt="{{ value }}"
               width="36"
               height="36"
             />
-          </div>
+          </button>
         </th>
         {% endfor %}
       </tr>
     </thead>
-    <tbody>
+    <tbody class="list">
       {% for country in site.data.inventory_countries %} {% assign
       country_page_url = '/inventory/' | append: country.country | append: '/'
       %} {% assign country_page = site.inventory | find_exp: "item",
       "item.permalink == country_page_url" %}
       <tr>
-        <td>
+        <td class="country">
           <a href="{{ country_page.url }}">{{ country_page.title }}</a>
         </td>
         {% for category in categories %} {%- assign value =
@@ -51,7 +64,7 @@ false %}
         site.data.strings.mostly_open %} {%- endif -%} {%- assign tooltip =
         site.data.inventory_categories_strings[category.slug] | append: '; ' |
         append: status -%}
-        <td class="{{ class }}">
+        <td class="{{ class }} {{ category.slug}}" data-value="{{ value }}">
           {%- if value == '1' -%}
           <i
             class="fas fa-times"

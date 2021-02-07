@@ -49,3 +49,41 @@
     }
   }
 }
+
+.btn--sort {
+  position: relative;
+
+  &:hover {
+    color: $color__orange-300;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 4px);
+    display: block;
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+  }
+
+  &::before {
+    margin-top: -9px;
+    border-bottom-color: $color__gray-500;
+  }
+
+  &::after {
+    margin-top: 1px;
+    border-top-color: $color__gray-500;
+  }
+
+  &.asc::before {
+    border-bottom-color: $color__orange-100;
+  }
+
+  &.desc::after {
+    border-top-color: $color__orange-100;
+  }
+}

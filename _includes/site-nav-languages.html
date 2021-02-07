@@ -8,7 +8,7 @@
     {% assign active_lang_string = site.data.menus.languages | where:
     "identifier", site.active_lang | first %} {{ active_lang_string.title }}
   </button>
-  <ul class="nav-lang__menu">
+  <ul class="nav-lang__menu" role="list">
     {% for item in site.data.menus.languages %} {% if item.identifier ==
     site.active_lang %} {% assign itemClass = ' active-item' %} {% else %} {%
     assign itemClass = '' %} {% endif %} {% if item.identifier == 'en' %} {%

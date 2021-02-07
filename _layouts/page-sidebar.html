@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign prevLabel = null %} {% assign prevUrl = null %} {% assign nextLabel =
-null %} {% assign nextURL = null %}
+null %} {% assign nextUrl = null %}
 
 <article class="page page--sidebar">
   <aside class="page__sidebar">
@@ -48,6 +48,7 @@ null %} {% assign nextURL = null %}
     {% elsif page.is_academy == true %} {% assign lang = site.active_lang %} {%
     if lang.nil %} {% assign lang = 'en' %} {% endif %} {% assign items =
     site.academy | where: 'lang', lang | sort: 'module_id', 'last' %}
+
     <h2>{{ site.data.strings.modules }}</h2>
     <ul>
       {% for item in items %} {%- if page.url == item.url -%} {%- unless
@@ -80,18 +81,19 @@ null %} {% assign nextURL = null %}
     {% assign items = site.academy | where: 'lang', lang | sort: 'module_id',
     'last' %}
     <h2>{{ site.data.strings.modules }}</h2>
-    <ul>
+    <ol class="modules-list" role="list">
       {% for item in items %}
       <li>
         <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         <p>{{ item.excerpt }}</p>
       </li>
       {% endfor %}
-    </ul>
+    </ol>
     {% endif %}
   </section>
   <footer class="page__footer">
-    {% include pagination.html prev=prevLabel prev_url=prevUrl next=nextLabel
-    next_url=nextUrl %}
+    {% if page.url == '/academy/' %} {% assign nextLabel = items[0].title %} {%
+    assign nextUrl = items[0].url %} {% endif %} {% include pagination.html
+    prev=prevLabel prev_url=prevUrl next=nextLabel next_url=nextUrl %}
   </footer>
 </article>

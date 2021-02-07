@@ -109,3 +109,20 @@
     grid-column: 1 / -1;
   }
 }
+
+.modules-list {
+  margin: 0;
+  padding: 0;
+
+  a {
+    font-weight: bold;
+  }
+
+  li + li {
+    margin-top: 2rem;
+  }
+
+  ul {
+    margin: 0.5rem 0;
+  }
+}

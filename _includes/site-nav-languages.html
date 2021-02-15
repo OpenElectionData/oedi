@@ -11,9 +11,8 @@
   <ul class="nav-lang__menu" role="list">
     {% for item in site.data.menus.languages %} {% if item.identifier ==
     site.active_lang %} {% assign itemClass = ' active-item' %} {% else %} {%
-    assign itemClass = '' %} {% endif %} {% if item.identifier == 'en' %} {%
-    assign itemURL = site.baseurl | append: page.url %} {% else %} {% assign
-    itemURL = site.baseurl | append: item.url | append: page.url %} {% endif %}
+    assign itemClass = '' %} {% endif %} {% assign itemURL = site.baseurl |
+    append: item.url | append: page.url %}
 
     <li class="nav-lang__item{{ itemClass }}">
       <a

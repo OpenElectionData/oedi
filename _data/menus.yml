@@ -1,17 +1,17 @@
 main:
   - url: /guide/
     title: Election Data Guide
-    identifier: guide
+    identifier: election_br_data_guide
     inHeader: true
     inFooter: true
   - url: /inventory/
     title: Latin America Data Inventory
-    identifier: inventory
+    identifier: latin_america_br_data_inventory
     inHeader: true
     inFooter: true
   - url: /academy/
     title: Data Academy
-    identifier: academy
+    identifier: data_br_academy
     inHeader: true
     inFooter: true
   - url: /contact

@@ -8,36 +8,48 @@ layout: default
 
   <form name="contact" netlify>
     <div class="input-wrapper">
-      <label for="name">Name:</label>
+      <label for="name">{{ site.data.strings.name }}</label>
       <input id="name" type="text" name="name" />
     </div>
     <div class="input-wrapper">
-      <label for="email">Email:</label>
+      <label for="email">{{ site.data.strings.email }}:</label>
       <input id="email" type="email" name="email" />
     </div>
     <div class="input-wrapper">
-      <label for="info">I'm looking for information on:</label>
+      <label for="info"
+        >{{ site.data.strings.looking_for_information_on }}:</label
+      >
       <select id="info" name="role[]" multiple>
-        <option value="option_election_processes">election processes</option>
-        <option value="option_open_data_principles"
-          >open data principles</option
+        <option value="option_election_processes"
+          >{{ site.data.strings.option_election_processes }}</option
         >
-        <option value="option_data_academy">data academy</option>
-        <option value="option_data_inventory">data inventory</option>
-        <option value="option_something_else">something else</option>
+        <option value="option_open_data_principles"
+          >{{ site.data.strings.option_open_data_principles }}</option
+        >
+        <option value="option_data_academy"
+          >{{ site.data.strings.option_data_academy }}</option
+        >
+        <option value="option_data_inventory"
+          >{{ site.data.strings.option_data_inventory }}</option
+        >
+        <option value="option_something_else"
+          >{{ site.data.strings.option_something_else }}</option
+        >
       </select>
     </div>
     <div class="input-wrapper">
-      <label for="message">Message:</label>
+      <label for="message">{{ site.data.strings.message }}:</label>
       <textarea id="message" name="message"></textarea>
     </div>
     <div class="input-wrapper">
-      Sign up for updates:<br />
+      {{ site.data.strings.signup_for_updates }}:<br />
       <label>
         <input type="checkbox" name="signup_for_updates" value="true" />
-        I want to receive updates when new modules or tools are added
+        {{ site.data.strings.i_want_to_receive_updates }}
       </label>
     </div>
-    <button class="btn btn--blue btn--submit" type="submit">Send</button>
+    <button class="btn btn--blue btn--submit" type="submit">
+      {{ site.data.strings.send }}
+    </button>
   </form>
 </article>

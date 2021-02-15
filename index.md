@@ -1,5 +1,7 @@
 ---
 layout: home
+permalink: /
+lang: en
 cards:
   - slug: '/guide/key-categories/'
     title: 'Election Categories'

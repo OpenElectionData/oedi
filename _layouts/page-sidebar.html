@@ -8,7 +8,7 @@ null %} {% assign nextUrl = null %}
 <article class="page page--sidebar">
   <aside class="page__sidebar">
     {% if page.is_guide == true %}
-    <h2>{{ site.data.strings.toc }}</h2>
+    <h2>{{ site.data.strings.table_of_contents }}</h2>
     {% assign sections = site.guide | where: 'section', nil | sort:
     'chapter_id', 'last' %}
     <ul>

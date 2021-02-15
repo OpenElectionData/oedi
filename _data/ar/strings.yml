@@ -1,8 +1,92 @@
-license: Content licensed under a CC Attribution 4.0 International License
-signup: Sign up
-signup_updates: Sign up for updates
-signup_email_label: Please enter your email to receive updates when new modules or tools are added
-signup_email_placeholder: Enter email
-signup_captcha: "To reassure us that you are human:"
-toc: Table of Contents
+website_title: مبادرة حول البيانات الانتخابية المفتوحة
+guide_title: الاستفادة من كامل إمكانيات البيانات الانتخابية
+
+error_404: خطأ 404
+error_404_message: <p>الصفحة المطلوبة غير موجودة</p>
+
+home: الرئيسية
+open_election_br_data_initiative: مبادرة حول البيانات<br>الانتخابية المفتوحة
+unleashing_the_potential_of_election_data_to_promote_accountability: الاستفادة من كامل إمكانيات البيانات الانتخابية لتعزيز المساءلة والمحاسبة
+election_data_guide: دليل البيانات الانتخابية
+election_br_data_guide: دليل البيانات<br>الانتخابية
+unleashing_the_potential_of_election_data: الاستفادة من كامل إمكانيات البيانات الانتخابية
+unleashing_the_potential_br_of_election_data: الاستفادة من كامل إمكانيات<br>البيانات الانتخابية
+data_inventory: جردة البيانات الخاصة
+latin_america_data_inventory: جردة البيانات الخاصة بأميركا اللاتينية
+latin_america_br_data_inventory: جردة البيانات الخاصة<br>بأميركا اللاتينية
+data_academy: أكاديمية البيانات
+data_br_academy: أكاديمية<br>البيانات
+election_data_academy: أكاديمية البيانات الانتخابية
+tools: Data Tools
+data_tools: Data Tools
+data_br_tools: Data<br>Tools
+contact: وسائل الاتصال
+table_of_contents: فهرس المحتويات
+previous: السابق
+next: التالي
+
+rank: Rank
+country: بلد
+category: الفئة
+
 modules: Modules
+
+looking_for_information_on: أبحث عن معلومات حول
+option_election_processes: عمليات الانتخاب
+option_open_data_principles: مبادئ البيانات المفتوحة
+option_data_academy: أكاديمية البيانات
+option_data_inventory: قائمة البيانات
+option_something_else: شيء آخر
+name: الإسم
+enter_your_name: أدخل إسمك
+email: البريد الإلكتروني
+enter_email: أدخل بريدك الإلكتروني
+message: الرسالة
+your_message: رسالتك
+signup: سجّل
+signup_for_updates: سجّل للتحديثات
+i_want_to_receive_updates: اريد أن احصل على تحديثات عند اضافة وحدات او أدوات جديدة
+enter_your_email_for_updates: يرجى ادخال عنوان بريدك الإلكتروني للحصول على كافة الادوات والتحديثات الجديدة
+send: أرسل
+
+election_evaluated: Election evaluated
+last_checked: Last checked
+open_data_information: Open data information
+
+openness: مفتوحة
+
+not_found: يتعذّر إيجادها
+'yes': نعم
+'no': كلا
+unclear: غير واضحة
+
+mostly_open: مفتوحة بالغالب
+mostly: مفتوحة بالغالب
+partially_open: مفتوحة جزئياً
+partially: مفتوحة جزئياً
+not_open: غير مفتوحة
+not: غير مفتوحة
+na: n/a
+
+back_to_data_inventory: '&rarr; Back to Data Inventory'
+
+license: <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by/4.0/deed.ar\">محتويات متاحة بموجب رخصة المشاع الإبداعي الدولية 4.0</a>
+
+## Added
+legend: 'Legend:'
+principle: Principle
+points_possible: Points Possible
+total: Total
+back: Back
+back_to: Back to
+read_more: اقرأ المزيد
+
+## Not Used
+signup_form_success: شكرا لتسجيلك  في تحديثات OEDI
+reassure_us_that_you_are_human: للتأكّد من أنك إنسان
+this_field_is_required: يجب ملء الخانة
+invalid_format: صيغة غير صالحة
+test_failed_try_again: فَشِل الاختبار. حاول مجدداً.
+contact_form_success: شكراً لاتصالك بنا! سنعود إليك بالردّ قريباً.
+contact_form_error: حصل خطأ عند معالجة طلبك.
+no_subject: بلا عنوان

@@ -38,6 +38,7 @@ module.exports = {
     src: '_images',
     dest: 'images',
     progressive: true,
+    optimizationLevel: 5,
     svgoPlugins: [{ removeViewBox: false }]
   },
 

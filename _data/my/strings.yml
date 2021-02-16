@@ -73,10 +73,10 @@ back_to_data_inventory: '&larr; အချက်အလက် အသေးစိ�
 license: <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by/4.0/\">Content licensed under a CC Attribution 4.0 International License</a>
 
 ## Added
-legend: 'Legend:'
-principle: Principle
-points_possible: Points Possible
-total: Total
+legend: 'သင်္ကေတအညွှန်းများ'
+principle: ဥပဒေသများ
+points_possible: ရရှိနိုင်သော ရမှတ်များ
+total: စုစုပေါင်း
 back: Back
 back_to: Back to
 read_more: နောက်ထပ်ဆက်ဖတ်လိုသည်။

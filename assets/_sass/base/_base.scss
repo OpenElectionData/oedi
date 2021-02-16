@@ -13,12 +13,14 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: $size__container-max-width;
   margin: 0 auto;
   padding: rem(16);
 }
 
 .page-content {
+  width: 100%;
   margin: 1rem auto;
 }
 

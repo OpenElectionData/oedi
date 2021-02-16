@@ -51,3 +51,11 @@
   }
   /* stylelint-enable */
 }
+
+.float {
+  &--right {
+    float: right;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+}

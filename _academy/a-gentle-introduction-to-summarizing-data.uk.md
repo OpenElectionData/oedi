@@ -123,7 +123,7 @@ Test your knowledge by answering these questions:
 
 ## Play with the Data
 
-If you want to perform your own calculations, here is the [heights dataset](/files/academy/exercise/Heights.csv). The data along with some calculations are available as an [Excel file](/files/academy/exercise/Heights_calculations.xlsx) or an [Open Spreadsheets file](/files/academy/exercise/Heights_calculations.ods).
+If you want to perform your own calculations, here is the [heights dataset](/assets/academy/exercise/Heights.csv). The data along with some calculations are available as an [Excel file](/assets/academy/exercise/Heights_calculations.xlsx) or an [Open Spreadsheets file](/assets/academy/exercise/Heights_calculations.ods).
 
 ## Mathematical Formulas
 

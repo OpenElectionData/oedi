@@ -11,7 +11,6 @@ const named = require('vinyl-named')
 const newer = require('gulp-newer')
 const plumber = require('gulp-plumber')
 const postcss = require('gulp-postcss')
-const pngquant = require('imagemin-pngquant')
 const sass = require('gulp-sass')
 sass.compiler = require('sass')
 const styleLint = require('gulp-stylelint')
@@ -62,7 +61,7 @@ function styleLintTask() {
     styleLint({
       failAfterError: failAfterError,
       reporters: [{ formatter: 'string', console: true }],
-      fix: autoFix,
+      fix: autoFix
     })
   )
 
@@ -97,10 +96,10 @@ function webpackTask() {
 }
 
 /*----------  esLint  ----------*/
-const runEslint = function () {
+const runEslint = function() {
   return src([
     config.assets + '/' + config.js.src + '/**/*.js',
-    '!node_modules/**',
+    '!node_modules/**'
   ])
     .pipe(eslint())
     .pipe(eslint.format())
@@ -115,11 +114,13 @@ function imagesTask() {
     .pipe(plumber())
     .pipe(newer(config.assets + '/' + config.imagemin.dest))
     .pipe(
-      imagemin({
-        progressive: config.imagemin.progressive,
-        svgoPlugins: config.imagemin.svgoPlugins,
-        use: [pngquant()],
-      })
+      imagemin([
+        imagemin.mozjpeg(config.imagemin.mozjpeg),
+        imagemin.optipng(config.imagemin.optipng),
+        imagemin.svgo({
+          plugins: config.imagemin.svgoPlugins
+        })
+      ])
     )
     .pipe(dest(config.assets + '/' + config.imagemin.dest))
 }
@@ -143,8 +144,8 @@ function serve(done) {
     port: config.port,
     browser: browser,
     server: {
-      baseDir: config.jekyll.dest,
-    },
+      baseDir: config.jekyll.dest
+    }
   })
   done()
 }
@@ -166,7 +167,7 @@ const filesToWatch = [
   config.jekyll.posts + '/**/*',
   config.assets + '/' + config.sass.dest + '/**/*',
   config.assets + '/' + config.js.dest + '/**/*',
-  config.assets + '/' + config.imagemin.dest + '/**/*',
+  config.assets + '/' + config.imagemin.dest + '/**/*'
 ]
 
 function watchTask() {

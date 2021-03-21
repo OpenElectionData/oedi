@@ -32,7 +32,7 @@ While not required, we suggest that you complete Module 5 first, so that you are
 - Since the 2010 elections, violent conflict broke out in two districts: Conflicteri (District code: 9) and Disputana (District Code: 23).
 - Ahead of the 2014 polls, the Election Commission of Opendya conducted a five-week voter registration update exercise, adding new voters to the rolls.
 
-To complete this exercise, you can continue to use the dataset you downloaded in Module 5, or you can re-**download the file [here](/files/academy/exercise/Module_6_Registered_Voters.xlsx)**.
+To complete this exercise, you can continue to use the dataset you downloaded in Module 5, or you can re-**download the file [here](/assets/academy/exercise/Module_6_Registered_Voters.xlsx)**.
 
 ## Reviewing the Voter Registration Data
 

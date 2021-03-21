@@ -31,7 +31,7 @@ All candidates who applied to be on Opendya’s ballot hailed from one of three 
 
 ## Reviewing the Ballot Qualification Data
 
-To begin the exercise, download the ballot qualification data file **[here](/files/academy/exercise/Module_4_Ballot_Qualification.xlsx)**.
+To begin the exercise, download the ballot qualification data file **[here](/assets/academy/exercise/Module_4_Ballot_Qualification.xlsx)**.
 
 Before delving into analysis, let’s get familiar with the data available in the file.
 

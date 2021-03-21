@@ -51,7 +51,7 @@ Maintenant que vous savez comment pratiquer une «bonne hygiène de données», 
 
 ## Exercice Pratique: Examiner ou Réexaminer la Liste de Bureaux de Vote en utilisant Excel
 
-Dans [le deuxième module de l'Académie de Données Electorales](/fr/academy/reviewing-a-polling-station-list/), nous avons examiné [une liste de bureaux de vote (au format XLS)](/files/academy/exercise/Polling_Station_List_2008.xls). En théorie, le fichier est censé contenir la liste de tous les bureaux de vote dans un pays[^1]. Ouvrez le fichier et jetez à nouveau un oeil aux données. Lorsque vous les faites défiler, posez-vous ces questions:
+Dans [le deuxième module de l'Académie de Données Electorales](/fr/academy/reviewing-a-polling-station-list/), nous avons examiné [une liste de bureaux de vote (au format XLS)](/assets/academy/exercise/Polling_Station_List_2008.xls). En théorie, le fichier est censé contenir la liste de tous les bureaux de vote dans un pays[^1]. Ouvrez le fichier et jetez à nouveau un oeil aux données. Lorsque vous les faites défiler, posez-vous ces questions:
 
 - Est-ce qu'il y a quelque chose qui manque?
 - Est-ce que les données sont structurées d'une manière logique?

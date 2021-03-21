@@ -17,7 +17,7 @@ permalink: '/guide/key-categories/'
   <figure>
   <a href="/ar/guide/key-categories/legal-framework/">
   <img src="/assets/images/inventory/categories/legal-framework.png" alt="" />
-  <figcaption>طار العمل القانوني للانتخابات</figcaption>
+  <figcaption>إطار العمل القانوني للانتخابات</figcaption>
   </a>
   </figure>
 
@@ -66,7 +66,7 @@ permalink: '/guide/key-categories/'
   <figure>
   <a href="/ar/guide/key-categories/election-campaigns/">
   <img src="/assets/images/inventory/categories/election-campaigns.png" alt="" />
-  <figcaption>أمن الانتخابات</figcaption>
+  <figcaption>الحملات الإنتخابية</figcaption>
   </a>
   </figure>
 
@@ -122,7 +122,7 @@ permalink: '/guide/key-categories/'
   <figure>
   <a href="/ar/guide/key-categories/complaints-and-disputes/">
   <img src="/assets/images/inventory/categories/electoral-complaints-and-disputes.png" alt="" />
-  <figcaption>الشكاوى والمنازعات الانتخابية وسبل البتّ فيها</figcaption>
+  <figcaption>الشكاوى والنزاعات الانتخابية وسبل البتّ فيها</figcaption>
   </a>
   </figure>
 

@@ -120,7 +120,7 @@ excerpt: 'في هذا الدرس، سنعرّف ببعض المصطلحات وا
 
 ## استكشف البيانات
 
-إذا أردت إجراء حساباتك الخاصة، إليك [مجموعة بيانات الطول](/files/academy/exercise/Heights.csv)، علماً أنّ البيانات، إلى جانب بعض العمليات الحسابية، هي متوافرة على شكل [ملف آكسيل](/files/academy/exercise/Heights_calculations.xlsx) أو [ملف جداول البيانات المفتوحة](/files/academy/exercise/Heights_calculations.ods).
+إذا أردت إجراء حساباتك الخاصة، إليك [مجموعة بيانات الطول](/assets/academy/exercise/Heights.csv)، علماً أنّ البيانات، إلى جانب بعض العمليات الحسابية، هي متوافرة على شكل [ملف آكسيل](/assets/academy/exercise/Heights_calculations.xlsx) أو [ملف جداول البيانات المفتوحة](/assets/academy/exercise/Heights_calculations.ods).
 
 ## صيغ رياضية
 

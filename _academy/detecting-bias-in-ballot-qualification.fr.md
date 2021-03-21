@@ -33,7 +33,7 @@ Tous les candidats qui se sont inscrits au scrutin électoral d'Opendya étaient
 
 ## Revoir les données sur l’enregistrement des candidats
 
-Pour commencer l'exercice, **[téléchargez ici](/files/academy/exercise/Module_4_Ballot_Qualification.xlsx)** le fichier de données sur l’enregistrement des candidats.
+Pour commencer l'exercice, **[téléchargez ici](/assets/academy/exercise/Module_4_Ballot_Qualification.xlsx)** le fichier de données sur l’enregistrement des candidats.
 
 Avant d’aborder l'analyse, familiarisons-nous avec les données disponibles dans le fichier.
 

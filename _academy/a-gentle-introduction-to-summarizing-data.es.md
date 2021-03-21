@@ -123,7 +123,7 @@ Responda las siguientes preguntas para evaluar su conocimiento:
 
 ## Juegue con los datos
 
-Si quiere realizar sus propios cálculos, le proporcionamos el [conjunto de datos de alturas](/files/academy/exercise/Heights.csv). Los datos, junto con algunos cálculos, están disponibles como [archivo de Excel](/files/academy/exercise/Heights_calculations.xlsx) o como [archivo de hojas de cálculo de OpenOffice](/files/academy/exercise/Heights_calculations.ods) (Open Spreadsheets).
+Si quiere realizar sus propios cálculos, le proporcionamos el [conjunto de datos de alturas](/assets/academy/exercise/Heights.csv). Los datos, junto con algunos cálculos, están disponibles como [archivo de Excel](/assets/academy/exercise/Heights_calculations.xlsx) o como [archivo de hojas de cálculo de OpenOffice](/assets/academy/exercise/Heights_calculations.ods) (Open Spreadsheets).
 
 ## Fórmulas matemáticas
 

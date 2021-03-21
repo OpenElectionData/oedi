@@ -40,14 +40,14 @@ While not required, we suggest that you complete Module 5-6 first, so that you a
 
 You’ll need two different files to complete this exercise:
 
-- Opendya **[voter registration data](/files/academy/exercise/module_7_registered_voters_2014_for_user.xlsx)** (this includes the same raw data as Modules 5-6, but different column headers to be used for analysis); and
-- Opendya **[census data](/files/academy/exercise/module_7_census_data.xlsx)**
+- Opendya **[voter registration data](/assets/academy/exercise/module_7_registered_voters_2014_for_user.xlsx)** (this includes the same raw data as Modules 5-6, but different column headers to be used for analysis); and
+- Opendya **[census data](/assets/academy/exercise/module_7_census_data.xlsx)**
 
 If you’ve completed Modules 5 and/or 6, you can continue to use your voter registration data file but will need to download the new census file. If you continue to use your existing file, you’ll need to add a few additional columns for analysis in Module 7 (mirroring the screenshots in the exercise), as your headers will not be pre-populated. You may also download a fresh data file with pre-populated column headers for analysis specific to this module.
 
 ## Reviewing the Voter Registration Data
 
-Let’s reacquaint ourselves with Opendya’s voter registration data. Click on the Registration_Data tab in the **[Registered Voters file.](/files/academy/exercise/module_7_registered_voters_2014_for_user.xlsx)**
+Let’s reacquaint ourselves with Opendya’s voter registration data. Click on the Registration_Data tab in the **[Registered Voters file.](/assets/academy/exercise/module_7_registered_voters_2014_for_user.xlsx)**
 
 #### **District_Name**
 
@@ -113,7 +113,7 @@ You’ll make additional calculations in the Data_Summary tab of your voter regi
 
 #### **District_Name, District_Code, Type**
 
-Like the voter registration data, the **[census data](/files/academy/exercise/module_7_census_data.xlsx)** file contains the names of all districts in Opendya (District_Name, A), and the unique identifiers or codes for each district (District_Code, B). It also lists the type of district, namely whether a location is urban, rural or the capital (Type, C). These three columns overlap with data included in your voter registration file.
+Like the voter registration data, the **[census data](/assets/academy/exercise/module_7_census_data.xlsx)** file contains the names of all districts in Opendya (District_Name, A), and the unique identifiers or codes for each district (District_Code, B). It also lists the type of district, namely whether a location is urban, rural or the capital (Type, C). These three columns overlap with data included in your voter registration file.
 
 [![Image 1](/assets/images/academy/module_7/10_distname_code_type.png)](/assets/images/academy/module_7/10_distname_code_type.png)
 
@@ -374,7 +374,7 @@ Thanks to your expert INDEX MATCH skills, we now have a consolidated file with O
 
 #### **Calculated_Reg_Rate**
 
-We’re going to use division in Excel to calculate the 2014 rate of registered voters for each district in Opendya. We’ll do this in column O of your voter registration file, titled Calculated_Reg_Rate, of your voter registration file. _(Note: If you did not download a fresh voter registration data file at the start of Module 7 and are instead using your files from Modules 5-6, you will need to create a new column for Calculated_Reg_Rate and for all remaining analysis needs.)_
+We’re going to use division in Excel to calculate the 2014 rate of registered voters for each district in Opendya. We’ll do this in column O of your voter registration file, titled Calculated*Reg_Rate, of your voter registration file. *(Note: If you did not download a fresh voter registration data file at the start of Module 7 and are instead using your files from Modules 5-6, you will need to create a new column for Calculated*Reg_Rate and for all remaining analysis needs.)*
 
 To calculate the per-district registration rates, we need to divide the figures in I, Reg_Tot_Final, by the figures in column L, Match_VAP_Tot.
 

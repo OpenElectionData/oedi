@@ -32,7 +32,7 @@ Para este ejercicio regresamos a Opendya. Usted logró obtener un conjunto de da
 - Desde las elecciones de 2010 han surgido conflictos violentos en dos distritos: Conflicteri (código de distrito: 9) y Disputana (código de distrito: 23),
 - En anticipación a las elecciones de 2014, la comisión electoral de Opendya llevó a cabo un ejercicio de cinco semanas para actualizar el padrón electoral, durante el cual se añadieron nuevos votantes al mismo.
 
-Ya tiene los antecedentes, ahora revisemos los datos. **Descargue [aquí](/files/academy/exercise/Module_5_Voter_Registration_Data.xlsx)** los datos del registro de votantes de Opendya. Necesitará este archivo para poder realizar el ejercicio.
+Ya tiene los antecedentes, ahora revisemos los datos. **Descargue [aquí](/assets/academy/exercise/Module_5_Voter_Registration_Data.xlsx)** los datos del registro de votantes de Opendya. Necesitará este archivo para poder realizar el ejercicio.
 
 ### Cómo analizar los datos del registro de votantes
 

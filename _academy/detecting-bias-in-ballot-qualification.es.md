@@ -31,7 +31,7 @@ Todos los candidatos que presentaron su solicitud de inclusión en el boleto ele
 
 ## Cómo analizar los datos del registro de candidatos
 
-Para comenzar el ejercicio **descargue **[aquí](/files/academy/exercise/Module_4_Ballot_Qualification.xlsx)** el archivo con los datos del registro de candidatos.** .
+Para comenzar el ejercicio **descargue **[aquí](/assets/academy/exercise/Module_4_Ballot_Qualification.xlsx)** el archivo con los datos del registro de candidatos.** .
 
 Antes de entrar a fondo en el análisis, familiarícese con los datos disponibles en el archivo.
 

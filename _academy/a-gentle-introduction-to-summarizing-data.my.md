@@ -123,7 +123,7 @@ Standard deviation က ကျွန်ုပ်တို့အား ပုံ�
 
 ## အချက်အလက်များနှင့် ဆော့ကစားခြင်း
 
-သင်ကိုယ်တိုင် တွက်ချက်မှုများ ပြုလုပ်လိုလျှင် [အမြင့်နှင့်ဆက်စပ်သည့် dataset](/files/academy/exercise/Heights.csv) ကို ဤနေရာတွင် ရယူပါ။ Data များကို တွက်ချက်မှု အချို့နှင့်အတူ [Excel file](/files/academy/exercise/Heights_calculations.xlsx) သို့မဟုတ် [Open Spreadsheets file](/files/academy/exercise/Heights_calculations.ods) အဖြစ်ရယူနိုင်ပါသည်။
+သင်ကိုယ်တိုင် တွက်ချက်မှုများ ပြုလုပ်လိုလျှင် [အမြင့်နှင့်ဆက်စပ်သည့် dataset](/assets/academy/exercise/Heights.csv) ကို ဤနေရာတွင် ရယူပါ။ Data များကို တွက်ချက်မှု အချို့နှင့်အတူ [Excel file](/assets/academy/exercise/Heights_calculations.xlsx) သို့မဟုတ် [Open Spreadsheets file](/assets/academy/exercise/Heights_calculations.ods) အဖြစ်ရယူနိုင်ပါသည်။
 
 ## သင်္ချာ ပုံသေနည်းများ
 

@@ -32,7 +32,7 @@ Pour cet exercice, nous retournons à Opendya. Vous avez été en mesure d'obten
 - Depuis les élections de 2010, un conflit violent a éclaté dans deux circonscriptions: Conflicteri (code de district: 9) et Disputana (code de district: 23).
 - En prévision des élections de 2014, la Commission électorale d'Opendya a procédé à un exercice de 5 semaines pour actualiser la liste d’inscription des électeurs en ajoutant de nouveaux électeurs aux listes existantes.
 
-Vous avez maintenant le contexte en tête, nous pouvons désormais observer les données. **Téléchargez les données d'inscription des électeurs d'Opendya [ici](/files/academy/exercise/Module_5_Voter_Registration_Data.xlsx)**. Vous aurez besoin de ce fichier pour compléter l'exercice.
+Vous avez maintenant le contexte en tête, nous pouvons désormais observer les données. **Téléchargez les données d'inscription des électeurs d'Opendya [ici](/assets/academy/exercise/Module_5_Voter_Registration_Data.xlsx)**. Vous aurez besoin de ce fichier pour compléter l'exercice.
 
 ### Revoir les données d’inscription des électeurs
 

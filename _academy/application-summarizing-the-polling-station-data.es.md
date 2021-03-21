@@ -51,7 +51,7 @@ Ahora que ya sabe cuáles son las buenas prácticas de higiene de datos, revisem
 
 ## Ejercicio práctico: Analizar nuevamente la Lista de Centros de Votación utilizando Excel
 
-En el [segundo módulo de la Academia de Datos Electorales](/en/academy/reviewing-a-polling-station-list/) analizamos una [lista de centros de votación (en formato XLS)](/files/academy/exercise/Polling_Station_List_2008.xls). En teoría, se supone que el archivo contiene la lista de todos los centros de votación de un país[^1]. Abra el archivo y revise nuevamente los datos. A medida que se desplace hacia abajo, hágase las siguientes preguntas:
+En el [segundo módulo de la Academia de Datos Electorales](/en/academy/reviewing-a-polling-station-list/) analizamos una [lista de centros de votación (en formato XLS)](/assets/academy/exercise/Polling_Station_List_2008.xls). En teoría, se supone que el archivo contiene la lista de todos los centros de votación de un país[^1]. Abra el archivo y revise nuevamente los datos. A medida que se desplace hacia abajo, hágase las siguientes preguntas:
 
 - ¿Pareciera que falta algo?
 - ¿Los datos están estructurados de manera que tengan sentido?

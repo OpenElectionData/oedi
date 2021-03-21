@@ -51,7 +51,7 @@ Now that you know how to practice good data hygiene, let's re-examine that polli
 
 ## Practical Exercise: (Re)Examine the Polling Station List using Excel
 
-In the [second module of Election Data Academy](/en/academy/reviewing-a-polling-station-list/), we examined a [polling station list (in XLS format)](/files/academy/exercise/Polling_Station_List_2008.xls). In theory, the file is supposed to contain the list of all polling stations in a country.[^1] Open that file and take another look at the data. As you scroll through it, ask yourself these questions:
+In the [second module of Election Data Academy](/en/academy/reviewing-a-polling-station-list/), we examined a [polling station list (in XLS format)](/assets/academy/exercise/Polling_Station_List_2008.xls). In theory, the file is supposed to contain the list of all polling stations in a country.[^1] Open that file and take another look at the data. As you scroll through it, ask yourself these questions:
 
 - Does it seem like anything is missing?
 - Is the data structured in a way that makes sense?

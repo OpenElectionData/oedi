@@ -123,7 +123,7 @@ Testez votre savoir en répondant aux questions:
 
 ## Jouez avec les Données
 
-Si vous voulez effectuer vos propres calculs, voici [la série de données sur la taille](/files/academy/exercise/Heights.csv). Les données avec quelques calculs sont disponibles [en Fichier Excel](/files/academy/exercise/Heights_calculations.xlsx) ou dans un [Fichier de Calcul Ouvert](/files/academy/exercise/Heights_calculations.ods).
+Si vous voulez effectuer vos propres calculs, voici [la série de données sur la taille](/assets/academy/exercise/Heights.csv). Les données avec quelques calculs sont disponibles [en Fichier Excel](/assets/academy/exercise/Heights_calculations.xlsx) ou dans un [Fichier de Calcul Ouvert](/assets/academy/exercise/Heights_calculations.ods).
 
 ## Les Formules Mathématiques
 

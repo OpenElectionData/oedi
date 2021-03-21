@@ -34,7 +34,7 @@ Aunque no es un requisito, le sugerimos terminar primero el Módulo 5 para que s
 - Desde las elecciones de 2010 han surgido conflictos violentos en dos distritos: Conflicteri (código de distrito: 9) y Disputana (código de distrito: 23),
 - En anticipación a las elecciones de 2014, la comisión electoral de Opendya llevó a cabo un ejercicio de cinco semanas para actualizar el padrón electoral, durante el cual se añadieron nuevos votantes al mismo.
 
-Para realizar el presente ejercicio puede seguir utilizando el conjunto de datos que descargó en el Módulo 5, o puede **volver a descargar el archivo [aquí](/files/academy/exercise/Module_6_Registered_Voters.xlsx)**.
+Para realizar el presente ejercicio puede seguir utilizando el conjunto de datos que descargó en el Módulo 5, o puede **volver a descargar el archivo [aquí](/assets/academy/exercise/Module_6_Registered_Voters.xlsx)**.
 
 ## Cómo analizar los datos del registro de votantes
 

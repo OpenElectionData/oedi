@@ -37,8 +37,10 @@ module.exports = {
   imagemin: {
     src: '_images',
     dest: 'images',
-    progressive: true,
-    optimizationLevel: 5,
+    mozjpeg: { quality: 75, progressive: true },
+    optipng: {
+      optimizationLevel: 5
+    },
     svgoPlugins: [{ removeViewBox: false }]
   },
 

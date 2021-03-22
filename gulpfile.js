@@ -5,6 +5,7 @@ const autoprefixer = require('autoprefixer')
 const babel = require('gulp-babel')
 const browserSync = require('browser-sync')
 const cp = require('child_process')
+const del = require('del')
 const eslint = require('gulp-eslint')
 const imagemin = require('gulp-imagemin')
 const named = require('vinyl-named')
@@ -216,14 +217,35 @@ function jekyllBuild(done) {
     .on('close', done)
 }
 
+// Removes the folders & files in the root _site so we can copy the contents of our _en directory. This gets around a problem with the polyglot plugin.
+const cleanRootDir = function() {
+  return del([
+    // here we use a globbing pattern to match everything inside the `mobile` folder
+    config.jekyll.dest + '/**/*',
+    // we don't want to clean this file though so we negate the pattern
+    '!' + config.jekyll.dest + '/assets',
+    '!' + config.jekyll.dest + '/ar',
+    '!' + config.jekyll.dest + '/en',
+    '!' + config.jekyll.dest + '/es',
+    '!' + config.jekyll.dest + '/fr',
+    '!' + config.jekyll.dest + '/my',
+    '!' + config.jekyll.dest + '/uk'
+  ])
+}
+
+// Copies the contents of the English language directory to our build directory.
+const copyEnglishDir = function() {
+  return src([config.jekyll.dest + '/en/**/*']).pipe(dest(config.jekyll.dest))
+}
+
 exports.default = series(
   parallel(series(styleLintTask, sassTask), webpackTask, imagesTask),
-  jekyllBuild,
+  series(jekyllBuild, cleanRootDir, copyEnglishDir),
   serve,
   watchTask
 )
 
 exports.build = series(
   parallel(series(styleLintTask, sassTask), webpackTask, imagesTask),
-  jekyllBuild
+  series(jekyllBuild, cleanRootDir, copyEnglishDir)
 )

@@ -81,9 +81,9 @@
             &times;
           </button>
         </header>
-        <form netlify>
+        <form name="signup" netlify>
           <label for="email" class="text--small">{{ site.data.strings.enter_your_email_for_updates }}</label>
-          <input id="email" type="email" placeholder="{{ site.data.strings.email }}" />
+          <input id="email" name="email" type="email" placeholder="{{ site.data.strings.email }}" />
           <button type="submit" class="btn btn--blue btn--small">{{ site.data.strings.signup }}</button>
         </form>
       </dialog>

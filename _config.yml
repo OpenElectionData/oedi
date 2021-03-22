@@ -109,6 +109,3 @@ exclude:
   - vendor/ruby/
   - yarn.lock
   - conversions/
-
-include:
-  - _redirects

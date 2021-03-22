@@ -5,7 +5,7 @@ baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://openelectiondata.net' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 
-google_analytics:
+google_analytics: UA-62841086-1
 
 date_format: '%B %-d, %Y'
 
@@ -24,6 +24,9 @@ collections:
     output: true
   academy:
     title: Academy
+    output: true
+  holiday:
+    title: Holiday
     output: true
 
 # Default front matter values for a collection will be defined here
@@ -55,6 +58,12 @@ defaults:
     values:
       layout: page-sidebar
       is_academy: true
+  - scope:
+      path: ''
+      type: 'holiday'
+    values:
+      layout: page
+      is_holiday: true
 
 # Translation Settings
 languages: ['en', 'es', 'ar', 'fr', 'uk', 'my']

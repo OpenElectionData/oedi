@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% assign items = site.holiday | sort: 'display_order' %}
+
+<article class="page page--sidebar">
+  <aside class="page__sidebar">
+    <h2>{{ site.data.strings.table_of_contents }}</h2>
+    {%- if items.size > 0 -%}
+    <ul>
+      {% for item in items %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </aside>
+  <section class="page__main">
+    <h1 class="page__title">
+      {{ page.title }}
+    </h1>
+    {{ content }} {%- if items.size > 0 -%}
+    <ol class="games-list" role="list">
+      {% for item in items %}
+      <li>
+        <a href="{{ item.url | relative_url }}" class="games-list__img">
+          <img
+            src="{{ item.preview_img | prepend: '/assets/images/holiday/' | relative_url }}"
+            alt=""
+          />
+        </a>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        <p>{{ item.excerpt }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+    {%- endif -%}
+  </section>
+</article>

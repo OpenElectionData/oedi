@@ -30,10 +30,19 @@
     {%- if page.layout == 'inventory-country' -%}
     <link rel="stylesheet" href="{{ '/assets/css/pages/inventory-country.css' | relative_url }}" />
     {%- endif -%}
+    {%- if page.layout == 'holiday-archive' -%}
+    <link rel="stylesheet" href="{{ '/assets/css/pages/holiday.css' | relative_url }}" />
+    {%- endif -%}
     <link rel="stylesheet" media="print" href="{{ '/assets/css/print.css' | relative_url }}" />
 
     {%- if site.active_lang == 'my' -%}
     <link href="https://fonts.googleapis.com/css?family=Padauk" rel="stylesheet">
+    {%- endif -%}
+
+    {%- if page.is_holiday and page.head.size > 0-%}
+    {%- for item in page.head -%}
+     <link href="{{ item }}" rel="stylesheet">
+    {%- endfor -%}
     {%- endif -%}
   
     {%- feed_meta -%}
@@ -99,6 +108,12 @@
 
       const userList = new List('inventory', options);
     </script>
+    {%- endif -%}
+
+    {%- if page.is_holiday and page.footer.size > 0-%}
+    {%- for item in page.footer -%}
+     <script src="{{ item }}" type="text/javascript"></script>
+    {%- endfor -%}
     {%- endif -%}
   </body>
 

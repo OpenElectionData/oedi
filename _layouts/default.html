@@ -18,6 +18,10 @@
       rel="stylesheet">
   
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    {%- if site.active_lang == 'ar' -%}
+    <link rel="stylesheet" href="{{ '/assets/css/main.rtl.css' | relative_url }}" />
+    {%- endif -%}
+
     {%- if page.layout == 'home' -%}
     <link rel="stylesheet" href="{{ '/assets/css/pages/home.css' | relative_url }}" />
     {% else %}

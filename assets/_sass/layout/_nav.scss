@@ -13,18 +13,13 @@
 
   @include breakpoint('medium') {
     flex-direction: row;
+    gap: rem(32);
   }
 
   li {
     @include breakpoint('medium') {
       flex: 0 1 auto;
       max-width: fit-content;
-    }
-  }
-
-  li + li {
-    @include breakpoint('medium') {
-      margin-left: rem(32);
     }
   }
 

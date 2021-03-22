@@ -1,0 +1,31 @@
+@use 'abstracts' as *;
+
+html,
+body {
+  direction: rtl;
+}
+
+.nav-lang__menu {
+  @include breakpoint('medium') {
+    right: unset;
+    left: 0;
+    text-align: right;
+  }
+}
+
+.pagination__next {
+  justify-self: flex-start;
+  margin: 0 auto 0 0;
+}
+
+.pagination__prev {
+  justify-self: flex-end;
+  margin: 0 0 0 auto;
+}
+
+.pagination__next,
+.pagination__prev {
+  .fas {
+    transform: rotate(180deg);
+  }
+}

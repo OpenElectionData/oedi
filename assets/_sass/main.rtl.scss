@@ -29,3 +29,10 @@ body {
     transform: rotate(180deg);
   }
 }
+
+.country__table {
+  th:first-of-type,
+  td:first-of-type {
+    text-align: right !important;
+  }
+}

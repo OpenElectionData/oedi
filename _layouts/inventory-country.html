@@ -33,8 +33,8 @@ layout: default
   </header>
 
   <div class="post__content e-content" itemprop="articleBody">
-    {% assign country_slug = page.title | slugify %} {% assign country =
-    site.data.inventory_countries | find: "country", country_slug %}
+    {% assign country = site.data.inventory_countries | find: "country",
+    countrySlug %}
 
     <div class="table__wrapper">
       <table class="table country__table">

@@ -1,0 +1,37 @@
+<h2>{{ site.data.strings.table_of_contents }}</h2>
+{% assign sections = site.guide | where: 'section', nil | sort:
+'chapter_id', 'last' %}
+<ul>
+  {% for section in sections %} {% assign subsections = site.guide | where:
+  'section', section.chapter_id | sort: 'chapter_id', 'last' %} {% if
+  subsections.size == 0 %}
+  <li>
+    <a
+      href="{{ section.url | relative_url }}"
+      class="{% if page.url == section.url %}is-active{% endif %}"
+      >{{ section.title_short | default: section.title }}</a
+    >
+  </li>
+  {% else %}
+  <li
+    class="{% if page.chapter_id == section.chapter_id or page.section == section.chapter_id %}is-active{% endif %}"
+  >
+    <a
+      href="{{ section.url | relative_url }}"
+      class="{% if page.url == section.url %}is-active{% endif %}"
+      >{{ section.title }}</a
+    >
+    <ul>
+      {% for subsection in subsections %}
+      <li>
+        <a
+          href="{{ subsection.url | relative_url }}"
+          class="{% if page.url == subsection.url %}is-active{% endif %}"
+          >{{ subsection.title_short | default: subsection.title }}</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endif %} {% endfor %}
+</ul>

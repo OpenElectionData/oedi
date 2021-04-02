@@ -39,7 +39,7 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "autoprefixer": "^9.8.0",
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.26.14",
     "del": "^6.0.0",
     "eslint-config-prettier": "^3.6.0",
     "eslint-loader": "^2.2.1",

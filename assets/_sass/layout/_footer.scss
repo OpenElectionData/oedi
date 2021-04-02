@@ -14,6 +14,8 @@
   &__logos {
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 
     @include breakpoint('medium') {
       justify-content: flex-end;
@@ -36,13 +38,29 @@
     }
   }
 
+  .share {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    @include font-size(28px);
+
+    a {
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
   &__copyright {
     display: flex;
     align-items: center;
     @include font-size(12px);
 
     @include breakpoint('medium') {
-      grid-column: 1 / -1;
+      justify-content: flex-end;
     }
 
     a {

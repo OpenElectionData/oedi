@@ -1,47 +1,30 @@
-{% if site.url.size > 0 %} {% assign shareLink = site.url | append: page.url %}
-{% endif %}
-
-<div class="share">
-  <ul role="list">
-    <li>
-      <a
-        href="https://www.facebook.com/sharer.php?u={{ shareLink }}"
-        rel="nofollow"
-        target="_blank"
-        aria-label="Share on Facebook"
-        rel="noopener"
-        ><i class="icon icon-facebook"></i
-      ></a>
-    </li>
-    <li>
-      <a
-        href="https://twitter.com/intent/tweet?text={{ page.title | escape }}&url={{ shareLink }}&via=CSIS&related=CSIS"
-        rel="nofollow"
-        target="_blank"
-        aria-label="Share on Twitter"
-        rel="noopener"
-        ><i class="icon icon-twitter"></i
-      ></a>
-    </li>
-    <li>
-      <a
-        href="https://www.linkedin.com/shareArticle?mini=true&url={{ shareLink }}&summary={{ page.title | escape }}&source=CSIS"
-        rel="nofollow"
-        target="_blank"
-        aria-label="Share on LinkedIn"
-        rel="noopener"
-        ><i class="icon icon-linkedin"></i
-      ></a>
-    </li>
-    <li>
-      <a
-        href="mailto:?subject={{ site.title | escape }}: {{ page.title | escape }}&amp;body={{ shareLink }}"
-        aria-label="Email link to {{ page.title | escape }}"
-        ><i class="icon icon-email-plane"></i
-      ></a>
-    </li>
-    <li>
-      <i class="icon icon-link" aria-label="Copied!"></i>
-    </li>
-  </ul>
-</div>
+<ul class="share" role="list">
+  <li>
+    <a
+      href="https://www.facebook.com/openelectiondatainitiative"
+      rel="nofollow"
+      target="_blank"
+      aria-label="Share on Facebook"
+      rel="noopener"
+      ><i class="fab fa-facebook-square"></i></a>
+  </li>
+  <li>
+    <a
+      href="https://twitter.com/openelectdata"
+      rel="nofollow"
+      target="_blank"
+      aria-label="Visit OEDI Twitter"
+      rel="noopener"
+      ><i class="fab fa-twitter-square"></i></a>
+  </li>
+  <li>
+    <a href="https://www.instagram.com/openelectiondata/"
+      rel="nofollow" target="_blank" aria-label="Visit OEDI Instagram" rel="noopener"><i class="fab fa-instagram-square"></i></a>
+  </li>
+  <li>
+    <a
+      href="mailto:openelectiondata@ndi.org?subject={{ site.title | escape }}"
+      aria-label="Email link to {{ page.title | escape }}"
+      ><i class="fas fa-envelope-square"></i></a>
+  </li>
+</ul>

@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: Contact
+title: КОНТАКТИ
 lang: uk
 permalink: /contact/
 ---

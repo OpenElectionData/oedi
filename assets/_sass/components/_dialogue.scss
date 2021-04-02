@@ -9,7 +9,8 @@
  *
  * Feel free to replace `:first-child` with the overlay selector you prefer.
  */
-[data-a11y-dialog-native] > :first-child {
+[data-a11y-dialog-native] > :first-child,
+dialog {
   display: none;
 }
 

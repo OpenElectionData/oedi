@@ -80,10 +80,19 @@ a {
 .footnotes {
   margin-top: 2rem !important;
   padding-top: 2rem;
-  @include font-size(14px);
+  @include font-size(12px);
   border-top: 1px solid $color__gray-300;
+
+  @include breakpoint('medium') {
+    @include font-size(14px);
+  }
 
   ol {
     margin: 0;
+    padding-left: 1rem;
+
+    @include breakpoint('medium') {
+      padding-left: 2rem;
+    }
   }
 }

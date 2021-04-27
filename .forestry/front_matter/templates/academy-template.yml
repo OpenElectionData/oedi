@@ -1,0 +1,19 @@
+---
+label: Academy Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: lang
+  label: lang
+- type: number
+  name: module_id
+  label: module_id
+- type: text
+  name: permalink
+  label: permalink
+- type: textarea
+  name: excerpt
+  label: excerpt

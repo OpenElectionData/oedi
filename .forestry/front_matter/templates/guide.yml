@@ -8,9 +8,24 @@ fields:
 - type: text
   name: title_short
   label: title_short
-- type: text
-  name: lang
-  label: lang
+- name: lang
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - en
+    - es
+    - ar
+    - fr
+    - uk
+    - my
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Lang
 - type: number
   name: chapter_id
   label: chapter_id

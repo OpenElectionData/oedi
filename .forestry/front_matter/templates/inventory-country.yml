@@ -1,0 +1,28 @@
+---
+label: Inventory Country
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: lang
+  label: lang
+- type: number
+  name: country_id
+  label: country_id
+- type: number
+  name: has_map
+  label: has_map
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: election_evaluated
+  label: election_evaluated
+- type: datetime
+  name: last_checked
+  label: last_checked
+- type: textarea
+  name: open_data_information
+  label: open_data_information

@@ -5,9 +5,24 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: lang
-  label: lang
+- name: lang
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - en
+    - es
+    - ar
+    - fr
+    - uk
+    - my
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Lang
 - type: number
   name: country_id
   label: country_id

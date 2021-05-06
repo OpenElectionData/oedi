@@ -17,16 +17,17 @@ sections:
 - type: directory
   path: _inventory
   label: Inventory
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - inventory-country
 - type: directory
   path: _guide
   label: Guide
-  create: all
+  create: documents
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
+  templates:
+  - guide
 upload_dir: assets/_images
 public_path: assets/images
 front_matter_path: ''

@@ -10,8 +10,10 @@ sections:
 - type: directory
   path: _academy
   label: Academy
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - academy-template
 - type: directory
   path: _inventory
   label: Inventory

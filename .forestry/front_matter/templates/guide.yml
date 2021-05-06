@@ -1,0 +1,22 @@
+---
+label: Guide
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: title_short
+  label: title_short
+- type: text
+  name: lang
+  label: lang
+- type: number
+  name: chapter_id
+  label: chapter_id
+- type: text
+  name: section
+  label: section
+- type: text
+  name: permalink
+  label: permalink

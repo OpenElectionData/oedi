@@ -36,3 +36,5 @@ fields:
   name: excerpt
   label: Excerpt
   description: This short description will be shown on the academy landing page.
+pages:
+- _academy/modulo-7-como-utilizar-los-datos-del-censo-para-fortalecer-el-analisis-del-registro-de-votantes.md

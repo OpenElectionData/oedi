@@ -2,7 +2,8 @@
 lang: es
 title: 'Módulo 7: Cómo utilizar los datos del censo para fortalecer el análisis del
   registro de votantes'
-module_id: 
+module_id: 7
+permalink: "/academy/using-census-data-to-strengthen-voter-registration-analysis/"
 excerpt: ''
 published: false
 

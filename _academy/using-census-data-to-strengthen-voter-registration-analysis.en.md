@@ -352,7 +352,7 @@ You’ve successfully pulled corresponding data from your census file to your vo
 
 To prevent this from happening, consider copying all of columns L-N and pasting the data back “as values.” Here’s how this is done.
 
-1\. Select all of columns L-M by clicking the letter “L” at the top of the column and, while still holding down, dragging your cursor across to column “N.”
+1\. Select all of columns L-N by clicking the letter “L” at the top of the column and, while still holding down, dragging your cursor across to column “N.”
 
 [![Image 1](/assets/images/academy/module_7/36_paste_vals_1.png)](/assets/images/academy/module_7/36_paste_vals_1.png)
 

@@ -1,22 +1,24 @@
 ---
-title: '7. Using Census Data to Strengthen Voter Registration Analysis'
+title: 7. Using Census Data to Strengthen Voter Registration Analysis
 lang: en
 module_id: 7
-permalink: '/academy/using-census-data-to-strengthen-voter-registration-analysis/'
-excerpt: "Module 7 will solidify skills you gained in Modules 5 and 6 to allow you to do more advanced analysis of voter registration data. We’ll also introduce new tricks that will help you cross-reference data from other helpful sources, like census data, to supplement your analysis of the voter registration. We hope that by the end of Module 7 you’ll be able to:
-<ul><li>Make use of Excel’s INDEX MATCH formula combination,</li>
-<li>Master your understanding of SUMIF functions,</li>
-<li>Master basic MS Excel operations, like percentages, and</li>
-<li>Explore political considerations of your data.</li>
-</ul>"
----
+permalink: "/academy/using-census-data-to-strengthen-voter-registration-analysis/"
+excerpt: 'Module 7 will solidify skills you gained in Modules 5 and 6 to allow you
+  to do more advanced analysis of voter registration data. We’ll also introduce new
+  tricks that will help you cross-reference data from other helpful sources, like
+  census data, to supplement your analysis of the voter registration. We hope that
+  by the end of Module 7 you’ll be able to: <ul><li>Make use of Excel’s INDEX MATCH
+  formula combination,</li> <li>Master your understanding of SUMIF functions,</li>
+  <li>Master basic MS Excel operations, like percentages, and</li> <li>Explore political
+  considerations of your data.</li> </ul>'
 
+---
 Module 7 will solidify skills you gained in Modules 5 and 6 to allow you to do more advanced analysis of voter registration data. We’ll also introduce new tricks that will help you cross-reference data from other helpful sources, like census data, to supplement your analysis of the voter registration. We hope that by the end of Module 7 you’ll be able to:
 
-- Make use of Excel’s INDEX MATCH formula combination,
-- Master your understanding of SUMIF functions,
-- Master basic MS Excel operations, like percentages, and
-- Explore political considerations of your data.
+* Make use of Excel’s INDEX MATCH formula combination,
+* Master your understanding of SUMIF functions,
+* Master basic MS Excel operations, like percentages, and
+* Explore political considerations of your data.
 
 ## How Census Data Relates to Voter Registration?
 
@@ -30,24 +32,24 @@ Election fun in Opendya continues! As you’ll recall, you were able to get ahol
 
 While not required, we suggest that you complete Module 5-6 first, so that you are familiar with the data set and political background of Opendya. If you haven’t completed Modules, here’s some important political background you should be familiar with:
 
-- Opendya had national elections in 2010 and 2014.
-- The capital of Opendya is in the Opa City district (District code: 47), which contains a mixture of urban and rural areas.
-- Since the 2010 elections, violent conflict broke out in two districts: Conflicteri (District code: 9) and Disputana (District Code: 23).
-- The census was conducted before violence broke out in the 2 districts.
-- Ahead of the 2014 polls, the Election Commission of Opendya conducted a five-week voter registration update exercise.
+* Opendya had national elections in 2010 and 2014.
+* The capital of Opendya is in the Opa City district (District code: 47), which contains a mixture of urban and rural areas.
+* Since the 2010 elections, violent conflict broke out in two districts: Conflicteri (District code: 9) and Disputana (District Code: 23).
+* The census was conducted before violence broke out in the 2 districts.
+* Ahead of the 2014 polls, the Election Commission of Opendya conducted a five-week voter registration update exercise.
 
 ## Data Files
 
 You’ll need two different files to complete this exercise:
 
-- Opendya **[voter registration data](/assets/academy/exercise/module_7_registered_voters_2014_for_user.xlsx)** (this includes the same raw data as Modules 5-6, but different column headers to be used for analysis); and
-- Opendya **[census data](/assets/academy/exercise/module_7_census_data.xlsx)**
+* Opendya [**voter registration data**](/assets/academy/exercise/module_7_registered_voters_2014_for_user.xlsx) (this includes the same raw data as Modules 5-6, but different column headers to be used for analysis); and
+* Opendya [**census data**](/assets/academy/exercise/module_7_census_data.xlsx)
 
 If you’ve completed Modules 5 and/or 6, you can continue to use your voter registration data file but will need to download the new census file. If you continue to use your existing file, you’ll need to add a few additional columns for analysis in Module 7 (mirroring the screenshots in the exercise), as your headers will not be pre-populated. You may also download a fresh data file with pre-populated column headers for analysis specific to this module.
 
 ## Reviewing the Voter Registration Data
 
-Let’s reacquaint ourselves with Opendya’s voter registration data. Click on the Registration_Data tab in the **[Registered Voters file.](/assets/academy/exercise/module_7_registered_voters_2014_for_user.xlsx)**
+Let’s reacquaint ourselves with Opendya’s voter registration data. Click on the Registration_Data tab in the [**Registered Voters file.**](/assets/academy/exercise/module_7_registered_voters_2014_for_user.xlsx)
 
 #### **District_Name**
 
@@ -113,7 +115,7 @@ You’ll make additional calculations in the Data_Summary tab of your voter regi
 
 #### **District_Name, District_Code, Type**
 
-Like the voter registration data, the **[census data](/assets/academy/exercise/module_7_census_data.xlsx)** file contains the names of all districts in Opendya (District_Name, A), and the unique identifiers or codes for each district (District_Code, B). It also lists the type of district, namely whether a location is urban, rural or the capital (Type, C). These three columns overlap with data included in your voter registration file.
+Like the voter registration data, the [**census data**](/assets/academy/exercise/module_7_census_data.xlsx) file contains the names of all districts in Opendya (District_Name, A), and the unique identifiers or codes for each district (District_Code, B). It also lists the type of district, namely whether a location is urban, rural or the capital (Type, C). These three columns overlap with data included in your voter registration file.
 
 [![Image 1](/assets/images/academy/module_7/10_distname_code_type.png)](/assets/images/academy/module_7/10_distname_code_type.png)
 
@@ -145,12 +147,10 @@ The INDEX formula returns a value or the reference to a value (i.e., cell number
 
 The formula syntax is structured like this: **INDEX(array, row_num, \[column_num\])**
 
-- **Array** (Required):An array is just a range of cells within which you’re searching for data.
-
-- If the array contains only one row or column, the corresponding Row_num or Column_num argument is optional.
-
-- **Row_num** (Required):Selects the row in the array from which to return a value. If Row_num is omitted, Column_num is required.
-- **Column_num** (Optional): Selects the column in array from which to return a value. If Column_num is omitted, Row_num is required.
+* **Array** (Required):An array is just a range of cells within which you’re searching for data.
+* If the array contains only one row or column, the corresponding Row_num or Column_num argument is optional.
+* **Row_num** (Required):Selects the row in the array from which to return a value. If Row_num is omitted, Column_num is required.
+* **Column_num** (Optional): Selects the column in array from which to return a value. If Column_num is omitted, Row_num is required.
 
 Here’s a quick example of how INDEX will be used in this exercise. Say you have a short list of several districts in Opendya and their corresponding registered voter figures.
 
@@ -172,12 +172,12 @@ Now let’s review the MATCH formula. The MATCH function searches for a specific
 
 **MATCH(lookup_value, lookup_array, \[match_type\])**
 
-- **Lookup_value** (Required): This is the value that you want to Excel find a match for in a specific range, or lookup_array.
-- **Lookup_array** (Required):Your lookup_array is the range of cells that you’re asking Excel to search within. For the MATCH formula, your range must be a continuous row or column, rather than a table. MATCH only can only specify either the vertical or horizontal position for a value (not both at the same time).
-- **Match_type** (Optional): The match_type tells Excel what kind of match you’re looking for, or the level of specificity to look for. Match_type is defined by the numbers -1, 0, or 1. The default value for this argument is 1 if you specify nothing. Here’s what the different values mean:
-  - 1 = MATCH finds the largest value that is less than or equal to your lookup_value
-  - 0 = MATCH returns only a value equal to your lookup_value
-  - \-1 = MATCH finds the smallest value that is greater than or equal to your lookup value
+* **Lookup_value** (Required): This is the value that you want to Excel find a match for in a specific range, or lookup_array.
+* **Lookup_array** (Required):Your lookup_array is the range of cells that you’re asking Excel to search within. For the MATCH formula, your range must be a continuous row or column, rather than a table. MATCH only can only specify either the vertical or horizontal position for a value (not both at the same time).
+* **Match_type** (Optional): The match_type tells Excel what kind of match you’re looking for, or the level of specificity to look for. Match_type is defined by the numbers -1, 0, or 1. The default value for this argument is 1 if you specify nothing. Here’s what the different values mean:
+  * 1 = MATCH finds the largest value that is less than or equal to your lookup_value
+  * 0 = MATCH returns only a value equal to your lookup_value
+  * -1 = MATCH finds the smallest value that is greater than or equal to your lookup value
 
 Let’s think back to our Opendya example to understand how MATCH works. In addition to our mini voter registration spreadsheet shown in the INDEX example, say we have a separate table that contains census data on Opendya’s voting age population (VAP). Notice that districts are not in the same order across tables.
 
@@ -189,9 +189,9 @@ The MATCH formula will tell us the position, or row number, each district of Ope
 
 In the above formula:
 
-- We’ve specified cell B2, District_Code = 23, as our **lookup_value**
-- Cells “B10:B14” of our census data table serve as our **lookup_array** , or range;
-- Last, we’ve selected “0” as our **match_type**, which means we only want an exact match of our lookup_value, “23.”
+* We’ve specified cell B2, District_Code = 23, as our **lookup_value**
+* Cells “B10:B14” of our census data table serve as our **lookup_array** , or range;
+* Last, we’ve selected “0” as our **match_type**, which means we only want an exact match of our lookup_value, “23.”
 
 [![Image 1](/assets/images/academy/module_7/18_match_example_3.png)](/assets/images/academy/module_7/18_match_example_3.png)
 
@@ -207,7 +207,7 @@ Say you’d like to automatically bring voting age population (VAP) data from yo
 
 Remember that the INDEX formula is able to return values (the actual content of a cell) when the user selects an array or range, a row number, and/or a column number. Formula =**INDEX(array, row_num, \[column_num\])**. However when working with the full datasets for Opendya’s voter registration and census – you won’t always automatically know the row number in which the value you’re looking for appears. That’s where MATCH comes in!
 
-Remember, the MATCH function returns the position (row or column number) of the value you’re specifically looking for within a range of cells (a single column or row). Formula **\= MATCH(lookup_value, lookup_array, \[match_type\])**. You can use the MATCH formula to serve as the row_num component of your INDEX formula. That means that Excel automatically looks up the row number you need to use in order to return your INDEX value. Here’s how this works in practice.
+Remember, the MATCH function returns the position (row or column number) of the value you’re specifically looking for within a range of cells (a single column or row). Formula **= MATCH(lookup_value, lookup_array, \[match_type\])**. You can use the MATCH formula to serve as the row_num component of your INDEX formula. That means that Excel automatically looks up the row number you need to use in order to return your INDEX value. Here’s how this works in practice.
 
 [![Image 1](/assets/images/academy/module_7/20_index_match_example_2.png)](/assets/images/academy/module_7/20_index_match_example_2.png)
 
@@ -215,14 +215,14 @@ In the above example, we’re asking Excel to automatically give us the voting a
 
 ##### INDEX
 
-- Because we eventually want voting age population (VAP) data to be entered into cell E2, we know our desired return value lies within cells C10:C14 for Disputana’s VAP. That range will serve as our formula’s **array**.
-- The MATCH formula will serve as the **row_num** argument of our INDEX formula. In this case, MATCH tells us which row the value of cell B2 (District Code = 23) falls within in our range. Since District, District_Codes, and their corresponding VAPs fall within the same row of our table, we know that the row number for “District Code 23” corresponds with the row number of its VAP.
+* Because we eventually want voting age population (VAP) data to be entered into cell E2, we know our desired return value lies within cells C10:C14 for Disputana’s VAP. That range will serve as our formula’s **array**.
+* The MATCH formula will serve as the **row_num** argument of our INDEX formula. In this case, MATCH tells us which row the value of cell B2 (District Code = 23) falls within in our range. Since District, District_Codes, and their corresponding VAPs fall within the same row of our table, we know that the row number for “District Code 23” corresponds with the row number of its VAP.
 
 ##### MATCH
 
-- Cell B2, Disputana’s district code of 23, will serve as the lookup_value in our MATCH function. That’s the value Excel search for and whose row number te MATCH function will give us.
-- Our **lookup_array**, or range, is B10:B14, since that is where all district codes are specified within our census data.
-- Our **match_type** is “0,” meaning we are looking for an exact match for cell B2, “23” within our range B10:B14.
+* Cell B2, Disputana’s district code of 23, will serve as the lookup_value in our MATCH function. That’s the value Excel search for and whose row number the MATCH function will give us.
+* Our **lookup_array**, or range, is B10:B14, since that is where all district codes are specified within our census data.
+* Our **match_type** is “0,” meaning we are looking for an exact match for cell B2, “23” within our range B10:B14.
 
 When we hit Enter, our INDEX MATCH formula automatically gives us the VAP of Disputana, district code 23! If we replicate the same formula logic across other districts, we can pull their VAPs from the census data table as well. Here’s a copy of our worksheet once we’ve matched over all VAP data from one table to another.
 
@@ -250,7 +250,7 @@ In your first application of INDEX MATCH, we’d like you to accurately match da
 
 We’ll begin our formula in cell L2 of our voter registration file. In this file, row 2 contains data pertaining to the Legosakool district. Again, our goal in employing INDEX MATCH here is to automatically pull Legosakool’s total voting age population (VAP_Tot) from our census data file into our voter registration file.
 
-1\. In cell L2 of your voter registration file, type \=INDEX(. As with other formulas, Excel tips you off about which specifications, or arguments, are required for this function to work.
+1\. In cell L2 of your voter registration file, type =INDEX(. As with other formulas, Excel tips you off about which specifications, or arguments, are required for this function to work.
 
 [![Image 1](/assets/images/academy/module_7/22_index_match_vap_tot.png)](/assets/images/academy/module_7/22_index_match_vap_tot.png)
 
@@ -308,7 +308,7 @@ We hope you’re up for a second INDEX MATCH! This time, we’re looking to popu
 
 We’ll apply very similar logic to this formula as we did with Match_VAP_Tot. Take a moment to think through how you might match this data from your census file to your voter registration file. Think about which columns will you need to reference and/or pull data from?
 
-1\. In cell M2 of your voter registration file, type \=INDEX(.
+1\. In cell M2 of your voter registration file, type =INDEX(.
 
 2\. Now select your INDEX **array**, which is the range of data you would like Excel to return in cell M2. In this case, you are interested in Legosakool’s female voting age population data housed in column E, Female_VAP, of your census data file. Click over to your census data and select all of column E.
 
@@ -326,7 +326,7 @@ Click back to your census data file and select all of column B, District_Code. H
 
 6\. Type another comma , and then type 0 to specify that you’d like an exact match for the District_Code value of “1” within column B of your census data file.
 
-7.Type two closed parentheses )), and hit Enter. What value did Excel return for the female voting age population of Legosakool?
+7\.Type two closed parentheses )), and hit Enter. What value did Excel return for the female voting age population of Legosakool?
 
 [![Image 1](/assets/images/academy/module_7/33_female_vap_lookup_prelim.png)](/assets/images/academy/module_7/33_female_vap_lookup_prelim.png)
 
@@ -374,13 +374,13 @@ Thanks to your expert INDEX MATCH skills, we now have a consolidated file with O
 
 #### **Calculated_Reg_Rate**
 
-We’re going to use division in Excel to calculate the 2014 rate of registered voters for each district in Opendya. We’ll do this in column O of your voter registration file, titled Calculated*Reg_Rate, of your voter registration file. *(Note: If you did not download a fresh voter registration data file at the start of Module 7 and are instead using your files from Modules 5-6, you will need to create a new column for Calculated*Reg_Rate and for all remaining analysis needs.)*
+We’re going to use division in Excel to calculate the 2014 rate of registered voters for each district in Opendya. We’ll do this in column O of your voter registration file, titled Calculated_Reg_Rate, of your voter registration file. (Note: If you did not download a fresh voter registration data file at the start of Module 7 and are instead using your files from Modules 5-6, you will need to create a new column for Calculated_Reg_Rate and for all remaining analysis needs.)
 
 To calculate the per-district registration rates, we need to divide the figures in I, Reg_Tot_Final, by the figures in column L, Match_VAP_Tot.
 
 [![Image 1](/assets/images/academy/module_7/formula_1_District_by_District_Rates.png)](/assets/images/academy/module_7/formula_1_District_by_District_Rates.png)
 
-1\. In cell O2, type an equals sign \=. Then click on cell I2. You’ll notice that Excel automatically adds the term “I2” to your formula once you click on that cell. Alternatively, you could simply type in the term “I2” and Excel will automatically link to that cell.
+1\. In cell O2, type an equals sign =. Then click on cell I2. You’ll notice that Excel automatically adds the term “I2” to your formula once you click on that cell. Alternatively, you could simply type in the term “I2” and Excel will automatically link to that cell.
 
 2\. Now type a forward slash / and click on cell L2, the voting age population in Legosakool.
 
@@ -406,7 +406,7 @@ Here’s your mathematical logic for this analysis:
 
 [![Image 1](/assets/images/academy/module_7/formula_2_Calculated_Female_Reg_Rate.png)](/assets/images/academy/module_7/formula_2_Calculated_Female_Reg_Rate.png)
 
-1\. Begin your division calculation with an equals sign \=. Then click on cell J2, the final number of registered female voters in Legosakool.
+1\. Begin your division calculation with an equals sign =. Then click on cell J2, the final number of registered female voters in Legosakool.
 
 2\. Type a forward slash / and click on cell M2, the eligible female voting population in Legosakool.
 
@@ -430,8 +430,8 @@ Check your calculations below!
 
 Now that we’ve calculated total, female, and male voter registration rates across districts, take a moment to scan through the data. Think back to the political context you were given at the beginning of this module.
 
-1.  What districts stand out to you as having particularly low overall registration rates? What about the lowest rates for male and female voters? What types of districts are those? What might explain these trends?
-2.  What districts stand out to you as having particularly high overall registration rates? What about the highest rates for male and female voters? What types of districts are those? What might explain these trends?
+1. What districts stand out to you as having particularly low overall registration rates? What about the lowest rates for male and female voters? What types of districts are those? What might explain these trends?
+2. What districts stand out to you as having particularly high overall registration rates? What about the highest rates for male and female voters? What types of districts are those? What might explain these trends?
 
 ## Evaluating Registration Rates Across District Type
 
@@ -445,9 +445,9 @@ As a reminder, the [SUMIF](https://support.office.com/en-us/article/SUMIF-functi
 
 Here’s how the formula is structured: **SUMIF(range, criteria, \[sum_range\])**
 
-- **Range:**Range specifies the area of cells that you want evaluated by your specific criteria. For our purposes, we are summing data based on the type of district. Since the “type of district” is our criteria, what column in your datasheet do you think we need to use for our range? What column do we look at for information on the type of district? (Answer = Column C, Type)
-- **Criteria:** Your criteria will indicate whether or not a number should be summed. Criteria can come in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added. For this exercise, you’ll be selecting from three different criteria \[urban, rural, and capital district\] and asking Excel to add census and voter registration numbers from districts that fall into one of those specific categories.
-- **Sum_range:** This tells Excel what cells to add, if you want to sum cells other than those specified in the range argument. For this exercise, your sum_range will be either the voting age population data or the registered voters data.
+* **Range:**Range specifies the area of cells that you want evaluated by your specific criteria. For our purposes, we are summing data based on the type of district. Since the “type of district” is our criteria, what column in your datasheet do you think we need to use for our range? What column do we look at for information on the type of district? (Answer = Column C, Type)
+* **Criteria:** Your criteria will indicate whether or not a number should be summed. Criteria can come in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added. For this exercise, you’ll be selecting from three different criteria \[urban, rural, and capital district\] and asking Excel to add census and voter registration numbers from districts that fall into one of those specific categories.
+* **Sum_range:** This tells Excel what cells to add, if you want to sum cells other than those specified in the range argument. For this exercise, your sum_range will be either the voting age population data or the registered voters data.
 
 Let’s put this into practice in our Data_Summary tab!
 
@@ -457,7 +457,7 @@ In column B, Pop_Tot, of your Data_Summary tab, let’s use SUMIF to add up the 
 
 We’ll start by summing the number of registered voters for urban districts, then move on to rural districts and the capital.
 
-1\. In cell B2 type \=SUMIF(. Notice that Excel automatically provides you with the information needed to complete the rest of the formula.
+1\. In cell B2 type =SUMIF(. Notice that Excel automatically provides you with the information needed to complete the rest of the formula.
 
 [![Image 1](/assets/images/academy/module_7/45_type_sumif.png)](/assets/images/academy/module_7/45_type_sumif.png)
 
@@ -515,7 +515,7 @@ In column D, Reg_Rate, of your Data_Summary tab, calculate voter registration ra
 
 [![Image 1](/assets/images/academy/module_7/formula_3_Calculating_Reg_rate.png)](/assets/images/academy/module_7/formula_3_Calculating_Reg_rate.png)
 
-1\. In cell D2, corresponding to urban districts, type and equals sign \=. Then click on cell C2, which provides the number of registered voters in Opendya’s urban districts.
+1\. In cell D2, corresponding to urban districts, type and equals sign =. Then click on cell C2, which provides the number of registered voters in Opendya’s urban districts.
 
 2\. Type a forward slash / which indicates that you’d like to divide the contents of cell C2 by something else. Then click on cell B2, the voting age population in Opendya’s urban districts.
 

@@ -412,7 +412,7 @@ Here’s your mathematical logic for this analysis:
 
 [![Image 1](/assets/images/academy/module_7/42_calculated_fem_reg_rate_formula.png)](/assets/images/academy/module_7/42_calculated_fem_reg_rate_formula.png)
 
-3\. Hit Enter. What what percentage of eligible women registered to vote in Legosakool? We hope you calculated a female registration rate of 70%!
+3\. Hit Enter. What percentage of eligible women registered to vote in Legosakool? We hope you calculated a female registration rate of 70%!
 
 4\. Now replicate your calculation across all remaining districts of Opendya. Crosscheck a few of your answers below to make sure things match up.
 
@@ -515,7 +515,7 @@ In column D, Reg_Rate, of your Data_Summary tab, calculate voter registration ra
 
 [![Image 1](/assets/images/academy/module_7/formula_3_Calculating_Reg_rate.png)](/assets/images/academy/module_7/formula_3_Calculating_Reg_rate.png)
 
-1\. In cell D2, corresponding to urban districts, type and equals sign =. Then click on cell C2, which provides the number of registered voters in Opendya’s urban districts.
+1\. In cell D2, corresponding to urban districts, type an equals sign =. Then click on cell C2, which provides the number of registered voters in Opendya’s urban districts.
 
 2\. Type a forward slash / which indicates that you’d like to divide the contents of cell C2 by something else. Then click on cell B2, the voting age population in Opendya’s urban districts.
 

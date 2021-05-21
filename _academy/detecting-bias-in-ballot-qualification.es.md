@@ -1,21 +1,21 @@
 ---
-title: '4. Cómo detectar preferencias en el registro de candidatos'
+title: 4. Cómo detectar preferencias en el registro de candidatos
 lang: es
 module_id: 4
-permalink: '/academy/detecting-bias-in-ballot-qualification/'
-excerpt: "Using sample ballot qualification data in Module 4, you’ll enhance your ability to:
-<ul><li>use pivot tables and some more advanced features within them;</li>
-<li>employ the COUNTIF function for a variety of use cases;</li>
-<li>use basic operators in Microsoft Excel (including calculating percentages), and</li>
-<li>examine your data with a political eye.</li></ul>"
----
+permalink: "/academy/detecting-bias-in-ballot-qualification/"
+excerpt: 'Using sample ballot qualification data in Module 4, you’ll enhance your
+  ability to: <ul><li>use pivot tables and some more advanced features within them;</li>
+  <li>employ the COUNTIF function for a variety of use cases;</li> <li>use basic operators
+  in Microsoft Excel (including calculating percentages), and</li> <li>examine your
+  data with a political eye.</li></ul>'
 
+---
 Mediante el uso de datos de muestra del registro de candidatos, en el Módulo 4 usted mejorará su capacidad para:
 
-- utilizar tablas dinámicas y algunas funciones más avanzadas dentro de ellas;
-- emplear la función COUNTIF \[CONTAR.SI\] para distintos fines;
-- utilizar operadores básicos en Microsoft Excel (incluyendo el cálculo de porcentajes), y
-- analizar su información desde una perspectiva política.
+* utilizar tablas dinámicas y algunas funciones más avanzadas dentro de ellas;
+* emplear la función COUNTIF \[CONTAR.SI\] para distintos fines;
+* utilizar operadores básicos en Microsoft Excel (incluyendo el cálculo de porcentajes), y
+* analizar su información desde una perspectiva política.
 
 ## ¿Por qué son importantes los datos del registro de candidatos?
 
@@ -31,7 +31,7 @@ Todos los candidatos que presentaron su solicitud de inclusión en el boleto ele
 
 ## Cómo analizar los datos del registro de candidatos
 
-Para comenzar el ejercicio **descargue **[aquí](/assets/academy/exercise/Module_4_Ballot_Qualification.xlsx)** el archivo con los datos del registro de candidatos.** .
+Para comenzar el ejercicio **descargue** [**aquí**](/assets/academy/exercise/Module_4_Ballot_Qualification.xlsx) el archivo con los datos del registro de candidatos. .
 
 Antes de entrar a fondo en el análisis, familiarícese con los datos disponibles en el archivo.
 
@@ -95,25 +95,25 @@ Considerando lo que sabe acerca de los tres partidos políticos que contienden e
 
 Siga estos sencillos pasos para crear la tabla dinámica.
 
-#### 1\. Seleccionar todo
+#### 1. Seleccionar todo
 
 Para comenzar, necesita seleccionar todos los datos que se encuentran en la pestaña “Candidate_Information” \[Información de candidatos\] de su hoja de cálculo. Para hacerlo, haga clic en el recuadro del lado superior izquierdo con el pequeño triángulo. También puede hacer clic en la celda A1 (“Full_name”) y luego oprima Control+T (es decir, oprima las teclas “Ctrl” y “T” al mismo tiempo).
 
 [![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)
 
-#### 2\. Insertar tabla dinámica
+#### 2. Insertar tabla dinámica
 
 Ahora que todos los datos están seleccionados, (si está utilizando Excel 2013) haga clic en la pestaña “Insert” \[Insertar\] que se encuentra en el menú superior y luego haga clic en “Pivot Table” \[Tabla dinámica\] del lado izquierdo. Aparecerá una ventana que dice “Create Pivot Table” \[Crear tabla dinámica\]. Deje las opciones como predeterminadas y solo haga clic en “OK” \[Aceptar\], y Excel creará una nueva tabla dinámica en una nueva hoja de cálculo.
 
 [![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)
 
-#### 3\. Ordenar por partido
+#### 3. Ordenar por partido
 
 Una vez que ya se tiene la estructura de la tabla dinámica, podemos hacer algunos cálculos. En el lado derecho hay una ventana llamada “Pivot Table Field List” \[Campos de tabla dinámica\]. Haga clic en “Party” \[Partido\] y arrástrelo hacia abajo para agregarlo al área “Row Labels” \[Filas\]. Esto ordenará todo por el valor que se indica en el campo “Party”. Observe que “Party” ahora está incluido en la ventana inferior derecha llamada “Row Labels” \[Filas\]. Si se ha hecho correctamente, los tres partidos aparecerán en la Columna A.
 
 [![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)
 
-#### 4\. Determinar la edad promedio
+#### 4. Determinar la edad promedio
 
 Ahora veremos cuál es la composición de edad de los tres partidos de Opendya: Draconia, Shireling y Zalog. Tome el campo “Age” \[Edad\] y arrástrelo hasta la sección “Values” \[Valores\] en la parte inferior de la tabla dinámica. Si todo sale bien, la tabla dinámica mostrará un conteo de todas las celdas que contengan un valor para el campo “Age” según el partido político. Para verificarlo, coloque el cursor sobre los valores de la Columna B y deberá aparecer una nota con la leyenda “Count of Age” \[Cuenta de Edad\]. Observe que ahora el texto “Count of Age” \[Cuenta de Edad\] aparece en la ventana inferior derecha, en el cuadro “Values” \[Valores\]. Si lo ha hecho correctamente, debe mostrar 131 para Draconia, 92 para Shireling, y 67 para Zalog. Vea la imagen que se muestra a continuación para confirmarlo.
 
@@ -151,8 +151,8 @@ Durante el resto del Módulo 4, con frecuencia utilizaremos las funciones [COUNT
 
 La estructura de la fórmula es la siguiente: CONTAR.SI(rango, criterios) O CONTAR.SI.CONJUNTO(rango_1,criterios_1,rango_2,criterios_2,rango_3,criterios_3,...).
 
-- **Range \[Rango\]**: El rango especifica el grupo de celdas en el que desea hacer el conteo.
-- **Criteria \[Criterios\]**: Los criterios indicarán si un número debe o no ser contado. Los criterios pueden tomar la forma de un número, una expresión, una referencia de celda, texto, o una función que defina qué celdas deben sumarse.
+* **Range \[Rango\]**: El rango especifica el grupo de celdas en el que desea hacer el conteo.
+* **Criteria \[Criterios\]**: Los criterios indicarán si un número debe o no ser contado. Los criterios pueden tomar la forma de un número, una expresión, una referencia de celda, texto, o una función que defina qué celdas deben sumarse.
 
 ¡Probemos las funciones COUNTIF \[CONTAR.SI\] y COUNTIFS \[CONTAR.SI.CONJUNTO\]!
 
@@ -190,8 +190,8 @@ Para terminar de seleccionar el rango, haga clic en la parte superior de la colu
 
 Ahora nos gustaría calcular el número total de solicitantes que la comisión electoral de Opendya aceptó como candidatos de cada partido para las próximas elecciones. Para esto necesitará utilizar la fórmula COUNTIFS \[CONTAR.SI.CONJUNTO\] ya que contaremos las celdas con base en dos criterios, en lugar de uno. Necesita Excel para contar:
 
-1.  los solicitantes de candidatura de un **partido político específico**, y
-2.  los candidatos **aceptados**.
+1. los solicitantes de candidatura de un **partido político específico**, y
+2. los candidatos **aceptados**.
 
 Básicamente la fórmula se ve como dos fórmulas COUNTIF \[CONTAR.SI\] en una: **CONTAR.SI.CONJUNTO(rango_1, criterios_1, rango_2, criterios_2)**. Note que la primera mitad de esta fórmula se verá exactamente igual que el cálculo que hicimos para la columna “Tot_Cand”, ya que seguimos haciendo el conteo de acuerdo con el partido político. Comencemos ahora nuestro cálculo en la columna C, “Tot_Accept”.
 
@@ -245,7 +245,7 @@ Comencemos con el cálculo del porcentaje de candidatos aceptados por la comisi�
 
 1\. En la celda E2, escriba el signo de igual (=). Luego haga clic en la celda C2. Observe que Excel automáticamente agrega el término “C2” a su fórmula (que se incluye en la barra de fórmula) en cuanto hace clic en esa celda. Otra opción es que simplemente escriba “C2” y Excel automáticamente creará el vínculo con esa celda.
 
-2\. A continuación escriba una diagonal (/) para indicarle a Excel que quiere dividir la celda C2 por otro valor. Ahora haga clic en la celda B2 para indicarle a Excel que desea dividir el contenido de la celda C2 (candidatos aceptados de Draconia) por la celda B2 (total de solicitantes de candidatura pertenecientes al partido Draconia).
+2\. A continuación escriba una diagonal (/) para indicarle a Excel que quiere dividir la celda C2 entre otro valor. Ahora haga clic en la celda B2 para indicarle a Excel que desea dividir el contenido de la celda C2 (candidatos aceptados de Draconia) entre la celda B2 (total de solicitantes de candidatura pertenecientes al partido Draconia).
 
 [![Image 25](/assets/images/academy/module_4/Module_4_Photo_25.png)](/assets/images/academy/module_4/Module_4_Photo_25.png)
 
@@ -299,10 +299,10 @@ Si respondió que COUNTIFS \[CONTEO.SI.CONJUNTO\], ¡está en lo correcto! Ahora
 
 Los rangos y criterios para este cálculo son los siguientes:
 
-- Rango_1: “Party”, columna D, pestaña Candidate_Information
-- Criterios_1: “Draconia” (después, “Zalog” y “Shireling”), celda A2, pestaña Candidate_Summary
-- Rango_2: “Gender”, columna B, pestaña Candidate_Information
-- Criterios_2: “female”
+* Rango_1: “Party”, columna D, pestaña Candidate_Information
+* Criterios_1: “Draconia” (después, “Zalog” y “Shireling”), celda A2, pestaña Candidate_Summary
+* Rango_2: “Gender”, columna B, pestaña Candidate_Information
+* Criterios_2: “female”
   [![Image 30](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_30.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_30.png)
 
 Una vez que termine de calcular el número de candidatas de todos los partidos, compare sus respuestas con la siguiente imagen:
@@ -333,12 +333,12 @@ Ahora que ya es todo(a) un(a) experto(a) en el uso de COUNTIFS \[CONTAR.SI.CONJU
 
 Los rangos y criterios para este cálculo son los siguientes:
 
-- Rango_1: “Party”, columna D, pestaña Candidate_Information
-- Criterios_1: “Draconia” (después, “Zalog” y “Shireling”), celda A2, pestaña Candidate_Summary
-- Rango_2: “Gender”, columna B, pestaña Candidate_Information
-- Criterios_2: “female”
-- Rango_3: “Decision”, columna E, pestaña Candidate_Information
-- Criterios_3: “rejected”
+* Rango_1: “Party”, columna D, pestaña Candidate_Information
+* Criterios_1: “Draconia” (después, “Zalog” y “Shireling”), celda A2, pestaña Candidate_Summary
+* Rango_2: “Gender”, columna B, pestaña Candidate_Information
+* Criterios_2: “female”
+* Rango_3: “Decision”, columna E, pestaña Candidate_Information
+* Criterios_3: “rejected”
   [![Image 35](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_35.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_35.png)
 
 Confirme sus respuestas aquí.

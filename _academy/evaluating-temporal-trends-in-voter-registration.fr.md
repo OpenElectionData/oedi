@@ -65,11 +65,11 @@ Il y a trois types de circonscriptions dans cet ensemble de données: urbaine, r
 
 #### **2010_Registered**
 
-Nous avons mentionné précédemment qu'Opendya a tenu des élections nationales en 2010. Cet ensemble de données contient le nombre final d'électeurs inscrits lors de cette élection a eu lieu. Nous pouvons utiliser la colonne 2010_Registered pour comparer les chiffres d'enregistrement entre les différents cycles électoraux.
+Nous avons mentionné précédemment qu'Opendya a tenu des élections nationales en 2010. Cet ensemble de données contient le nombre final d'électeurs inscrits lorsque cette élection a eu lieu. Nous pouvons utiliser la colonne 2010_Registered pour comparer les chiffres d'enregistrement entre les différents cycles électoraux.
 
 [![Image 4](/assets/images/academy/module_6/Module_6_Photo_4.png)](/assets/images/academy/module_6/Module_6_Photo_4.png)
 
-#### **Reg_Week1, Reg_Week2, Reg_Week3, and Reg_Week4**
+#### **Reg_Week1, Reg_Week2, Reg_Week3, et Reg_Week4**
 
 Nous avons mentionné que la Commission électorale d'Opendya a entrepris en 2014 et pendant cinq semaine une actualisation de l'inscription des électeurs. Les quatre colonnes suivantes - Reg_Week1, Reg_Week2, Reg_Week3 et Reg_Week4 - nous fournissent le nombre total d'électeurs inscrits à la fin de quatre des cinq semaines de l'exercice de mise à jour réalisé en 2014. La différence entre chaque semaine nous donne le nombre de nouveaux électeurs qui se sont inscrits pendant l'exercice.
 

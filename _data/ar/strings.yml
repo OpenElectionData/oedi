@@ -73,10 +73,10 @@ back_to_data_inventory: '&rarr; Back to Data Inventory'
 license: <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by/4.0/deed.ar\">محتويات متاحة بموجب رخصة المشاع الإبداعي الدولية 4.0</a>
 
 ## Added
-legend: 'Legend:'
-principle: Principle
-points_possible: Points Possible
-total: Total
+legend: 'دليل:'
+principle: مبدأ
+points_possible: النقاط الممكنة
+total: مَجموع
 back: Back
 back_to: Back to
 read_more: اقرأ المزيد

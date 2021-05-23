@@ -38,9 +38,7 @@ module.exports = {
     src: '_images',
     dest: 'images',
     mozjpeg: { quality: 75, progressive: true },
-    optipng: {
-      optimizationLevel: 5
-    },
+    pngquant: {},
     svgoPlugins: [{ removeViewBox: false }]
   },
 

@@ -5,4 +5,4 @@ lang: uk
 permalink: /contact/
 ---
 
-Please use the form below to contact us.
+Скористайтесь формою нижче, щоб зв’язатися з нами.

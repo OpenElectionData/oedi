@@ -73,9 +73,9 @@ back_to_data_inventory: '&larr; Back to Data Inventory'
 license: <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by/4.0/deed.es_ES\">Contenido autorizado bajo una Licencia Internacional CC Attribution 4.0</a>
 
 ## Added
-legend: 'Legend:'
-principle: Principle
-points_possible: Points Possible
+legend: 'Leyenda:'
+principle: Principio
+points_possible: Puntos posible
 total: Total
 back: Back
 back_to: Back to

@@ -12,15 +12,15 @@ In this tutorial we are going to define some common terms and concepts including
 
 We begin by learning some common terms used in examining data.
 
-#### Observation
+### Observation
 
 A dataset contains information about "individuals". Each "individual" is called an "observation" or "case". In most datasets, each row contains information about an individual.
 
-#### Variable
+### Variable
 
 Any characteristic of an individual (i.e., observation) is called a variable. Some variables, like gender and job title, simply place individuals into categories. Others, like height or number of registered voters, take on numerical values for which we can do arithmetic. Next we'll take a closer look at the different types of data.
 
-### Data Types
+## Data Types
 
 Data is stored as different types, which are sometimes referred to as the "level of measurement". We need to understand the type of data because it helps us figure out how to properly summarize it. There are three types of data:
 
@@ -139,7 +139,7 @@ The **Sample** Standard Deviation":
 
 It looks complicated, but the important change is to divide by **N-1** (instead of **N**) when calculating a Sample Variance. (Remember that the Standard Deviation is just the square root of the **Variance**, so the formula for calculating the Variance is the same formula above but without the Square root part.)
 
-### Credits
+## Credits
 
 All animal images copyright [Dashikka/Shutterstock](http://www.shutterstock.com/gallery-2155625p1.html).
 

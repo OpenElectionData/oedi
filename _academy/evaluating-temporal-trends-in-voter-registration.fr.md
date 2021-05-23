@@ -2,21 +2,20 @@
 title: 6. Évaluer les tendances sur l&#39;inscription des électeurs dans le temps
 lang: fr
 module_id: 6
-permalink: "/academy/evaluating-temporal-trends-in-voter-registration/"
-excerpt: 'Module 6 will solidify skills you began to master in Module 5 to allow you
+permalink: '/academy/evaluating-temporal-trends-in-voter-registration/'
+excerpt:
+  'Module 6 will solidify skills you began to master in Module 5 to allow you
   to do a more advanced analysis of voter registration data. We hope that by the end
   you will be able to: <ul><li>Master your understanding of SUMIF functions,</li>
   <li>integrate SUMIF functions into basic Excel operations, and</li> <li>consider
   political ramifications of your data.</li></ul>'
-
----
-## Résumé
+---## Résumé
 
 Le module 6 consolidera les compétences que vous avez commencé à maîtriser dans le module 5 pour vous permettre de faire une analyse plus poussée des données sur l’inscription des électeurs. Nous espérons qu'à la fin vous serez en mesure de:
 
-* Maîtriser votre compréhension des fonctions SUMIF,
-* intégrer les fonctions SUMIF dans les opérations Excel de base, et
-* tenir compte des implications politiques de vos données.
+- Maîtriser votre compréhension des fonctions SUMIF,
+- intégrer les fonctions SUMIF dans les opérations Excel de base, et
+- tenir compte des implications politiques de vos données.
 
 ## Pourquoi s’intéresser aux données sur l’inscription des électeurs?
 
@@ -30,10 +29,10 @@ Nous sommes de retour à Opendya! Comme vous vous en souvenez, vous avez pu obte
 
 Bien que cela ne soit pas obligatoire, nous vous suggérons de compléter d'abord le module 5, afin de vous familiariser avec l'ensemble de données et le contexte politique d'Opendya. Si vous n'avez pas terminé le module 5, voici quelques antécédents politiques importants que vous devriez connaître:
 
-* Opendya a eu des élections nationales en 2010 et 2014.
-* La capitale d'Opendya se trouve dans la circonscription de la ville d'Opa (code du district: 47), qui contient un mélange de zones urbaines et rurales.
-* Depuis les élections de 2010, un conflit violent a éclaté dans deux circonscriptions: Conflicteri (code de district: 9) et Disputana (code de district: 23).
-* En prévision des élections de 2014, la Commission électorale d'Opendya a procédé à un exercice pendant cinq semaines de mise à jour de l'inscription des électeurs, pour ajouter de nouveaux électeurs aux listes.
+- Opendya a eu des élections nationales en 2010 et 2014.
+- La capitale d'Opendya se trouve dans la circonscription de la ville d'Opa (code du district: 47), qui contient un mélange de zones urbaines et rurales.
+- Depuis les élections de 2010, un conflit violent a éclaté dans deux circonscriptions: Conflicteri (code de district: 9) et Disputana (code de district: 23).
+- En prévision des élections de 2014, la Commission électorale d'Opendya a procédé à un exercice pendant cinq semaines de mise à jour de l'inscription des électeurs, pour ajouter de nouveaux électeurs aux listes.
 
 Pour compléter cet exercice, vous pouvez continuer à utiliser l'ensemble de données que vous avez téléchargé dans le Module 5, ou vous pouvez **télécharger de nouveau le fichier** [**ici.**](/assets/academy/exercise/Module_6_Registered_Voters.xlsx)
 
@@ -105,9 +104,9 @@ Dans le module 6, vous regrouperez toutes vos compétences d’analyse pour éva
 
 Nous ferons les types d'analyses suivantes:
 
-* Pour chaque type de circonscription (urbaine, rurale et circonscription de la capitale), nous calculerons le nombre de nouveaux électeurs ajoutés chaque semaine durant l'exercice d'inscription des électeurs de 2014.
-* Nous calculerons le pourcentage de nouveaux électeurs qui ont été ajoutés chaque semaine de la mise à jour de l'inscription des électeurs dans les trois types de circonscription.
-* Analyser les tendances de l'inscription au fil du temps et tenir compte de leurs implications politiques.
+- Pour chaque type de circonscription (urbaine, rurale et circonscription de la capitale), nous calculerons le nombre de nouveaux électeurs ajoutés chaque semaine durant l'exercice d'inscription des électeurs de 2014.
+- Nous calculerons le pourcentage de nouveaux électeurs qui ont été ajoutés chaque semaine de la mise à jour de l'inscription des électeurs dans les trois types de circonscription.
+- Analyser les tendances de l'inscription au fil du temps et tenir compte de leurs implications politiques.
 
 #### **Rappel: Utiliser SUMIF pour ajouter des données dans une catégorie spécifique**
 
@@ -115,9 +114,9 @@ Dans ce module, nous continuerons à utiliser la fonction Excel [SUMIF](https://
 
 Voici comment la formule est structurée: SUMIF (range, criteria, \[sum_range\])
 
-* **Range**: « range » spécifie la zone des cellules que vous souhaitez évaluer selon vos critères spécifiques. Pour nos besoins, nous additionnons les données en fonction du type de district. Puisque le "type de district" est notre critère, quelle colonne de votre fiche technique pensez-vous devoir utiliser pour notre « range »? Quelle est la colonne à consulter pour avoir des informations sur le type de district? (Réponse = Colonne C, Type)
-* **Criteria**: Criteria: Vos critères indiqueront si un nombre doit être additionné ou non. Les critères peuvent prendre la forme d'un nombre, d'une expression, d'une référence de cellule, d'un texte ou d'une fonction qui définit les cellules qui seront ajoutées. Pour cet exercice, vous devrez choisir parmi trois critères différents \[circonscription urbaine, rurale et circonscription de la capitale\] et demander à Excel d'ajouter les numéros d'inscription des électeurs des circonscriptions qui appartiennent à l'une de ces catégories spécifiques.
-* **Sum_range**: Cela permet d’indiquer Excel quelles cellules à additionner, si vous voulez additionner des cellules autres que celles spécifiées dans l'argument.
+- **Range**: « range » spécifie la zone des cellules que vous souhaitez évaluer selon vos critères spécifiques. Pour nos besoins, nous additionnons les données en fonction du type de district. Puisque le "type de district" est notre critère, quelle colonne de votre fiche technique pensez-vous devoir utiliser pour notre « range »? Quelle est la colonne à consulter pour avoir des informations sur le type de district? (Réponse = Colonne C, Type)
+- **Criteria**: Criteria: Vos critères indiqueront si un nombre doit être additionné ou non. Les critères peuvent prendre la forme d'un nombre, d'une expression, d'une référence de cellule, d'un texte ou d'une fonction qui définit les cellules qui seront ajoutées. Pour cet exercice, vous devrez choisir parmi trois critères différents \[circonscription urbaine, rurale et circonscription de la capitale\] et demander à Excel d'ajouter les numéros d'inscription des électeurs des circonscriptions qui appartiennent à l'une de ces catégories spécifiques.
+- **Sum_range**: Cela permet d’indiquer Excel quelles cellules à additionner, si vous voulez additionner des cellules autres que celles spécifiées dans l'argument.
 
 ### A. Calculer l'augmentation hebdomadaire de l’inscription dans les différents types de circonscriptions
 
@@ -139,11 +138,11 @@ Voici la logique que vous devrez utiliser pour faire ce calcul pour les circonsc
 
 Voici comment la formule SUMIF est structurée: SUMIF (range, criteria, \[sum_range\]). Voici comment vous pouvez utiliser SUMIF pour additionner le nombre cumulatif d'électeurs inscrits en milieu urbain après la 1ère semaine d'inscription.
 
-* **Range**: Range spécifie la zone des cellules que vous souhaitez évaluer selon vos critères spécifiques. Pour nos besoins, nous additionnons les données en fonction du type de district. Comme le type de circonscription est notre critère, nous devons utiliser la colonne C, "Type" de l'onglet Registration_Data.
-* **Criteria**: vos critères indiqueront si un nombre doit être additionné ou non. Les critères peuvent prendre la forme d'un nombre, d'une expression, d'une référence de cellule, d'un texte ou d'une fonction qui définit les cellules qui seront ajoutées. Pour cet exercice, vous choisirez parmi trois critères différents \[circonscription urbaine, circonscription rurale et capitale\] et demanderez à Excel d'ajouter des numéros qui appartiennent à l'une de ces catégories spécifiques. Ici, vous pouvez cliquer sur la cellule A2, A3 ou A4 dans votre onglet Data_Summary pour spécifier vos critères.
-* **Sum_range**: Indique à Excel quelles cellules ajouter, si vous voulez additionner des cellules autres que celles spécifiées dans l'argument range. Ici, vous demandez à Excel d'additionner le nombre d'électeurs inscrits après la 1ère semaine de la mise à jour, uniquement dans les circonscriptions urbaines (colonne E = Reg_Week1).
+- **Range**: Range spécifie la zone des cellules que vous souhaitez évaluer selon vos critères spécifiques. Pour nos besoins, nous additionnons les données en fonction du type de district. Comme le type de circonscription est notre critère, nous devons utiliser la colonne C, "Type" de l'onglet Registration_Data.
+- **Criteria**: vos critères indiqueront si un nombre doit être additionné ou non. Les critères peuvent prendre la forme d'un nombre, d'une expression, d'une référence de cellule, d'un texte ou d'une fonction qui définit les cellules qui seront ajoutées. Pour cet exercice, vous choisirez parmi trois critères différents \[circonscription urbaine, circonscription rurale et capitale\] et demanderez à Excel d'ajouter des numéros qui appartiennent à l'une de ces catégories spécifiques. Ici, vous pouvez cliquer sur la cellule A2, A3 ou A4 dans votre onglet Data_Summary pour spécifier vos critères.
+- **Sum_range**: Indique à Excel quelles cellules ajouter, si vous voulez additionner des cellules autres que celles spécifiées dans l'argument range. Ici, vous demandez à Excel d'additionner le nombre d'électeurs inscrits après la 1ère semaine de la mise à jour, uniquement dans les circonscriptions urbaines (colonne E = Reg_Week1).
 
-[![Image 9](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_9.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_9.png)
+[![Image 9](/assets/images/academy/module_6/Module_6_Photo_9.png)](/assets/images/academy/module_6/Module_6_Photo_9.png)
 
 Après avoir terminé avec votre fonction SUMIF, insérez une parenthèse fermée \[)\] mais ne tapez pas entrée! Nous allons ajouter une fonction de soustraction dans la même cellule. Oui, vous pouvez utiliser plusieurs formules Excel à la fois!
 
@@ -189,7 +188,7 @@ Votre calcul pour la 3ème semaine ne devrait pas être aussi effrayant. C'est e
 
 Essayez ceci par vous-même! Une fois que vous avez terminé, n'hésitez pas à cliquer ici pour la formule et les réponses.
 
-[![Image 15](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_15.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_15.png)
+[![Image 15](/assets/images/academy/module_6/Module_6_Photo_15.png)](/assets/images/academy/module_6/Module_6_Photo_15.png)
 
 ##### **Nombre de nouveaux électeurs ajoutés après la 4ème semaine d'inscription ("nW4_incr")**
 
@@ -197,7 +196,7 @@ Nous espérons que vous pourrez maitriser les calculs de la semaine 4 par vous-m
 
 Une fois que vous avez terminé, cliquez ici pour vérifier les formules et les calculs finaux.
 
-[![Image 16](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_16.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_16.png)
+[![Image 16](/assets/images/academy/module_6/Module_6_Photo_16.png)](/assets/images/academy/module_6/Module_6_Photo_16.png)
 
 ##### **Nombre de nouveaux électeurs ajoutés après la dernière semaine d'inscription ("nWf_incr")**
 
@@ -217,7 +216,7 @@ Rappelez-vous que dans la partie A de ce module, vous avez calculé le nombre cu
 
 Combien de nouveaux électeurs urbains ont été enregistrés au cours de la 5ème semaine? Cliquez ici si vous souhaitez voir une image de la formule.
 
-[![Image 18](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_18.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_18.png)
+[![Image 18](/assets/images/academy/module_6/Module_6_Photo_18.png)](/assets/images/academy/module_6/Module_6_Photo_18.png)
 
 4\. Maintenant reproduisez votre formule pour les 2 autres types de circonscription. Voilà ce que vous devez trouver.
 
@@ -233,7 +232,7 @@ Vous avez calculé avec succès combien de fois l'inscription des électeurs a a
 
 Pour effectuer ce calcul, vous devez utiliser les colonnes H-L dans votre onglet Data_Summary, ainsi que la colonne F «2010-2014» qui indique l'augmentation totale de la différence entre les électeurs inscrits lors des élections de 2010 et celles de 2014 par type de circonscription.
 
-##### **Pourcentage de nouveaux électeurs inscrits qui se sont inscrits pendant la 1ère semaine ("Wk1_% of_total")**
+##### **Pourcentage de nouveaux électeurs inscrits qui se sont inscrits pendant la 1ère semaine ("Wk1\_% of_total")**
 
 Voyons quel pourcentage de nouveaux électeurs inscrits à Opendya par type de circonscription se sont inscrits au cours de la 1ère semaine de la période de mise à jour des listes. Quelles colonnes de données pensez-vous que nous devons utiliser pour effectuer ce calcul? Gardez à l'esprit que nous examinons l'augmentation hebdomadaire par rapport à l'augmentation totale au cours de l'exercice de mise à jour.
 
@@ -251,7 +250,7 @@ Vérifiez votre réponse ci-dessous.
 
 [![Image 21](/assets/images/academy/module_6/Module_6_Photo_21.png)](/assets/images/academy/module_6/Module_6_Photo_21.png)
 
-##### **Pourcentage de nouveaux électeurs inscrits qui se sont inscrits respectivement au cours des 2ème, 3ème, 4ème et 5ème semaines ("Wk2_% of_total", "Wk3_% of_total", "Wk4_% of_total" et "Wkf_% of_total")**
+##### **Pourcentage de nouveaux électeurs inscrits qui se sont inscrits respectivement au cours des 2ème, 3ème, 4ème et 5ème semaines ("Wk2*% of_total", "Wk3*% of*total", "Wk4*% of*total" et "Wkf*% of_total")**
 
 Utilisez les mêmes formules Excel et la même logique mathématique pour compléter les calculs de pourcentage pour les semaines 2 à 5 de l’actualisation des listes en 2014.
 
@@ -265,7 +264,7 @@ Voici à quoi devrait ressembler votre dernière série de calculs!
 
 Observez comment l’actualisation de l'inscription des électeurs en 2014 à Opendya s'est déroulée au fil du temps et dans les différents types de circonscriptions.
 
-* À quels moments et dans quels types de circonscriptions les électeurs se sont-ils inscrits le plus lors de la mise à jour de 2014?
-* Quand et où les électeurs ont-ils été les moins nombreux lors de la mise à jour de 2014?
-* Quelles tendances politiques ces observations pourraient-elles indiquer?
-* En tant qu'observateur électoral, quelles informations supplémentaires aimeriez-vous recueillir pour étayer votre analyse de ces tendances? Comment collecteriez-vous cette information?
+- À quels moments et dans quels types de circonscriptions les électeurs se sont-ils inscrits le plus lors de la mise à jour de 2014?
+- Quand et où les électeurs ont-ils été les moins nombreux lors de la mise à jour de 2014?
+- Quelles tendances politiques ces observations pourraient-elles indiquer?
+- En tant qu'observateur électoral, quelles informations supplémentaires aimeriez-vous recueillir pour étayer votre analyse de ces tendances? Comment collecteriez-vous cette information?

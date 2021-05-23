@@ -190,7 +190,7 @@ Si vous avez pensé à la colonne J "Final_Female" et la colonne I "Reg_Tot_Fina
 
 _\* N’oubliez pas d’appuyer sur entrée après avoir taper votre calcul._
 
-[![Image 15](https://openelectiondata.net/images/academy/module_5/Module_5_Photo_15.png)](https://openelectiondata.net/images/academy/module_5/Module_5_Photo_15.png)
+[![Image 15](/assets/images/academy/module_5/Module_5_Photo_15.png)](/assets/images/academy/module_5/Module_5_Photo_15.png)
 
 4\. Après avoir calculé le pourcentage d’électrices à Legosakool, demandez à Excel de répéter le même calcul pour les 46 circonscriptions restantes d’Opendya.
 

@@ -4,9 +4,9 @@ false %}
 <div class="inventory__legend text--small">
   {{ site.data.strings.legend }}
   <ul class="inventory__legend-items" role="list">
-    <li class="mostly">{{ site.data.strings.mostly_open }};</li>
-    <li class="partially">{{ site.data.strings.partially_open }};</li>
-    <li class="not">{{ site.data.strings.not_open }};</li>
+    <li class="mostly">{{ site.data.strings.mostly_open }} <i class="fas fa-check" aria-hidden="true"></i>;</li>
+    <li class="partially">{{ site.data.strings.partially_open }} <i class="fas fa-check" aria-hidden="true"></i>;</li>
+    <li class="not">{{ site.data.strings.not_open }} <i class="fas fa-times" aria-hidden="true"></i>;</li>
   </ul>
 </div>
 
@@ -30,7 +30,7 @@ false %}
         <th>
           <button
             class="btn btn--transparent btn--sort sort"
-            data-sort="{{ value | slugify }}"
+            data-sort="{{ category.slug | slugify }}"
             data-tippy-content="{{ value }}"
             aria-label="{{ value }}"
           >

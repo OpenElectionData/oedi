@@ -190,7 +190,7 @@ Si su respuesta fue la columna J, “Final_Female”, y la columna I, “Reg_Tot
 
 _\*No olvide oprimir “Enter” después de escribir la fórmula.\*_
 
-[![Image 15](https://openelectiondata.net/images/academy/module_5/Module_5_Photo_15.png)](https://openelectiondata.net/images/academy/module_5/Module_5_Photo_15.png)
+[![Image 15](/assets/images/academy/module_5/Module_5_Photo_15.png)](/assets/images/academy/module_5/Module_5_Photo_15.png)
 
 4\. Una vez haya calculado el porcentaje de votantes del sexo femenino registradas en Legosakool, pídale a Excel que repita el cálculo en los 46 distritos restantes de Opendya.
 

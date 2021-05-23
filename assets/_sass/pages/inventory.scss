@@ -22,8 +22,16 @@
   }
 
   &__table {
+    width: unset;
+    max-width: unset;
+
+    @include breakpoint('medium') {
+      width: 100%;
+      max-width: 100%;
+    }
+
     &-wrapper {
-      overflow: scroll;
+      overflow-x: auto;
     }
 
     th {
@@ -32,6 +40,7 @@
 
     th,
     td {
+      min-width: 60px;
       text-align: left;
 
       &:not(:first-of-type) {

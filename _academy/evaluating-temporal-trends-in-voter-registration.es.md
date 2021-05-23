@@ -2,21 +2,20 @@
 title: 6. Cómo evaluar las tendencias temporales en el registro de votantes
 lang: es
 module_id: 6
-permalink: "/academy/evaluating-temporal-trends-in-voter-registration/"
-excerpt: 'Module 6 will solidify skills you began to master in Module 5 to allow you
+permalink: '/academy/evaluating-temporal-trends-in-voter-registration/'
+excerpt:
+  'Module 6 will solidify skills you began to master in Module 5 to allow you
   to do a more advanced analysis of voter registration data. We hope that by the end
   you will be able to: <ul><li>Master your understanding of SUMIF functions,</li>
   <li>integrate SUMIF functions into basic Excel operations, and</li> <li>consider
   political ramifications of your data.</li></ul>'
-
----
-## Resumen breve
+---## Resumen breve
 
 En el Módulo 6 consolidará las habilidades que comenzó a dominar en el Módulo 5 y que le permitirán realizar análisis más avanzados de los datos del registro de votantes. El objetivo de este módulo es que al finalizar usted:
 
-* domine su entendimiento de las funciones SUMIF \[SUMAR.SI\],
-* sea capaz de integrar funciones SUMIF \[SUMAR.SI\] en operaciones básicas de Excel, y
-* sea capaz de considerar las ramificaciones políticas de sus datos.
+- domine su entendimiento de las funciones SUMIF \[SUMAR.SI\],
+- sea capaz de integrar funciones SUMIF \[SUMAR.SI\] en operaciones básicas de Excel, y
+- sea capaz de considerar las ramificaciones políticas de sus datos.
 
 ## ¿Por qué son importantes los datos del registro de votantes?
 
@@ -30,10 +29,10 @@ Las organizaciones de la sociedad civil con frecuencia utilizan las estadística
 
 Aunque no es un requisito, le sugerimos terminar primero el Módulo 5 para que se familiarice con los datos y los antecedentes políticos de Opendya. Por si no ha terminado el Módulo 5, a continuación le proporcionamos algunos antecedentes importantes que debe conocer:
 
-* Opendya celebró elecciones nacionales en 2010 y en 2014.
-* La capital de Opendya se encuentra en el distrito de Opa City (código de distrito: 47), el cual abarca tanto zonas urbanas como rurales.
-* Desde las elecciones de 2010 han surgido conflictos violentos en dos distritos: Conflicteri (código de distrito: 9) y Disputana (código de distrito: 23),
-* En anticipación a las elecciones de 2014, la comisión electoral de Opendya llevó a cabo un ejercicio de cinco semanas para actualizar el padrón electoral, durante el cual se añadieron nuevos votantes al mismo.
+- Opendya celebró elecciones nacionales en 2010 y en 2014.
+- La capital de Opendya se encuentra en el distrito de Opa City (código de distrito: 47), el cual abarca tanto zonas urbanas como rurales.
+- Desde las elecciones de 2010 han surgido conflictos violentos en dos distritos: Conflicteri (código de distrito: 9) y Disputana (código de distrito: 23),
+- En anticipación a las elecciones de 2014, la comisión electoral de Opendya llevó a cabo un ejercicio de cinco semanas para actualizar el padrón electoral, durante el cual se añadieron nuevos votantes al mismo.
 
 Para realizar el presente ejercicio puede seguir utilizando el conjunto de datos que descargó en el Módulo 5, o puede **volver a descargar el archivo** [**aquí**](/assets/academy/exercise/Module_6_Registered_Voters.xlsx).
 
@@ -107,9 +106,9 @@ En el Módulo 6 hará uso de todas sus habilidades de análisis para evaluar ten
 
 El análisis que haremos consiste en lo siguiente:
 
-* Para cada tipo de distrito (urbano, rural y la capital), calcular el número de nuevos votantes que se añadieron durante cada semana del ejercicio de registro de votantes de 2014.
-* Calcular el porcentaje de nuevos votantes que se añadieron durante cada semana del ejercicio de actualización en los tres tipos de distrito.
-* Analizar los patrones en el registro a lo largo del tiempo y considerar sus ramificaciones políticas.
+- Para cada tipo de distrito (urbano, rural y la capital), calcular el número de nuevos votantes que se añadieron durante cada semana del ejercicio de registro de votantes de 2014.
+- Calcular el porcentaje de nuevos votantes que se añadieron durante cada semana del ejercicio de actualización en los tres tipos de distrito.
+- Analizar los patrones en el registro a lo largo del tiempo y considerar sus ramificaciones políticas.
 
 #### **Recordatorio: Cómo usar la función SUMIF \[SUMAR.SI\] para sumar datos en una categoría específica**
 
@@ -117,9 +116,9 @@ En este módulo continuaremos utilizando bastante la función [SUMIF \[SUMAR.SI\
 
 La fórmula tiene la siguiente estructura: SUMIF(rango, criterios, \[sum_range\])
 
-* **Range \[Rango\]**: El rango especifica el grupo de celdas que desea evaluar de acuerdo con sus criterios. En este caso, vamos a sumar los datos con base en el tipo de distrito. Considerando que nuestro criterio es el tipo de distrito, ¿qué columna de la hoja de cálculo cree que debemos usar para el rango? ¿En qué columna buscamos la información sobre el tipo de distrito? (Respuesta = Columna C, “Type” \[Tipo\]).
-* **Criteria \[Criterios\]**: Los criterios indicarán si un número debe sumarse o no. Los criterios pueden tomar la forma de un número, una expresión, una referencia de celda, texto, o una función que defina qué celdas deben sumarse. Para este ejercicio seleccionaremos de entre tres criterios distintos (“urban”, “rural” y “capital district”) y le indicaremos a Excel que sume los números del registro de votantes de los distritos que coincidan con alguna de estas categorías específicas.
-* **Sum_range \[Rango de suma\]**: Esto le indica a Excel qué celdas debe sumar, en caso de que desee sumar celdas distintas a las que se especifican en el argumento de rango.
+- **Range \[Rango\]**: El rango especifica el grupo de celdas que desea evaluar de acuerdo con sus criterios. En este caso, vamos a sumar los datos con base en el tipo de distrito. Considerando que nuestro criterio es el tipo de distrito, ¿qué columna de la hoja de cálculo cree que debemos usar para el rango? ¿En qué columna buscamos la información sobre el tipo de distrito? (Respuesta = Columna C, “Type” \[Tipo\]).
+- **Criteria \[Criterios\]**: Los criterios indicarán si un número debe sumarse o no. Los criterios pueden tomar la forma de un número, una expresión, una referencia de celda, texto, o una función que defina qué celdas deben sumarse. Para este ejercicio seleccionaremos de entre tres criterios distintos (“urban”, “rural” y “capital district”) y le indicaremos a Excel que sume los números del registro de votantes de los distritos que coincidan con alguna de estas categorías específicas.
+- **Sum_range \[Rango de suma\]**: Esto le indica a Excel qué celdas debe sumar, en caso de que desee sumar celdas distintas a las que se especifican en el argumento de rango.
 
 ### A. Cómo calcular el aumento semanal de registro en los distintos tipos de distrito
 
@@ -141,11 +140,11 @@ A continuación se presenta la explicación de la lógica que necesita aplicar p
 
 La fórmula tiene la siguiente estructura: SUMAR.SI(rango, criterios, \[sum_range\]). A continuación se muestra cómo puede utilizar la función SUMIF \[SUMAR.SI\] para sacar el número total de votantes urbanos registrados al final de la primera semana de registro.
 
-* **Range \[Rango\]**: El rango especifica el grupo de celdas que desea evaluar de acuerdo con sus criterios. En este caso, vamos a sumar los datos con base en el tipo de distrito. Considerando que nuestro criterio es el tipo de distrito, necesitamos utilizar la columna C, “Type” \[Tipo\], de la pestaña Registration_Data.
-* **Criteria \[Criterios\]**: Los criterios indicarán si un número debe sumarse o no. Los criterios pueden tomar la forma de un número, una expresión, una referencia de celda, texto, o una función que defina qué celdas deben sumarse. Para este ejercicio seleccionaremos de entre tres criterios distintos (“urban”, “rural” y “capital district”) y le indicaremos a Excel que sume los números que coincidan con alguna de estas categorías específicas. En este caso puede hacer clic en las celdas A2, A3 o A4 de la pestaña Data_Summary para especificar sus criterios.
-* **Sum_range \[Rango de suma\]**: Esto le indica a Excel qué celdas debe sumar, en caso de que desee sumar celdas distintas a las que se especifican en el argumento de rango. Con esto le estamos indicando a Excel que sume el número de votantes registrados al final de la 1ª Semana de actualización, únicamente en los distritos urbanos (columna E = “Reg_Week1”).
+- **Range \[Rango\]**: El rango especifica el grupo de celdas que desea evaluar de acuerdo con sus criterios. En este caso, vamos a sumar los datos con base en el tipo de distrito. Considerando que nuestro criterio es el tipo de distrito, necesitamos utilizar la columna C, “Type” \[Tipo\], de la pestaña Registration_Data.
+- **Criteria \[Criterios\]**: Los criterios indicarán si un número debe sumarse o no. Los criterios pueden tomar la forma de un número, una expresión, una referencia de celda, texto, o una función que defina qué celdas deben sumarse. Para este ejercicio seleccionaremos de entre tres criterios distintos (“urban”, “rural” y “capital district”) y le indicaremos a Excel que sume los números que coincidan con alguna de estas categorías específicas. En este caso puede hacer clic en las celdas A2, A3 o A4 de la pestaña Data_Summary para especificar sus criterios.
+- **Sum_range \[Rango de suma\]**: Esto le indica a Excel qué celdas debe sumar, en caso de que desee sumar celdas distintas a las que se especifican en el argumento de rango. Con esto le estamos indicando a Excel que sume el número de votantes registrados al final de la 1ª Semana de actualización, únicamente en los distritos urbanos (columna E = “Reg_Week1”).
 
-[![Image 9](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_9.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_9.png)
+[![Image 9](/assets/images/academy/module_6/Module_6_Photo_9.png)](/assets/images/academy/module_6/Module_6_Photo_9.png)
 
 Una vez que termine de escribir la función SUMIF \[SUMAR.SI\] cierre los paréntesis, pero no oprima “Enter”. Vamos a agregar ahora una función de sustracción en la misma celda. Sí, ¡se pueden utilizar varias fórmulas de Excel a la vez!
 
@@ -191,7 +190,7 @@ El cálculo de la 3ª Semana ya no debe asustarle. Se aplican exactamente la mis
 
 ¡Intente hacerlo usted solo(a)! Una vez que termine, puede hacer clic aquí para ver la fórmula y los resultados.
 
-[![Image 15](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_15.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_15.png)
+[![Image 15](/assets/images/academy/module_6/Module_6_Photo_15.png)](/assets/images/academy/module_6/Module_6_Photo_15.png)
 
 ##### **Número de nuevos votantes agregados durante la cuarta semana de registro (“nW4_incr”)**
 
@@ -199,7 +198,7 @@ Ahora ya debe estar listo(a) para hacer los cálculos de la 4ª Semana usted sol
 
 Una vez que termine, haga clic aquí para ver las fórmulas y los resultados.
 
-[![Image 16](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_16.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_16.png)
+[![Image 16](/assets/images/academy/module_6/Module_6_Photo_16.png)](/assets/images/academy/module_6/Module_6_Photo_16.png)
 
 ##### **Número de nuevos votantes agregados durante de la última semana de registro (“nWf_incr”)**
 
@@ -219,7 +218,7 @@ Recuerde que en la Parte A de este módulo calculamos el número total de votant
 
 ¿Cuántos nuevos votantes urbanos se registraron durante la 5ª Semana? Haga clic aquí si desea ver una imagen de la fórmula.
 
-[![Image 18](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_18.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_18.png)
+[![Image 18](/assets/images/academy/module_6/Module_6_Photo_18.png)](/assets/images/academy/module_6/Module_6_Photo_18.png)
 
 4\. Ahora repita la fórmula para los dos tipos de distrito restantes. A continuación se muestra lo que debe tener.
 
@@ -235,7 +234,7 @@ Ya calculó con éxito cuánto aumentó el número de votantes registrados en Op
 
 Para realizar este cálculo necesitamos trabajar con las columnas de la H a la L de la pestaña Data_Summary, así como con la columna D, “2010-2014”, que indica el aumento en el número total de votantes registrados para las elecciones de 2010 y de 2014 por tipo de distrito.
 
-##### **Porcentaje de nuevos votantes registrados durante la primera semana (“Wk1_%of_total”)**
+##### **Porcentaje de nuevos votantes registrados durante la primera semana (“Wk1\_%of_total”)**
 
 Veamos qué porcentaje de todos los nuevos votantes registrados durante el ejercicio de actualización del padrón electoral de Opendya de 2014 se registraron en cada tipo de distrito durante la 1ª Semana del ejercicio. ¿Qué columnas de datos cree que necesitamos utilizar para realizar este cálculo? Recuerde que estamos buscando el incremento semanal en comparación con el incremento total durante el ejercicio de actualización.
 
@@ -253,7 +252,7 @@ Revise su respuesta abajo.
 
 [![Image 21](/assets/images/academy/module_6/Module_6_Photo_21.png)](/assets/images/academy/module_6/Module_6_Photo_21.png)
 
-##### **Porcentaje de nuevos votantes registrados durante la 2ª, 3ª, 4ª y 5ª semana, respectivamente (“Wk2_%of_total”, “Wk3_%of_total”, “Wk4_%of_total”, y “Wkf_%of_total”)**
+##### **Porcentaje de nuevos votantes registrados durante la 2ª, 3ª, 4ª y 5ª semana, respectivamente (“Wk2*%of_total”, “Wk3*%of*total”, “Wk4*%of*total”, y “Wkf*%of_total”)**
 
 Utilice exactamente las mismas fórmulas de Excel y lógica matemática para realizar los cálculos de porcentaje para las Semanas de la 2ª a la 5ª del ejercicio de actualización del padrón electoral de 2014.
 
@@ -267,7 +266,7 @@ Los cálculos finales deben verse así:
 
 Observe cómo cambió el padrón electoral de Opendya durante el ejercicio de actualización de 2014 y en los distintos tipos de distrito.
 
-* ¿En qué momento y en qué tipo de distrito se registró el mayor número de votantes nuevos durante la actualización de 2014?
-* ¿Cuándo y dónde se registró el menor número de votantes nuevos durante la actualización de 2014?
-* ¿Qué tendencias políticas podrían indicar estos patrones?
-* Como observador electoral, ¿qué información adicional le gustaría reunir para apoyar su análisis de estas tendencias? ¿Cómo podría recopilar esa información?
+- ¿En qué momento y en qué tipo de distrito se registró el mayor número de votantes nuevos durante la actualización de 2014?
+- ¿Cuándo y dónde se registró el menor número de votantes nuevos durante la actualización de 2014?
+- ¿Qué tendencias políticas podrían indicar estos patrones?
+- Como observador electoral, ¿qué información adicional le gustaría reunir para apoyar su análisis de estas tendencias? ¿Cómo podría recopilar esa información?

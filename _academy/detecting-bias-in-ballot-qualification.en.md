@@ -137,7 +137,7 @@ What trends or differences do you notice in the average age for each of Opendya�
 
 ## Analyzing Overall Ballot Qualification Decisions
 
-#### Reviewing the Candidate_Summary Tab
+### Reviewing the Candidate_Summary Tab
 
 For this portion of the module, we’re going to start using the Candidate_Summary tab in your Excel file. This tab will pull a summary of calculations based on data from the Candidate_Information tab. It looks like this:
 
@@ -201,7 +201,7 @@ If you need, click here for an image of what this step should look like.
 
 Don’t hit Enter or close your parentheses just yet! Instead, type a comma \[,\] and let’s move on to the second part of the formula.
 
-[![Image 20](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_20.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_20.png)
+[![Image 20](/assets/images/academy/module_4/Module_4_Photo_20.png)](/assets/images/academy/module_4/Module_4_Photo_20.png)
 
 2\. Remember we’re currently calculating the number of accepted candidates from Draconia. Our existing formula is ready to pull all candidates from the Draconia party, but we still need to distinguish the “accepted” candidates from the “rejected.” To do so, we’ll need to specify a second range and second criteria. Since we’re sorting out accepted vs. rejected, our range is column E “Decision” from the Candidate_Information tab. Click the Candidate_Information tab and select all of column E. Your formula should look like this.
 
@@ -215,7 +215,7 @@ Don’t hit Enter or close your parentheses just yet! Instead, type a comma \[,\
 
 5\. Now repeat this calculation for both the Zalog and Shireling parties! Click here if you need a tip on how to do this. Take a look at what your final calculations should come to.
 
-[![Image 23](https://openelectiondata.net//images/academy/module_4/Module_4_Photo_23.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_23.png)
+[![Image 23](/assets/images/academy/module_4/Module_4_Photo_23.png)](/assets/images/academy/module_4/Module_4_Photo_23.png)
 
 Double click the box on the bottom right hand corner of cell C2!
 
@@ -267,7 +267,7 @@ This next piece of analysis is similar to your last calculation for %Accept. Wha
 
 Go ahead and make this calculation on your own. Click here if you need help with the formula.
 
-[![Image 28](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_28.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_28.png)
+[![Image 28](/assets/images/academy/module_4/Module_4_Photo_28.png)](/assets/images/academy/module_4/Module_4_Photo_28.png)
 
 Here are your answers.
 
@@ -281,7 +281,7 @@ Findings: Did you notice that the opposition candidates were rejected at higher 
 
 ## Analyzing Ballot Qualification Decisions By Gender
 
-#### A. Calculating Net Candidate Figures by Gender
+### A. Calculating Net Candidate Figures by Gender
 
 Understanding the gender demographics of Opendya’s proposed candidates (both accepted and rejected) will give us a clearer indication of whether parties are representative of both men and women. It will also help us understand if men and women have an equal opportunity to run for office through the ballot qualification process.
 
@@ -301,13 +301,13 @@ Here are your ranges and criteria for this calculation:
 - Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
 - Range_2 : Gender, column B, Candidate_Information tab
 - Criteria_2: “female”
-  [![Image 30](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_30.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_30.png)
+  [![Image 30](/assets/images/academy/module_4/Module_4_Photo_30.png)](/assets/images/academy/module_4/Module_4_Photo_30.png)
 
 Once you’ve finished calculating the number of female candidates across all parties, check your responses below.
 
 [![Image 31](/assets/images/academy/module_4/Module_4_Photo_31.png)](/assets/images/academy/module_4/Module_4_Photo_31.png)
 
-##### Number of accepted female candidates per party (nFem_Accept)
+#### Number of accepted female candidates per party (nFem_Accept)
 
 Now we’re going to calculate the number of accepted female candidates according to political party. This is your first COUNTIFS calculation where three different ranges and criteria are required. You’re counting cells based on: 1) political party, 2) gender, 3) acceptance as candidates.
 
@@ -337,17 +337,13 @@ Here are your ranges and criteria for this calculation:
 - Criteria_2: “female”
 - Range_3: Decision, column E, Candidate_Information tab
 - Criteria_3: “rejected”
-  [![Image 35](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_35.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_35.png)
+  [![Image 35](/assets/images/academy/module_4/Module_4_Photo_35.png)](/assets/images/academy/module_4/Module_4_Photo_35.png)
 
 Check your responses here!
 
 [![Image 36](/assets/images/academy/module_4/Module_4_Photo_36.png)](/assets/images/academy/module_4/Module_4_Photo_36.png)
 
-#### Number of male candidates per party (nMale_Cand),
-
-#### Number of accepted male candidates per party (nMale_Accept), and
-
-#### Number of rejected male candidates per party (nMale_Rej)
+#### Number of male candidates per party (nMale_Cand), Number of accepted male candidates per party (nMale_Accept), and Number of rejected male candidates per party (nMale_Rej)
 
 We think you’ve got these calculations covered! Think back to your calculations for columns G (nFem_Cand), H (nFem_Accept), and I (nFem_Rej), and make the necessary formula adjustments for male candidates only. Click here for a hint.
 
@@ -355,9 +351,9 @@ Remember to alter your second criteria to “male” for each calculation! That�
 
 Here’s what your calculations should come to.
 
-[![Image 37](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_37.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_37.png)
+[![Image 37](/assets/images/academy/module_4/Module_4_Photo_37.png)](/assets/images/academy/module_4/Module_4_Photo_37.png)
 
-#### B. Calculating Percentage Candidate Figures by Gender
+### B. Calculating Percentage Candidate Figures by Gender
 
 You’re almost at the finish line! Last, we’d like you to calculate the acceptance and rejection rates of male and female candidates in Opendya, across political party. This will give us a sense of how evenly male and female candidates were accepted and rejected by the election commission.
 
@@ -369,7 +365,7 @@ Yes indeed, it’s nFem_Cand (column G) and column Tot_Cand (column B). Here’s
 
 [![Formula 2](/assets/images/academy/module_4/Module_4_Formula_2.png)](/assets/images/academy/module_4/Module_4_Formula_2.png) Click here if you need help working out the formula.
 
-[![Image 38](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_38.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_38.png)
+[![Image 38](/assets/images/academy/module_4/Module_4_Photo_38.png)](/assets/images/academy/module_4/Module_4_Photo_38.png)
 
 What percentage of proposed candidates from Draconia are women? We hope you calculated 36%! Now do the same calculation for the other two political parties. We’ll show you all of the responses after you finish a few more percentages.
 
@@ -397,7 +393,7 @@ Check out all of your answers for this component of the module here!
 
 [![Image 39](/assets/images/academy/module_4/Module_4_Photo_39.png)](/assets/images/academy/module_4/Module_4_Photo_39.png)
 
-#### What do you see?
+### What do you see?
 
 You’ve completed an impressive number of calculations! Think about what trends you expected to see regarding the acceptance and rejection rates of male and female candidates across Opendya’s three parties. Did your expectations pan out? What did you find surprising? What gender-related trends in the ballot qualification process do you see based on your analysis?
 

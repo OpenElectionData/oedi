@@ -12,15 +12,15 @@ En este tutorial vamos a definir algunos términos y conceptos comunes, incluyen
 
 Para comenzar aprenderemos algunos términos comunes empleados en el análisis de datos.
 
-#### Observación
+### Observación
 
 Un conjunto de datos contiene información acerca de "individuos" y a cada "individuo" se le llama "observación" o "caso".
 
-#### Variable
+### Variable
 
 Toda característica de un individuo (es decir, observación) se llama variable. Algunas variables, como son el género y el puesto, simplemente dividen a los individuos en categorías, mientras que otras, como la altura o el número de votantes registrados, asumen valores numéricos con los cuales se pueden realizar operaciones aritméticas. A continuación, veremos más a detalle los diferentes tipos de datos.
 
-### Tipos de datos
+## Tipos de datos
 
 Los datos se almacenan como tipos distintos, a los que algunas veces se les denomina "nivel de medición". Es necesario entender el tipo de dato que se tiene porque esto nos ayuda a descifrar cuál es la mejor manera de resumirlo. Existen tres tipos de datos:
 
@@ -139,7 +139,7 @@ La desviación estándar de la **muestra**:
 
 Parece complicado, pero el cambio importante es dividir entre **N-1** (en lugar de **N**) cuando se calcula la varianza de una muestra. (Recuerde que la Desviación Estándar es tan solo la raíz cuadrada de la **Varianza**, así que la fórmula para calcular la varianza es la misma fórmula que se indica arriba pero sin la parte de la raíz cuadrada).
 
-### Créditos
+## Créditos
 
 Todos los derechos reservados de las imágenes de animales [Dashikka/Shutterstock](http://www.shutterstock.com/gallery-2155625p1.html).
 

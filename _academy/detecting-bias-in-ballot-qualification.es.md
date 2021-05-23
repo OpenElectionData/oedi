@@ -1,21 +1,22 @@
 ---
+
 title: 4. Cómo detectar preferencias en el registro de candidatos
 lang: es
 module_id: 4
-permalink: "/academy/detecting-bias-in-ballot-qualification/"
-excerpt: 'Using sample ballot qualification data in Module 4, you’ll enhance your
-  ability to: <ul><li>use pivot tables and some more advanced features within them;</li>
+permalink: '/academy/detecting-bias-in-ballot-qualification/'
+excerpt:
+'Using sample ballot qualification data in Module 4, you’ll enhance your
+ability to: <ul><li>use pivot tables and some more advanced features within them;</li>
+
   <li>employ the COUNTIF function for a variety of use cases;</li> <li>use basic operators
   in Microsoft Excel (including calculating percentages), and</li> <li>examine your
   data with a political eye.</li></ul>'
+---Mediante el uso de datos de muestra del registro de candidatos, en el Módulo 4 usted mejorará su capacidad para:
 
----
-Mediante el uso de datos de muestra del registro de candidatos, en el Módulo 4 usted mejorará su capacidad para:
-
-* utilizar tablas dinámicas y algunas funciones más avanzadas dentro de ellas;
-* emplear la función COUNTIF \[CONTAR.SI\] para distintos fines;
-* utilizar operadores básicos en Microsoft Excel (incluyendo el cálculo de porcentajes), y
-* analizar su información desde una perspectiva política.
+- utilizar tablas dinámicas y algunas funciones más avanzadas dentro de ellas;
+- emplear la función COUNTIF \[CONTAR.SI\] para distintos fines;
+- utilizar operadores básicos en Microsoft Excel (incluyendo el cálculo de porcentajes), y
+- analizar su información desde una perspectiva política.
 
 ## ¿Por qué son importantes los datos del registro de candidatos?
 
@@ -151,8 +152,8 @@ Durante el resto del Módulo 4, con frecuencia utilizaremos las funciones [COUNT
 
 La estructura de la fórmula es la siguiente: CONTAR.SI(rango, criterios) O CONTAR.SI.CONJUNTO(rango_1,criterios_1,rango_2,criterios_2,rango_3,criterios_3,...).
 
-* **Range \[Rango\]**: El rango especifica el grupo de celdas en el que desea hacer el conteo.
-* **Criteria \[Criterios\]**: Los criterios indicarán si un número debe o no ser contado. Los criterios pueden tomar la forma de un número, una expresión, una referencia de celda, texto, o una función que defina qué celdas deben sumarse.
+- **Range \[Rango\]**: El rango especifica el grupo de celdas en el que desea hacer el conteo.
+- **Criteria \[Criterios\]**: Los criterios indicarán si un número debe o no ser contado. Los criterios pueden tomar la forma de un número, una expresión, una referencia de celda, texto, o una función que defina qué celdas deben sumarse.
 
 ¡Probemos las funciones COUNTIF \[CONTAR.SI\] y COUNTIFS \[CONTAR.SI.CONJUNTO\]!
 
@@ -201,7 +202,7 @@ Si es necesario, haga clic aquí para ver una imagen de cómo debe verse la pant
 
 No oprima “Enter” ni cierre los paréntesis todavía, solo escriba una coma (,) y continúe con la segunda parte de la fórmula.
 
-[![Image 20](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_20.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_20.png)
+[![Image 20](/assets/images/academy/module_4/Module_4_Photo_20.png)](/assets/images/academy/module_4/Module_4_Photo_20.png)
 
 2\. Recuerde que en este caso estamos calculando el número de candidatos aceptados del partido Draconia. Nuestra fórmula actual está lista para extraer los datos de todos los candidatos del partido Draconia, pero aún falta distinguir entre los candidatos aceptados \[“accepted”\] y los rechazados \[“rejected”\]. Para hacerlo, necesitamos especificar un segundo rango y un segundo criterio. Como estamos diferenciando entre los aceptados y los rechazados, nuestro rango es la columna E, “Decision”, de la pestaña Candidate_Information. Haga clic en la pestaña Candidate_Information y seleccione toda la columna E. La fórmula debe verse así:
 
@@ -219,7 +220,7 @@ Haga clic aquí si necesita consejos sobre cómo hacerlo. Así es como deben ver
 
 Haga doble clic en el recuadro de la esquina inferior derecha de la celda C2.
 
-[![Image 23](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_23.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_23.png)
+[![Image 23](/assets/images/academy/module_4/Module_4_Photo_23.png)](/assets/images/academy/module_4/Module_4_Photo_23.png)
 
 #### Cómo contar los candidatos rechazados \[“rejected”\] por partido (“Tot_Rej”)
 
@@ -267,7 +268,7 @@ Esta siguiente parte del análisis es similar al cálculo anterior que realizó 
 
 Ahora realice este cálculo usted solo(a). Haga clic aquí si necesita ayuda con la fórmula.
 
-[![Image 28](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_28.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_28.png)
+[![Image 28](/assets/images/academy/module_4/Module_4_Photo_28.png)](/assets/images/academy/module_4/Module_4_Photo_28.png)
 
 A continuación se muestran los resultados:
 
@@ -283,7 +284,7 @@ Hallazgos: ¿Notó que el porcentaje de candidatos de oposición rechazados fue 
 
 ## Cómo analizar las decisiones sobre el registro de candidatos según el sexo
 
-#### A. Cómo calcular las cifras netas de candidatos según el sexo
+### A. Cómo calcular las cifras netas de candidatos según el sexo
 
 Entender la demografía de género de los candidatos propuestos en Opendya (tanto aceptados como rechazados) nos dará una idea más clara de si los partidos son representativos o no, tanto de los hombres como de las mujeres. Asimismo, nos ayudará a entender si los hombres y las mujeres tienen las mismas oportunidades de postularse para cargos de elección popular a través del proceso de registro de candidatos.
 
@@ -299,17 +300,17 @@ Si respondió que COUNTIFS \[CONTEO.SI.CONJUNTO\], ¡está en lo correcto! Ahora
 
 Los rangos y criterios para este cálculo son los siguientes:
 
-* Rango_1: “Party”, columna D, pestaña Candidate_Information
-* Criterios_1: “Draconia” (después, “Zalog” y “Shireling”), celda A2, pestaña Candidate_Summary
-* Rango_2: “Gender”, columna B, pestaña Candidate_Information
-* Criterios_2: “female”
-  [![Image 30](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_30.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_30.png)
+- Rango_1: “Party”, columna D, pestaña Candidate_Information
+- Criterios_1: “Draconia” (después, “Zalog” y “Shireling”), celda A2, pestaña Candidate_Summary
+- Rango_2: “Gender”, columna B, pestaña Candidate_Information
+- Criterios_2: “female”
+  [![Image 30](/assets/images/academy/module_4/Module_4_Photo_30.png)](/assets/images/academy/module_4/Module_4_Photo_30.png)
 
 Una vez que termine de calcular el número de candidatas de todos los partidos, compare sus respuestas con la siguiente imagen:
 
 [![Image 31](/assets/images/academy/module_4/Module_4_Photo_31.png)](/assets/images/academy/module_4/Module_4_Photo_31.png)
 
-##### Número de candidatas aceptadas por partido (“nFem_Accept”)
+#### Número de candidatas aceptadas por partido (“nFem_Accept”)
 
 Ahora vamos a calcular el número de candidatas aceptadas de cada partido político. Este será el primer cálculo que realice en donde se requieren tres distintos rangos y criterios para la función COUNTIFS \[CONTAR.SI.CONJUNTO\]. Se van a contar las celdas con base en: 1) Partido político, 2) sexo, 3) aceptación como candidatos.
 
@@ -333,23 +334,19 @@ Ahora que ya es todo(a) un(a) experto(a) en el uso de COUNTIFS \[CONTAR.SI.CONJU
 
 Los rangos y criterios para este cálculo son los siguientes:
 
-* Rango_1: “Party”, columna D, pestaña Candidate_Information
-* Criterios_1: “Draconia” (después, “Zalog” y “Shireling”), celda A2, pestaña Candidate_Summary
-* Rango_2: “Gender”, columna B, pestaña Candidate_Information
-* Criterios_2: “female”
-* Rango_3: “Decision”, columna E, pestaña Candidate_Information
-* Criterios_3: “rejected”
-  [![Image 35](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_35.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_35.png)
+- Rango_1: “Party”, columna D, pestaña Candidate_Information
+- Criterios_1: “Draconia” (después, “Zalog” y “Shireling”), celda A2, pestaña Candidate_Summary
+- Rango_2: “Gender”, columna B, pestaña Candidate_Information
+- Criterios_2: “female”
+- Rango_3: “Decision”, columna E, pestaña Candidate_Information
+- Criterios_3: “rejected”
+  [![Image 35](/assets/images/academy/module_4/Module_4_Photo_35.png)](/assets/images/academy/module_4/Module_4_Photo_35.png)
 
 Confirme sus respuestas aquí.
 
 [![Image 36](/assets/images/academy/module_4/Module_4_Photo_36.png)](/assets/images/academy/module_4/Module_4_Photo_36.png)
 
-#### Número de candidatos por partido (“nMale_Cand”),
-
-#### Número de candidatos aceptados por partido (“nMale_Accept”), y
-
-#### Número de candidatos rechazados por partido (“nMale_Rej”),
+#### Número de candidatos por partido (“nMale_Cand”), Número de candidatos aceptados por partido (“nMale_Accept”), y Número de candidatos rechazados por partido (“nMale_Rej”),
 
 ¡Ahora sí ya domina todos esos cálculos! Recuerde cómo realizó los cálculos de las columnas G (“nFem_Cand”), H (“nFem_Accept”), e I (“nFem_Rej”), y haga los ajustes que sean necesarios a la fórmula para obtener únicamente los candidatos del sexo masculino. Haga clic aquí para ver una pista.
 
@@ -357,9 +354,9 @@ Recuerde cambiar su segundo criterio a “male” \[masculino\] en cada cálculo
 
 A continuación se muestra cómo deben verse los resultados de los cálculos:
 
-[![Image 37](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_37.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_37.png)
+[![Image 37](/assets/images/academy/module_4/Module_4_Photo_37.png)](/assets/images/academy/module_4/Module_4_Photo_37.png)
 
-#### B. Cómo calcular el porcentaje de candidatos según el sexo
+### B. Cómo calcular el porcentaje de candidatos según el sexo
 
 ¡Ya casi terminamos! Por último, queremos calcular los porcentajes de aceptación y rechazo de los candidatos del sexo femenino y masculino en Opendya, por cada partido político. Esto nos dará una idea de lo uniformes que fueron los veredictos de aceptación y rechazo a los que llegó la comisión electoral.
 
@@ -371,7 +368,7 @@ Efectivamente, con “nFem_Cand” (columna G) y con “Tot_Cand” (columna B).
 
 [![Formula 2](/assets/images/academy/module_4/Module_4_Formula_2.png)](/assets/images/academy/module_4/Module_4_Formula_2.png) Haga clic aquí si necesita ayuda para entender la fórmula.
 
-[![Image 38](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_38.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_38.png)
+[![Image 38](/assets/images/academy/module_4/Module_4_Photo_38.png)](/assets/images/academy/module_4/Module_4_Photo_38.png)
 
 ¿Qué porcentaje de los candidatos propuestos por el partido Draconia son mujeres? Si la respuesta que obtuvo fue 35% ¡felicidades, está en lo correcto! Ahora realice el mismo cálculo para los otros dos partidos políticos. Le mostraremos todos los resultados una vez que termine de calcular unos cuantos porcentajes más.
 
@@ -399,7 +396,7 @@ Compare aquí sus resultados para esta parte del módulo.
 
 [![Image 39](/assets/images/academy/module_4/Module_4_Photo_39.png)](/assets/images/academy/module_4/Module_4_Photo_39.png)
 
-#### ¿Qué observa?
+### ¿Qué observa?
 
 ¡Ha realizado una gran cantidad de cálculos! Piense un momento acerca de qué tendencias esperaba ver en cuanto a los porcentajes de aceptación y rechazo de los candidatos del sexo femenino y masculino en los tres partidos de Opendya. ¿Sus expectativas fueron correctas? ¿Hubo algo que le sorprendiera? ¿Qué tendencias relacionadas con el género pudo detectar en el proceso de registro de candidatos con base en su análisis?
 

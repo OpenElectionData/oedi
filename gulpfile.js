@@ -8,6 +8,7 @@ const cp = require('child_process')
 const del = require('del')
 const eslint = require('gulp-eslint')
 const imagemin = require('gulp-imagemin')
+const pngquant = require('imagemin-pngquant')
 const named = require('vinyl-named')
 const newer = require('gulp-newer')
 const plumber = require('gulp-plumber')
@@ -117,7 +118,7 @@ function imagesTask() {
     .pipe(
       imagemin([
         imagemin.mozjpeg(config.imagemin.mozjpeg),
-        imagemin.optipng(config.imagemin.optipng),
+        pngquant(config.imagemin.pngquant),
         imagemin.svgo({
           plugins: config.imagemin.svgoPlugins
         })
@@ -179,7 +180,7 @@ function watchTask() {
 
   watch(config.assets + '/' + config.js.src + '/**/*', series(webpackTask))
 
-  watch(config.assets + '/' + config.imagemin.src + '/**/*', series(imagesTask))
+  // watch(config.assets + '/' + config.imagemin.src + '/**/*', series(imagesTask))
 
   watch(filesToWatch, series(jekyllBuild, reload))
 }
@@ -239,13 +240,13 @@ const copyEnglishDir = function() {
 }
 
 exports.default = series(
-  parallel(series(styleLintTask, sassTask), webpackTask, imagesTask),
+  parallel(series(styleLintTask, sassTask), webpackTask),
   series(jekyllBuild, cleanRootDir, copyEnglishDir),
   serve,
   watchTask
 )
 
 exports.build = series(
-  parallel(series(styleLintTask, sassTask), webpackTask, imagesTask),
+  parallel(series(styleLintTask, sassTask), webpackTask),
   series(jekyllBuild, cleanRootDir, copyEnglishDir)
 )

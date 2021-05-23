@@ -73,9 +73,9 @@ back_to_data_inventory: '&larr; Back to Data Inventory'
 license: <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by/4.0/\">Ce contenu est autorisé sous une License Internationale de CC Attribution 4.0</a>
 
 ## Added
-legend: 'Legend:'
+legend: 'Légende:'
 principle: Principle
-points_possible: Points Possible
+points_possible: Points possibles
 total: Total
 back: Back
 back_to: Back to

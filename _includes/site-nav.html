@@ -6,7 +6,6 @@ site.data.menus.main | where_exp:"item","item[location] == true" %}
   <li class="menu-item">
     <a
       href="{{ item.url | relative_url }}"
-      title="{{ item.identifier }}"
       class="{% if page.url == item.url %}active{% endif %}"
       >{{ site.data.strings[item.identifier] }}</a
     >

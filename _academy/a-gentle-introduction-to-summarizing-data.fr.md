@@ -12,15 +12,15 @@ Dans ce tutoriel, nous allons définir certains termes et concepts communs, y co
 
 Nous commençons par apprendre quelques termes courants utilisés dans l'examen des données.
 
-#### L'Observation
+### L'Observation
 
 Un ensemble de données contient des informations sur «les individus.» Chaque «individu» est appelé «observation» ou «cas». Dans la plupart des ensembles de données, chaque ligne contient des informations sur un individu.
 
-#### Les Variables
+### Les Variables
 
 Toute caractéristique d'un individu (par exemple, l'observation) est appelée une variable. Certaines variables, comme le sexe et le titre de travail, place les individus dans des catégories. D'autres, comme la hauteur ou le nombre d'électeurs inscrits, prennent des valeurs numériques pour lesquels nous pouvons faire de l'arithmétique. Ensuite, nous allons jeter un coup d'œil aux différents types de données.
 
-### Types de Données
+## Types de Données
 
 Les données sont classées sous différents types, qui sont parfois désignés comme «niveau de mesure.» Nous avons besoin de comprendre les types de données, car elles nous aident à comprendre comment les synthétiser correctement. Il y a trois types de données:
 
@@ -139,7 +139,7 @@ L'Ecart Type de l'**Echantillon**:
 
 Cela semble compliqué, mais le changement important est de diviser par **N-1** (à la place de **N**) lors du calcul de la variance de l'échantillon. (Rappelez-vous que l'écart-type est simplement la racine carrée de la **Variance**, donc la formule de calcul de la variance est la même formule que ci-dessus, mais sans la racine carrée.)
 
-### Crédits
+## Crédits
 
 Toutes les images d'animaux sont de l'auteur [Dashikka/Shutterstock](http://www.shutterstock.com/gallery-2155625p1.html).
 

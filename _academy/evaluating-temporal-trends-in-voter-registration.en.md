@@ -140,7 +140,7 @@ Here’s how the SUMIF formula is structured: SUMIF(range, criteria, \[sum_range
 - **Criteria**: Your criteria will indicate whether or not a number should be summed. Criteria can come in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added. For this exercise, you’ll be selecting from three different criteria \[urban, rural, and capital district\] and asking Excel to add numbers that fall into one of those specific categories. Here, you can click on either cell A2, A3 or A4 in your Data_Summary tab to specify your criteria.
 - **Sum_range**: This tells Excel what cells to add, if you want to sum cells other than those specified in the range argument. Here, you’re asking Excel to sum the number of registered voters after Week 1 of the update, only in urban districts (column E = Reg_Week1).
 
-[![Image 9](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_9.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_9.png)
+[![Image 9](/assets/images/academy/module_6/Module_6_Photo_9.png)](/assets/images/academy/module_6/Module_6_Photo_9.png)
 
 After you’ve completed your SUMIF function, insert a closed parenthesis \[)\] but don’t hit enter! We’re going to add a subtraction function in the same cell. Yes, you can use multiple Excel formulas at once!
 
@@ -186,7 +186,7 @@ Your Week 3 calculation shouldn’t be as scary. It’s the exact same logic and
 
 Try this on your own! Once you’re done, feel free to click here for the formula and answers.
 
-[![Image 15](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_15.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_15.png)
+[![Image 15](/assets/images/academy/module_6/Module_6_Photo_15.png)](/assets/images/academy/module_6/Module_6_Photo_15.png)
 
 ##### **Number of new voters added after week 4 of registration (“nW4_incr”)**
 
@@ -194,7 +194,7 @@ We hope you can handle Week 4’s calculations on your own. Same old logic and f
 
 Once you’re done, click here for the formulas and final calculations.
 
-[![Image 16](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_16.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_16.png)
+[![Image 16](/assets/images/academy/module_6/Module_6_Photo_16.png)](/assets/images/academy/module_6/Module_6_Photo_16.png)
 
 ##### **Number of new voters added after final week of registration (“nWf_incr”)**
 
@@ -214,7 +214,7 @@ Remember that in Part A of this module you calculated the cumulative number of 2
 
 How many new urban voters were registered during Week 5? Click here if you would like to view an image of the formula.
 
-[![Image 18](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_18.png)](https://openelectiondata.net/images/academy/module_6/Module_6_Photo_18.png)
+[![Image 18](/assets/images/academy/module_6/Module_6_Photo_18.png)](/assets/images/academy/module_6/Module_6_Photo_18.png)
 
 4\. Now replicate your formula for the two remaining district types. Here’s what you should have!
 

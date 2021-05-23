@@ -203,7 +203,7 @@ Si vous en avez besoin, cliquez ici pour voir à quoi ressemble cette étape.
 
 N'appuyez pas sur Entrée ou ne fermez pas vos parenthèses pour l'instant! Au lieu de cela, tapez une virgule \[,\] et passons à la deuxième partie de la formule.
 
-[![Image 20](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_20.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_20.png)
+[![Image 20](/assets/images/academy/module_4/Module_4_Photo_20.png)](/assets/images/academy/module_4/Module_4_Photo_20.png)
 
 2\. Rappelez-vous que nous sommes en train de calculer le nombre de candidats « acceptés » au sein du parti Draconia. Notre formule actuelle est prête à afficher tous les candidats du parti Draconia, mais nous devons encore distinguer les candidats «acceptés» des «rejetés». Pour ce faire, nous devrons spécifier une deuxième plage et un second critère. Puisque nous sommes en train de trier les « accepted » des « rejected », notre plage est la colonne E "Decision" de l'onglet Candidate_Information. Cliquez sur l'onglet Candidate_Information et sélectionnez l'ensemble de la colonne E. Votre formule doit ressembler à ceci:
 
@@ -217,7 +217,7 @@ N'appuyez pas sur Entrée ou ne fermez pas vos parenthèses pour l'instant! Au l
 
 5\. Maintenant, répétez ce calcul pour les deux parties Zalog et Shireling! Cliquez ici si vous avez besoin d’astuces pour procéder à cette opération. Jetez un oeil à ce que vos calculs finaux devraient arriver.
 
-[![Image 23](https://openelectiondata.net//images/academy/module_4/Module_4_Photo_23.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_23.png)
+[![Image 23](/assets/images/academy/module_4/Module_4_Photo_23.png)](/assets/images/academy/module_4/Module_4_Photo_23.png)
 
 Double-cliquez sur la case en bas à droite de la cellule C2!
 
@@ -267,7 +267,7 @@ Cette analyse est similaire à votre dernier calcul pour « % Accept ». Quelles
 
 Allez-y et faites ce calcul tout seul. Cliquez ici si vous avez besoin d'aide avec la formule.
 
-[![Image 28](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_28.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_28.png)
+[![Image 28](/assets/images/academy/module_4/Module_4_Photo_28.png)](/assets/images/academy/module_4/Module_4_Photo_28.png)
 
 Voici les réponses.
 
@@ -283,7 +283,7 @@ Résultats: Avez-vous remarqué que les candidats de l'opposition ont été reje
 
 ## Analyser les décisions de l’enregistrement des candidats par sexe
 
-#### A. Calculer les données par sexe des candidats
+### A. Calculer les données par sexe des candidats
 
 Comprendre la dynamique démographique par sexe des candidats proposés à Opendya (à la fois de ceux qui ont été acceptés et de ceux qui ont été rejetés) nous donnera une indication plus claire pour savoir si les partis sont représentatifs de la population hommes-femmes. Cela nous aidera également à comprendre si les hommes et les femmes ont une chance égale de se présenter aux élections par le biais du processus de l’enregistrement des candidats.
 
@@ -303,13 +303,13 @@ Voici vos plages et critères pour effectuer le calcul:
 - Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
 - Range_2 : Gender, column B, Candidate_Information tab
 - Criteria_2: “female”
-  [![Image 30](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_30.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_30.png)
+  [![Image 30](/assets/images/academy/module_4/Module_4_Photo_30.png)](/assets/images/academy/module_4/Module_4_Photo_30.png)
 
 Une fois que vous avez fini de calculer le nombre total de femmes candidates pour tous les partis, vérifiez ci-dessous vos réponses.
 
 [![Image 31](/assets/images/academy/module_4/Module_4_Photo_31.png)](/assets/images/academy/module_4/Module_4_Photo_31.png)
 
-##### Nombre de candidates acceptées par parti (nFem_Accept)
+#### Nombre de candidates acceptées par parti (nFem_Accept)
 
 Maintenant, nous allons calculer le nombre de candidates acceptées en fonction du parti politique. C'est votre premier calcul COUNTIFS où trois plages et critères différents sont requis. Vous allez compter des cellules en vous basant sur: 1) le parti politique, 2) le sexe, 3) la validation de la candidature.
 
@@ -339,17 +339,13 @@ Voici vos plages (range) et critères (criteria) pour effectuer ce calcul:
 - Criteria_2: “female”
 - Range_3: Decision, colonne E, Candidate_Information tab
 - Criteria_3: “rejected”
-  [![Image 35](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_35.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_35.png)
+  [![Image 35](/assets/images/academy/module_4/Module_4_Photo_35.png)](/assets/images/academy/module_4/Module_4_Photo_35.png)
 
 Vérifiez vos réponses ici
 
 [![Image 36](/assets/images/academy/module_4/Module_4_Photo_36.png)](/assets/images/academy/module_4/Module_4_Photo_36.png)
 
-#### Nombre de candidats hommes par parti (nMale_Cand),
-
-#### Nombre de candidats hommes acceptés par parti (Male_Accept), et
-
-#### Nombre de candidats hommes rejetés par parti (nMale_Rej)
+#### Nombre de candidats hommes par parti (nMale_Cand), Nombre de candidats hommes acceptés par parti (Male_Accept), et Nombre de candidats hommes rejetés par parti (nMale_Rej)
 
 Nous pensons que vous maitrisez ces calculs! Repensez à vos calculs pour les colonnes G (nFem_Cand), H (nFem_Accept) et I (nFem_Rej), et effectuez les ajustements nécessaires dans les formules uniquement pour les candidats masculins. Cliquez ici pour obtenir un indice.
 
@@ -357,9 +353,9 @@ N'oubliez pas de modifier votre deuxième critère à "male" pour chaque calcul!
 
 Voici à quoi vos calculs doivent ressembler.
 
-[![Image 37](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_37.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_37.png)
+[![Image 37](/assets/images/academy/module_4/Module_4_Photo_37.png)](/assets/images/academy/module_4/Module_4_Photo_37.png)
 
-#### B. Calcul des pourcentages de candidats par sexe
+### B. Calcul des pourcentages de candidats par sexe
 
 Vous êtes presque à la ligne d'arrivée! Pour finir nous aimerions que vous calculiez les taux de validation et d’invalidation des candidats masculins et féminins à Opendya, pour tous les partis politiques. Cela nous donnera une idée de la façon dont les candidats masculins et féminins ont été acceptés et rejetés par la commission électorale.
 
@@ -371,7 +367,7 @@ Oui en effet, c’est Fem_Cand (colonne G) et colonne Tot_Cand (column B). Voici
 
 [![Formula 2](/assets/images/academy/module_4/Module_4_Formula_2.png)](/assets/images/academy/module_4/Module_4_Formula_2.png) Cliquez ici si vous avez besoin d’aide pour utiliser cette formule
 
-[![Image 38](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_38.png)](https://openelectiondata.net/images/academy/module_4/Module_4_Photo_38.png)
+[![Image 38](/assets/images/academy/module_4/Module_4_Photo_38.png)](/assets/images/academy/module_4/Module_4_Photo_38.png)
 
 Quel est le pourcentage de candidats potentiels proposés par Draconia qui sont des femmes ? On espère que vous avez trouvé comme résultat 36%. Maintenant faites le même calcul pour les 2 autres partis politiques. Nous vous dévoilerons toutes les réponses après avoir calculer quelques pourcentages supplémentaires.
 
@@ -399,7 +395,7 @@ Découvrez toutes vos réponses pour cette section du module ici!
 
 [![Image 39](/assets/images/academy/module_4/Module_4_Photo_39.png)](/assets/images/academy/module_4/Module_4_Photo_39.png)
 
-#### Qu’est-ce que vous pouvez observer?
+### Qu’est-ce que vous pouvez observer?
 
 YVous avez terminé un nombre impressionnant de calculs! Quelles types de tendances vous attendez vous à observer concernant les taux d'acceptation et de rejet des candidats masculins et féminins parmi les trois partis d'Opendya. Est-ce que vos attentes ont été confirmées? Qu'avez-vous trouvé de surprenant? Quelles tendances liées au genre dans le processus de l’enregistrement des candidats pouvez-vous observer en vous appuyant sur votre analyse?
 

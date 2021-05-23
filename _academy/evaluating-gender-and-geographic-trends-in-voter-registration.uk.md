@@ -188,7 +188,7 @@ If you guessed column J “Final_Female” and column I “Reg_Tot_Final,” you
 
 _\*Don’t forget to hit enter after you’ve typed this calculation._
 
-[![Image 15](https://openelectiondata.net/images/academy/module_5/Module_5_Photo_15.png)](https://openelectiondata.net/images/academy/module_5/Module_5_Photo_15.png)
+[![Image 15](/assets/images/academy/module_5/Module_5_Photo_15.png)](/assets/images/academy/module_5/Module_5_Photo_15.png)
 
 4\. After you’ve calculated the percent of female voters in Legosakool, have Excel replicate your calculation across the remaining 46 districts of Opendya.
 

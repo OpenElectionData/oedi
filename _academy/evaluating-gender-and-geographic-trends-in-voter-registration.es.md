@@ -9,8 +9,6 @@ excerpt: "During this tutorial, you’ll practice basic data analysis with voter
 <li>explore political considerations of the data you have analyzed.</li></ul>"
 ---
 
-## Resumen breve
-
 En este tutorial practicaremos el análisis básico de datos con información del registro de votantes. El objetivo es mejorar sus habilidades para:
 
 - utilizar operadores básicos en Microsoft Excel (incluyendo el cálculo de sumas, diferencias y porcentajes),

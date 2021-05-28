@@ -9,7 +9,9 @@ excerpt:
   you will be able to: <ul><li>Master your understanding of SUMIF functions,</li>
   <li>integrate SUMIF functions into basic Excel operations, and</li> <li>consider
   political ramifications of your data.</li></ul>'
----## Résumé
+---
+
+## Résumé
 
 Le module 6 consolidera les compétences que vous avez commencé à maîtriser dans le module 5 pour vous permettre de faire une analyse plus poussée des données sur l’inscription des électeurs. Nous espérons qu'à la fin vous serez en mesure de:
 

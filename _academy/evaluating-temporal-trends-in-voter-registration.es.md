@@ -9,7 +9,9 @@ excerpt:
   you will be able to: <ul><li>Master your understanding of SUMIF functions,</li>
   <li>integrate SUMIF functions into basic Excel operations, and</li> <li>consider
   political ramifications of your data.</li></ul>'
----## Resumen breve
+---
+
+## Resumen breve
 
 En el Módulo 6 consolidará las habilidades que comenzó a dominar en el Módulo 5 y que le permitirán realizar análisis más avanzados de los datos del registro de votantes. El objetivo de este módulo es que al finalizar usted:
 

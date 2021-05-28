@@ -3,10 +3,11 @@ title: '5. Évaluer les tendances géographiques et l’aspect genre dans l&#39;
 lang: fr
 module_id: 5
 permalink: '/academy/evaluating-gender-and-geographic-trends-in-voter-registration/'
-excerpt: "During this tutorial, you’ll practice basic data analysis with voter registration information. We’d like you to improve your ability to:
-<ul><li>utilize basic operators in Microsoft Excel (including calculating sums, differences and percentages),</li>
-<li>employ the SUMIF function in Excel, and</li>
-<li>explore political considerations of the data you have analyzed.</li></ul>"
+excerpt:
+  'During this tutorial, you’ll practice basic data analysis with voter registration information. We’d like you to improve your ability to:
+  <ul><li>utilize basic operators in Microsoft Excel (including calculating sums, differences and percentages),</li>
+  <li>employ the SUMIF function in Excel, and</li>
+  <li>explore political considerations of the data you have analyzed.</li></ul>'
 ---
 
 ## Résumé

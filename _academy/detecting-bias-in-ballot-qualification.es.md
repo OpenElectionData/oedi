@@ -1,17 +1,17 @@
 ---
-
 title: 4. Cómo detectar preferencias en el registro de candidatos
 lang: es
 module_id: 4
 permalink: '/academy/detecting-bias-in-ballot-qualification/'
 excerpt:
-'Using sample ballot qualification data in Module 4, you’ll enhance your
-ability to: <ul><li>use pivot tables and some more advanced features within them;</li>
-
+  'Using sample ballot qualification data in Module 4, you’ll enhance your
+  ability to: <ul><li>use pivot tables and some more advanced features within them;</li>
   <li>employ the COUNTIF function for a variety of use cases;</li> <li>use basic operators
   in Microsoft Excel (including calculating percentages), and</li> <li>examine your
   data with a political eye.</li></ul>'
----Mediante el uso de datos de muestra del registro de candidatos, en el Módulo 4 usted mejorará su capacidad para:
+---
+
+Mediante el uso de datos de muestra del registro de candidatos, en el Módulo 4 usted mejorará su capacidad para:
 
 - utilizar tablas dinámicas y algunas funciones más avanzadas dentro de ellas;
 - emplear la función COUNTIF \[CONTAR.SI\] para distintos fines;

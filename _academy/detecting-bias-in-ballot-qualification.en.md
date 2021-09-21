@@ -1,21 +1,21 @@
 ---
-title: '4. Detecting Bias in Ballot Qualification'
+title: 4. Detecting Bias in Ballot Qualification
 lang: en
 module_id: 4
-permalink: '/academy/detecting-bias-in-ballot-qualification/'
-excerpt: "Using sample ballot qualification data in Module 4, you’ll enhance your ability to:
-<ul><li>use pivot tables and some more advanced features within them;</li>
-<li>employ the COUNTIF function for a variety of use cases;</li>
-<li>use basic operators in Microsoft Excel (including calculating percentages), and</li>
-<li>examine your data with a political eye.</li></ul>"
----
+permalink: "/academy/detecting-bias-in-ballot-qualification/"
+excerpt: 'Using sample ballot qualification data in Module 4, you’ll enhance your
+  ability to: <ul><li>use pivot tables and some more advanced features within them;</li>
+  <li>employ the COUNTIF function for a variety of use cases;</li> <li>use basic operators
+  in Microsoft Excel (including calculating percentages), and</li> <li>examine your
+  data with a political eye.</li></ul>'
 
+---
 Using sample ballot qualification data in Module 4, you’ll enhance your ability to:
 
-- use pivot tables and some more advanced features within them;
-- employ the COUNTIF function for a variety of use cases;
-- use basic operators in Microsoft Excel (including calculating percentages), and
-- examine your data with a political eye.
+* use pivot tables and some more advanced features within them;
+* employ the COUNTIF function for a variety of use cases;
+* use basic operators in Microsoft Excel (including calculating percentages), and
+* examine your data with a political eye.
 
 ## Why Ballot Qualification Data?
 
@@ -31,7 +31,7 @@ All candidates who applied to be on Opendya’s ballot hailed from one of three 
 
 ## Reviewing the Ballot Qualification Data
 
-To begin the exercise, download the ballot qualification data file **[here](/assets/academy/exercise/Module_4_Ballot_Qualification.xlsx)**.
+To begin the exercise, download the ballot qualification data file [**here**](/assets/academy/exercise/Module_4_Ballot_Qualification.xlsx).
 
 Before delving into analysis, let’s get familiar with the data available in the file.
 
@@ -95,25 +95,25 @@ Given what you know about the three political parties competing in the upcoming 
 
 Follow these easy steps to make your pivot table.
 
-#### 1\. Select All
+#### 1. Select All
 
 To begin, you’ll need to select all of the data in the “Candidate_Information” tab of your spreadsheet. To do so, click on the top left square of the sheet containing the little triangle. You could also click cell A1 ("Full_name") and then click Control+A (i.e., hold down the "Ctrl" button while also pressing the "A" button on the keyboard).
 
 [![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)
 
-#### 2\. Inserting your Pivot Table
+#### 2. Inserting your Pivot Table
 
 Now all of the data is selected. \[If you are using Excel 2013\], click on the "Insert" tab in the top menu and then click "Pivot Table" along the left. A pop-up window will appear that says "Create Pivot Table.” Leave the options as their defaults and just click "OK", and Excel will make a new pivot table in a new worksheet.
 
 [![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)
 
-#### 3\. Sorting by Party
+#### 3. Sorting by Party
 
 Now that your skeleton pivot table is ready, we can make some calculations. On the right is a window titled "Pivot Table Field List." Click on "Party" and drag/add it to the "Row Labels" area. This will sort everything by whatever value is listed in the "Party" field. Notice that "Party" is now listed in the lower right window called "Row Labels." If done correctly, we'll get all three of our parties loaded into Column A.
 
 [![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)
 
-#### 4\. Determine average age
+#### 4. Determine average age
 
 Next, let's check out the age composition of Opendya’s three parties: Draconia, Shireling and Zalog. Take "Age" and drag and drop the field into the "Values" section on the bottom of your Pivot Table Field List. If all goes well, the pivot table should default to showing a count all of the cells that have a value for "Age" according to political party. You can check this by hovering your mouse pointer over the values in Column B, and a note should say "Count of Age." Notice that now "Count of Age" is listed in the lower right window under "Values." If you've done it correctly, it should display 131 for Draconia, 92 for Shireling, and 67 for Zalog. See the image below for confirmation.
 
@@ -151,8 +151,8 @@ For the remainder of Module 4, we’ll make frequent use of the [COUNTIF](https:
 
 Here’s how the formula is structured: COUNTIF(range, criteria) OR COUNTIFS(range_1,criteria_1,range_2,criteria_2,range_3,criteria_3,...).
 
-- **Range**: Range specifies the group of cells you want to count from.
-- **Criteria**: Your criteria will indicate whether or not a number should be counted. Criteria can come in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added.
+* **Range**: Range specifies the group of cells you want to count from.
+* **Criteria**: Your criteria will indicate whether or not a number should be counted. Criteria can come in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added.
 
 Let’s give COUNTIF and COUNTIFS a try!
 
@@ -190,8 +190,8 @@ Now, you’ve selected your COUNTIF range! Type in a comma \[,\] and we’ll kee
 
 Next we would like to calculate the total number of applicants that Opendya’s election commission “accepted” as candidates for the upcoming elections, according to party. Here, you’ll need to use the COUNTIFS formula as we are now counting cells based on two criteria instead of one. You need Excel to count:
 
-1.  1.candidate applicants from a **specific political party**, and
-2.  2\. **accepted** candidates.
+1. 1.candidate applicants from a **specific political party**, and
+2. 2. **accepted** candidates.
 
 The formula will essentially look like two regular COUNTIF formulas in one: **COUNTIFS(range_1, criteria_1, range_2, criteria_2)**. Note that the first half of this formula will look just like our calculation for the Tot_Cand column, as we’re still counting according to political party. Let’s begin our calculation in column C, Tot_Accept.
 
@@ -297,10 +297,10 @@ If you guessed COUNTIFs, you are correct! Now, what are your ranges and your cri
 
 Here are your ranges and criteria for this calculation:
 
-- Range_1 : Party, column D, Candidate_Information tab
-- Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
-- Range_2 : Gender, column B, Candidate_Information tab
-- Criteria_2: “female”
+* Range_1 : Party, column D, Candidate_Information tab
+* Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
+* Range_2 : Gender, column B, Candidate_Information tab
+* Criteria_2: “female”
   [![Image 30](/assets/images/academy/module_4/Module_4_Photo_30.png)](/assets/images/academy/module_4/Module_4_Photo_30.png)
 
 Once you’ve finished calculating the number of female candidates across all parties, check your responses below.
@@ -331,15 +331,15 @@ Now that you’re a pro at COUNTIFS, calculate the number of rejected female can
 
 Here are your ranges and criteria for this calculation:
 
-- Range_1 : Party, column D, Candidate_Information tab
-- Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
-- Range_2 : Gender, column B, Candidate_Information tab
-- Criteria_2: “female”
-- Range_3: Decision, column E, Candidate_Information tab
-- Criteria_3: “rejected”
+* Range_1 : Party, column D, Candidate_Information tab
+* Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
+* Range_2 : Gender, column B, Candidate_Information tab
+* Criteria_2: “female”
+* Range_3: Decision, column E, Candidate_Information tab
+* Criteria_3: “rejected”
   [![Image 35](/assets/images/academy/module_4/Module_4_Photo_35.png)](/assets/images/academy/module_4/Module_4_Photo_35.png)
 
-Check your responses here!
+Check your responses below!
 
 [![Image 36](/assets/images/academy/module_4/Module_4_Photo_36.png)](/assets/images/academy/module_4/Module_4_Photo_36.png)
 
@@ -389,7 +389,7 @@ Divide the number of accepted female candidates (column I, nFem_Rej) by the numb
 
 Complete calculations for your final three columns pertaining to male candidates using similar logic to your calculations for women’s acceptance and rejection. As a reminder, you’re calculating each political party's respective share of male candidates (%Male_Cand), the percentage of male candidates accepted within each party (%Male_Accept), and the percentage of male candidate rejected from each party (%Male_Rej).
 
-Check out all of your answers for this component of the module here!
+Check out all of your answers for this component of the module below!
 
 [![Image 39](/assets/images/academy/module_4/Module_4_Photo_39.png)](/assets/images/academy/module_4/Module_4_Photo_39.png)
 

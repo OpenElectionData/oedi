@@ -191,13 +191,14 @@ Now, you’ve selected your COUNTIF range! Type in a comma \[,\] and we’ll kee
 Next we would like to calculate the total number of applicants that Opendya’s election commission “accepted” as candidates for the upcoming elections, according to party. Here, you’ll need to use the COUNTIFS formula as we are now counting cells based on two criteria instead of one. You need Excel to count:
 
 1. 1.candidate applicants from a **specific political party**, and
-2. 2. **accepted** candidates.
+2. 
+   1. **accepted** candidates.
 
 The formula will essentially look like two regular COUNTIF formulas in one: **COUNTIFS(range_1, criteria_1, range_2, criteria_2)**. Note that the first half of this formula will look just like our calculation for the Tot_Cand column, as we’re still counting according to political party. Let’s begin our calculation in column C, Tot_Accept.
 
 1\. In cell C2, repeat steps 1 and 2 from your last calculation (Tot_Cand) which tell you how to select the range and criteria. However, remember to type “=COUNTIFS” instead of “=COUNTIF.” Your first range is still column D “Party” from the Candidate_Information tab, and your first criteria will be the Draconia party (cell A2 in the Candidate_Summary tab).
 
-If you need, click here for an image of what this step should look like.
+If you need, scroll down for an image of what this step should look like.
 
 Don’t hit Enter or close your parentheses just yet! Instead, type a comma \[,\] and let’s move on to the second part of the formula.
 
@@ -213,7 +214,7 @@ Don’t hit Enter or close your parentheses just yet! Instead, type a comma \[,\
 
 [![Image 22](/assets/images/academy/module_4/Module_4_Photo_22.png)](/assets/images/academy/module_4/Module_4_Photo_22.png)
 
-5\. Now repeat this calculation for both the Zalog and Shireling parties! Click here if you need a tip on how to do this. Take a look at what your final calculations should come to.
+5\. Now repeat this calculation for both the Zalog and Shireling parties! Scroll down if you need a tip on how to do this. Take a look at what your final calculations should come to.
 
 [![Image 23](/assets/images/academy/module_4/Module_4_Photo_23.png)](/assets/images/academy/module_4/Module_4_Photo_23.png)
 
@@ -265,7 +266,7 @@ Select “Percentage,” adjust the decimal places as you would like and click O
 
 This next piece of analysis is similar to your last calculation for %Accept. What columns do you think you’ll need to work with to calculate the percentage of candidates rejected? We hope you guessed columns D and B, Tot_Reg and Tot_Cand!
 
-Go ahead and make this calculation on your own. Click here if you need help with the formula.
+Go ahead and make this calculation on your own. Scroll down if you need help with the formula.
 
 [![Image 28](/assets/images/academy/module_4/Module_4_Photo_28.png)](/assets/images/academy/module_4/Module_4_Photo_28.png)
 
@@ -293,7 +294,7 @@ In column G of your Candidate_Summary tab, we’ll calculate the number of femal
 
 What formula do you need to make this calculation?
 
-If you guessed COUNTIFs, you are correct! Now, what are your ranges and your criteria? Take a moment to work the formula out on your own. If you need help, click here.
+If you guessed COUNTIFs, you are correct! Now, what are your ranges and your criteria? Take a moment to work the formula out on your own. If you need help, scroll down.
 
 Here are your ranges and criteria for this calculation:
 
@@ -327,7 +328,7 @@ Now we’re going to calculate the number of accepted female candidates accordin
 
 #### Number of rejected female candidates per party (nFem_Rej)
 
-Now that you’re a pro at COUNTIFS, calculate the number of rejected female candidates for each of the three parties. Click here if you need a little help sorting out your ranges, criteria, or overall formula.
+Now that you’re a pro at COUNTIFS, calculate the number of rejected female candidates for each of the three parties. Scroll down if you need a little help sorting out your ranges, criteria, or overall formula.
 
 Here are your ranges and criteria for this calculation:
 
@@ -345,7 +346,7 @@ Check your responses below!
 
 #### Number of male candidates per party (nMale_Cand), Number of accepted male candidates per party (nMale_Accept), and Number of rejected male candidates per party (nMale_Rej)
 
-We think you’ve got these calculations covered! Think back to your calculations for columns G (nFem_Cand), H (nFem_Accept), and I (nFem_Rej), and make the necessary formula adjustments for male candidates only. Click here for a hint.
+We think you’ve got these calculations covered! Think back to your calculations for columns G (nFem_Cand), H (nFem_Accept), and I (nFem_Rej), and make the necessary formula adjustments for male candidates only.  Scroll down for a hint.
 
 Remember to alter your second criteria to “male” for each calculation! That’s about all you need to change.
 
@@ -363,7 +364,9 @@ Here’s a simple calculation. To start, we’d just like to know the percent br
 
 Yes indeed, it’s nFem_Cand (column G) and column Tot_Cand (column B). Here’s the logic.
 
-[![Formula 2](/assets/images/academy/module_4/Module_4_Formula_2.png)](/assets/images/academy/module_4/Module_4_Formula_2.png) Click here if you need help working out the formula.
+[![Formula 2](/assets/images/academy/module_4/Module_4_Formula_2.png)](/assets/images/academy/module_4/Module_4_Formula_2.png) 
+
+Scroll down if you need help working out the formula.
 
 [![Image 38](/assets/images/academy/module_4/Module_4_Photo_38.png)](/assets/images/academy/module_4/Module_4_Photo_38.png)
 
@@ -373,7 +376,7 @@ What percentage of proposed candidates from Draconia are women? We hope you calc
 
 Now we’re going to get a sense of the proportion of female candidates accepted by the election commission, according to party.
 
-Think through this calculation on your own or click here if you need some help.
+Think through this calculation on your own or scroll down if you need some help.
 
 Divide the number of accepted female candidates (column H, nFem_Accept) by the number of female candidates (column G, nFem_Cand)!
 
@@ -381,7 +384,7 @@ Divide the number of accepted female candidates (column H, nFem_Accept) by the n
 
 Similarly, let’s see what percentage of female candidates were rejected across different political parties. Before you do the calculation, given what you know from the percentage of women accepted, what do you expect the rejected percentages to look like?
 
-If you need some help with the calculations, click here.
+If you need some help with the calculations, scroll down.
 
 Divide the number of accepted female candidates (column I, nFem_Rej) by the number of female candidates (column G, nFem_Cand)!
 

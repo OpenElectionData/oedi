@@ -401,5 +401,7 @@ Check out all of your answers for this component of the module below!
 You’ve completed an impressive number of calculations! Think about what trends you expected to see regarding the acceptance and rejection rates of male and female candidates across Opendya’s three parties. Did your expectations pan out? What did you find surprising? What gender-related trends in the ballot qualification process do you see based on your analysis?
 
 Scroll down to see some findings:
-
+<br>
+<br>
+<br>
 Findings: Women candidates were more frequently rejected across the board.

@@ -404,4 +404,6 @@ Scroll down to see some findings:
 <br>
 <br>
 <br>
+<br>
+<br>
 Findings: Women candidates were more frequently rejected across the board.

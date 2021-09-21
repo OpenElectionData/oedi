@@ -348,6 +348,12 @@ Check your responses below!
 
 We think you’ve got these calculations covered! Think back to your calculations for columns G (nFem_Cand), H (nFem_Accept), and I (nFem_Rej), and make the necessary formula adjustments for male candidates only.  Scroll down for a hint.
 
+ 
+
+ 
+
+ 
+
 Remember to alter your second criteria to “male” for each calculation! That’s about all you need to change.
 
 Here’s what your calculations should come to.
@@ -364,7 +370,7 @@ Here’s a simple calculation. To start, we’d just like to know the percent br
 
 Yes indeed, it’s nFem_Cand (column G) and column Tot_Cand (column B). Here’s the logic.
 
-[![Formula 2](/assets/images/academy/module_4/Module_4_Formula_2.png)](/assets/images/academy/module_4/Module_4_Formula_2.png) 
+[![Formula 2](/assets/images/academy/module_4/Module_4_Formula_2.png)](/assets/images/academy/module_4/Module_4_Formula_2.png)
 
 Scroll down if you need help working out the formula.
 

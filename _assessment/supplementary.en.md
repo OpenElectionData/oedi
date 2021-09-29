@@ -38,6 +38,6 @@ excerpt: 'Description here'
 
 </div></div>
 
-<hr />
+{% unless forloop.last %}<hr />{% endunless %}
 
 {% endfor %}

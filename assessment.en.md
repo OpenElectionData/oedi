@@ -1,6 +1,6 @@
 ---
 layout: page-sidebar
-title: Assessment Tool
+title: Assessment Guide
 lang: en
 permalink: /assessment/
 is_assessment: true

@@ -5,8 +5,8 @@ main:
     inHeader: true
     inFooter: true
   - url: /inventory/
-    title: Latin America Data Inventory
-    identifier: latin_america_br_data_inventory
+    title: Data Inventory
+    identifier: data_br_inventory
     inHeader: true
     inFooter: true
   - url: /academy/
@@ -14,10 +14,15 @@ main:
     identifier: data_br_academy
     inHeader: true
     inFooter: true
+  - url: /assessment/
+    title: Assessment Guide
+    identifier: assessment_br_guide
+    inHeader: true
+    inFooter: true
   - url: /contact
     title: Contact
     identifier: contact
-    inHeader: true
+    inHeader: false
     inFooter: true
 
 languages:

@@ -107,6 +107,15 @@
       }
     }
 
+    .list--compact li + li {
+      margin-top: 0.25rem;
+    }
+
+    .list--cols-2 {
+      column-count: 2;
+      column-gap: 1.5rem;
+    }
+
     blockquote {
       margin: 2rem 0 !important;
       padding: 1rem;
@@ -120,6 +129,15 @@
 
     img {
       margin: 2rem auto;
+
+      &[src*='icon'] {
+        position: relative;
+        top: 4px;
+        display: inline-block;
+        margin: 0;
+        width: 24px;
+        height: 24px;
+      }
     }
 
     .img--inline {

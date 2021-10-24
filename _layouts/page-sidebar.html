@@ -2,40 +2,26 @@
 layout: default
 ---
 
-{% assign lang = site.active_lang %} {% if lang.nil %} {% assign lang = 'en' %} {% endif %}
-{% assign prevLabel = null %}
-{% assign prevUrl = null %}
-{% assign nextLabel = null %}
-{% assign nextUrl = null %}
-
-{% if page.is_academy == true %}
-  {% assign items = site.academy | where: 'lang', lang | sort: 'module_id', 'last' %}
-  {% assign toc_title = site.data.strings.modules %}
-{% elsif page.is_assessment == true %}
-  {% assign items = site.assessment | where: 'lang', lang | sort: 'module_id', 'last' %}
-  {% assign toc_title = site.data.strings.steps %}
-{% endif %}
+{% assign lang = site.active_lang %} {% if lang.nil %} {% assign lang = 'en' %}
+{% endif %} {% assign prevLabel = null %} {% assign prevUrl = null %} {% assign
+nextLabel = null %} {% assign nextUrl = null %} {% if page.is_academy == true %}
+{% assign items = site.academy | where: 'lang', lang | sort: 'module_id', 'last'
+%} {% assign toc_title = site.data.strings.modules %} {% elsif
+page.is_assessment == true %} {% assign items = site.assessment | where_exp:
+"item", "item.lang == lang and item.in_toc == true" | sort: 'module_id', 'last'
+%} {% assign toc_title = site.data.strings.steps %} {% endif %}
 
 <article class="page page--sidebar">
   <aside class="page__sidebar">
-    {% if page.is_guide == true %}
-      {% include guide-toc.html %}
-    {% assign items = site.guide | where: 'lang', lang | sort: 'chapter_id', 'last' %}
-    {% for item in items %}
-      {%- if page.url == item.url -%}
-        {%- unless forloop.first -%}
-          {%- assign prevId = forloop.index0 | minus: 1 -%}
-          {%- assign prevLabel = items[prevId].title -%}
-          {%- assign prevUrl = items[prevId].url -%}
-        {%- endunless -%}
-        {%- unless forloop.last -%}
-          {%- assign nextId = forloop.index0 | plus: 1 -%}
-          {%- assign nextLabel = items[nextId].title -%}
-          {%- assign nextUrl = items[nextId].url -%}
-        {%- endunless -%}
-      {%- endif -%}
-    {%- endfor -%}
-    {% elsif page.is_academy == true or page.is_assessment == true %}
+    {% if page.is_guide == true %} {% include guide-toc.html %} {% assign items
+    = site.guide | where: 'lang', lang | sort: 'chapter_id', 'last' %} {% for
+    item in items %} {%- if page.url == item.url -%} {%- unless forloop.first
+    -%} {%- assign prevId = forloop.index0 | minus: 1 -%} {%- assign prevLabel =
+    items[prevId].title -%} {%- assign prevUrl = items[prevId].url -%} {%-
+    endunless -%} {%- unless forloop.last -%} {%- assign nextId = forloop.index0
+    | plus: 1 -%} {%- assign nextLabel = items[nextId].title -%} {%- assign
+    nextUrl = items[nextId].url -%} {%- endunless -%} {%- endif -%} {%- endfor
+    -%} {% elsif page.is_academy == true or page.is_assessment == true %}
     <h2>{{ toc_title }}</h2>
     <ul>
       {% for item in items %} {%- if page.url == item.url -%} {%- unless
@@ -63,19 +49,17 @@ layout: default
       <span>{{ page.title }}</span>
       {% else %} {{ page.title }} {% endif %}
     </h1>
-    {{ content }}
-    {% if page.url == '/guide/' %}
-      {% include guide-toc.html %}
-    {% elsif page.url == '/academy/' or page.url == '/assessment/' %}
-      <h2>{{ toc_title }}</h2>
-      <ol class="modules-list" role="list">
-        {% for item in items %}
-        <li>
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-          <p>{{ item.excerpt }}</p>
-        </li>
-        {% endfor %}
-      </ol>
+    {{ content }} {% if page.url == '/guide/' %} {% include guide-toc.html %} {%
+    elsif page.url == '/academy/' or page.url == '/assessment/' %}
+    <h2>{{ toc_title }}</h2>
+    <ol class="modules-list" role="list">
+      {% for item in items %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        <p>{{ item.excerpt }}</p>
+      </li>
+      {% endfor %}
+    </ol>
     {% endif %}
   </section>
   <footer class="page__footer">

@@ -2,6 +2,7 @@
 title: '1. Define the Overall Observation Strategy'
 lang: en
 module_id: 1
+in_toc: true
 permalink: '/assessment/define-the-overall-observation-strategy/'
 excerpt: 'This section should help observers determine their overall election monitoring objectives if they have not done so already. Once observers are clear what parts of the process are most crucial to their monitoring effort, only then can they start to consider how to incorporate open data into such an effort. Observer organizations should have a well-defined overall strategy first before pursuing open election data collection and analysis.'
 ---
@@ -24,7 +25,7 @@ Groups should determine which parts of the process are likely to have the greate
 - Are there any rumors or hearsay about the upcoming elections? Are there particular topics the public is concerned about? Issues related to election rigging that are commonly referred to?
 - Are there any changes in the legal framework, administrative procedures, power dynamics, and public opinion that could influence how the electoral process occurs?
 
-After asking the above questions, consider how problems in accountability, competition, inclusion, and transparency may actually appear during the electoral process and how those issues could undermine electoral integrity. **Complete Exercise A: Risk Diagnostic and Prioritization.**
+After asking the above questions, consider how problems in accountability, competition, inclusion, and transparency may actually appear during the electoral process and how those issues could undermine electoral integrity. **[Complete Exercise A: Risk Diagnostic and Prioritization. ![](/assets/images/assessment/exercise_icon.svg)](/assets/assessment/exercises/Exercise_A.pdf)**
 
 ## What are the observation objectives?
 

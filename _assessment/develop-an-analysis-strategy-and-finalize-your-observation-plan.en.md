@@ -2,6 +2,7 @@
 title: '3. Develop an Analysis Strategy and Finalize Your Observation Plan'
 lang: en
 module_id: 3
+in_toc: true
 permalink: '/assessment/develop-an-analysis-strategy-and-finalize-your-observation-plan/'
 excerpt: 'The analysis of open data should not supplant or replace other observation activities. Rather, open data analysis can help enhance monitoring strategies and provide greater context and support to monitoring conclusions. Just because an organization has decided to use open data to analyze a part of the electoral process does not mean that it should not also want to deploy observers to collect real time information on the process.'
 ---
@@ -16,7 +17,7 @@ The analysis of open data should not supplant or replace other observation activ
 
 A data analysis plan is a detailed document outlining procedures for conducting an analysis on open election data and what various steps in the analysis are going to be. An analysis plan should be created prior to beginning data analysis in order to guide how a group is going to collect and analyze the data. This document is a living document which may be revised during the data analysis. The following table outlines key components and example inputs of a data analysis plan. Groups will need to consider availability of data, capacities of staff, resources needed, etc. The remainder of Step 3 provides more details and exercises to help groups think about and complete a data analysis plan.
 
-**TABLE 3**
+**[View and fill out your own Sample Data Monitoring and Analysis Plan. ![](/assets/images/assessment/exercise_icon.svg)](/assets/assessment/Table_2.pdf)**
 
 ## Matching Open Data with Analysis Capacity
 
@@ -43,7 +44,7 @@ Groups should reflect what capacity they have to:
 - Visualize data
 - Storytelling with data
 
-Groups limited in some capacity can consider if they have the budget to work with a third party vendor or consultant to acquire specialized software or technical assistance. Organizations can test out their analysis skills by participating in modules at the [Election Data Academy](/en/academy/) online and should answer the questions in **Exercise B: Organizational Capacity to Use Open Election Data.**
+Groups limited in some capacity can consider if they have the budget to work with a third party vendor or consultant to acquire specialized software or technical assistance. Organizations can test out their analysis skills by participating in modules at the [Election Data Academy](/en/academy/) online and should answer the questions in **[Exercise B: Organizational Capacity to Use Open Election Data. ![](/assets/images/assessment/exercise_icon.svg)](/assets/assessment/exercises/Exercise_B.pdf)**
 
 ## When Data is Easily Retrieved
 
@@ -53,7 +54,7 @@ As noted, the **retrievability** of data will impact the type and level of data 
 >
 > When requesting a dataset, it will be important to understand what parameters were used for each of the following so that the data can be properly read into your analysis software:
 >
-> 1. \*\*Field Separators (delimiters): A tab-delimited file or comma-separated value (CSV) file are text format files. In order to tell the program where each field begins and ends in an imported or exported file, the fields must be separated (i.e., delimited) with a character such as a comma(,). This character is called the field separate or delimiter. Tab is another common delimiter.
+> 1. **Field Separators** (delimiters): A tab-delimited file or comma-separated value (CSV) file are text format files. In order to tell the program where each field begins and ends in an imported or exported file, the fields must be separated (i.e., delimited) with a character such as a comma(,). This character is called the field separate or delimiter. Tab is another common delimiter.
 > 2. **Text-Qualifier:** If a field contains the delimiter character within its text (e.g, an address or name in a voter list dataset), the program will interpret the comma as the end of a field rather than just part of the text. In oder to prevent this mistake, fields must have a qualifier. The qualifier is put around each field to note that _all_ the text inside is the same field event if it it contains a commona. The most common qualifier is double quotes ("). Most programs will include a qualifier when saving in a CSV format.
 > 3. **Character Encoding:** When files are saved, a specific character encoding is used. UTF-8 (unicode) is the most common. However, due to different language and scripts, a different kind of encoding might be used.
 
@@ -90,6 +91,6 @@ At this point, monitoring organizations should have identified what election pro
 - When the data will be available; and
 - The kind of technological and analytical needs associated with this data.
 
-Based on this information, along with an organization’s monitoring strategy, groups should parse out what data can (and should) be gathered by observers, and what data can be gathered via open official sources. You should be ready to fill out **Exercise C – Datasets, Sources, Timing, and Requests. **
+Based on this information, along with an organization’s monitoring strategy, groups should parse out what data can (and should) be gathered by observers, and what data can be gathered via open official sources. You should be ready to fill out **[Exercise C: Datasets, Sources, Timing, and Requests. ![](/assets/images/assessment/exercise_icon.svg)](/assets/assessment/exercises/Exercise_C.pdf)**
 
-Then, based on your monitoring priorities and objectives, groups should specify a list of observation activities with a corresponding realistic, if not broad, timeline. Plot this out in **Exercise D – Open Data and Election Observation Activity Timeline**. You can use the chart in Exercise D as a guide, which includes some placeholder information as an example.
+Then, based on your monitoring priorities and objectives, groups should specify a list of observation activities with a corresponding realistic, if not broad, timeline. Plot this out in **[Exercise D: Open Data and Election Observation Activity Timeline ![](/assets/images/assessment/exercise_icon.svg)](/assets/assessment/exercises/Exercise_D.pdf)**. You can use the chart in Exercise D as a guide, which includes some placeholder information as an example.

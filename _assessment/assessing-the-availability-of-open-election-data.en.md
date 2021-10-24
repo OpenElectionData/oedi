@@ -2,15 +2,16 @@
 title: '2. Assessing the Availability of Open Election Data'
 lang: en
 module_id: 2
+in_toc: true
 permalink: '/assessment/assessing-the-availability-of-open-election-data/'
-excerpt: 'Understanding when and where to collect open election data will help inform observation plans. Groups should conduct a preliminary assessment of the open election data environment, including what data is likely to be feasible or viable, where it resides, and when it may be available. This assessment should also help organizations determine what datasets may be associated with the election procedures and processes they’ve identified as high priority.'
+excerpt: 'Understanding when and where to collect open election data will help inform observation plans. Groups should conduct a preliminary assessment of the open election data environment, including what data is likely to be feasible or viable, where it resides, and when it may be available.'
 ---
 
 Understanding when and where to collect open election data will help inform observation plans. Groups should conduct a preliminary assessment of the open election data environment, including what data is likely to be feasible or viable, where it resides, and when it may be available. This assessment should also help organizations determine what datasets may be associated with the election procedures and processes they’ve identified as high priority.
 
 ## Electoral Processes Associated with Open Election Data
 
-The most valuable information regarding election day processes and environment is still the information that well-trained and deployed election monitors can collect about the integrity of the voting, counting, and tabulation processes. However, there are a number of aspects of the electoral process throughout the pre- and post-election periods that may have accompanying open data that can enhance observation findings. Groups should familiarize themselves with these[key categories](/en/guide/key-categories/) if they have any questions about what they entail.
+The most valuable information regarding election day processes and environment is still the information that well-trained and deployed election monitors can collect about the integrity of the voting, counting, and tabulation processes. However, there are a number of aspects of the electoral process throughout the pre- and post-election periods that may have accompanying open data that can enhance observation findings. Groups should familiarize themselves with these [key categories](/en/guide/key-categories/) if they have any questions about what they entail.
 
 ## Open Election Data: Feasibility and Viability
 
@@ -63,13 +64,89 @@ Groups should consider and plan on when other electoral data is likely to be gen
 
 ## Illustrative Datasets, Sources, and Timing Considerations
 
-Groups should always consider the broad range of data available to them that can support their observation priorities. **See [the Supplemental Guide](/supplementary)** for the key electoral categories associated with open election data, with datasets that may be relevant to them. This list is illustrative, as many datasets and sources will be unique to the country or political context.
+Groups should always consider the broad range of data available to them that can support their observation priorities. **See [Illustrative Datasets, Sources and Timing Considerations in the Supplementary Materials ![](/assets/images/assessment/supplemental_icon.svg)](/en/assessment/illustrative-datasets-sources-timing-considerations/)** for the key electoral categories associated with open election data, with datasets that may be relevant to them. This list is illustrative, as many datasets and sources will be unique to the country or political context.
 
 ## Versatile Datasets
 
 As you can see from the table, some data sources can be used for analysis of multiple electoral processes. Such datasets may be considered a high priority to capture because they serve multiple purposes. For instance, a set of consolidated election laws and amendments and EMB regulations can help the analysis of all major parts of the electoral process. Population and demographic data—such as a census, demographic or social surveys, development reports, etc.—can provide important context and baselines for assessing access and participation issues. Voter registration lists and statistics can be used to analyze several electoral processes. In addition, most of these datasets are typically publicly available and don’t tend to change after they’re produced. The chart below highlights some of the more common sets of data that can support analysis in multiple electoral categories.
 
-**TABLE 2**
+<table class="table table--striped table--head-colored table--compact">
+  <thead>
+    <tr>
+      <th style="width: 30%">Dataset</th>
+      <th>Relevant Election Processes for Analysis</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Consolidated electoral laws and amendments, and EMB regulations</td>
+    <td>
+      <ul class="list--cols-2 list--compact">
+        <li>Legal framework</li>
+        <li>Electoral boundaries</li>
+        <li>EMB administration</li>
+        <li>EMB processes</li>
+        <li>Election security</li>
+        <li>Political party registration</li>
+        <li>Ballot qualification</li>
+        <li>Election campaign</li>
+        <li>Campaign finance</li>
+        <li>Voter registration</li>
+        <li>Voter list</li>
+        <li>Voter education</li>
+        <li>Polling stations</li>
+        <li>Election results</li>
+        <li>Electronic voting/counting</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Population and demographic data</td>
+    <td>
+      <ul class="list--compact">
+        <li>Electoral boundaries</li>
+        <li>Voter registration</li>
+        <li>Voter list</li>
+        <li>Voter education</li>
+        <li>Election results</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Voter registration list and statistics</td>
+    <td>
+      <ul class="list--compact">
+        <li>Electoral boundaries</li>
+        <li>Voter registration</li>
+        <li>Voter list</li>
+        <li>Voter education</li>
+        <li>Election results</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Maps and spatial data</td>
+    <td>
+      <ul class="list--compact">
+        <li>Electoral boundaries</li>
+        <li>Voter registration</li>
+        <li>Polling stations</li>
+        <li>Election results</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>EMB procurement data and budget</td>
+    <td>
+      <ul class="list--compact">
+        <li>EMB processes</li>
+        <li>EMB administration</li>
+        <li>Electronic voting/counting</li>
+      </ul>
+    </td>
+  </tr>
+  </tbody>
+</table>
 
 ## Matching Observation Priorities with Open Data Availability
 

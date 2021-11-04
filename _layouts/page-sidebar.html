@@ -58,7 +58,9 @@ intro_page %} {% assign toc_title = site.data.strings.content %} {% endif %}
     <ol class="modules-list" role="list">
       {% for item in items %}
       <li>
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        <a href="{{ item.url | relative_url }}"
+          >{{ item.toc_title | default: item.title }}</a
+        >
         <p>{{ item.excerpt }}</p>
       </li>
       {% endfor %}

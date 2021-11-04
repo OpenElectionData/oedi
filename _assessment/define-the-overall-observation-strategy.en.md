@@ -25,7 +25,10 @@ Groups should determine which parts of the process are likely to have the greate
 - Are there any rumors or hearsay about the upcoming elections? Are there particular topics the public is concerned about? Issues related to election rigging that are commonly referred to?
 - Are there any changes in the legal framework, administrative procedures, power dynamics, and public opinion that could influence how the electoral process occurs?
 
-After asking the above questions, consider how problems in accountability, competition, inclusion, and transparency may actually appear during the electoral process and how those issues could undermine electoral integrity. **[Complete Exercise A: Risk Diagnostic and Prioritization. ![](/assets/images/assessment/exercise_icon.svg)](/assets/assessment/exercises/Exercise_A.pdf)**
+After asking the above questions, consider how problems in accountability, competition, inclusion, and transparency may actually appear during the electoral process and how those issues could undermine electoral integrity.
+
+[![](/assets/images/assessment/exercise_icon.svg) Complete Exercise A: Risk Diagnostic and Prioritization.](/assets/assessment/exercises/Exercise_A.pdf)
+{: .callout--exercise}
 
 ## What are the observation objectives?
 

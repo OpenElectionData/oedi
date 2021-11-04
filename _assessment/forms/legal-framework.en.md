@@ -5,7 +5,8 @@ permalink: '/assessment/forms/legal-framework/'
 form_id: 1
 ---
 
-**[Download as PDF ![](/assets/images/assessment/supplemental_icon.svg)](/assets/assessment/forms/A_Legal_Framework.pdf)**
+[![](/assets/images/assessment/supplemental_icon.svg) Download as PDF](/assets/assessment/forms/A_Legal_Framework.pdf)
+{: .callout--exercise}
 
 ## General
 

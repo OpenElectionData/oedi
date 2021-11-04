@@ -132,11 +132,11 @@
 
       &[src*='icon'] {
         position: relative;
-        top: 4px;
+        top: 6px;
         display: inline-block;
         margin: 0;
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
       }
     }
 
@@ -185,6 +185,23 @@
 
       &__col-2 {
         grid-column: 1 / -1;
+      }
+    }
+
+    .callout--exercise {
+      font-weight: bold;
+
+      > * {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        width: 100%;
+      }
+
+      img {
+        top: initial;
+        width: 48px;
+        height: 48px;
       }
     }
   }

@@ -5,7 +5,8 @@ permalink: '/assessment/forms/electoral-boundaries/'
 form_id: 2
 ---
 
-**[Download as PDF ![](/assets/images/assessment/supplemental_icon.svg)](/assets/assessment/forms/A_Electoral_Boundaries.pdf)**
+[![](/assets/images/assessment/supplemental_icon.svg) Download as PDF](/assets/assessment/forms/A_Electoral_Boundaries.pdf)
+{: .callout--exercise}
 
 ## General
 

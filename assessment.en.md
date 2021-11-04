@@ -1,6 +1,7 @@
 ---
 layout: page-sidebar
 title: Assessment Guide
+toc_title: Introduction
 lang: en
 permalink: /assessment/
 is_assessment: true

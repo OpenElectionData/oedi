@@ -7,12 +7,11 @@ layout: default
 nextLabel = null %} {% assign nextUrl = null %} {% if page.is_academy == true %}
 {% assign items = site.academy | where: 'lang', lang | sort: 'module_id', 'last'
 %} {% assign toc_title = site.data.strings.modules %} {% elsif
-page.is_assessment == true %} {% assign subitems = site.assessment | where_exp:
+page.is_assessment == true %} {% assign items = site.assessment | where_exp:
 "item", "item.lang == lang and item.in_toc == true" | sort: 'module_id', 'last'
 %} {% assign intro_page = site.pages | where_exp: "item", "item.lang == lang and
-item.is_assessment == true" %} {% assign items = subitems | unshift: intro_page
-%} {% assign toc_title = site.data.strings.content %} {% endif %} {% for item in
-items %} {{ item.title }} {% endfor %} {{ items | inspect }}
+item.is_assessment == true" | first %} {% assign items = items | unshift:
+intro_page %} {% assign toc_title = site.data.strings.content %} {% endif %}
 
 <article class="page page--sidebar">
   <aside class="page__sidebar">
@@ -29,17 +28,17 @@ items %} {{ item.title }} {% endfor %} {{ items | inspect }}
     <ul>
       {% for item in items %} {%- if page.url == item.url -%} {%- unless
       forloop.first -%} {%- assign prevId = forloop.index0 | minus: 1 -%} {%-
-      assign prevLabel = items[prevId].title -%} {%- assign prevUrl =
-      items[prevId].url -%} {%- endunless -%} {%- unless forloop.last -%} {%-
-      assign nextId = forloop.index0 | plus: 1 -%} {%- assign nextLabel =
+      assign prevLabel = items[prevId].toc_title | default: items[prevId].title
+      -%} {%- assign prevUrl = items[prevId].url -%} {%- endunless -%} {%-
+      unless forloop.last -%} {%- assign nextId = forloop.index0 | plus: 1 -%}
+      {%- assign nextLabel = items[nextId].toc_title | default:
       items[nextId].title -%} {%- assign nextUrl = items[nextId].url -%} {%-
       endunless -%} {%- endif -%}
       <li>
-        {{ item | inspect }}
         <a
           href="{{ item.url | relative_url }}"
           class="{% if page.url == item.url %}is-active{% endif %}"
-          >{{ item.title }}</a
+          >{{ item.toc_title | default: item.title }}</a
         >
       </li>
       {% endfor %}

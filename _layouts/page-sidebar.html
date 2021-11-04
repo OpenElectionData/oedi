@@ -7,9 +7,12 @@ layout: default
 nextLabel = null %} {% assign nextUrl = null %} {% if page.is_academy == true %}
 {% assign items = site.academy | where: 'lang', lang | sort: 'module_id', 'last'
 %} {% assign toc_title = site.data.strings.modules %} {% elsif
-page.is_assessment == true %} {% assign items = site.assessment | where_exp:
+page.is_assessment == true %} {% assign subitems = site.assessment | where_exp:
 "item", "item.lang == lang and item.in_toc == true" | sort: 'module_id', 'last'
-%} {% assign toc_title = site.data.strings.steps %} {% endif %}
+%} {% assign intro_page = site.pages | where_exp: "item", "item.lang == lang and
+item.is_assessment == true" %} {% assign items = subitems | unshift: intro_page
+%} {% assign toc_title = site.data.strings.content %} {% endif %} {% for item in
+items %} {{ item.title }} {% endfor %} {{ items | inspect }}
 
 <article class="page page--sidebar">
   <aside class="page__sidebar">
@@ -32,6 +35,7 @@ page.is_assessment == true %} {% assign items = site.assessment | where_exp:
       items[nextId].title -%} {%- assign nextUrl = items[nextId].url -%} {%-
       endunless -%} {%- endif -%}
       <li>
+        {{ item | inspect }}
         <a
           href="{{ item.url | relative_url }}"
           class="{% if page.url == item.url %}is-active{% endif %}"

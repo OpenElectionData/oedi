@@ -3,13 +3,14 @@ layout: default
 ---
 
 {% assign lang = site.active_lang %} {% if lang.nil %} {% assign lang = 'en' %}
-{% endif %} {% assign prevLabel = null %} {% assign prevUrl = null %} {% assign
-nextLabel = null %} {% assign nextUrl = null %} {% if page.is_academy == true %}
-{% assign items = site.academy | where: 'lang', lang | sort: 'module_id', 'last'
-%} {% assign toc_title = site.data.strings.modules %} {% elsif
-page.is_assessment == true %} {% assign items = site.assessment | where_exp:
-"item", "item.lang == lang and item.in_toc == true" | sort: 'module_id', 'last'
-%} {% assign intro_page = site.pages | where_exp: "item", "item.lang == lang and
+{% endif %} {% if page.is_en_only %}{% assign lang = 'en' %}{% endif %} {%
+assign prevLabel = null %} {% assign prevUrl = null %} {% assign nextLabel =
+null %} {% assign nextUrl = null %} {% if page.is_academy == true %} {% assign
+items = site.academy | where: 'lang', lang | sort: 'module_id', 'last' %} {%
+assign toc_title = site.data.strings.modules %} {% elsif page.is_assessment ==
+true %} {% assign items = site.assessment | where_exp: "item", "item.lang ==
+lang and item.in_toc == true" | sort: 'module_id', 'last' %} {% assign
+intro_page = site.pages | where_exp: "item", "item.lang == lang and
 item.is_assessment == true" | first %} {% assign items = items | unshift:
 intro_page %} {% assign toc_title = site.data.strings.content %} {% endif %}
 
@@ -53,17 +54,20 @@ intro_page %} {% assign toc_title = site.data.strings.content %} {% endif %}
       {% else %} {{ page.title }} {% endif %}
     </h1>
     {{ content }} {% if page.url == '/guide/' %} {% include guide-toc.html %} {%
-    elsif page.url == '/academy/' or page.url == '/assessment/' %}
+    elsif page.url == '/academy/' or page.url == '/assessment/' %} {% if
+    page.exclude_intro_from_page_toc %}<br />{% else %}
     <h2>{{ toc_title }}</h2>
+    {% endif %}
     <ol class="modules-list" role="list">
-      {% for item in items %}
+      {% for item in items %} {% unless page.exclude_intro_from_page_toc and
+      forloop.first %}
       <li>
         <a href="{{ item.url | relative_url }}"
           >{{ item.toc_title | default: item.title }}</a
         >
         <p>{{ item.excerpt }}</p>
       </li>
-      {% endfor %}
+      {% endunless %} {% endfor %}
     </ol>
     {% endif %}
   </section>

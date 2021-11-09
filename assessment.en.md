@@ -5,6 +5,8 @@ toc_title: Introduction
 lang: en
 permalink: /assessment/
 is_assessment: true
+is_en_only: true
+exclude_intro_from_page_toc: true
 ---
 
 ## Introduction

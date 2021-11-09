@@ -67,6 +67,8 @@ defaults:
     values:
       layout: page-sidebar
       is_assessment: true
+      is_en_only: true
+      exclude_intro_from_page_toc: true
   - scope:
       path: ''
       type: 'holiday'

@@ -12,6 +12,7 @@ election_br_data_guide: دليل البيانات<br>الانتخابية
 unleashing_the_potential_of_election_data: الاستفادة من كامل إمكانيات البيانات الانتخابية
 unleashing_the_potential_br_of_election_data: الاستفادة من كامل إمكانيات<br>البيانات الانتخابية
 data_inventory: جردة البيانات الخاصة
+data_br_inventory: جردة<br />البيانات الخاصة
 latin_america_data_inventory: جردة البيانات الخاصة بأميركا اللاتينية
 latin_america_br_data_inventory: جردة البيانات الخاصة<br>بأميركا اللاتينية
 data_academy: أكاديمية البيانات
@@ -24,6 +25,8 @@ contact: وسائل الاتصال
 table_of_contents: فهرس المحتويات
 previous: السابق
 next: التالي
+assessment_guide: Assessment Guide
+assessment_br_guide: Assessment<br />Guide
 
 rank: Rank
 country: بلد
@@ -80,6 +83,9 @@ total: مَجموع
 back: Back
 back_to: Back to
 read_more: اقرأ المزيد
+
+## Assessment Tool
+content: Content
 
 ## Not Used
 signup_form_success: شكرا لتسجيلك  في تحديثات OEDI

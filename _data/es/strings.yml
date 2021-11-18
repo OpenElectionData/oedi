@@ -12,6 +12,7 @@ election_br_data_guide: Guía de datos<br>electorales
 unleashing_the_potential_of_election_data: Cómo liberar el potencial de los datos electorales
 unleashing_the_potential_br_of_election_data: Cómo liberar el potencial<br>de los datos electorales
 data_inventory: Inventario de datos
+data_br_inventory: Inventario<br />de datos
 latin_america_data_inventory: Inventario de datos de América Latina
 latin_america_br_data_inventory: Inventario de datos<br>de América Latina
 data_academy: Academia de Datos
@@ -24,6 +25,8 @@ contact: Contacto
 table_of_contents: Tabla de contenido
 previous: Anterior
 next: Siguiente
+assessment_guide: Assessment Guide
+assessment_br_guide: Assessment<br />Guide
 
 rank: Rank
 country: País
@@ -80,6 +83,9 @@ total: Total
 back: Back
 back_to: Back to
 read_more: Leer más
+
+## Assessment Tool
+content: Content
 
 ## Not Used
 signup_form_success: Gracias por su interés en las noticias de OEDI

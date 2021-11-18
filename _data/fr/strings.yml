@@ -12,6 +12,7 @@ election_br_data_guide: Le Guide des Données<br>Electorales
 unleashing_the_potential_of_election_data: Unleashing the Potential of Election Data
 unleashing_the_potential_br_of_election_data: Unleashing the Potential<br>of Election Data
 data_inventory: Inventaire des données
+data_br_inventory: Inventaire<br />des données
 latin_america_data_inventory: Inventaire des données d'Amérique latine
 latin_america_br_data_inventory: Inventaire des données<br>d'Amérique latine
 data_academy: Académie des Données
@@ -24,6 +25,8 @@ contact: Contact
 table_of_contents: Table des matières
 previous: Précédent
 next: Suivant
+assessment_guide: Assessment Guide
+assessment_br_guide: Assessment<br />Guide
 
 rank: Rank
 country: Pays
@@ -80,6 +83,9 @@ total: Total
 back: Back
 back_to: Back to
 read_more: En savoir plus
+
+## Assessment Tool
+content: Content
 
 ## Not Used
 signup_form_success: Merci pour votre abonnement aux mises à jour d'IDEO

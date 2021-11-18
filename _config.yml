@@ -25,6 +25,9 @@ collections:
   academy:
     title: Academy
     output: true
+  assessment:
+    title: Assessment Tool
+    output: true
   holiday:
     title: Holiday
     output: true
@@ -58,6 +61,14 @@ defaults:
     values:
       layout: page-sidebar
       is_academy: true
+  - scope:
+      path: ''
+      type: 'assessment'
+    values:
+      layout: page-sidebar
+      is_assessment: true
+      is_en_only: true
+      exclude_intro_from_page_toc: true
   - scope:
       path: ''
       type: 'holiday'

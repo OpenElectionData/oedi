@@ -12,6 +12,7 @@ election_br_data_guide: ရွေးကောက်ပွဲသတင်းအ�
 unleashing_the_potential_of_election_data: ရွေးကောက်ပွဲ ဆိုင်ရာ အချက်အလက်များ၏ စွမ်းပကားကို ဖော်ထုတ်ခြင်း
 unleashing_the_potential_br_of_election_data: ရွေးကောက်ပွဲ ဆိုင်ရာ အချက်အလက်များ၏ စွမ်းပကားကို ဖော်ထုတ်ခြင်း
 data_inventory: Data Inventory
+data_br_inventory: Data<br />Inventory
 latin_america_data_inventory: လက်တင်အမေရိကမှ သတင်းအချက်အလက် အသေးစိတ်စာရင်း
 latin_america_br_data_inventory: လက်တင်အမေရိကမှ<br />သတင်းအချက်အလက် အသေးစိတ်စာရင်း
 data_academy: Data သင်တန်းကျောင်း
@@ -24,6 +25,8 @@ contact: ဆက်သွယ်ရန်
 table_of_contents: မာတိကာ
 previous: ရှေ့သို့
 next: နောက်သို့
+assessment_guide: Assessment Guide
+assessment_br_guide: Assessment<br />Guide
 
 rank: Rank
 country: Country
@@ -80,6 +83,9 @@ total: စုစုပေါင်း
 back: Back
 back_to: Back to
 read_more: နောက်ထပ်ဆက်ဖတ်လိုသည်။
+
+## Assessment Tool
+content: Content
 
 ## Not Used
 signup_form_success: Thank you for subscribing to OEDI updates

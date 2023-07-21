@@ -1,0 +1,431 @@
+{
+  "website_title": {
+    "en": "Open Election Data Initiative",
+    "es": "Iniciativa de datos electorales abiertos"
+  },
+  "guide_title": {
+    "en": "Unleashing the Potential of Election Data",
+    "es": "Cómo liberar el potencial de los datos electorales"
+  },
+  "error_404": { "en": "Error: 404", "es": "Error: 404" },
+  "error_404_message": {
+    "en": "<p>The page you requested does not exist</p>",
+    "es": "<p>No se pudo encontrar la página solicitada</p>"
+  },
+  "license": {
+    "en": "<a target=\\\"_blank\\\" href=\\\"https://creativecommons.org/licenses/by/4.0/\\\">Content licensed under a CC Attribution 4.0 International License</a>",
+    "es": "<a target=\\\"_blank\\\" href=\\\"https://creativecommons.org/licenses/by/4.0/deed.es_ES\\\">Contenido autorizado bajo una Licencia Internacional CC Attribution 4.0</a>"
+  },
+  "home": { "en": "Home", "es": "Inicio" },
+  "open_election_br_data_initiative": {
+    "en": "Open Election<br>Data Initiative",
+    "es": "Iniciativa de datos<br>electorales abiertos"
+  },
+  "unleashing_the_potential_of_election_data_to_promote_accountability": {
+    "en": "Unleashing the Potential of Election Data to Promote Accountability",
+    "es": "Cómo liberar el potencial de los datos electorales para promover la rendición de cuentas"
+  },
+  "election_data_guide": {
+    "en": "Election Data Guide",
+    "es": "Guía de datos electorales"
+  },
+  "election_br_data_guide": {
+    "en": "Election<br>Data Guide",
+    "es": "Guía de datos<br>electorales"
+  },
+  "unleashing_the_potential_of_election_data": {
+    "en": "Unleashing the Potential of Election Data",
+    "es": "Cómo liberar el potencial de los datos electorales"
+  },
+  "unleashing_the_potential_br_of_election_data": {
+    "en": "Unleashing the Potential<br>of Election Data",
+    "es": "Cómo liberar el potencial<br>de los datos electorales"
+  },
+  "data_inventory": { "en": "Data Inventory", "es": "Inventario de datos" },
+  "data_br_inventory": {
+    "en": "Data<br />Inventory",
+    "es": "Inventario<br />de datos"
+  },
+  "latin_america_data_inventory": {
+    "en": "Latin America Data Inventory",
+    "es": "Inventario de datos de América Latina"
+  },
+  "latin_america_br_data_inventory": {
+    "en": "Latin America<br>Data Inventory",
+    "es": "Inventario de datos<br>de América Latina"
+  },
+  "data_academy": { "en": "Data Academy", "es": "Academia de Datos" },
+  "data_br_academy": { "en": "Data<br>Academy", "es": "Academia<br>de Datos" },
+  "election_data_academy": {
+    "en": "Election Data Academy",
+    "es": "Academia de Datos Electorales"
+  },
+  "tools": { "en": "Data Tools", "es": "Data Tools" },
+  "data_tools": { "en": "Data Tools", "es": "Data Tools" },
+  "data_br_tools": { "en": "Data<br>Tools", "es": "Data<br>Tools" },
+  "contact": { "en": "Contact", "es": "Contacto" },
+  "table_of_contents": {
+    "en": "Table of Contents",
+    "es": "Tabla de contenido"
+  },
+  "previous": { "en": "Previous", "es": "Anterior" },
+  "next": { "en": "Next", "es": "Siguiente" },
+  "assessment_guide": { "en": "Assessment Guide", "es": "Assessment Guide" },
+  "assessment_br_guide": {
+    "en": "Assessment<br />Guide",
+    "es": "Assessment<br />Guide"
+  },
+  "rank": { "en": "Rank", "es": "Rank" },
+  "country": { "en": "Country", "es": "País" },
+  "category": { "en": "Category", "es": "Categoría" },
+  "modules": { "en": "Modules", "es": "Módulos" },
+  "looking_for_information_on": {
+    "en": "I'm looking for information on",
+    "es": "Busco información sobre"
+  },
+  "option_election_processes": {
+    "en": "election processes",
+    "es": "procesos electorales"
+  },
+  "option_open_data_principles": {
+    "en": "open data principles",
+    "es": "principios de los datos abiertos"
+  },
+  "option_data_academy": { "en": "data academy", "es": "la academia de datos" },
+  "option_data_inventory": {
+    "en": "data inventory",
+    "es": "inventario de datos"
+  },
+  "option_something_else": { "en": "something else", "es": "otro tema" },
+  "name": { "en": "Name", "es": "Nombre" },
+  "enter_your_name": { "en": "Enter your name", "es": "Escriba su nombre" },
+  "email": { "en": "Email", "es": "Correo electrónico" },
+  "enter_email": { "en": "Enter email", "es": "Escriba su correo electrónico" },
+  "message": { "en": "Message", "es": "Mensaje" },
+  "your_message": { "en": "Your message", "es": "Su mensaje" },
+  "signup": { "en": "Sign up", "es": "Regístrese" },
+  "signup_for_updates": {
+    "en": "Sign up for updates",
+    "es": "Recibir noticias"
+  },
+  "i_want_to_receive_updates": {
+    "en": "I want to receive updates when new modules or tools are added",
+    "es": "Quiero recibir noticias sobre nuevos módulos o herramientas"
+  },
+  "enter_your_email_for_updates": {
+    "en": "Please enter your email to receive updates when new modules or tools are added",
+    "es": "Por favor introduzca su email para recibir noticias sobre nuevos módulos o herramientas"
+  },
+  "send": { "en": "Send", "es": "Enviar" },
+  "election_evaluated": {
+    "en": "Election evaluated",
+    "es": "Election evaluated"
+  },
+  "last_checked": { "en": "Last checked", "es": "Last checked" },
+  "open_data_information": {
+    "en": "Open data information",
+    "es": "Open data information"
+  },
+  "openness": { "en": "Openness", "es": "Apertura" },
+  "not_found": { "en": "Not found", "es": "No se encontraron" },
+  "yes": { "en": "Yes", "es": "Si" },
+  "no": { "en": "No", "es": "No" },
+  "unclear": { "en": "Unclear", "es": "No está claro" },
+  "mostly_open": { "en": "Mostly open", "es": "Mayormente abiertos" },
+  "mostly": { "en": "Mostly", "es": "Mayormente" },
+  "partially_open": { "en": "Partially open", "es": "Parcialmente abiertos" },
+  "partially": { "en": "Partially", "es": "Parcialmente" },
+  "not_open": { "en": "Not open", "es": "No abiertos" },
+  "not": { "en": "Not", "es": "No" },
+  "na": { "en": "n/a", "es": "n/a" },
+  "back_to_data_inventory": {
+    "en": "&larr; Back to Data Inventory",
+    "es": "&larr; Back to Data Inventory"
+  },
+  "legend": { "en": "Legend:", "es": "Leyenda:" },
+  "principle": { "en": "Principle", "es": "Principio" },
+  "points_possible": { "en": "Points Possible", "es": "Puntos posible" },
+  "total": { "en": "Total", "es": "Total" },
+  "back": { "en": "Back", "es": "Back" },
+  "back_to": { "en": "Back to", "es": "Back to" },
+  "read_more": { "en": "Read More", "es": "Leer más" },
+  "content": { "en": "Content", "es": "Content" },
+  "signup_form_success": {
+    "en": "Thank you for subscribing to OEDI updates",
+    "es": "Gracias por su interés en las noticias de OEDI"
+  },
+  "reassure_us_that_you_are_human": {
+    "en": "To reassure us that you are human",
+    "es": "Para asegurarnos de que usted es una persona"
+  },
+  "this_field_is_required": {
+    "en": "This field is required",
+    "es": "Este campo es obligatorio"
+  },
+  "invalid_format": { "en": "Invalid format", "es": "Formato inválido" },
+  "test_failed_try_again": {
+    "en": "Test failed. Try again.",
+    "es": "La prueba falló. Inténtelo de nuevo."
+  },
+  "contact_form_success": {
+    "en": "Thank you for contacting us! We will get back to you shortly.",
+    "es": "Gracias por ponerse en contacto con nosotros. En breve nos comunicaremos con usted."
+  },
+  "contact_form_error": {
+    "en": "There was an error in processing your request.",
+    "es": "Ocurrió un error al procesar su solicitud."
+  },
+  "no_subject": { "en": "no subject", "es": "sin asunto" },
+  "inventory_lang": {
+    "election-management-body-and-administration": {
+      "en": "Election Management Body and Administration",
+      "es": "Órgano de gestión electoral y administración"
+    },
+    "location-1": {
+      "en": "Location (full address)",
+      "es": "Ubicación (domicilio completo)"
+    },
+    "individual-name-and-contact-info-1": {
+      "en": "Individual name and contact info",
+      "es": "Nombre de la persona y datos de contacto"
+    },
+    "location-2": {
+      "en": "Location (full address)",
+      "es": "Ubicación (domicilio completo)"
+    },
+    "individual-name-and-contact-info-2": {
+      "en": "Individual name and contact info",
+      "es": "Nombre de la persona y datos de contacto"
+    },
+    "location-3": {
+      "en": "Location (full address)",
+      "es": "Ubicación (domicilio completo)"
+    },
+    "individual-name-and-contact-info-3": {
+      "en": "Individual name and contact info",
+      "es": "Nombre de la persona y datos de contacto"
+    },
+    "election-management-body-processes": {
+      "en": "Election Management Body Processes",
+      "es": "Procesos de la gestión electoral"
+    },
+    "meeting-minutes-or-decisions": {
+      "en": "Meeting minutes or decisions",
+      "es": "Minutas o decisiones de las reuniones"
+    },
+    "budget": { "en": "Budget", "es": "Presupuesto" },
+    "expenditures": { "en": "Expenditures", "es": "Gastos" },
+    "public-recruitment-data": {
+      "en": "Public recruitment data",
+      "es": "Datos públicos del reclutamiento"
+    },
+    "training-materials": {
+      "en": "Training materials",
+      "es": "Materiales de capacitación"
+    },
+    "election-observation-organizations-registered": {
+      "en": "Election observation organizations registered",
+      "es": "Organizaciones de observación electoral registradas"
+    },
+    "electoral-boundaries": {
+      "en": "Electoral Boundaries",
+      "es": "Límites de los distritos electorales"
+    },
+    "electoral-boundary-names-and-hierarchy": {
+      "en": "Electoral boundary names and hierarchy",
+      "es": "Nombres y jerarquía de los distritos electorales"
+    },
+    "political-party-registration": {
+      "en": "Political Party Registration",
+      "es": "Registro de los partidos políticos"
+    },
+    "parties-registered": {
+      "en": "Parties registered",
+      "es": "Partidos registrados"
+    },
+    "parties-rejected": {
+      "en": "Parties rejected",
+      "es": "Partidos rechazados"
+    },
+    "party-membership": {
+      "en": "Party membership",
+      "es": "Membresía del partido"
+    },
+    "ballot-qualification": {
+      "en": "Ballot Qualification",
+      "es": "Registro de candidatos"
+    },
+    "contestants-accepted": {
+      "en": "Contestants accepted",
+      "es": "Candidatos aceptados"
+    },
+    "contestants-rejected": {
+      "en": "Contestants rejected",
+      "es": "Candidatos rechazados"
+    },
+    "election-campaigns": {
+      "en": "Election Campaigns",
+      "es": "Campañas electorales"
+    },
+    "media-allocation": {
+      "en": "Media allocation",
+      "es": "Asignación de los medios de comunicación"
+    },
+    "campaign-finance": {
+      "en": "Campaign Finance",
+      "es": "Financiamiento de las campañas"
+    },
+    "party-campaign-funding": {
+      "en": "Party campaign funding",
+      "es": "Financiamiento de las campañas de los partidos"
+    },
+    "party-campaign-spending": {
+      "en": "Party campaign spending",
+      "es": "Gasto en las campañas de los partidos"
+    },
+    "candidate-campaign-funding": {
+      "en": "Candidate campaign funding",
+      "es": "Financiamiento de las campañas de los candidatos"
+    },
+    "candidate-campaign-spending": {
+      "en": "Candidate campaign spending",
+      "es": "Gasto en las campañas de los candidatos"
+    },
+    "political-party-annual-accounts": {
+      "en": "Political party annual accounts",
+      "es": "Cuentas anuales de los partidos políticos"
+    },
+    "voter-registration": {
+      "en": "Voter Registration",
+      "es": "Registro de votantes"
+    },
+    "registration-center-locations": {
+      "en": "Registration center locations",
+      "es": "Registration center locations"
+    },
+    "voter-lists": { "en": "Voter Lists", "es": "Padrón electoral" },
+    "registration-look-up": {
+      "en": "Registration look-up",
+      "es": "Consulta del registro"
+    },
+    "voter-education": {
+      "en": "Voter Education",
+      "es": "Educación de los votantes"
+    },
+    "electoral-calendar": {
+      "en": "Electoral calendar",
+      "es": "Calendario electoral"
+    },
+    "voting-process-information": {
+      "en": "Voting process information",
+      "es": "Procedimientos de votación ('Cómo votar')"
+    },
+    "political-programs": {
+      "en": "Political programs",
+      "es": "Programas políticos"
+    },
+    "polling-stations": {
+      "en": "Polling Stations",
+      "es": "Centros de votación"
+    },
+    "location": { "en": "Location", "es": "Ubicación" },
+    "polling-station-workers": {
+      "en": "Polling station workers",
+      "es": "Funcionarios de los centros de votación"
+    },
+    "election-results-provisional": {
+      "en": "Election Results (Provisional)",
+      "es": "Resultados electorales (preliminares)"
+    },
+    "voters-registered-provisional": {
+      "en": "Voters registered",
+      "es": "Votantes registrados"
+    },
+    "voters-that-participated-provisional": {
+      "en": "Voters that participated",
+      "es": "Votantes que participaron"
+    },
+    "ballots-spoiled-provisional": {
+      "en": "Ballots spoiled",
+      "es": "Boletas canceladas (es decir, impresas pero sin usarse)"
+    },
+    "invalid-votes-provisional": { "en": "Invalid votes", "es": "Votos nulos" },
+    "votes-challenged-provisional": {
+      "en": "Votes challenged",
+      "es": "Votos recurridos o impugnados"
+    },
+    "blank-votes-cast-provisional": {
+      "en": "Blank votes cast",
+      "es": "Votos en blanco (es decir, no se marcó el candidato)"
+    },
+    "valid-votes-for-each-contestant-provisional": {
+      "en": "Valid votes for each contestant",
+      "es": "Votos válidos para cada candidato"
+    },
+    "election-results-official-final": {
+      "en": "Election Results (Official final)",
+      "es": "Resultados de la elección (oficiales definitivos)"
+    },
+    "voters-registered-official-final": {
+      "en": "Voters registered",
+      "es": "Votantes registrados"
+    },
+    "voters-that-participated-official-final": {
+      "en": "Voters that participated",
+      "es": "Votantes que participaron"
+    },
+    "ballots-spoiled-official-final": {
+      "en": "Ballots spoiled",
+      "es": "Boletas canceladas (es decir, impresas pero sin usarse)"
+    },
+    "invalid-votes-official-final": {
+      "en": "Invalid votes",
+      "es": "Votos nulos"
+    },
+    "votes-challenged-official-final": {
+      "en": "Votes challenged",
+      "es": "Votos recurridos o impugnados"
+    },
+    "blank-votes-cast-official-final": {
+      "en": "Blank votes cast",
+      "es": "Votos en blanco (es decir, no se marcó el candidato)"
+    },
+    "valid-votes-for-each-contestant-official-final": {
+      "en": "Valid votes for each contestant",
+      "es": "Votos válidos para cada candidato"
+    },
+    "electoral-complaints-and-disputes": {
+      "en": "Electoral Complaints and Disputes",
+      "es": "Denuncias y controversias electorales"
+    },
+    "complaints-submitted": {
+      "en": "Complaints submitted",
+      "es": "Denuncias presentadas"
+    },
+    "complaints-resolved": {
+      "en": "Complaints resolved",
+      "es": "Denuncias resueltas"
+    },
+    "available-for-free": {
+      "en": "Available for free on the Internet",
+      "es": "Disponibles gratuitamente en Internet"
+    },
+    "granular": { "en": "Granular", "es": "Granulares" },
+    "complete-and-in-bulk": {
+      "en": "Complete and in bulk",
+      "es": "Completos y en bloque"
+    },
+    "analyzable": { "en": "Analyzable", "es": "Analizables" },
+    "non-proprietary": { "en": "Non-proprietary", "es": "No exclusivos" },
+    "non-discriminatory": {
+      "en": "Non-discriminatory",
+      "es": "No discriminatorios"
+    },
+    "license-free": { "en": "License-free", "es": "Libres de licencia" },
+    "permanently-available": {
+      "en": "Permanently available",
+      "es": "Disponibles permanentemente"
+    },
+    "foo": { "bar": { "en": "Hi Jared!" }, "en": { "bar": "Hi Jared!" } }
+  }
+}

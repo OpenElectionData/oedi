@@ -1,0 +1,35 @@
+<footer class="site-footer blue-stripes">
+  <data class="u-url" href="{{ " / " | relative_url }}"></data>
+
+  <div class="container">
+    {% include site-nav.html class="footer" location="inFooter" %}
+
+    <ul class="site-footer__logos" role="list">
+      <li>
+        <a href="https://usaid.gov" aria-label="Visit USAID website.">
+          <img src="{{ 'assets/images/logos/USAID-logo.svg' | relative_url }}" alt="USAID" width="100" height="30"
+            loading="lazy">
+        </a>
+      </li>
+      <li>
+        <a href="https://ndi.org" aria-label="Visit NDI website.">
+          <img src="{{ 'assets/images/logos/ndi-logo.svg' | relative_url }}" alt="National Democratic Institute" width="92" height="30"
+            loading="lazy">
+        </a>
+      </li>
+      <li>
+        <a href="https://google.org" aria-label="Visit Google website.">
+          <img src="{{ 'assets/images/logos/Google-logo.svg' | relative_url }}" alt="Google" width="90"
+            height="30" loading="lazy">
+        </a>
+      </li>
+    </ul>
+    {% include 'components/social-share.njk' %}
+    <p class="site-footer__copyright">
+      <a href="http://opendefinition.org/" aria-label="Visit Open Definition website.">
+        <img src="{{ 'assets/images/logos/oc_80x15_orange_grey.png' | relative_url }}" alt="Open Content" width="80" height="15" loading="lazy">
+      </a>
+      &mdash; {{ 'license' | i18n }}
+    </p>
+  </div>
+</footer>

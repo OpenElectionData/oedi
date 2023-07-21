@@ -1,0 +1,97 @@
+<!-- TODO: Filter categories where `is_subcategory` = false -->
+{%- set categories = inventory_categories -%}
+
+<div class="inventory__legend text--small">
+  {{ 'legend' | i18n }}
+  <ul class="inventory__legend-items" role="list">
+    <li class="mostly">
+      {{ 'mostly_open' | i18n }}
+      <i class="fas fa-check" aria-hidden="true"></i>;
+    </li>
+    <li class="partially">
+      {{ 'partially_open' | i18n }}
+      <i class="fas fa-check" aria-hidden="true"></i>;
+    </li>
+    <li class="not">
+      {{ 'not_open' | i18n }} <i class="fas fa-times" aria-hidden="true"></i>;
+    </li>
+  </ul>
+</div>
+
+<div class="inventory__table-wrapper" id="inventory">
+  <table class="table inventory__table sortable">
+    <thead>
+      <tr>
+        <th>
+          <button
+            class="btn btn--transparent btn--sort sort asc"
+            data-sort="country"
+            data-default-order="asc"
+          >
+            {{ 'country' | i18n }}
+          </button>
+        </th>
+        {% for category in categories %} 
+          {%- set value = 'inventory.categories[category.slug]' | i18n -%} 
+          {%- set categoryImg = ['assets/images/inventory/categories/', category.slug, '.png'] -%}
+          <th>
+            <button
+              class="btn btn--transparent btn--sort sort"
+              data-sort="{{ category.slug | slugify }}"
+              data-tippy-content="{{ value }}"
+              aria-label="{{ value }}"
+            >
+              <img
+                src="{{ categoryImg | join("") }}"
+                alt="{{ value }}"
+                width="36"
+                height="36"
+              />
+            </button>
+          </th>
+        {% endfor %}
+      </tr>
+    </thead>
+    {# TODO: Make table rows work #}
+    {# <tbody class="list">
+      {% for country in inventory.countries %} 
+        {% assign
+      country_page_url = '/inventory/' | append: country.country | append: '/'
+      %} 
+      {% assign country_page = site.inventory | find_exp: "item",
+      "item.permalink == country_page_url" %}
+      <tr>
+        <td class="country">
+          <a href="{{ country_page.url }}">{{ country_page.title }}</a>
+        </td>
+        {% for category in categories %} {%- assign value =
+        country.categories[category.slug].value -%} {%- assign class = '' -%}
+        {%- assign status = '' %} {%- if value == '1' -%} {% assign class =
+        'not' -%} {% assign status = site.data.strings.not_open %} {%- elsif
+        value == '2' -%} {%- assign class = 'partially' -%} {% assign status =
+        site.data.strings.partially_open %} {%- elsif value == '3' -%} {%-
+        assign class = 'mostly' -%} {% assign status =
+        site.data.strings.mostly_open %} {%- endif -%} {%- assign tooltip =
+        site.data.inventory_categories_strings[category.slug] | append: '; ' |
+        append: status -%}
+        <td class="{{ class }} {{ category.slug}}" data-value="{{ value }}">
+          {%- if value == '1' -%}
+          <i
+            class="fas fa-times"
+            data-tippy-content="{{ tooltip }}"
+            aria-label="{{ status }}"
+          ></i>
+          {% else %}
+          <i
+            class="fas fa-check"
+            data-tippy-content="{{ tooltip }}"
+            aria-label="{{ status }}"
+          ></i>
+          {% endif %}
+        </td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody> #}
+  </table>
+</div>

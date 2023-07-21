@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "election-management-body-and-administration",
+    "is_subcategory": false
+  },
+  {
+    "slug": "location-1",
+    "is_subcategory": true
+  },
+  {
+    "slug": "individual-name-and-contact-info-1",
+    "is_subcategory": true
+  },
+  {
+    "slug": "location-2",
+    "is_subcategory": true
+  },
+  {
+    "slug": "individual-name-and-contact-info-2",
+    "is_subcategory": true
+  },
+  {
+    "slug": "location-3",
+    "is_subcategory": true
+  },
+  {
+    "slug": "individual-name-and-contact-info-3",
+    "is_subcategory": true
+  },
+  {
+    "slug": "election-management-body-processes",
+    "is_subcategory": false
+  },
+  {
+    "slug": "meeting-minutes-or-decisions",
+    "is_subcategory": true
+  },
+  {
+    "slug": "budget",
+    "is_subcategory": true
+  },
+  {
+    "slug": "expenditures",
+    "is_subcategory": true
+  },
+  {
+    "slug": "public-recruitment-data",
+    "is_subcategory": true
+  },
+  {
+    "slug": "training-materials",
+    "is_subcategory": true
+  },
+  {
+    "slug": "election-observation-organizations-registered",
+    "is_subcategory": true
+  },
+  {
+    "slug": "electoral-boundaries",
+    "is_subcategory": false
+  },
+  {
+    "slug": "electoral-boundary-names-and-hierarchy",
+    "is_subcategory": true
+  },
+  {
+    "slug": "political-party-registration",
+    "is_subcategory": false
+  },
+  {
+    "slug": "parties-registered",
+    "is_subcategory": true
+  },
+  {
+    "slug": "parties-rejected",
+    "is_subcategory": true
+  },
+  {
+    "slug": "party-membership",
+    "is_subcategory": true
+  },
+  {
+    "slug": "ballot-qualification",
+    "is_subcategory": false
+  },
+  {
+    "slug": "contestants-accepted",
+    "is_subcategory": true
+  },
+  {
+    "slug": "contestants-rejected",
+    "is_subcategory": true
+  },
+  {
+    "slug": "election-campaigns",
+    "is_subcategory": false
+  },
+  {
+    "slug": "media-allocation",
+    "is_subcategory": true
+  },
+  {
+    "slug": "campaign-finance",
+    "is_subcategory": false
+  },
+  {
+    "slug": "party-campaign-funding",
+    "is_subcategory": true
+  },
+  {
+    "slug": "party-campaign-spending",
+    "is_subcategory": true
+  },
+  {
+    "slug": "candidate-campaign-funding",
+    "is_subcategory": true
+  },
+  {
+    "slug": "candidate-campaign-spending",
+    "is_subcategory": true
+  },
+  {
+    "slug": "political-party-annual-accounts",
+    "is_subcategory": true
+  },
+  {
+    "slug": "voter-registration",
+    "is_subcategory": false
+  },
+  {
+    "slug": "registration-center-locations",
+    "is_subcategory": true
+  },
+  {
+    "slug": "voter-lists",
+    "is_subcategory": false
+  },
+  {
+    "slug": "registration-look-up",
+    "is_subcategory": true
+  },
+  {
+    "slug": "voter-education",
+    "is_subcategory": false
+  },
+  {
+    "slug": "electoral-calendar",
+    "is_subcategory": true
+  },
+  {
+    "slug": "voting-process-information",
+    "is_subcategory": true
+  },
+  {
+    "slug": "political-programs",
+    "is_subcategory": true
+  },
+  {
+    "slug": "polling-stations",
+    "is_subcategory": false
+  },
+  {
+    "slug": "location",
+    "is_subcategory": true
+  },
+  {
+    "slug": "polling-station-workers",
+    "is_subcategory": true
+  },
+  {
+    "slug": "election-results-provisional",
+    "is_subcategory": false
+  },
+  {
+    "slug": "voters-registered-provisional",
+    "is_subcategory": true
+  },
+  {
+    "slug": "voters-that-participated-provisional",
+    "is_subcategory": true
+  },
+  {
+    "slug": "ballots-spoiled-provisional",
+    "is_subcategory": true
+  },
+  {
+    "slug": "invalid-votes-provisional",
+    "is_subcategory": true
+  },
+  {
+    "slug": "votes-challenged-provisional",
+    "is_subcategory": true
+  },
+  {
+    "slug": "blank-votes-cast-provisional",
+    "is_subcategory": true
+  },
+  {
+    "slug": "valid-votes-for-each-contestant-provisional",
+    "is_subcategory": true
+  },
+  {
+    "slug": "election-results-official-final",
+    "is_subcategory": false
+  },
+  {
+    "slug": "voters-registered-official-final",
+    "is_subcategory": true
+  },
+  {
+    "slug": "voters-that-participated-official-final",
+    "is_subcategory": true
+  },
+  {
+    "slug": "ballots-spoiled-official-final",
+    "is_subcategory": true
+  },
+  {
+    "slug": "invalid-votes-official-final",
+    "is_subcategory": true
+  },
+  {
+    "slug": "votes-challenged-official-final",
+    "is_subcategory": true
+  },
+  {
+    "slug": "blank-votes-cast-official-final",
+    "is_subcategory": true
+  },
+  {
+    "slug": "valid-votes-for-each-contestant-official-final",
+    "is_subcategory": true
+  },
+  {
+    "slug": "electoral-complaints-and-disputes",
+    "is_subcategory": false
+  },
+  {
+    "slug": "complaints-submitted",
+    "is_subcategory": true
+  },
+  {
+    "slug": "complaints-resolved",
+    "is_subcategory": true
+  }
+]

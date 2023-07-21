@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<article class="container">
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+</article>
+
+<article
+  class="post h-entry"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="post__header">
+    <h1 class="post__title" itemprop="name headline">
+      {{ title | safe }}
+    </h1>
+  </header>
+  <aside class="post__sidebar">
+    Sidebar
+  </aside>
+
+  <section class="post__content post-content e-content" itemprop="articleBody">
+    {{ content | safe }}
+  </section>
+</article>

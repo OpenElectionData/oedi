@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head prefix="og: http://ogp.me/ns">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1726c">
+
+  <title>Inventario de datos de América Latina</title>
+  <link rel="stylesheet" href="../_assets/css/styles.css" />
+</head>
+<body>
+
+  <header>
+    <span>Open Election Data Initiative</span>
+    <nav aria-label="website">
+      <a href="/es/">homepage</a>
+      <a href="/es/posts/">posts</a>
+    </nav>
+  </header>
+
+  <main>
+    
+<article class="page inventory">
+  <header>
+    <h1 class="page__title">Inventario de datos de América Latina</h1>
+  </header>
+  <div class="page__main">
+  <p>Este inventario es el resultado de una investigación exhaustiva de los datos electorales disponibles sobre las elecciones nacionales más recientes (al 31 de diciembre de 2014) en los siguientes países de Latinoamérica: Argentina, Bolivia, Brasil, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Guyana, Honduras, México, Nicaragua, Panamá, Paraguay, Perú, Uruguay y Venezuela. Cada una de las tablas de este inventario corresponde a un país específico y muestra si los datos relacionados con las distintas etapas del proceso electoral cumplieron o no con los principios de los datos abiertos.[^1]</p>
+<!-- TODO: Filter categories where `is_subcategory` = false --><div class="inventory__legend text--small">
+<p>Leyenda:</p>
+  <ul class="inventory__legend-items" role="list">
+    <li class="mostly">
+      Mayormente abiertos
+      <i class="fas fa-check" aria-hidden="true"></i>;
+    </li>
+    <li class="partially">
+      Parcialmente abiertos
+      <i class="fas fa-check" aria-hidden="true"></i>;
+    </li>
+    <li class="not">
+      No abiertos <i class="fas fa-times" aria-hidden="true"></i>;
+    </li>
+  </ul>
+</div>
+<div class="inventory__table-wrapper" id="inventory">
+  <table class="table inventory__table sortable">
+    <thead>
+      <tr>
+        <th>
+          <button
+            class="btn btn--transparent btn--sort sort asc"
+            data-sort="country"
+            data-default-order="asc"
+          >
+            País
+          </button>
+        </th>
+<p></tr>
+</thead></p>
+  </table>
+</div>
+<aside class="scoring">
+  <h2>Sistema de puntuación del inventario de datos abiertos</h2>
+  &lt;p&gt;El sistema de puntuación del inventario ofrece una medición de la apertura de los datos electorales en las distintas etapas o categorías de datos dentro de un proceso electoral (por ejemplo, la Administración del EMB, el Registro de Votantes, los Resultados Electorales, etc.). Para cada país, se calificaron los datos de la elección a nivel nacional más reciente al 31 de diciembre de 2014. Una puntuación del 30% o menos se considera &quot;no abierta&quot;, más del 30% y hasta el 70% es &quot;parcialmente abierta&quot;, y más del 70% es &quot;mayormente abierta&quot;.&lt;/p&gt; &lt;p&gt;Las diferentes categorías de datos de las distintas partes del proceso electoral tienen varias subcategorías que van desde una hasta siete. La puntuación de apertura de una categoría se basa en las puntuaciones de sus subcategorías, que pueden alcanzar hasta 20 puntos cada una. La categoría general se califica entonces como un porcentaje de los puntos recibidos del total de puntos posibles. La categoría de &quot;Centros de Votación,&quot; por ejemplo, tiene dos subcategorías - &quot;Ubicación&quot; y &quot;Funcionarios de los centros de votación&quot; - y por lo tanto se califica sobre un total de 40 puntos posibles, mientras que la categoría de &quot;Resultados&quot; tiene siete subcategorías, incluyendo &quot;Votantes que participaron,&quot; &quot;Boletas canceladas&quot; y &quot;Votos válidos para cada candidato&quot; y por lo tanto se califica sobre un total de 140 puntos.&lt;/p&gt; &lt;p&gt;Los 20 puntos posibles para cada subcategoría se asignan con base en la manera en que los datos de la subcategoría en cuestión cumplen con cada uno de los ocho principios de los datos electorales abiertos. Para cada principio la subcategoría recibe, ya sea el número total de puntos posibles, o cero puntos. Una subcategoría recibe 7 puntos posibles si los datos están disponibles de manera gratuita en Internet; 3 puntos por estar disponibles a un nivel primario o granular, 3 puntos por estar completos y en bloque y 3 puntos por ser analizables; y 1 punto por cumplir por cada uno de los siguientes principios: no ser exclusivos, no ser discriminatorios, no estar bajo licencia y estar disponibles permanentemente. La ponderación de los principios refleja su importancia relativa en el aumento de la &quot;apertura&quot; de los datos electorales.&lt;/p&gt; 
+  <table class="scoring__table">
+    <thead>
+      <tr>
+        <th>Principio</th>
+        <th>Puntos posible</th>
+      </tr>
+    </thead>
+    <tbody>
+<p>inventory_lang.available-for-free
+<tr>
+<td></td>
+<td>7</td>
+</tr></p>
+<p>inventory_lang.granular
+<tr>
+<td></td>
+<td>3</td>
+</tr></p>
+<p>inventory_lang.complete-and-in-bulk
+<tr>
+<td></td>
+<td>3</td>
+</tr></p>
+<p>inventory_lang.analyzable
+<tr>
+<td></td>
+<td>3</td>
+</tr></p>
+<p>inventory_lang.non-proprietary
+<tr>
+<td></td>
+<td>1</td>
+</tr></p>
+<p>inventory_lang.non-discriminatory
+<tr>
+<td></td>
+<td>1</td>
+</tr></p>
+<p>inventory_lang.license-free
+<tr>
+<td></td>
+<td>1</td>
+</tr></p>
+<p>inventory_lang.permanently-available
+<tr>
+<td></td>
+<td>1</td>
+</tr></p>
+<p></tbody>
+<tfoot>
+<tr>
+<td>Total</td>
+<td>20</td>
+</tr>
+</tfoot></p>
+  </table>
+</aside>
+<p>[^1]: Cabe resaltar que el principio de datos abiertos relacionado con ser oportunos no está incluido debido a que esta investigación se llevó a cabo después de que había pasado la ventana de tiempo correspondiente.</p>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer>
+    
+
+
+
+  <div class="nav-lang">
+    <button
+      class="nav-lang__trigger btn--transparent"
+      aria-expanded="false"
+      aria-label="Change site language"
+    >Español</button>
+    <ul class="nav-lang__menu" role="list">
+      
+        <li class="nav-lang__item">
+          <a href="/en/inventory/" rel="alternate" hreflang="en">English</a>
+        </li>
+      
+        <li class="nav-lang__item">
+          <a href="/es/inventory/" rel="alternate" hreflang="es">Español</a>
+        </li>
+      
+        <li class="nav-lang__item">
+          <a href="/fr/inventory/" rel="alternate" hreflang="fr">Français</a>
+        </li>
+      
+        <li class="nav-lang__item">
+          <a href="/ar/inventory/" rel="alternate" hreflang="ar">عربى</a>
+        </li>
+      
+        <li class="nav-lang__item">
+          <a href="/uk/inventory/" rel="alternate" hreflang="uk">Українська</a>
+        </li>
+      
+        <li class="nav-lang__item">
+          <a href="/my/inventory/" rel="alternate" hreflang="my">မြန်မာ</a>
+        </li>
+      </ul>
+  </div>
+
+  </footer>
+
+</body>
+</html>

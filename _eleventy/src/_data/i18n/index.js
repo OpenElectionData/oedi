@@ -7,11 +7,11 @@ const my = require('./my/my.js');
 
 const locales = {
   en,
-  es
-  // fr,
-  // ar,
-  // uk,
-  // my
+  es,
+  fr,
+  ar,
+  uk,
+  my
 };
 
 const localizedStrings = {};
@@ -26,35 +26,26 @@ for (const lang in locales) {
 
 function abstractStrings(strings, lang, parentObject) {
   Object.keys(strings).forEach((phraseKey) => {
-    // console.log('FIND THIS');
-    // console.log(typeof strings[string]);
-
     if (Object.keys(locales).includes(phraseKey)) {
       return;
     }
 
     if (typeof strings[phraseKey] === 'object' && strings[phraseKey] !== null) {
-      console.log('AN OBJECT');
-      console.log(strings[phraseKey]);
-
       if (parentObject) {
         parentObject[phraseKey] = parentObject[phraseKey] || {};
         abstractStrings(strings[phraseKey], lang, parentObject[phraseKey]);
       } else {
         localizedStrings[phraseKey] = localizedStrings[phraseKey] || {};
-
         abstractStrings(strings[phraseKey], lang, localizedStrings[phraseKey]);
       }
-    } else if (!parentObject) {
-      localizedStrings[phraseKey] = localizedStrings[phraseKey] || {};
-
-      localizedStrings[phraseKey][lang] = strings[phraseKey];
-    }
-
-    if (parentObject) {
-      parentObject[phraseKey] = parentObject[phraseKey] || {};
-
-      parentObject[phraseKey][lang] = strings[phraseKey];
+    } else {
+      if (parentObject) {
+        parentObject[phraseKey] = parentObject[phraseKey] || {};
+        parentObject[phraseKey][lang] = strings[phraseKey];
+      } else {
+        localizedStrings[phraseKey] = localizedStrings[phraseKey] || {};
+        localizedStrings[phraseKey][lang] = strings[phraseKey];
+      }
     }
   });
 }

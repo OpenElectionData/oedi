@@ -4,7 +4,7 @@ const inventory_principles = require('./inventory_principles.json');
 
 const es = {
   ...strings,
-  inventory_lang: {
+  inventory: {
     ...inventory_categories,
     ...inventory_principles
   }

@@ -13,7 +13,6 @@ const markdownItAnchor = require('markdown-it-anchor');
 
 const filters = require('./src/_utils/filters.js');
 const translations = require('./src/_data/i18n');
-fs.writeFileSync('translations.json', JSON.stringify(translations));
 
 module.exports = function (eleventyConfig) {
   // RSS

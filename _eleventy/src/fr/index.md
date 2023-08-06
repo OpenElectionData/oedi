@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Accueil
 cards:
   - slug: '/guide/key-categories/'
     title: 'Les Catégories Electorales'

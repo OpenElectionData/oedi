@@ -37,6 +37,6 @@ module.exports = {
    * @returns Array of filtered menu items
    */
   filterMenus: (items, location) => {
-    return items.filter(item => item[location])
+    return items.filter((item) => item[location]);
   }
 };

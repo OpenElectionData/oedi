@@ -2,6 +2,10 @@
 layout: base
 ---
 
+{% block pageCSS %}
+<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/inventory.css' }}" />
+{% endblock %}
+
 <article class="page inventory">
   <header>
     <h1 class="page__title">{{ title }}</h1>
@@ -10,3 +14,14 @@ layout: base
   {{ content | safe }}
   </div>
 </article>
+
+{% block pageJS %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+<script type="text/javascript">
+  const options = {
+    valueNames: [ 'country', { name: 'election-management-body-and-administration', attr: 'data-value'}, { name: 'election-management-body-processes', attr: 'data-value'}, { name: 'electoral-boundaries', attr: 'data-value'}, { name: 'political-party-registration', attr: 'data-value'}, { name: 'ballot-qualification', attr: 'data-value'}, { name: 'election-campaigns', attr: 'data-value'}, { name: 'campaign-finance', attr: 'data-value'}, { name: 'voter-registration', attr: 'data-value'}, { name: 'voter-lists', attr: 'data-value'}, { name: 'voter-education', attr: 'data-value'}, { name: 'polling-stations', attr: 'data-value'}, { name: 'election-results-provisional', attr: 'data-value' }, { name: 'election-results-official-final', attr: 'data-value' }, { name: 'electoral-complaints-and-disputes', attr: 'data-value' } ]
+  };
+
+  const userList = new List('inventory', options);
+</script>
+{% endblock %}

@@ -1,7 +1,7 @@
 {% set total = 0 %}
 <aside class="scoring">
   <h2>{{ scoring.title }}</h2>
-  {{ scoring.desc }} 
+  {{ scoring.desc | safe }} 
   <table class="scoring__table">
     <thead>
       <tr>
@@ -12,10 +12,9 @@
     <tbody>
       {% for principle in inventory.principles %} 
         {% set total = total +  principle.points %}
-        {% set label = ['inventory_lang', principle.slug] | join('.') %}
-        {{ label }}
+        {% set label = ['inventory', principle.slug] | join('.') %}
         <tr>
-          <td>{{ inventory_lang[principle.slug] | i18n }}</td>
+          <td>{{ label | i18n }}</td>
           <td>{{ principle.points }}</td>
         </tr>
       {% endfor %}

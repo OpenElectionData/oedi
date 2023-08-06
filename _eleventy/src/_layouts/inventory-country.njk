@@ -2,6 +2,10 @@
 layout: base
 ---
 
+{% block pageCSS %}
+<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/inventory_country.css' }}" />
+{% endblock %}
+
 <article class="page">
   {{ content | safe }}
 </article>

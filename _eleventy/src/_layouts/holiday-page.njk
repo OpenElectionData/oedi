@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+{% block pageCSS %}
+  {%- if head.size > 0-%}
+    {%- for item in head -%}
+     <link href="{{ item }}" rel="stylesheet">
+    {%- endfor -%}
+  {%- endif -%}
+{% endblock %}
+
+<article class="page">
+  {{ content | safe }}
+</article>
+
+{% block pageJS %}
+  {%- if footer.size > 0-%}
+    {%- for item in footer -%}
+     <script src="{{ item }}" type="text/javascript"></script>
+    {%- endfor -%}
+  {%- endif -%}
+{% endblock %}

@@ -1,0 +1,21 @@
+<div
+  id="dialog"
+  aria-labelledby="dialog-title"
+  aria-hidden="true"
+  class="dialog-container"
+>
+  <div class="dialog-overlay" data-a11y-dialog-hide></div>
+  <div role="document" class="dialog-content">
+    <header>
+      <h1 id="dialog-title">{{ 'signup_for_updates' | i18n }}</h1>
+      <button type="button" class="btn btn--transparent btn--close" data-a11y-dialog-hide aria-label="Close dialog">
+        &times;
+      </button>
+    </header>
+    <form name="signup" netlify>
+      <label for="email" class="text--small">{{ 'enter_your_email_for_updates' | i18n }}</label>
+      <input id="email" name="email" type="email" placeholder="{{ 'email' | i18n }}" />
+      <button type="submit" class="btn btn--blue btn--small">{{ 'signup' | i18n }}</button>
+    </form>
+  </div>
+</div>

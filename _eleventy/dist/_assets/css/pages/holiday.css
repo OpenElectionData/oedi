@@ -1,1 +1,0 @@
-.games-list{margin:2rem 0;padding:0}.games-list li{grid-template-rows:max-content auto;grid-template-columns:200px auto;column-gap:1.5rem;margin-bottom:1rem;display:grid}.games-list__img{border:1px solid #ed8968;grid-row:1/3}.games-list__img:hover{border:1px solid #19407a}.games-list__img img{margin:0}

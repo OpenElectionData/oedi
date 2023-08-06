@@ -3,9 +3,119 @@ layout: base
 ---
 
 {% block pageCSS %}
-<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/inventory_country.css' }}" />
+<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/inventory-country.css' }}" />
 {% endblock %}
 
-<article class="page">
-  {{ content | safe }}
+{% import "../_includes/macros/inventory_principles_icons.njk" as principlesIcons %}
+
+{% set mapImg = [site.url, '/_assets/images/inventory/maps/', slug, '.png'].join('') %}
+
+<article
+  class="page country"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="page__header">
+    <h1 class="page__title" itemprop="name headline">
+      {{ title | escape }}
+    </h1>
+    <section class="country__info text--small">
+      <dl>
+        <dt>{{ 'election_evaluated' | i18n }}</dt>
+        <dd>{{ election_evaluated }}</dd>
+        <dt>{{ 'last_checked' | i18n }}</dt>
+        <dd>{{ last_checked }}</dd>
+        <dt>{{ 'open_data_information' | i18n }}</dt>
+        <dd>{{ open_data_information }}</dd>
+      </dl>
+      <img
+        src="{{ mapImg }}"
+        alt="World map highlighting {{ title }}."
+        width="160"
+        height="160"
+      />
+    </section>
+  </header>
+
+  <div class="post__content e-content" itemprop="articleBody">
+    <div class="table__wrapper">
+      <table class="table country__table">
+        <thead>
+          <tr>
+            <th>{{ 'category' | i18n }}</th>
+            <th>{{ 'openness' | i18n }}</th>
+            {{ principlesIcons.render(inventory.principles, 'th') }}
+          </tr>
+        </thead>
+        <tbody>
+          {% set countryCategories = inventory.categories | filterInventoryCategories(country.principles) %}
+          {% for category in countryCategories %}
+            {%- set categoryName = ['inventory_lang', category.slug].join('.') | i18n %} 
+            {% if category.is_subcategory and country.principles[category.slug] %} 
+                <tr>
+                  <td colspan="2">{{ categoryName }}</td>
+                  {% for principle in inventory.principles %} 
+                    {% set value = country.principles[category.slug][principle.slug] %} 
+                    {% set string = principle.values[value] | i18n %}
+                    <td>
+                      {% if principle.slug == 'available-for-free' and value == '1' %}
+                      <a
+                        href="{{ country.principles[category.slug]['available-for-free-url'] }}"
+                      >
+                        {{ string }}
+                        <i class="fas fa-external-link-alt"></i>
+                      </a>
+                      {% elif principle.slug == 'permanently-available' and value ==
+                      '1' %}
+                      <span
+                        class="has-tooltip"
+                        data-tippy-content="{{ site.data.strings.last_checked }} {{ country.principles[category.slug]['permanently-available-date'] }}"
+                      >
+                        {{ string }}
+                      </span>
+                      {% else %} {{ string }} {% endif %}
+                    </td>
+                  {% endfor %}
+                </tr>
+            {% else %} 
+              {%- set value = country.categories[category.slug].value -%} 
+              {%- set status = '' %}
+              {%- if value == '1' -%} 
+                {% set class = 'not' -%} 
+                {% set status = 'not_open' | i18n %} 
+              {%- elif value == '2' -%} 
+                {%- set class = 'partially' -%} 
+                {% set status = 'partially_open' | i18n %} 
+              {%- elif value == '3' -%} 
+                {%- set class = 'mostly' -%} 
+                {% set status = 'mostly_open' | i18n %} 
+              {%- endif -%}
+              <tr class="country__table-category">
+                <td>
+                  {{ categoryName }} 
+                  {% if country.categories[category.slug].body_name != "" %}
+                    <span>
+                      ({{ country.categories[category.slug].body_name }})
+                    </span>
+                  {% endif %}
+                </td>
+                <td><div class="label {{ class }}">{{ status }}</div></td>
+                {% if loop.first == true %}
+                  <td colspan="{{ inventory.principles | length }}"></td>
+                {% else %} 
+                  {{ principlesIcons.render(inventory.principles, 'td') }}
+                {% endif %}
+              </tr>
+            {% endif %} 
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  {# <footer>
+    {% set prevLabel = site.data.strings.back_to | append: ' ' | append:
+    site.data.strings.data_inventory %} {% include pagination.html
+    prev=prevLabel prev_url="/inventory/" %}
+  </footer> #}
 </article>

@@ -38,5 +38,8 @@ module.exports = {
    */
   filterMenus: (items, location) => {
     return items.filter((item) => item[location]);
+  },
+  filterInventoryCategories: (categories, principles) => {
+    return categories.filter((c) => principles[c.slug]);
   }
 };

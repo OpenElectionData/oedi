@@ -5,7 +5,7 @@ const assessment_supplemental = require('./assessment_supplemental.json');
 
 const en = {
   ...strings,
-  inventory: {
+  inventory_lang: {
     ...inventory_categories,
     ...inventory_principles
   },

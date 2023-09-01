@@ -6,6 +6,7 @@ useTippy: true
 {% import "../_includes/macros/components.njk" as components %}
 
 {% block pageCSS %}
+<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/page.css' }}" />
 <link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/inventory-country.css' }}" />
 {% endblock %}
 
@@ -49,7 +50,7 @@ useTippy: true
           </tr>
         </thead>
         <tbody>
-          {% set countryCategories = inventory.categories | filterInventoryCategories(country.inventory.principles) %}
+          {% set countryCategories = inventory.categories | filterInventoryCategoriesByPrinciples(country.inventory.principles) %}
           {% for category in countryCategories %}
             {%- set categoryName = ['inventory_lang', category.slug].join('.') | i18n %} 
             {% if category.is_subcategory and country.inventory.principles[category.slug] %} 
@@ -116,7 +117,7 @@ useTippy: true
 
   <footer>
     {% set prevLabel %}{{ 'back_to' | i18n }} {{ 'data_inventory' | i18n }}{% endset %}
-    {% set prevUrl = "/inventory/" %}
+    {% set prevUrl = "/inventory/" | locale_url %}
     {% include "components/pagination.njk" %}
   </footer>
 </article>

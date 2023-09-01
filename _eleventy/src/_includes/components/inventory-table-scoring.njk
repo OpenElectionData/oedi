@@ -12,7 +12,7 @@
     <tbody>
       {% for principle in inventory.principles %} 
         {% set total = total +  principle.points %}
-        {% set label = ['inventory', principle.slug] | join('.') %}
+        {% set label = ['inventory_lang', principle.slug] | join('.') %}
         <tr>
           <td>{{ label | i18n }}</td>
           <td>{{ principle.points }}</td>

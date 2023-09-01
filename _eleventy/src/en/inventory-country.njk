@@ -4,12 +4,8 @@ pagination:
     data: inventory.countries
     size: 1
     alias: country
-permalink: "{{ locale }}/inventory/{{ country.country | slugify }}/"
+permalink: "{{ locale }}/inventory/{{ country.slug | slugify }}/"
 eleventyComputed:
-  title: "{{ country.country }}"
-  slug: "{{ country.country }}"
+  title: "{{ country.translations[locale] }}"
+  slug: "{{ country.slug }}"
 ---
-
-TODO:
-- Create JSON list of each country with translated name from markdown files.
-- Idea is that you can create a country in one place, provide any necessary translations, and use this single template to create files for all of them

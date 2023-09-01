@@ -10,6 +10,7 @@ const fs = require('fs');
 const slugify = require('slugify');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItFootnote = require('markdown-it-footnote');
 
 const filters = require('./src/_utils/filters.js');
 const translations = require('./src/_data/i18n');
@@ -28,16 +29,20 @@ module.exports = function (eleventyConfig) {
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true
-  }).use(markdownItAnchor, {
-    permalink: markdownItAnchor.permalink.headerLink({ safariReaderFix: true }),
-    level: [1, 2, 3],
-    slugify: (str) =>
-      slugify(str, {
-        lower: true,
-        strict: true,
-        remove: /["]/g
-      })
-  });
+  })
+    .use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.headerLink({
+        safariReaderFix: true
+      }),
+      level: [1, 2, 3],
+      slugify: (str) =>
+        slugify(str, {
+          lower: true,
+          strict: true,
+          remove: /["]/g
+        })
+    })
+    .use(markdownItFootnote);
   eleventyConfig.setLibrary('md', markdownLibrary);
 
   // Internationalization

@@ -1,0 +1,14 @@
+{
+  "name": "oedi",
+  "version": "1.0.0",
+  "description": "The website for the Open Election Data Initiative. It is built on the [CSIS Jekyll Starter](https://github.com/CSIS-iLab/csis-jekyll-starter) that utilizes gulp, Sass, Autoprefixer, PostCSS, Webpack, imagemin, and Browsersync to speed-up development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

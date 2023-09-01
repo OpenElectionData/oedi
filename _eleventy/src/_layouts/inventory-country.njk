@@ -1,12 +1,13 @@
 ---
 layout: base
+useTippy: true
 ---
+
+{% import "../_includes/macros/components.njk" as components %}
 
 {% block pageCSS %}
 <link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/inventory-country.css' }}" />
 {% endblock %}
-
-{% import "../_includes/macros/inventory_principles_icons.njk" as principlesIcons %}
 
 {% set mapImg = [site.url, '/_assets/images/inventory/maps/', slug, '.png'].join('') %}
 
@@ -22,11 +23,11 @@ layout: base
     <section class="country__info text--small">
       <dl>
         <dt>{{ 'election_evaluated' | i18n }}</dt>
-        <dd>{{ election_evaluated }}</dd>
+        <dd>{{ country.election_evaluated }}</dd>
         <dt>{{ 'last_checked' | i18n }}</dt>
-        <dd>{{ last_checked }}</dd>
+        <dd>{{ country.last_checked }}</dd>
         <dt>{{ 'open_data_information' | i18n }}</dt>
-        <dd>{{ open_data_information }}</dd>
+        <dd>{{ country.open_data_information | safe }}</dd>
       </dl>
       <img
         src="{{ mapImg }}"
@@ -44,23 +45,23 @@ layout: base
           <tr>
             <th>{{ 'category' | i18n }}</th>
             <th>{{ 'openness' | i18n }}</th>
-            {{ principlesIcons.render(inventory.principles, 'th') }}
+            {{ components.principlesIcons(inventory.principles, 'th') }}
           </tr>
         </thead>
         <tbody>
-          {% set countryCategories = inventory.categories | filterInventoryCategories(country.principles) %}
+          {% set countryCategories = inventory.categories | filterInventoryCategories(country.inventory.principles) %}
           {% for category in countryCategories %}
             {%- set categoryName = ['inventory_lang', category.slug].join('.') | i18n %} 
-            {% if category.is_subcategory and country.principles[category.slug] %} 
+            {% if category.is_subcategory and country.inventory.principles[category.slug] %} 
                 <tr>
                   <td colspan="2">{{ categoryName }}</td>
                   {% for principle in inventory.principles %} 
-                    {% set value = country.principles[category.slug][principle.slug] %} 
+                    {% set value = country.inventory.principles[category.slug][principle.slug] %} 
                     {% set string = principle.values[value] | i18n %}
                     <td>
                       {% if principle.slug == 'available-for-free' and value == '1' %}
                       <a
-                        href="{{ country.principles[category.slug]['available-for-free-url'] }}"
+                        href="{{ country.inventory.principles[category.slug]['available-for-free-url'] }}"
                       >
                         {{ string }}
                         <i class="fas fa-external-link-alt"></i>
@@ -69,7 +70,7 @@ layout: base
                       '1' %}
                       <span
                         class="has-tooltip"
-                        data-tippy-content="{{ site.data.strings.last_checked }} {{ country.principles[category.slug]['permanently-available-date'] }}"
+                        data-tippy-content="{{ 'last_checked' | i18n }} {{ country.inventory.principles[category.slug]['permanently-available-date'] }}"
                       >
                         {{ string }}
                       </span>
@@ -78,7 +79,7 @@ layout: base
                   {% endfor %}
                 </tr>
             {% else %} 
-              {%- set value = country.categories[category.slug].value -%} 
+              {%- set value = country.inventory.categories[category.slug].value -%} 
               {%- set status = '' %}
               {%- if value == '1' -%} 
                 {% set class = 'not' -%} 
@@ -93,9 +94,9 @@ layout: base
               <tr class="country__table-category">
                 <td>
                   {{ categoryName }} 
-                  {% if country.categories[category.slug].body_name != "" %}
+                  {% if country.inventory.categories[category.slug].body_name != "" %}
                     <span>
-                      ({{ country.categories[category.slug].body_name }})
+                      ({{ country.inventory.categories[category.slug].body_name }})
                     </span>
                   {% endif %}
                 </td>
@@ -103,7 +104,7 @@ layout: base
                 {% if loop.first == true %}
                   <td colspan="{{ inventory.principles | length }}"></td>
                 {% else %} 
-                  {{ principlesIcons.render(inventory.principles, 'td') }}
+                  {{ components.principlesIcons(inventory.principles, 'td') }}
                 {% endif %}
               </tr>
             {% endif %} 
@@ -113,9 +114,9 @@ layout: base
     </div>
   </div>
 
-  {# <footer>
-    {% set prevLabel = site.data.strings.back_to | append: ' ' | append:
-    site.data.strings.data_inventory %} {% include pagination.html
-    prev=prevLabel prev_url="/inventory/" %}
-  </footer> #}
+  <footer>
+    {% set prevLabel %}{{ 'back_to' | i18n }} {{ 'data_inventory' | i18n }}{% endset %}
+    {% set prevUrl = "/inventory/" %}
+    {% include "components/pagination.njk" %}
+  </footer>
 </article>

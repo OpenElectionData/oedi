@@ -39,7 +39,13 @@ module.exports = {
   filterMenus: (items, location) => {
     return items.filter((item) => item[location]);
   },
+  /**
+   * Filter inventory categories to only include the ones that a given country might have
+   * @param {Array} categories All inventory categories
+   * @param {Array} principles All categories that a country has data for
+   * @returns Array of filtered categories, including all main categories and any subcategories with data
+   */
   filterInventoryCategories: (categories, principles) => {
-    return categories.filter((c) => principles[c.slug]);
+    return categories.filter((c) => !c.is_subcategory || principles[c.slug]);
   }
 };

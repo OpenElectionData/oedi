@@ -1,0 +1,15 @@
+<ul class="pagination" role="list">
+  {% if prevUrl %}
+  <li class="pagination__prev">
+    <a href="{{ prevUrl }}"
+      ><i class="fas fa-long-arrow-alt-left"></i> {{ prevLabel }}</a
+    >
+  </li>
+  {% endif %} {% if nextUrl %}
+  <li class="pagination__next">
+    <a href="{{ nextUrl }}"
+      >{{ nextLabel }} <i class="fas fa-long-arrow-alt-right"></i
+    ></a>
+  </li>
+  {% endif %}
+</ul>

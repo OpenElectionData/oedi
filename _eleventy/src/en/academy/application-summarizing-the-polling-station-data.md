@@ -49,7 +49,7 @@ Now that you know how to practice good data hygiene, let's re-examine that polli
 
 ## Practical Exercise: (Re)Examine the Polling Station List using Excel
 
-In the [second module of Election Data Academy](/en/academy/reviewing-a-polling-station-list/), we examined a [polling station list (in XLS format)](/assets/academy/exercise/Polling_Station_List_2008.xls). In theory, the file is supposed to contain the list of all polling stations in a country.[^1] Open that file and take another look at the data. As you scroll through it, ask yourself these questions:
+In the [second module of Election Data Academy](/en/academy/reviewing-a-polling-station-list/), we examined a [polling station list (in XLS format)]({{ site.url }}/\_assets/academy/exercise/Polling_Station_List_2008.xls). In theory, the file is supposed to contain the list of all polling stations in a country.[^1] Open that file and take another look at the data. As you scroll through it, ask yourself these questions:
 
 - Does it seem like anything is missing?
 - Is the data structured in a way that makes sense?
@@ -59,15 +59,15 @@ In the [second module of Election Data Academy](/en/academy/reviewing-a-polling-
 
 The first row of the file contains the names of the variables. There are six variables in this dataset: PS_Code, PS_Name, Region_Name, District_Name, Constituency_Name, and Registered_Voters.
 
-[![Image 1](/assets/images/academy/application-summarizing-the-polling-station-data/image1.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image1.png)
+[![Image 1]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image1.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image1.png)
 
 Next, let's figure out how many observations there are in this dataset. To do this we can either scroll to the bottom and subtract 1 (for the row with the variable names):
 
-[![Image 2](/assets/images/academy/application-summarizing-the-polling-station-data/image2.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image2.png)
+[![Image 2]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image2.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image2.png)
 
 Or, we can highlight a column (e.g., one of the variables, like registered voters) and look at the lower right of screen to see the number after "Numerical Count." The "Numerical Count" does just what you would guess: it only counts the numbers and ignores any text.
 
-[![Image 3](/assets/images/academy/application-summarizing-the-polling-station-data/image3.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image3.png)
+[![Image 3]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image3.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image3.png)
 
 If, for some reason, "Numerical Count" is not listed on that bottom status bar, right click on the bar and choose "Numerical Count" as one of the statistics to display.
 
@@ -88,7 +88,7 @@ Column F contains the number of registered voters for each polling station (i.e.
 
 If you highlight the column with the "Registered_Voters" variable (Column F), you can have Excel automatically calculate and show certain values for the highlighted/selected cells in the lower right status bar. Again, you may need to right click on this bar and customize the statistics it shows by checking each one.
 
-[![Image 4](/assets/images/academy/application-summarizing-the-polling-station-data/image4.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image4.png)
+[![Image 4]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image4.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image4.png)
 
 In this 2008 Polling Station List, you can see that the average number of registered voters for all of the polling stations is 547.8 voters. You can also see that the total number of cells filled in (i.e., the "Count") is 20,929. Excel can also show you that the minimum value for the highlighted cells is 1 and the maximum value is 55,515. Excel has an individual formula to calculate each of these values as well. You can create a new worksheet tab and put in the individual functions for [average](https://support.office.com/en-nz/article/AVERAGE-function-08cc8ca2-0177-42f8-8750-a1e9ae9637a2), [minimum](https://support.office.com/en-in/article/MIN-function-6a4b0dd8-7853-474e-bf22-6014a60cfbd1), [maximum](https://support.office.com/en-za/article/MAX-function-af0b7276-3817-4dbd-a0a4-ec915397dc7a), [count](https://support.office.com/en-us/article/COUNT-function-47858132-8828-4041-8c5b-a5fb729bab6f), and standard deviation. We did this for you with the heights data. Note that the standard deviation is not one of the options in that lower status bar, but you can enter the formula in another tab.
 
@@ -96,31 +96,31 @@ In this 2008 Polling Station List, you can see that the average number of regist
 
 If you have the "Analysis Toolpak" installed[^2], go to the Data tab where you should see "Data Analysis" listed on the far right.
 
-[![Image 5](/assets/images/academy/application-summarizing-the-polling-station-data/image5.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image5.png)
+[![Image 5]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image5.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image5.png)
 
 From that menu, click on "Data Analysis," which will bring up a new window.
 
-[![Image 6](/assets/images/academy/application-summarizing-the-polling-station-data/image6.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image6.png)
+[![Image 6]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image6.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image6.png)
 
 In the list under "Analysis Tools," choose "Descriptive Statistics" and then click "OK." It will bring up a new menu. In that new menu, click the box to the right of "Input Range:"
 
-[![Image 7](/assets/images/academy/application-summarizing-the-polling-station-data/image7.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image7.png)
+[![Image 7]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image7.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image7.png)
 
 Now you will be able to select the range you want to describe. We are interested in the Registered Voters variable which is in column F. So, we select the top of column F to select the whole column.
 
-[![Image 8](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image8.png)
+[![Image 8]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image8.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image8.png)
 
-Then, click back on that box to the right of input (![Input box](/assets/images/academy/application-summarizing-the-polling-station-data/input_box.png){:class="img--inline"}).
+Then, click back on that box to the right of input (![Input box]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/input_box.png){:class="img--inline"}).
 
-[![Image 9](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image9.png)
+[![Image 9]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image9.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image9.png)
 
 It will bring you back to the "Descriptive Statistics" window. In that window, make sure to click the checkbox next to "Labels in First Row" and click the checkbox next to "Summary Statistics." Also, make sure "New Worksheet Ply" is selected so that it puts your statistics in a new sheet. Then click "OK."
 
-[![Image 10](/assets/images/academy/application-summarizing-the-polling-station-data/image10.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image10.png)
+[![Image 10]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image10.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image10.png)
 
 Now it will show you the new tab with all of the summary statistics for Registered Voters.
 
-[![Image 11](/assets/images/academy/application-summarizing-the-polling-station-data/image11.png)](/assets/images/academy/application-summarizing-the-polling-station-data/image11.png)
+[![Image 11]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image11.png)]({{ site.url }}/\_assets/images/academy/application-summarizing-the-polling-station-data/image11.png)
 
 Given what you now know about the average, standard deviation and range, how would you describe the Registered Voter variable? Do you think the distribution is spread out a lot or do you think it is tightly clustered?
 

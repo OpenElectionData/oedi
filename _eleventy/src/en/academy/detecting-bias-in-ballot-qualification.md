@@ -1,19 +1,20 @@
 ---
 title: 4. Detecting Bias in Ballot Qualification
 module_id: 4
-excerpt: 'Using sample ballot qualification data in Module 4, you’ll enhance your
+excerpt:
+  'Using sample ballot qualification data in Module 4, you’ll enhance your
   ability to: <ul><li>use pivot tables and some more advanced features within them;</li>
   <li>employ the COUNTIF function for a variety of use cases;</li> <li>use basic operators
   in Microsoft Excel (including calculating percentages), and</li> <li>examine your
   data with a political eye.</li></ul>'
-
 ---
+
 Using sample ballot qualification data in Module 4, you’ll enhance your ability to:
 
-* use pivot tables and some more advanced features within them;
-* employ the COUNTIF function for a variety of use cases;
-* use basic operators in Microsoft Excel (including calculating percentages), and
-* examine your data with a political eye.
+- use pivot tables and some more advanced features within them;
+- employ the COUNTIF function for a variety of use cases;
+- use basic operators in Microsoft Excel (including calculating percentages), and
+- examine your data with a political eye.
 
 ## Why Ballot Qualification Data?
 
@@ -29,7 +30,7 @@ All candidates who applied to be on Opendya’s ballot hailed from one of three 
 
 ## Reviewing the Ballot Qualification Data
 
-To begin the exercise, download the ballot qualification data file [**here**](/assets/academy/exercise/Module_4_Ballot_Qualification.xlsx).
+To begin the exercise, download the ballot qualification data file [**here**]({{ site.url }}/\_assets/academy/exercise/Module_4_Ballot_Qualification.xlsx).
 
 Before delving into analysis, let’s get familiar with the data available in the file.
 
@@ -37,7 +38,7 @@ Before delving into analysis, let’s get familiar with the data available in th
 
 Column A, Full_name, appears to contain the first and last names of each prospective candidate.
 
-[![Image 1](/assets/images/academy/module_4/Module_4_Photo_1.png)](/assets/images/academy/module_4/Module_4_Photo_1.png)
+[![Image 1]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_1.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_1.png)
 
 ### Gender
 
@@ -47,7 +48,7 @@ Each prospective candidate’s gender is provided in Column B of your dataset.
 
 The ages of all prospective candidates is in Column C of your dataset. Note that Opendya does not have age limitations for parliamentary or presidential candidates.
 
-[![Image 2](/assets/images/academy/module_4/Module_4_Photo_2.png)](/assets/images/academy/module_4/Module_4_Photo_2.png)
+[![Image 2]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_2.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_2.png)
 
 ### Party
 
@@ -57,7 +58,7 @@ Column D has the party name for each candidate.
 
 Column E, Decision, details whether an individual’s candidacy was “accepted” or “rejected” by the election commission.
 
-[![Image 3](/assets/images/academy/module_4/Module_4_Photo_3.png)](/assets/images/academy/module_4/Module_4_Photo_3.png)
+[![Image 3]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_3.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_3.png)
 
 ### Election
 
@@ -69,19 +70,19 @@ The Election Commission of Opendya assigns a code to each district. Take a quick
 
 As we mentioned in [Module 2: Reviewing a Polling Station List](https://openelectiondata.net/en/academy/reviewing-a-polling-station-list/), unique identifiers are extremely helpful when dealing with datasets. They help us catch duplicate entries and/or properly distinguish between units with similar names.
 
-[![Image 4](/assets/images/academy/module_4/Module_4_Photo_4.png)](/assets/images/academy/module_4/Module_4_Photo_4.png)
+[![Image 4]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_4.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_4.png)
 
 ### District_name
 
 Column H contains the names of all districts in Opendya. Notice that this is the only geographic level provided in the dataset. At this stage, we have no further indication as to whether these districts are nearby one another or if they fall under the same geographic units at a higher level.
 
-[![Image 5](/assets/images/academy/module_4/Module_4_Photo_5.png)](/assets/images/academy/module_4/Module_4_Photo_5.png)
+[![Image 5]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_5.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_5.png)
 
 ### Type
 
 The Type column indicates the characteristics of Opendya’s districts. Check through the data to review what descriptors are used to indicate the type of district. What different types do you see?
 
-[![Image 6](/assets/images/academy/module_4/Module_4_Photo_6.png)](/assets/images/academy/module_4/Module_4_Photo_6.png)
+[![Image 6]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_6.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_6.png)
 
 ## Assessing Party Age Demographics
 
@@ -97,37 +98,37 @@ Follow these easy steps to make your pivot table.
 
 To begin, you’ll need to select all of the data in the “Candidate_Information” tab of your spreadsheet. To do so, click on the top left square of the sheet containing the little triangle. You could also click cell A1 ("Full_name") and then click Control+A (i.e., hold down the "Ctrl" button while also pressing the "A" button on the keyboard).
 
-[![Image 7](/assets/images/academy/module_4/Module_4_Photo_7.png)](/assets/images/academy/module_4/Module_4_Photo_7.png)
+[![Image 7]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_7.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_7.png)
 
 #### 2. Inserting your Pivot Table
 
 Now all of the data is selected. \[If you are using Excel 2013\], click on the "Insert" tab in the top menu and then click "Pivot Table" along the left. A pop-up window will appear that says "Create Pivot Table.” Leave the options as their defaults and just click "OK", and Excel will make a new pivot table in a new worksheet.
 
-[![Image 8](/assets/images/academy/module_4/Module_4_Photo_8.png)](/assets/images/academy/module_4/Module_4_Photo_8.png)
+[![Image 8]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_8.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_8.png)
 
 #### 3. Sorting by Party
 
 Now that your skeleton pivot table is ready, we can make some calculations. On the right is a window titled "Pivot Table Field List." Click on "Party" and drag/add it to the "Row Labels" area. This will sort everything by whatever value is listed in the "Party" field. Notice that "Party" is now listed in the lower right window called "Row Labels." If done correctly, we'll get all three of our parties loaded into Column A.
 
-[![Image 9](/assets/images/academy/module_4/Module_4_Photo_9.png)](/assets/images/academy/module_4/Module_4_Photo_9.png)
+[![Image 9]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_9.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_9.png)
 
 #### 4. Determine average age
 
 Next, let's check out the age composition of Opendya’s three parties: Draconia, Shireling and Zalog. Take "Age" and drag and drop the field into the "Values" section on the bottom of your Pivot Table Field List. If all goes well, the pivot table should default to showing a count all of the cells that have a value for "Age" according to political party. You can check this by hovering your mouse pointer over the values in Column B, and a note should say "Count of Age." Notice that now "Count of Age" is listed in the lower right window under "Values." If you've done it correctly, it should display 131 for Draconia, 92 for Shireling, and 67 for Zalog. See the image below for confirmation.
 
-[![Image 10](/assets/images/academy/module_4/Module_4_Photo_10.png)](/assets/images/academy/module_4/Module_4_Photo_10.png)
+[![Image 10]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_10.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_10.png)
 
 Next we need Excel to show us the average age of candidates instead of counting the number of cells with a value for “Age.” To do so, we’ll go to "Count of Age" in the "Values" window in the lower right of the screen, and click the arrow pointing down.
 
-[![Image 11](/assets/images/academy/module_4/Module_4_Photo_11.png)](/assets/images/academy/module_4/Module_4_Photo_11.png)
+[![Image 11]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_11.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_11.png)
 
 This will give us a window where we can click "Value field settings," like you can see below Under "Summarize Value Field By" choose "Average." Excel will average the age of prospective candidates according to political party.
 
-[![Image 12](/assets/images/academy/module_4/Module_4_Photo_12.png)](/assets/images/academy/module_4/Module_4_Photo_12.png)
+[![Image 12]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_12.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_12.png)
 
 As a data cleanup measure, we’ve re-labeled this entire data tab as Average_Age. If you prefer to view your average age calculations without the decimal points, you can In your “Value Field Settings” window, select the “Number Format Option”. Select “Number” and adjust the number of decimal points to 0, or whatever number of points you would like to see.
 
-[![Image 13](/assets/images/academy/module_4/Module_4_Photo_13.png)](/assets/images/academy/module_4/Module_4_Photo_13.png)
+[![Image 13]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_13.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_13.png)
 
 #### **What do you see?**
 
@@ -139,7 +140,7 @@ What trends or differences do you notice in the average age for each of Opendya�
 
 For this portion of the module, we’re going to start using the Candidate_Summary tab in your Excel file. This tab will pull a summary of calculations based on data from the Candidate_Information tab. It looks like this:
 
-[![Image 14](/assets/images/academy/module_4/Module_4_Photo_14.png)](/assets/images/academy/module_4/Module_4_Photo_14.png)
+[![Image 14]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_14.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_14.png)
 
 To speed things up, we’ve pre-populated all of your column headers for you, which will house all of the different calculations you’ll need to do. Let’s get started with some more complex formulas and calculations!
 
@@ -149,8 +150,8 @@ For the remainder of Module 4, we’ll make frequent use of the [COUNTIF](https:
 
 Here’s how the formula is structured: COUNTIF(range, criteria) OR COUNTIFS(range_1,criteria_1,range_2,criteria_2,range_3,criteria_3,...).
 
-* **Range**: Range specifies the group of cells you want to count from.
-* **Criteria**: Your criteria will indicate whether or not a number should be counted. Criteria can come in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added.
+- **Range**: Range specifies the group of cells you want to count from.
+- **Criteria**: Your criteria will indicate whether or not a number should be counted. Criteria can come in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added.
 
 Let’s give COUNTIF and COUNTIFS a try!
 
@@ -160,7 +161,7 @@ You’ll begin your journey into COUNTIF by calculating the number of individual
 
 1\. In cell B2, type “=COUNTIF(“ Notice that Excel automatically provides you with the information needed to complete the rest of the formula.
 
-[![Image 15](/assets/images/academy/module_4/Module_4_Photo_15.png)](/assets/images/academy/module_4/Module_4_Photo_15.png)
+[![Image 15]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_15.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_15.png)
 
 2\. Now we need to specify the “range” for Excel to pull your criteria from. Since we’re looking specifically at political parties, your range will be column D from the Candidate_Information tab. To reference your range, leave your formula open and click on the Candidate_Information tab in the bottom left-hand corner of your file. (Do not click Enter before you switch to the main data tab or else your formula will not continue to populate!)
 
@@ -168,29 +169,28 @@ Notice when you come back to the Candidate_Information tab that your formula bar
 
 To finish selecting the range, select all of column D by clicking the the top of the column (the letter “D”). Again notice that Excel autopopulates your formula as you click.
 
-[![Image 16](/assets/images/academy/module_4/Module_4_Photo_16.png)](/assets/images/academy/module_4/Module_4_Photo_16.png)
+[![Image 16]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_16.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_16.png)
 
 Now, you’ve selected your COUNTIF range! Type in a comma \[,\] and we’ll keep going.
 
 3\. COUNTIF now requires that you select your criteria. Without hitting Enter, click back to the Candidate_Summary tab and click on cell A2 “Draconia.” You just told Excel that you only want it to count candidate data that applies to the Draconia party only.
 
-[![Image 17](/assets/images/academy/module_4/Module_4_Photo_17.png)](/assets/images/academy/module_4/Module_4_Photo_17.png)
+[![Image 17]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_17.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_17.png)
 
 4\. Close your parentheses \[)\] and hit Enter. Using COUNTIF, you’ve just calculated the number of Draconia-affiliated individuals who applied as candidates for Opendya’s upcoming election!
 
-[![Image 18](/assets/images/academy/module_4/Module_4_Photo_18.png)](/assets/images/academy/module_4/Module_4_Photo_18.png)
+[![Image 18]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_18.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_18.png)
 
 5\. You now need to replicate this calculation for both the Zalog and Shireling parties. To do so, you can double click the box in the bottom right corner of cell B2 or you can manually re-enter the formulas using cells B2 (Zalog) and B3 (Shireling) as your new criteria. Here’s what you should have.
 
-[![Image 19](/assets/images/academy/module_4/Module_4_Photo_19.png)](/assets/images/academy/module_4/Module_4_Photo_19.png)
+[![Image 19]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_19.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_19.png)
 
 #### Counting “accepted” candidates per party (Tot_Accept)
 
 Next we would like to calculate the total number of applicants that Opendya’s election commission “accepted” as candidates for the upcoming elections, according to party. Here, you’ll need to use the COUNTIFS formula as we are now counting cells based on two criteria instead of one. You need Excel to count:
 
-1. 1.candidate applicants from a **specific political party**, and
-2. 
-   1. **accepted** candidates.
+1.  1.candidate applicants from a **specific political party**, and
+2.  1.  **accepted** candidates.
 
 The formula will essentially look like two regular COUNTIF formulas in one: **COUNTIFS(range_1, criteria_1, range_2, criteria_2)**. Note that the first half of this formula will look just like our calculation for the Tot_Cand column, as we’re still counting according to political party. Let’s begin our calculation in column C, Tot_Accept.
 
@@ -200,25 +200,25 @@ If you need, scroll down for an image of what this step should look like.
 
 Don’t hit Enter or close your parentheses just yet! Instead, type a comma \[,\] and let’s move on to the second part of the formula.
 
-[![Image 20](/assets/images/academy/module_4/Module_4_Photo_20.png)](/assets/images/academy/module_4/Module_4_Photo_20.png)
+[![Image 20]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_20.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_20.png)
 
 2\. Remember we’re currently calculating the number of accepted candidates from Draconia. Our existing formula is ready to pull all candidates from the Draconia party, but we still need to distinguish the “accepted” candidates from the “rejected.” To do so, we’ll need to specify a second range and second criteria. Since we’re sorting out accepted vs. rejected, our range is column E “Decision” from the Candidate_Information tab. Click the Candidate_Information tab and select all of column E. Your formula should look like this.
 
-[![Image 21](/assets/images/academy/module_4/Module_4_Photo_21.png)](/assets/images/academy/module_4/Module_4_Photo_21.png)
+[![Image 21]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_21.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_21.png)
 
 3\. Type a comma \[,\]. Now we’re ready to specify our second criteria – accepted candidates. To do so, type “accepted” including the quotation marks.
 
 4\. Close your parentheses and hit Enter. You’ve just completed your first COUNTIFS calculation! It should look like this.
 
-[![Image 22](/assets/images/academy/module_4/Module_4_Photo_22.png)](/assets/images/academy/module_4/Module_4_Photo_22.png)
+[![Image 22]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_22.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_22.png)
 
 5\. Now repeat this calculation for both the Zalog and Shireling parties! Scroll down if you need a tip on how to do this. Take a look at what your final calculations should come to.
 
-[![Image 23](/assets/images/academy/module_4/Module_4_Photo_23.png)](/assets/images/academy/module_4/Module_4_Photo_23.png)
+[![Image 23]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_23.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_23.png)
 
 Double click the box on the bottom right hand corner of cell C2!
 
-[![Image 23](/assets/images/academy/module_4/Module_4_Photo_23.png)](/assets/images/academy/module_4/Module_4_Photo_23.png)
+[![Image 23]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_23.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_23.png)
 
 #### Counting “rejected” candidates per party (Tot_Rej)
 
@@ -232,7 +232,7 @@ On the flip side, it’s important for us to understand how many applicants were
 
 3\. Hit Enter and replicate the calculation for the remaining two political parties. Here’s what you should have.
 
-[![Image 24](/assets/images/academy/module_4/Module_4_Photo_24.png)](/assets/images/academy/module_4/Module_4_Photo_24.png)
+[![Image 24]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_24.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_24.png)
 
 #### Calculating percent of candidates accepted (%Accept)
 
@@ -240,23 +240,23 @@ While we have figures for total, accepted, and rejected candidates for Opendya�
 
 Let’s start by calculating the percent of candidates accepted by the election commission, per political party. In column E, %Accept, of your Candidate_Summary tab, you’ll need to use a simple division formula. Specifically we need to divide column C, Tot_Accept, by column B, Tot_Cand. Here’s the mathematical logic for this calculation.
 
-[![Formula 1](/assets/images/academy/module_4/Module_4_Formula_1.png)](/assets/images/academy/module_4/Module_4_Formula_1.png)
+[![Formula 1]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Formula_1.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Formula_1.png)
 
 1\. In cell E2, type an equals sign \[=\]. Then click on cell C2. You’ll notice that Excel automatically adds the term “C2” to your formula (listed in the formula bar) once you click on that cell. Alternatively, you could simply type in the term “C2” and Excel will automatically link to that cell.
 
 2\. Next, type a forward slash \[ / \] which tells Excel that you would like to divide cell C2 by something else. Now click on cell B2 to tell Excel that you would like to divide the contents of cell C2 (accepted candidates from Draconia) by cell B2 (total candidate applicants put forth by Draconia).
 
-[![Image 25](/assets/images/academy/module_4/Module_4_Photo_25.png)](/assets/images/academy/module_4/Module_4_Photo_25.png)
+[![Image 25]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_25.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_25.png)
 
 3\. Click “Enter” and Excel will calculate the candidate acceptance registration rate for Draconia for you. What is the acceptance rate?
 
 4\. Repeat this calculation for both the Shireling and Zalog parties. Here’s what you should have.
 
-[![Image 26](/assets/images/academy/module_4/Module_4_Photo_26.png)](/assets/images/academy/module_4/Module_4_Photo_26.png)
+[![Image 26]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_26.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_26.png)
 
 Note if your cells did not populate as percentages, you may need to change the cell formatting. Click the letter “E” to select the entire row. Right click and select “Format Cells.”
 
-[![Image 27](/assets/images/academy/module_4/Module_4_Photo_27.png)](/assets/images/academy/module_4/Module_4_Photo_27.png)
+[![Image 27]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_27.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_27.png)
 
 Select “Percentage,” adjust the decimal places as you would like and click OK.
 
@@ -266,11 +266,11 @@ This next piece of analysis is similar to your last calculation for %Accept. Wha
 
 Go ahead and make this calculation on your own. Scroll down if you need help with the formula.
 
-[![Image 28](/assets/images/academy/module_4/Module_4_Photo_28.png)](/assets/images/academy/module_4/Module_4_Photo_28.png)
+[![Image 28]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_28.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_28.png)
 
 Here are your answers.
 
-[![Image 29](/assets/images/academy/module_4/Module_4_Photo_29.png)](/assets/images/academy/module_4/Module_4_Photo_29.png)
+[![Image 29]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_29.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_29.png)
 
 #### What do you see?
 
@@ -296,15 +296,15 @@ If you guessed COUNTIFs, you are correct! Now, what are your ranges and your cri
 
 Here are your ranges and criteria for this calculation:
 
-* Range_1 : Party, column D, Candidate_Information tab
-* Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
-* Range_2 : Gender, column B, Candidate_Information tab
-* Criteria_2: “female”
-  [![Image 30](/assets/images/academy/module_4/Module_4_Photo_30.png)](/assets/images/academy/module_4/Module_4_Photo_30.png)
+- Range_1 : Party, column D, Candidate_Information tab
+- Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
+- Range_2 : Gender, column B, Candidate_Information tab
+- Criteria_2: “female”
+  [![Image 30]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_30.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_30.png)
 
 Once you’ve finished calculating the number of female candidates across all parties, check your responses below.
 
-[![Image 31](/assets/images/academy/module_4/Module_4_Photo_31.png)](/assets/images/academy/module_4/Module_4_Photo_31.png)
+[![Image 31]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_31.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_31.png)
 
 #### Number of accepted female candidates per party (nFem_Accept)
 
@@ -314,15 +314,15 @@ Now we’re going to calculate the number of accepted female candidates accordin
 
 2\. You still need to specify that you’re looking for only accepted candidates. Click over to the Candidate_Summary tab and select all of column E, “Decision.” Type a comma \[,\].
 
-[![Image 32](/assets/images/academy/module_4/Module_4_Photo_32.png)](/assets/images/academy/module_4/Module_4_Photo_32.png)
+[![Image 32]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_32.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_32.png)
 
 3\. Now add your final criteria. Type “accepted” (with quotations) into your formula bar. Close your parentheses \[)\] and hit Enter. Success! You’ve mastered the triple COUNTIFS function!
 
-[![Image 33](/assets/images/academy/module_4/Module_4_Photo_33.png)](/assets/images/academy/module_4/Module_4_Photo_33.png)
+[![Image 33]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_33.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_33.png)
 
 4\. Replicate your formulas for the remaining political parties and check your work below.
 
-[![Image 34](/assets/images/academy/module_4/Module_4_Photo_34.png)](/assets/images/academy/module_4/Module_4_Photo_34.png)
+[![Image 34]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_34.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_34.png)
 
 #### Number of rejected female candidates per party (nFem_Rej)
 
@@ -330,27 +330,27 @@ Now that you’re a pro at COUNTIFS, calculate the number of rejected female can
 
 Here are your ranges and criteria for this calculation:
 
-* Range_1 : Party, column D, Candidate_Information tab
-* Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
-* Range_2 : Gender, column B, Candidate_Information tab
-* Criteria_2: “female”
-* Range_3: Decision, column E, Candidate_Information tab
-* Criteria_3: “rejected”
-  [![Image 35](/assets/images/academy/module_4/Module_4_Photo_35.png)](/assets/images/academy/module_4/Module_4_Photo_35.png)
+- Range_1 : Party, column D, Candidate_Information tab
+- Criteria_1 : Draconia (subsequently, Zalog and Shireling), cell A2, Candidate_Summary tab
+- Range_2 : Gender, column B, Candidate_Information tab
+- Criteria_2: “female”
+- Range_3: Decision, column E, Candidate_Information tab
+- Criteria_3: “rejected”
+  [![Image 35]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_35.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_35.png)
 
 Check your responses below!
 
-[![Image 36](/assets/images/academy/module_4/Module_4_Photo_36.png)](/assets/images/academy/module_4/Module_4_Photo_36.png)
+[![Image 36]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_36.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_36.png)
 
 #### Number of male candidates per party (nMale_Cand), Number of accepted male candidates per party (nMale_Accept), and Number of rejected male candidates per party (nMale_Rej)
 
-We think you’ve got these calculations covered! Think back to your calculations for columns G (nFem_Cand), H (nFem_Accept), and I (nFem_Rej), and make the necessary formula adjustments for male candidates only.  Scroll down for a hint.
+We think you’ve got these calculations covered! Think back to your calculations for columns G (nFem_Cand), H (nFem_Accept), and I (nFem_Rej), and make the necessary formula adjustments for male candidates only. Scroll down for a hint.
 
 Remember to alter your second criteria to “male” for each calculation! That’s about all you need to change.
 
 Here’s what your calculations should come to.
 
-[![Image 37](/assets/images/academy/module_4/Module_4_Photo_37.png)](/assets/images/academy/module_4/Module_4_Photo_37.png)
+[![Image 37]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_37.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_37.png)
 
 ### B. Calculating Percentage Candidate Figures by Gender
 
@@ -362,11 +362,11 @@ Here’s a simple calculation. To start, we’d just like to know the percent br
 
 Yes indeed, it’s nFem_Cand (column G) and column Tot_Cand (column B). Here’s the logic.
 
-[![Formula 2](/assets/images/academy/module_4/Module_4_Formula_2.png)](/assets/images/academy/module_4/Module_4_Formula_2.png)
+[![Formula 2]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Formula_2.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Formula_2.png)
 
 Scroll down if you need help working out the formula.
 
-[![Image 38](/assets/images/academy/module_4/Module_4_Photo_38.png)](/assets/images/academy/module_4/Module_4_Photo_38.png)
+[![Image 38]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_38.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_38.png)
 
 What percentage of proposed candidates from Draconia are women? We hope you calculated 36%! Now do the same calculation for the other two political parties. We’ll show you all of the responses after you finish a few more percentages.
 
@@ -392,7 +392,7 @@ Complete calculations for your final three columns pertaining to male candidates
 
 Check out all of your answers for this component of the module below!
 
-[![Image 39](/assets/images/academy/module_4/Module_4_Photo_39.png)](/assets/images/academy/module_4/Module_4_Photo_39.png)
+[![Image 39]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_39.png)]({{ site.url }}/\_assets/images/academy/module_4/Module_4_Photo_39.png)
 
 ### What do you see?
 

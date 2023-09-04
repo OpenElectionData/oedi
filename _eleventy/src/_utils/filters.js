@@ -55,5 +55,34 @@ module.exports = {
    */
   filterInventoryCategoriesByPrinciples: (categories, principles) => {
     return categories.filter((c) => !c.is_subcategory || principles[c.slug]);
+  },
+  /**
+   * Filter a collection by the language code
+   * @param {Array} collection Items in a collection
+   * @param {String} lang Language to filter collection by
+   * @returns Filtered collection by language
+   */
+  filterCollectionByLocale: (collection, locale) => {
+    return collection.filter((c) => c.data?.locale === locale);
+  },
+  /**
+   * Filter and sort a collection by a given property. Used for generating ToC.
+   * @param {Array} collection Items in a collection
+   * @param {String} key Property of collection to filter & sort by
+   * @returns Sorted and filtered collection
+   */
+  sortCollectionByKey: (collection, key) => {
+    return collection
+      .filter((c) => c && c.data[key])
+      .sort((a, b) => a.data[key] - b.data[key]);
+  },
+  /**
+   * Get the index of the current item in the collection
+   * @param {Array} collection Items in a collection
+   * @param {String} slug Slug to find
+   * @returns Index of the item in a collection
+   */
+  getCurrentItemIndex: (collection, slug) => {
+    return collection.findIndex((c) => c && c.page.url === slug);
   }
 };

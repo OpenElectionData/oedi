@@ -113,15 +113,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
   // Layouts
-  eleventyConfig.addLayoutAlias('base', 'base.njk');
-  eleventyConfig.addLayoutAlias('post', 'post.njk');
-  eleventyConfig.addLayoutAlias('page', 'page.njk');
-  eleventyConfig.addLayoutAlias('page-sidebar', 'page-sidebar.njk');
-  eleventyConfig.addLayoutAlias('inventory', 'inventory.njk');
-  eleventyConfig.addLayoutAlias('inventory-country', 'inventory-country.njk');
-  eleventyConfig.addLayoutAlias('home', 'home.njk');
-  eleventyConfig.addLayoutAlias('holiday-archive', 'holiday-archive.njk');
-  eleventyConfig.addLayoutAlias('contact', 'contact.njk');
+  // eleventyConfig.addLayoutAlias('base', 'base.njk');
+  // eleventyConfig.addLayoutAlias('post', 'post.njk');
+  // eleventyConfig.addLayoutAlias('page', 'page.njk');
+  // eleventyConfig.addLayoutAlias('page-sidebar', 'page-sidebar.njk');
+  // eleventyConfig.addLayoutAlias('inventory', 'inventory.njk');
+  // eleventyConfig.addLayoutAlias('inventory-country', 'inventory-country.njk');
+  // eleventyConfig.addLayoutAlias('home', 'home.njk');
+  // eleventyConfig.addLayoutAlias('holiday-archive', 'holiday-archive.njk');
+  // eleventyConfig.addLayoutAlias('contact', 'contact.njk');
 
   // Passthrough
   eleventyConfig.addPassthroughCopy('src/_assets/fonts');
@@ -136,7 +136,7 @@ module.exports = function (eleventyConfig) {
       input: 'src',
       output: 'dist',
       includes: '_includes',
-      layouts: '_layouts',
+      layouts: '_includes/layouts',
       data: '_data',
       assets: '_assets'
     },

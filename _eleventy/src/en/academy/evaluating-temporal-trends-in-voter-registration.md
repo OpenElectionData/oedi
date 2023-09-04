@@ -30,7 +30,7 @@ While not required, we suggest that you complete Module 5 first, so that you are
 - Since the 2010 elections, violent conflict broke out in two districts: Conflicteri (District code: 9) and Disputana (District Code: 23).
 - Ahead of the 2014 polls, the Election Commission of Opendya conducted a five-week voter registration update exercise, adding new voters to the rolls.
 
-To complete this exercise, you can continue to use the dataset you downloaded in Module 5, or you can re-**download the file [here](/assets/academy/exercise/Module_6_Registered_Voters.xlsx)**.
+To complete this exercise, you can continue to use the dataset you downloaded in Module 5, or you can re-**download the file [here]({{ site.url }}/\_assets/academy/exercise/Module_6_Registered_Voters.xlsx)**.
 
 ## Reviewing the Voter Registration Data
 
@@ -40,7 +40,7 @@ We’ll first review the Registration_Data tab, which contains a variety of data
 
 #### **District_Name**
 
-The far left column of the Registration_Data tab contains the names of all districts in Opendya. Notice that this is the only geographic level provided in the dataset. At this stage, we have no further indication as to whether these districts are nearby one another or if they fall under the same geographic units at a higher level. [![Image 1](/assets/images/academy/module_6/Module_6_Photo_1.png)](/assets/images/academy/module_6/Module_6_Photo_1.png)
+The far left column of the Registration_Data tab contains the names of all districts in Opendya. Notice that this is the only geographic level provided in the dataset. At this stage, we have no further indication as to whether these districts are nearby one another or if they fall under the same geographic units at a higher level. [![Image 1]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_1.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_1.png)
 
 #### **District_Code**
 
@@ -48,13 +48,13 @@ The Election Commission of Opendya also assigns each district a unique code, or 
 
 As we mentioned in [Module 2: Reviewing a Polling Station List](https://openelectiondata.net/en/academy/reviewing-a-polling-station-list/), unique identifiers are extremely helpful when dealing with datasets. They help us catch duplicate entries and/or properly distinguish between units with similar names.
 
-[![Image 2](/assets/images/academy/module_6/Module_6_Photo_2.png)](/assets/images/academy/module_6/Module_6_Photo_2.png)
+[![Image 2]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_2.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_2.png)
 
 #### **Type**
 
 The Type column indicates the characteristics of Opendya’s districts. Check through the data to review what descriptors are used to indicate the type of district. What different types do you see?
 
-[![Image 3](/assets/images/academy/module_6/Module_6_Photo_3.png)](/assets/images/academy/module_6/Module_6_Photo_3.png)
+[![Image 3]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_3.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_3.png)
 
 There are three types of districts in this dataset: urban, rural, and capital district.
 
@@ -62,7 +62,7 @@ There are three types of districts in this dataset: urban, rural, and capital di
 
 We mentioned previously that Opendya had national elections in 2010. This data set contains the final number of registered voters when that election took place. We can use the 2010_Registered column to compare registration figures between election cycles.
 
-[![Image 4](/assets/images/academy/module_6/Module_6_Photo_4.png)](/assets/images/academy/module_6/Module_6_Photo_4.png)
+[![Image 4]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_4.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_4.png)
 
 #### **Reg_Week1, Reg_Week2, Reg_Week3, and Reg_Week4**
 
@@ -70,19 +70,19 @@ We mentioned that Opendya’s Electoral Commission undertook a five-week voter r
 
 These numbers can tell us how the the Electoral Commission performed over time and can highlight any spikes or lulls in registration in specific districts and/or at specific moments. You’ll work with these columns to complete Module 6.
 
-[![Image 5](/assets/images/academy/module_6/Module_6_Photo_5.png)](/assets/images/academy/module_6/Module_6_Photo_5.png)
+[![Image 5]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_5.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_5.png)
 
 #### **Reg_Tot_Final**
 
 The Reg_Tot_Final column provides the final total of registered voters per district following the entire five-week registration exercise in 2014. Notice that the difference between figures in Reg_Week4 and Reg_Tot_Final accounts for voters who registered during the fifth and final week of the update period.
 
-[![Image 6](/assets/images/academy/module_6/Module_6_Photo_6.png)](/assets/images/academy/module_6/Module_6_Photo_6.png)
+[![Image 6]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_6.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_6.png)
 
 #### **Final_Female, Final_Male**
 
 Here we can see how many women and men, in total, are registered to vote in each district for the 2014 election. Note that we only have the final 2014 figures of female and male voters, rather than weekly figures.
 
-[![Image 7](/assets/images/academy/module_6/Module_6_Photo_7.png)](/assets/images/academy/module_6/Module_6_Photo_7.png)
+[![Image 7]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_7.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_7.png)
 
 Now that we know our data, let’s move on to analysis.
 
@@ -90,7 +90,7 @@ Now that we know our data, let’s move on to analysis.
 
 In Module 6, we’ll use the Data_Summary tab in your Excel file to pull a summary of calculations based on data from the Registration_Data tab. It looks like this. We’ll specifically use columns A and F through O (columns B through E were used in Module 5.)
 
-[![Image 8](/assets/images/academy/module_6/Module_6_Photo_8.png)](/assets/images/academy/module_6/Module_6_Photo_8.png)
+[![Image 8]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_8.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_8.png)
 
 _Note: Calculations in columns B through E were completed in Module 5._
 
@@ -128,7 +128,7 @@ To calculate the number of new voters added in Week 1 of registration, you’ll 
 
 Here’s the logic you’ll need to use to make this calculation for urban districts. The same basic structure will apply for rural districts and the capital.
 
-[![Image 1](/assets/images/academy/module_6/Module_6_Formula_1.png)](/assets/images/academy/module_6/Module_6_Formula_1.png)
+[![Image 1]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Formula_1.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Formula_1.png)
 
 1\. Using your SUMIF skills, use cell F2 in the Data_Summary tab to calculate the cumulative urban voters registered after week 1. Click here if you need some help.
 
@@ -138,19 +138,19 @@ Here’s how the SUMIF formula is structured: SUMIF(range, criteria, \[sum_range
 - **Criteria**: Your criteria will indicate whether or not a number should be summed. Criteria can come in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added. For this exercise, you’ll be selecting from three different criteria \[urban, rural, and capital district\] and asking Excel to add numbers that fall into one of those specific categories. Here, you can click on either cell A2, A3 or A4 in your Data_Summary tab to specify your criteria.
 - **Sum_range**: This tells Excel what cells to add, if you want to sum cells other than those specified in the range argument. Here, you’re asking Excel to sum the number of registered voters after Week 1 of the update, only in urban districts (column E = Reg_Week1).
 
-[![Image 9](/assets/images/academy/module_6/Module_6_Photo_9.png)](/assets/images/academy/module_6/Module_6_Photo_9.png)
+[![Image 9]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_9.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_9.png)
 
 After you’ve completed your SUMIF function, insert a closed parenthesis \[)\] but don’t hit enter! We’re going to add a subtraction function in the same cell. Yes, you can use multiple Excel formulas at once!
 
 2\. At the end of your formula in cell F2, type a minus sign \[-\] and click on cell B2, which gives us the number of urban registered voters as of 2010.
 
-[![Image 10](/assets/images/academy/module_6/Module_6_Photo_10.png)](/assets/images/academy/module_6/Module_6_Photo_10.png)
+[![Image 10]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_10.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_10.png)
 
 3\. Click Enter and check out your answer! What did you get? If you calculated that there were 18,358 urban voters added after week one of registration, you are correct!
 
 4\. As we’ve done before, ask Excel to replicate your formula for both rural and the capital areas. It’s always good practice to click through the calculations that Excel auto-generates to make sure the program did what you wanted. In this case, as pictured below, you’ll notice that Excel automatically altered your “criteria” to a different type of district, moving down your options in column A. In line with your rows, Excel also knew to subtract cells different cells in column B “RV2014,” which correspond to the 2010 registered voter populations in rural districts and the capital district.
 
-[![Image 11](/assets/images/academy/module_6/Module_6_Photo_11.png)](/assets/images/academy/module_6/Module_6_Photo_11.png)
+[![Image 11]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_11.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_11.png)
 
 ##### **Number of new voters added after week 2 of registration (“nW2_incr”)**
 
@@ -158,17 +158,17 @@ Your formula will get a little more complicated as we calculate the difference b
 
 Here’s the logic you’ll use for this calculation. Review it carefully to make sure you understand.
 
-[![Image 2](/assets/images/academy/module_6/Module_6_Formula_2.png)](/assets/images/academy/module_6/Module_6_Formula_2.png)
+[![Image 2]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Formula_2.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Formula_2.png)
 
 1\. Let’s start working on the Week 2 calculation in cell G2. First, using SUMIF, calculate the sum of cumulative urban voters following Week 2 of registration. See below for an image of what this formula looks like.
 
-[![Image 12](/assets/images/academy/module_6/Module_6_Photo_12.png)](/assets/images/academy/module_6/Module_6_Photo_12.png)
+[![Image 12]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_12.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_12.png)
 
 2\. Next we’re going to ask Excel to subtract something by typing in a minus sign \[-\]. Don’t hit Enter yet!
 
 3\. You’re now going to type in a second SUMIF formula that asks Excel to sum up the cumulative number of urban voters following Week 1 of registration. (Note: That this is the exact same SUMIF formula you should have typed to complete the “nW1_incr” calculation shortly ago, however do not need to subtract “RV2010.”) See below for an image of the full formula.
 
-[![Image 13](/assets/images/academy/module_6/Module_6_Photo_13.png)](/assets/images/academy/module_6/Module_6_Photo_13.png)
+[![Image 13]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_13.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_13.png)
 
 4\. Hit enter and see what you’ve got! If you calculated that 21,944 additional urban voters were registered during Week 2, you are correct!
 
@@ -176,7 +176,7 @@ If this is not your answer, investigate your formula to see if you accidentally 
 
 5\. Now replicate your Week 2 calculation for rural districts and the capital. Here’s what you should have.
 
-[![Image 14](/assets/images/academy/module_6/Module_6_Photo_14.png)](/assets/images/academy/module_6/Module_6_Photo_14.png)
+[![Image 14]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_14.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_14.png)
 
 ##### **Number of new voters added after week 3 of registration (nW3_incr)**
 
@@ -184,7 +184,7 @@ Your Week 3 calculation shouldn’t be as scary. It’s the exact same logic and
 
 Try this on your own! Once you’re done, feel free to click here for the formula and answers.
 
-[![Image 15](/assets/images/academy/module_6/Module_6_Photo_15.png)](/assets/images/academy/module_6/Module_6_Photo_15.png)
+[![Image 15]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_15.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_15.png)
 
 ##### **Number of new voters added after week 4 of registration (“nW4_incr”)**
 
@@ -192,13 +192,13 @@ We hope you can handle Week 4’s calculations on your own. Same old logic and f
 
 Once you’re done, click here for the formulas and final calculations.
 
-[![Image 16](/assets/images/academy/module_6/Module_6_Photo_16.png)](/assets/images/academy/module_6/Module_6_Photo_16.png)
+[![Image 16]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_16.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_16.png)
 
 ##### **Number of new voters added after final week of registration (“nWf_incr”)**
 
 You’re almost at the finish line! This last formula will be a bit simpler, but you’ll need to think through the logic carefully. Here, you’re calculating how much voter registration increased during the fifth and final week of registration.
 
-[![Image 3](/assets/images/academy/module_6/Module_6_Formula_3.png)](/assets/images/academy/module_6/Module_6_Formula_3.png)
+[![Image 3]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Formula_3.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Formula_3.png)
 
 Remember that in Part A of this module you calculated the cumulative number of 2014 voters in each of Opendya’s district types (column C “RV2014”). That will save you some effort here, so you won’t need to do another SUMIF function for that component.
 
@@ -206,17 +206,17 @@ Remember that in Part A of this module you calculated the cumulative number of 2
 
 2\. Add a minus sign \[-\]. Here’s where you should be:
 
-[![Image 17](/assets/images/academy/module_6/Module_6_Photo_17.png)](/assets/images/academy/module_6/Module_6_Photo_17.png)
+[![Image 17]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_17.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_17.png)
 
 3\. Now it’s time for your last SUMIF formula. You’ll use this to calculate the cumulative urban voters from Week 4 of the registration process. Do this SUMIF formula on you own.
 
 How many new urban voters were registered during Week 5? Click here if you would like to view an image of the formula.
 
-[![Image 18](/assets/images/academy/module_6/Module_6_Photo_18.png)](/assets/images/academy/module_6/Module_6_Photo_18.png)
+[![Image 18]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_18.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_18.png)
 
 4\. Now replicate your formula for the two remaining district types. Here’s what you should have!
 
-[![Image 19](/assets/images/academy/module_6/Module_6_Photo_19.png)](/assets/images/academy/module_6/Module_6_Photo_19.png)
+[![Image 19]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_19.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_19.png)
 
 Congratulations! You have mastered the SUMIF formula and have made very useful calculations about Opendya’s 2014 voter registration exercise.
 
@@ -234,17 +234,17 @@ Let’s see what percent of Opendya’s new registered voters enrolled during We
 
 Using only the Data_Summary tab, we’ll use column H “nWk1_inc” and column F “2010-2014.” See below for the calculation structure.
 
-[![Image 4](/assets/images/academy/module_6/Module_6_Formula_4.png)](/assets/images/academy/module_6/Module_6_Formula_4.png)
+[![Image 4]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Formula_4.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Formula_4.png)
 
 1\. In cell K1, ask Excel to divide the number of urban voters added in Week 1 (cell K2) by the total number of urban voters added between 2010-2014 (cell D2). What percent of urban voters were added during Week 1?
 
 Check your response below.
 
-[![Image 20](/assets/images/academy/module_6/Module_6_Photo_20.png)](/assets/images/academy/module_6/Module_6_Photo_20.png)
+[![Image 20]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_20.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_20.png)
 
 2\. Now repeat your calculation for your remaining two district types. You can check your responses below.
 
-[![Image 21](/assets/images/academy/module_6/Module_6_Photo_21.png)](/assets/images/academy/module_6/Module_6_Photo_21.png)
+[![Image 21]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_21.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_21.png)
 
 ##### **Percent of new registered voters who respectively enrolled during weeks 2, 3, 4 and 5 (“Wk2\_%of_total”, “Wk3\_%of_total”, “Wk4\_%of_total”, and “Wkf\_%of_total”)**
 
@@ -254,7 +254,7 @@ Remember for each district type, you are dividing the number of new voters enrol
 
 Here’s what your final set of calculations should look like!
 
-[![Image 22](/assets/images/academy/module_6/Module_6_Photo_22.png)](/assets/images/academy/module_6/Module_6_Photo_22.png)
+[![Image 22]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_22.png)]({{ site.url }}/\_assets/images/academy/module_6/Module_6_Photo_22.png)
 
 ##### **What do you see?**
 

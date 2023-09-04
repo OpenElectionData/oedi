@@ -28,7 +28,7 @@ For this exercise, we’re heading back to Opendya. You were able to get ahold o
 - Since the 2010 elections, violent conflict broke out in two districts: Conflicteri (District code: 9) and Disputana (District Code: 23).
 - Ahead of the 2014 polls, the Election Commission of Opendya conducted a five-week voter registration update exercise, adding new voters to the rolls.
 
-You’ve got the background, now let’s check out the data. **Download Opendya’s voter registration data [here](/assets/academy/exercise/Module_5_Voter_Registration_Data.xlsx)**. You’ll need this file to complete the exercise.
+You’ve got the background, now let’s check out the data. **Download Opendya’s voter registration data [here]({{ site.url }}/\_assets/academy/exercise/Module_5_Voter_Registration_Data.xlsx)**. You’ll need this file to complete the exercise.
 
 ### Reviewing the Voter Registration Data
 
@@ -38,11 +38,11 @@ We’ll get familiar with Opendya’s voter registration data by reviewing the c
 
 The far left column contains the names of all districts in Opendya. Notice that this is the only geographic level provided in the dataset. At this stage, we have no further indication as to whether these districts are nearby one another or if they fall under the same geographic units at a higher level.
 
-[![Image 1](/assets/images/academy/module_5/Module_5_Photo_1.png)](/assets/images/academy/module_5/Module_5_Photo_1.png)
+[![Image 1]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_1.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_1.png)
 
 Scroll to the bottom of the data to see how many districts are in Opendya.
 
-[![Image 2](/assets/images/academy/module_5/Module_5_Photo_2.png)](/assets/images/academy/module_5/Module_5_Photo_2.png)
+[![Image 2]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_2.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_2.png)
 
 #### District_Code
 
@@ -50,13 +50,13 @@ The Election Commission of Opendya also assigns each district a unique code, or 
 
 As we mentioned in [Module 2: Reviewing a Polling Station List](https://openelectiondata.net/en/academy/reviewing-a-polling-station-list/), unique identifiers are extremely helpful when dealing with datasets. They help us catch duplicate entries and/or properly distinguish between units with similar names.
 
-[![Image 3](/assets/images/academy/module_5/Module_5_Photo_3.png)](/assets/images/academy/module_5/Module_5_Photo_3.png)
+[![Image 3]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_3.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_3.png)
 
 #### Type
 
 The Type column indicates the characteristics of Opendya’s districts. Check through the data to review what descriptors are used to indicate the type of district. What different types do you see?
 
-[![Image 4](/assets/images/academy/module_5/Module_5_Photo_4.png)](/assets/images/academy/module_5/Module_5_Photo_4.png)
+[![Image 4]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_4.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_4.png)
 
 There are three types of districts in this dataset: urban, rural, and capital district.
 
@@ -64,7 +64,7 @@ There are three types of districts in this dataset: urban, rural, and capital di
 
 We mentioned previously that Opendya had national elections in 2010. This data set contains the final number of registered voters when that election took place. We can use the 2010_Registered column to compare registration figures between election cycles.
 
-[![Image 5](/assets/images/academy/module_5/Module_5_Photo_5.png)](/assets/images/academy/module_5/Module_5_Photo_5.png)
+[![Image 5]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_5.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_5.png)
 
 #### Reg_Week1, Reg_Week2, Reg_Week3, and Reg_Week4
 
@@ -72,19 +72,19 @@ We mentioned that Opendya’s Electoral Commission undertook a five-week voter r
 
 These numbers can tell us how the the Electoral Commission performed over time and can highlight any spikes or lulls in registration in specific districts and/or at specific moments. You’ll work with these columns to complete Module 6, but won’t need them much in Module 5.
 
-[![Image 6](/assets/images/academy/module_5/Module_5_Photo_6.png)](/assets/images/academy/module_5/Module_5_Photo_6.png)
+[![Image 6]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_6.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_6.png)
 
 #### Reg_Tot_Final
 
 The Reg_Tot_Final column provides the final total of registered voters per district following the entire five-week registration exercise in 2014. Notice that the difference between figures in Reg_Week4 and Reg_Tot_Final accounts for voters who registered during the fifth and final week of the update period.
 
-[![Image 7](/assets/images/academy/module_5/Module_5_Photo_7.png)](/assets/images/academy/module_5/Module_5_Photo_7.png)
+[![Image 7]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_7.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_7.png)
 
 #### Final_Female, Final_Male
 
 Here we can see how many women and men, in total, are registered to vote in each district for the 2014 election. Note that we only have the final 2014 figures of female and male voters, rather than weekly figures.
 
-[![Image 8](/assets/images/academy/module_5/Module_5_Photo_8.png)](/assets/images/academy/module_5/Module_5_Photo_8.png)
+[![Image 8]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_8.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_8.png)
 
 Now that we know our data, let’s move on to analysis.
 
@@ -112,19 +112,19 @@ Now let’s get started!
 
 3\. Last, click on cell D2 (the number of registered voters in Legosakool as of 2010).
 
-[![Image 9](/assets/images/academy/module_5/Module_5_Photo_9.png)](/assets/images/academy/module_5/Module_5_Photo_9.png)
+[![Image 9]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_9.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_9.png)
 
 4\. Hit enter and your calculation should appear! In Legosakool (the district you just calculated), what is the difference between the number of registered voters in 2010 and 2014?
 
 5\. Now you want Excel to make the same registration rate calculation for each of Opendya’s remaining 46 districts. Luckily, you don’t need to type in your formula 46 more times! Hover your mouse over the bottom right corner of cell L2; it should have a small square pictured. Note that your mouse will slightly change shape when hovering over the correct spot.
 
-[![Image 10](/assets/images/academy/module_5/Module_5_Photo_10.png)](/assets/images/academy/module_5/Module_5_Photo_10.png)
+[![Image 10]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_10.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_10.png)
 
 Double click the square in the bottom-right corner of cell L2 and voila! All of column L should auto-populate with the same calculation you typed into column L2. However, Excel is smart and knows that you want the calculation to pull data from a different row each time. For example, if you click on cell L8 (Goro District) you’ll notice that the formula bar reads “=I8-D8.” These calculations possess the same structure as your original subtraction formula, but now uniquely correspond to each of the different districts in Opendya. Click on a few different rows in column L to make sure Excel did what you wanted.
 
 You now know the difference in registered voters between 2010 and 2014 for all 47 districts of Opendya!
 
-[![Image 11](/assets/images/academy/module_5/Module_5_Photo_11.png)](/assets/images/academy/module_5/Module_5_Photo_11.png)
+[![Image 11]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_11.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_11.png)
 
 ##### **Calculating the percent increase in registration between 2010 and 2014**
 
@@ -134,7 +134,7 @@ You’ll again need to use your knowledge of basic operators in Excel to make th
 
 For this calculation, we need to use column L “Calculated_nRV_incr_from_2010,” which you just calculated, and column D “2010_Registered.”
 
-[![Image 1](/assets/images/academy/module_5/Module_5_Formula_1.png)](/assets/images/academy/module_5/Module_5_Formula_1.png)
+[![Image 1]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Formula_1.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Formula_1.png)
 
 1\. Now let’s type our formula in cell M2. As with your last calculation, you’ll begin by typing an equals sign \[=\] (which will precede ALL of your future Excel calculations).
 
@@ -144,19 +144,19 @@ For this calculation, we need to use column L “Calculated_nRV_incr_from_2010,�
 
 4\. Click on cell D2 (2010 registered voters in Legosakool). Hit Enter to show your percent increase calculation.
 
-[![Image 12](/assets/images/academy/module_5/Module_5_Photo_12.png)](/assets/images/academy/module_5/Module_5_Photo_12.png)
+[![Image 12]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_12.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_12.png)
 
 5\. Remember how to ask Excel to replicate your calculation across all rows? If so, go for it! If not, click here!
 
 Double click the bottom right corner of cell M2!
 
-[![Image 13](/assets/images/academy/module_5/Module_5_Photo_13.png)](/assets/images/academy/module_5/Module_5_Photo_13.png)
+[![Image 13]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_13.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_13.png)
 
 The above image is what your data should look like. However, if your entire column populated as “0s and 1s”, it means that your column is formatted as a “number” without any decimal points. To view your calculation, you’ll either need to add decimal points or reformat the cells of Column O as percentages.
 
 To reformat your cells, click the top of column O to select the entire column. Right click and select the “%” symbol. Alternatively, right click, select “Format Cells,” and then select “Percentage” from the left-hand menu of the pop-up box.
 
-[![Image 14](/assets/images/academy/module_5/Module_5_Photo_14.png)](/assets/images/academy/module_5/Module_5_Photo_14.png)
+[![Image 14]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_14.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_14.png)
 
 ##### **What do you see?**
 
@@ -180,13 +180,13 @@ To get a better sense of the gender breakdown, let’s calculate what percentage
 
 If you guessed column J “Final_Female” and column I “Reg_Tot_Final,” you would be correct!
 
-[![Image 2](/assets/images/academy/module_5/Module_5_Formula_2.png)](/assets/images/academy/module_5/Module_5_Formula_2.png)
+[![Image 2]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Formula_2.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Formula_2.png)
 
 3\. Time to type in our trusty division formula! On your own in Excel, calculate the percentage of registered voters that are female in cell N2 (Legosakool District). Click here if you would like to view a screenshot of what your command should look like.
 
 _\*Don’t forget to hit enter after you’ve typed this calculation._
 
-[![Image 15](/assets/images/academy/module_5/Module_5_Photo_15.png)](/assets/images/academy/module_5/Module_5_Photo_15.png)
+[![Image 15]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_15.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_15.png)
 
 4\. After you’ve calculated the percent of female voters in Legosakool, have Excel replicate your calculation across the remaining 46 districts of Opendya.
 
@@ -219,7 +219,7 @@ In sum, we’ll do the following types of analysis:
 
 For this portion of the module, we’re going to start using the Data_Summary tab in your Excel file. This tab will pull a summary of calculations based on data from the Registration_Data tab. It looks like this:
 
-[![Image 16](/assets/images/academy/module_5/Module_5_Photo_16.png)](/assets/images/academy/module_5/Module_5_Photo_16.png)
+[![Image 16]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_16.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_16.png)
 
 You’ll use columns A through E to complete Module 5 and columns F through O for Module 6. To speed things up, we’ve again pre-populated all of your column headers for you, which will house all of the different calculations you’ll need to do. Don’t be intimidated, this will be a breeze!
 
@@ -239,17 +239,17 @@ You’ll first use SUMIF to calculate the number of 2010 registered voters accor
 
 1\. In cell B2 type “SUMIF(“ Notice that Excel automatically provides you with the information needed to complete the rest of the formula.
 
-[![Image 17](/assets/images/academy/module_5/Module_5_Photo_17.png)](/assets/images/academy/module_5/Module_5_Photo_17.png)
+[![Image 17]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_17.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_17.png)
 
 2\. Now we need to specify the “range” for Excel to pull your criteria from. Since we’re looking specifically at district type, your range will be column C from the Registration_Data tab. To reference your range, leave your formula open and click on the Registration_Data tab in the bottom left-hand corner of your file. (Do not click Enter before you switch to the main data tab or else your formula will not continue to populate!)
 
-[![Image 18](/assets/images/academy/module_5/Module_5_Photo_18.png)](/assets/images/academy/module_5/Module_5_Photo_18.png)
+[![Image 18]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_18.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_18.png)
 
 Notice when you come back to Registration_Data that your formula bar continues to update based on where you click. Excel sees that you’re trying to establish a connection between your SUMIF calculation on your Data_Summary tab and information on your Registration_Data tab.
 
 To finish selecting the range, select all of column C by clicking the the top of the column. Again notice that Excel autopopulates your formula as you click.
 
-[![Image 19](/assets/images/academy/module_5/Module_5_Photo_19.png)](/assets/images/academy/module_5/Module_5_Photo_19.png)
+[![Image 19]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_19.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_19.png)
 
 You’ve now selected your range! Type in a comma \[,\] and we’ll move on.
 
@@ -257,19 +257,19 @@ You’ve now selected your range! Type in a comma \[,\] and we’ll move on.
 
 Type another comma \[,\].
 
-[![Image 20](/assets/images/academy/module_5/Module_5_Photo_20.png)](/assets/images/academy/module_5/Module_5_Photo_20.png)
+[![Image 20]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_20.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_20.png)
 
 4\. Last, we need to tell Excel what data to add up based on our criteria, urban. In this instance, we’re adding up registered voters from 2010. That information is stored in column D “2010_Registered” of our the Registration_Data tab. Leaving your formula open, click back to the Registration_Data tab and select all of column D.
 
-[![Image 21](/assets/images/academy/module_5/Module_5_Photo_21.png)](/assets/images/academy/module_5/Module_5_Photo_21.png)
+[![Image 21]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_21.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_21.png)
 
 5\. You can finally close your parentheses and hit Enter! According to your calculations, how many 2010 registered voters are from urban districts?
 
-[![Image 22](/assets/images/academy/module_5/Module_5_Photo_22.png)](/assets/images/academy/module_5/Module_5_Photo_22.png)
+[![Image 22]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_22.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_22.png)
 
 6\. Now have Excel replicate your 2010 registered voters calculation for rural districts and the capital district. As a reminder, you can double click the box in the bottom right corner of cell B2 or you can manually re-enter the formulas using “rural” and “capital district” as your new criteria. Here’s what you should get.
 
-[![Image 23](/assets/images/academy/module_5/Module_5_Photo_23.png)](/assets/images/academy/module_5/Module_5_Photo_23.png)
+[![Image 23]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_23.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_23.png)
 
 ##### **Summing 2014 Registered Voters by District Type (“RV2014”)**
 
@@ -281,7 +281,7 @@ You guessed it! You’re going to use SUMIF again to calculate the final number 
 
 Here’s what your final calculations should look like:
 
-[![Image 24](/assets/images/academy/module_5/Module_5_Photo_24.png)](/assets/images/academy/module_5/Module_5_Photo_24.png)
+[![Image 24]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_24.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_24.png)
 
 ##### **Difference between 2010 and 2014 Registration by District Type (“2010-2014”)**
 
@@ -289,7 +289,7 @@ Now we would like you to calculate the difference in registered voters between O
 
 Here’s what your difference calculations should look like:
 
-[![Image 25](/assets/images/academy/module_5/Module_5_Photo_25.png)](/assets/images/academy/module_5/Module_5_Photo_25.png)
+[![Image 25]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_25.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_25.png)
 
 ##### **Percent Increase in Registration by District Type (Column E, “%change_2010-2014”)**
 
@@ -297,9 +297,9 @@ Now that we know how many more voters were registered in each district type from
 
 If you’re having trouble remembering how to calculate the percent increase, click here.
 
-[![Image 3](/assets/images/academy/module_5/Module_5_Formula_3.png)](/assets/images/academy/module_5/Module_5_Formula_3.png)
+[![Image 3]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Formula_3.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Formula_3.png)
 
-Your calculations should look like this! [![Image 26](/assets/images/academy/module_5/Module_5_Photo_26.png)](/assets/images/academy/module_5/Module_5_Photo_26.png)
+Your calculations should look like this! [![Image 26]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_26.png)]({{ site.url }}/\_assets/images/academy/module_5/Module_5_Photo_26.png)
 
 ##### **What do you see?**
 

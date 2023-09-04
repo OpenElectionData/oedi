@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+{% block pageCSS %}
+<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/holiday.css' }}" />
+{% endblock %}
+
+{% block content %}
+<article class="page">
+  {{ content | safe }}
+</article>
+{% endblock %}

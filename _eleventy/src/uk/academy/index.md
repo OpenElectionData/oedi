@@ -1,5 +1,5 @@
 ---
-title: Election Data Academy
+title: Академія Даних
 listCollectionItems: true
 ---
 

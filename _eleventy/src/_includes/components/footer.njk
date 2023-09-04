@@ -1,0 +1,34 @@
+<footer class="site-footer blue-stripes">
+  <div class="container">
+    {%- set navLocation = 'footer' -%}
+    {% include 'components/site-nav.njk' %}
+
+    <ul class="site-footer__logos" role="list">
+      <li>
+        <a href="https://usaid.gov" aria-label="Visit USAID website.">
+          <img src="{{ site.url }}{{ '/_assets/images/logos/USAID-logo.svg' }}" alt="USAID" width="100" height="30"
+            loading="lazy">
+        </a>
+      </li>
+      <li>
+        <a href="https://ndi.org" aria-label="Visit NDI website.">
+          <img src="{{ site.url }}{{ '/_assets/images/logos/ndi-logo.svg' }}" alt="National Democratic Institute" width="92" height="30"
+            loading="lazy">
+        </a>
+      </li>
+      <li>
+        <a href="https://google.org" aria-label="Visit Google website.">
+          <img src="{{ site.url }}{{ '/_assets/images/logos/Google-logo.svg' }}" alt="Google" width="90"
+            height="30" loading="lazy">
+        </a>
+      </li>
+    </ul>
+    {% include 'components/social-share.njk' %}
+    <p class="site-footer__copyright">
+      <a href="http://opendefinition.org/" aria-label="Visit Open Definition website.">
+        <img src="{{ site.url }}{{ '/_assets/images/logos/oc_80x15_orange_grey.png' }}" alt="Open Content" width="80" height="15" loading="lazy">
+      </a>
+      &mdash; {{ 'license' | i18n | safe }}
+    </p>
+  </div>
+</footer>

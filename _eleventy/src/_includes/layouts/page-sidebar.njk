@@ -1,0 +1,59 @@
+{% extends "layouts/base.njk" %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/page.css' }}" />
+{% endblock %}
+
+{% block content %}
+<article class="page page--sidebar">
+  <aside class="page__sidebar">
+    {% block sidebar %}
+      <h2>{{ tocTitle }}</h2>
+      <ol>
+      {%- for item in items -%}
+        {% set itemTitle = item.data.toc_title or item.data.title %}
+        <li><a href="{{ item.url | locale_url }}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ itemTitle | safe }}</a></li>
+      {%- endfor -%}
+      </ol>
+    {% endblock %}
+  </aside>
+  <div class="page__main">
+    {% block pageContent %}
+    <h1 class="page__title">{{ title | safe}}</h1>
+    {{ content | safe }}
+    {% endblock %}
+
+    {% if listCollectionItems %}
+      <h2>{{ tocTitle }}</h2>
+      <ol class="modules-list" role="list">
+      {%- for item in items | removeIndexFromCollection('module_id') -%}
+        <li>
+          <a href="{{ item.url | locale_url }}">{{ item.data.title | safe }}</a>
+          <p>{{ item.data.excerpt | safe }}</p>
+        </li>
+      {%- endfor -%}
+      </ol>
+    {% endif %}
+
+  </div>
+  {% if hasPagination %}
+  <footer class="page__footer">
+    {% if currentItemIndex < 0 %}
+      {% set nextLabel %}{{ items[0].data.title }}{% endset %}
+      {% set nextUrl = items[0].url | locale_url %}
+    {% else %}
+      {% if currentItemIndex < numItems - 1 %}
+        {% set nextLabel %}{{ items[currentItemIndex + 1].data.title }}{% endset %}
+        {% set nextUrl = items[currentItemIndex + 1].url | locale_url %}
+      {% endif %}
+      {% if currentItemIndex > 0 %}
+        {% set prevLabel %}{{ items[currentItemIndex - 1].data.title }}{% endset %}
+        {% set prevUrl = items[currentItemIndex - 1].url | locale_url %}
+      {% endif %}
+    {% endif %}
+
+    {% include "components/pagination.njk" %}
+  </footer>
+  {% endif %}
+</article>
+{% endblock %}

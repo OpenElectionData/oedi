@@ -84,5 +84,14 @@ module.exports = {
    */
   getCurrentItemIndex: (collection, slug) => {
     return collection.findIndex((c) => c && c.page.url === slug);
+  },
+  /**
+   * Filter a collection to not include the index page from the listing.
+   * @param {Array} collection Items in a collection
+   * @param {String} key Property of collection to filter by
+   * @returns Filtered collection
+   */
+  removeIndexFromCollection: (collection, key) => {
+    return collection.filter((c) => c.data[key] > 0);
   }
 };

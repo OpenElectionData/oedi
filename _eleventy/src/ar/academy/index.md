@@ -1,5 +1,5 @@
 ---
-title: Election Data Academy
+title: أكاديمية البيانات الانتخابية
 listCollectionItems: true
 ---
 

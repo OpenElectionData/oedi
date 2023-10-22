@@ -1,0 +1,31 @@
+{% extends "layouts/base.njk" %}
+
+{% block pageCSS %}
+  {%- if head | length -%}
+    {%- for item in head -%}
+      {% if 'http' in item %}
+        <link href="{{ item }}" rel="stylesheet">
+      {% else %}
+        <link href="{{site.url}}/en{{ item }}" rel="stylesheet">
+      {% endif %}
+    {%- endfor -%}
+  {%- endif -%}
+{% endblock %}
+
+{% block content %}
+<article class="page">
+  {{ content | safe }}
+</article>
+{% endblock %}
+
+{% block pageJS %}
+  {%- if footer | length -%}
+    {%- for item in footer -%}
+      {% if 'http' in item %}
+        <script src="{{ item }}" type="text/javascript"></script>
+      {% else %}
+        <script src="{{site.url}}/en{{ item }}" type="text/javascript"></script>
+      {% endif %}
+    {%- endfor -%}
+  {%- endif -%}
+{% endblock %}

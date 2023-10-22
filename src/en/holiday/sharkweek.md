@@ -1,8 +1,6 @@
 ---
 title: 'Shark Week: Quiz & Competitive Game'
 display_order: 1
-lang: en
-permalink: '/holiday/sharkweek/'
 excerpt: 'Dive for Data. Avoid the Sharks. Save the Election. Test your knowledge of the elections process and earn more lives to help you rescue as many ballots as possible. Can you top the leaderboard with a JAWS-dropping high score?'
 preview_img: sharkweek-preview.png
 image: /holiday/sharkweek/assets/oedi-shark-week.png

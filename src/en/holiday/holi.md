@@ -1,8 +1,6 @@
 ---
 title: 'Holi: Holiday Fun'
 display_order: 3
-lang: en
-permalink: '/holiday/holi/'
 excerpt: 'Celebrate the most vibrant HOLIday of the year with the Open Election Data Initiative! Our robot needs your help coloring the nine key open data principles. Lend him a hand and throw some color around!'
 preview_img: holi-preview.png
 head:

@@ -14,7 +14,7 @@ const markdownItFootnote = require('markdown-it-footnote');
 
 const filters = require('./src/_utils/filters.js');
 const translations = require('./src/_data/i18n');
-fs.writeFileSync('translations.json', JSON.stringify(translations));
+// fs.writeFileSync('translations.json', JSON.stringify(translations));
 
 module.exports = function (eleventyConfig) {
   // RSS
@@ -119,6 +119,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/_assets/academy');
   eleventyConfig.addPassthroughCopy('src/_assets/assessment');
   eleventyConfig.addPassthroughCopy('src/dinopony.html');
+  eleventyConfig.addPassthroughCopy('src/en/holiday/**/*');
 
   // Configuration
   return {

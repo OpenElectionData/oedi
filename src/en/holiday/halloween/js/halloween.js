@@ -1,5 +1,5 @@
 AdobeEdge.loadComposition(
-  '/holiday/halloween/js/index4',
+  '/en/holiday/halloween/js/index4',
   'EDGE-505062197',
   {
     scaleToFit: 'none',
@@ -11,4 +11,4 @@ AdobeEdge.loadComposition(
   },
   { dom: {} },
   { dom: {} }
-)
+);

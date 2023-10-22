@@ -1,8 +1,6 @@
 ---
 title: 'May the Fourth: Quiz & Game'
 display_order: 2
-lang: en
-permalink: '/holiday/datawars/'
 excerpt: "I've got a bad feeling about this... The OEDI open data principles are in danger and it's up to you to save them! Prove that the force (of open data) is strong within you by playing our Stars Wars-themed quiz game."
 preview_img: starwars-preview.png
 head:

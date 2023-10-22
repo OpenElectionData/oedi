@@ -1,0 +1,27 @@
+{% extends "layouts/base.njk" %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/holiday.css' }}" />
+{% endblock %}
+
+{% block content %}
+<article class="page">
+  <h1 class="page__title">{{ title }}</h1>
+  {{ content | safe }}
+
+  <ol class="games-list" role="list">
+    {% for item in collections.holiday %}
+    <li>
+      <a href="{{ item.url }}" class="games-list__img">
+        <img
+          src="{{ site.url}}{{ '/_assets/images/holiday/' }}{{ item.data.preview_img }}"
+          alt=""
+        />
+      </a>
+      <a href="{{ item.url }}">{{ item.data.title }}</a>
+      <p>{{ item.data.excerpt }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</article>
+{% endblock %}

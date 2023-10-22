@@ -1,8 +1,6 @@
 ---
 title: 'Halloween: Holiday Fun'
 display_order: 4
-lang: en
-permalink: '/holiday/halloween/'
 excerpt: "We love Halloween here at the Open Election Data Initiative and we couldn't agree if the robot should be a People's Alliance for Credible Elections Election Observer, a judge, a surgeon, or batman. So now you get to decide. Pick a costume for the robot and help him celebrate!"
 preview_img: halloween-preview.png
 footer:

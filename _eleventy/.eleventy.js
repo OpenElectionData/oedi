@@ -112,23 +112,13 @@ module.exports = function (eleventyConfig) {
   // Shortcodes
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
-  // Layouts
-  // eleventyConfig.addLayoutAlias('base', 'base.njk');
-  // eleventyConfig.addLayoutAlias('post', 'post.njk');
-  // eleventyConfig.addLayoutAlias('page', 'page.njk');
-  // eleventyConfig.addLayoutAlias('page-sidebar', 'page-sidebar.njk');
-  // eleventyConfig.addLayoutAlias('inventory', 'inventory.njk');
-  // eleventyConfig.addLayoutAlias('inventory-country', 'inventory-country.njk');
-  // eleventyConfig.addLayoutAlias('home', 'home.njk');
-  // eleventyConfig.addLayoutAlias('holiday-archive', 'holiday-archive.njk');
-  // eleventyConfig.addLayoutAlias('contact', 'contact.njk');
-
   // Passthrough
   eleventyConfig.addPassthroughCopy('src/_assets/fonts');
   eleventyConfig.addPassthroughCopy('src/_assets/images');
   eleventyConfig.addPassthroughCopy('src/_assets/js');
   eleventyConfig.addPassthroughCopy('src/_assets/academy');
   eleventyConfig.addPassthroughCopy('src/_assets/assessment');
+  eleventyConfig.addPassthroughCopy('src/dinopony.html');
 
   // Configuration
   return {

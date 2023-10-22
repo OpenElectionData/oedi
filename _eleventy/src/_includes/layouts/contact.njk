@@ -1,7 +1,55 @@
 ---
-layout: base
+layout: page
 ---
 
 <article class="page">
+  <h1 class="page__title">{{ title }}</h1>
   {{ content | safe }}
+
+  <form name="contact" netlify>
+    <div class="input-wrapper">
+      <label for="name">{{ 'name' | i18n }}</label>
+      <input id="name" type="text" name="name" />
+    </div>
+    <div class="input-wrapper">
+      <label for="email">{{ 'email' | i18n }}:</label>
+      <input id="email" type="email" name="email" />
+    </div>
+    <div class="input-wrapper">
+      <label for="info"
+        >{{ 'looking_for_information_on' | i18n }}:</label
+      >
+      <select id="info" name="role[]" multiple>
+        <option value="option_election_processes"
+          >{{ 'option_election_processes' | i18n }}</option
+        >
+        <option value="option_open_data_principles"
+          >{{ 'option_open_data_principles' | i18n }}</option
+        >
+        <option value="option_data_academy"
+          >{{ 'option_data_academy' | i18n }}</option
+        >
+        <option value="option_data_inventory"
+          >{{ 'option_data_inventory' | i18n }}</option
+        >
+        <option value="option_something_else"
+          >{{ 'option_something_else' | i18n }}</option
+        >
+      </select>
+    </div>
+    <div class="input-wrapper">
+      <label for="message">{{ 'message' | i18n }}:</label>
+      <textarea id="message" name="message"></textarea>
+    </div>
+    <div class="input-wrapper">
+      {{ 'signup_for_updates' | i18n }}:<br />
+      <label>
+        <input type="checkbox" name="signup_for_updates" value="true" />
+        {{ 'i_want_to_receive_updates' | i18n }}
+      </label>
+    </div>
+    <button class="btn btn--blue btn--submit" type="submit">
+      {{ 'send' | i18n }}
+    </button>
+  </form>
 </article>

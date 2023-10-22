@@ -1,0 +1,27 @@
+{% extends "layouts/base.njk" %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="{{ site.url }}{{ '/_assets/css/pages/404.css' }}" />
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="wrapper404" style="text-align: center">
+    <section class="page__header">
+      <h1 class="page__title">{{ 'error_404' | i18n }}</h1>
+      <div class="page__subtitle">
+        <p>{{ 'error_404_message' | i18n | safe }}</p>
+      </div>
+      <div class="page__desc">
+        <img
+          src="{{ site.url}}{{ '/_assets/images/other/404.gif' }}"
+          alt=""
+          width="200"
+          height="200"
+          style="margin: 1rem auto"
+        />
+      </div>
+    </section>
+  </div>
+</div>
+{% endblock %}

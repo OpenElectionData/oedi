@@ -93,5 +93,51 @@ module.exports = {
    */
   removeIndexFromCollection: (collection, key) => {
     return collection.filter((c) => c.data[key] > 0);
+  },
+  /**
+   * Get all the Guide Items for the ToC
+   * @param {Array} collection Guide collection items filtered by language
+   * @returns All guide items ordered by if they are a main section page, by section, and by chapter_id
+   */
+  getGuideTOC: (collection) => {
+    let copy = [...collection];
+
+    copy.forEach((d) => {
+      if (!d.data.exclude_from_toc) {
+        d.data.exclude_from_toc = false;
+      }
+
+      if (!d.data.main_section) {
+        d.data.main_section = false;
+      }
+    });
+
+    copy = copy.filter((c) => !c.data.exclude_from_toc);
+
+    copy.sort(
+      (a, b) =>
+        a.data.section - b.data.section || a.data.chapter_id - b.data.chapter_id
+    );
+
+    return copy;
+  },
+  /**
+   * Filter Guide items by if they are `main_section`
+   * @param {Array} collection Guide collection items filtered by language
+   * @returns Only the main Guide items
+   */
+  getGuideMainItems: (collection) => {
+    return collection.filter((c) => c.data.main_section);
+  },
+  /**
+   * Get the children of a guide section based on the parent section id
+   * @param {Array} collection Guide collection items filtered by language
+   * @param {Number} section Section id number of the parent section
+   * @returns Children in the parent section
+   */
+  getChildrenFromSection: (collection, section) => {
+    return collection.filter(
+      (c) => !c.data.main_section && c.data.section === section
+    );
   }
 };

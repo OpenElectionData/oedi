@@ -1,10 +1,10 @@
 <h2>{{ site.data.strings.table_of_contents }}</h2>
-{% assign sections = site.guide | where: 'section', nil | sort:
-'chapter_id', 'last' %}
+{% assign sections = site.guide | where: 'section', nil | sort: 'chapter_id',
+'last' %}
 <ul>
   {% for section in sections %} {% assign subsections = site.guide | where:
-  'section', section.chapter_id | sort: 'chapter_id', 'last' %} {% if
-  subsections.size == 0 %}
+  'section', section.chapter_id | sort: 'chapter_id' %} {% if subsections.size
+  == 0 %}
   <li>
     <a
       href="{{ section.url | relative_url }}"

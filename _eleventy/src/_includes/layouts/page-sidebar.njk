@@ -24,17 +24,18 @@
     {% endblock %}
 
     {% if listCollectionItems %}
-      <h2>{{ tocTitle }}</h2>
-      <ol class="modules-list" role="list">
-      {%- for item in items | removeIndexFromCollection('module_id') -%}
-        <li>
-          <a href="{{ item.url | locale_url }}">{{ item.data.title | safe }}</a>
-          <p>{{ item.data.excerpt | safe }}</p>
-        </li>
-      {%- endfor -%}
-      </ol>
+      {% block contentTOC %}
+        <h2>{{ tocTitle }}</h2>
+        <ol class="modules-list" role="list">
+        {%- for item in items | removeIndexFromCollection('module_id') -%}
+          <li>
+            <a href="{{ item.url | locale_url }}">{{ item.data.title | safe }}</a>
+            <p>{{ item.data.excerpt | safe }}</p>
+          </li>
+        {%- endfor -%}
+        </ol>
+      {% endblock %}
     {% endif %}
-
   </div>
   {% if hasPagination %}
   <footer class="page__footer">

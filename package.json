@@ -1,12 +1,12 @@
 {
   "name": "oedi",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Website built on Eleventy for the Open Election Data Initiative project.",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve --incremental --quiet",
+    "start": "npx tinacms dev -c \"npx @11ty/eleventy --serve\"",
     "dev": "npm run start",
-    "build": "npx @11ty/eleventy"
+    "build": "tinacms build && npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "Jacque Schrag",

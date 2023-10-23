@@ -1,0 +1,24 @@
+<header class="site-header blue-stripes" role="banner">
+  <div class="container blue-stripes">
+    <a class="site-header__title" href="{{ "/" | locale_url }}">
+      {% set logo = ['oedi-logo-', locale, '.png'].join('') %}
+      <img src="{{ site.url }}{{ '/_assets/images/logos/'}}{{ logo }}" alt="{{ site.website_title }}" title="{{ site.website_title }}">
+    </a>
+    <nav class="site-header__nav" role="navigation">
+      <button class="site-header__nav-trigger" aria-expanded="false" aria-label="Toggle Menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <div class="site-header__nav-links">
+        {%- set navLocation = 'header' -%}
+        {% include 'components/site-nav.njk' %}
+
+        <button id="updates" class="btn btn--orange btn--signup" data-a11y-dialog-show="dialog">{{ 'signup_for_updates' | i18n }}</button>
+        {% include 'components/language-selector.njk' %}
+      </div>
+    </nav>
+  </div>
+</header>

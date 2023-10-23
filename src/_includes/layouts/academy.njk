@@ -1,0 +1,8 @@
+{% extends "layouts/page-sidebar.njk" %}
+
+{% set hasPagination = true %}
+{% set items = collections.academy | filterCollectionByLocale(locale) | sortCollectionByKey('module_id') %}
+{% set numItems = items | length %}
+{% set currentItemIndex = items | getCurrentItemIndex(page.url) %}
+
+{% set tocTitle = 'modules' | i18n %}

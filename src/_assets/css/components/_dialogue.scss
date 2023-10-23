@@ -1,0 +1,80 @@
+@use 'abstracts' as *;
+
+/**
+ * When the native `<dialog>` element is not supported, the script toggles the
+ * `aria-hidden` attribute on the container. If `aria-hidden` is set to `true`,
+ * the container should be hidden entirely.
+ *
+ * Feel free to replace `.dialog-container` with the container selector you
+ * prefer.
+ */
+.dialog-container[aria-hidden='true'] {
+  display: none;
+}
+
+/**
+ * 1. Make the dialog container, and its child overlay spread across
+ *    the entire window.
+ */
+.dialog-container,
+.dialog-overlay {
+  position: fixed; /* 1 */
+  top: 0; /* 1 */
+  right: 0; /* 1 */
+  bottom: 0; /* 1 */
+  left: 0; /* 1 */
+}
+
+/**
+ * 1. Make sure the dialog container and all its descendants sits on
+ *    top of the rest of the page.
+ * 2. Make the dialog container a flex container to easily center the
+ *    dialog.
+ */
+.dialog-container {
+  z-index: 2; /* 1 */
+  display: flex; /* 2 */
+}
+
+/**
+ * 1. Make sure the dialog container and all its descendants are not
+ *    visible and not focusable when it is hidden.
+ */
+.dialog-container[aria-hidden='true'] {
+  display: none; /* 1 */
+}
+
+/**
+ * 1. Make the overlay look like an overlay.
+ */
+.dialog-overlay {
+  background-color: rgb(43 46 56 / 0.9); /* 1 */
+}
+
+.dialog-content {
+  position: relative;
+  z-index: 2;
+  display: block;
+  max-width: 600px;
+  padding: 0;
+  margin: auto;
+  background: $color__white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+  > * {
+    padding: 1rem;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $color__gray-500;
+  }
+
+  h1 {
+    @include font-size(24px);
+  }
+}

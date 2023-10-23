@@ -1,0 +1,17 @@
+{% set currentUrl = page.url %}
+
+{% set menu_items = menus.main | filterMenus(navLocation)%}
+
+<nav>
+  <ul class="site-nav site-nav--{{ navLocation }}" role="list">
+    {% for item in menu_items %}
+      <li class="menu-item">
+        <a 
+        {% if currentUrl === link.url %}aria-current="page"{% endif %}
+        href="{{ item.url | locale_url }}"
+          >{{ item.identifier | i18n | safe }}</a
+        >
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,11 @@
+---
+layout: inventory-country
+pagination:
+    data: inventory.countries
+    size: 1
+    alias: country
+permalink: "{{ locale }}/inventory/{{ country.slug }}/"
+eleventyComputed:
+  title: "{{ country.translations[locale] }}"
+  slug: "{{ country.slug }}"
+---

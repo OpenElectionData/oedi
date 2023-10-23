@@ -1,0 +1,19 @@
+{% macro principlesIcons(principles, el) %}
+  {% for principle in principles %} 
+    {% set principleName = ['inventory_lang', principle.slug].join('.') | i18n %} 
+    {% set principleImg = [site.url, '/_assets/images/inventory/principles/', principle.slug, '.png'].join('') %}
+    <{{el}} class="country__table-principle">
+      <div
+        data-tippy-content="{{ principleName }}"
+        aria-label="{{ principleName }}"
+      >
+        <img
+          src="{{ principleImg }}"
+          alt="{{ principleName }}"
+          width="36"
+          height="36"
+        />
+      </div>
+    </{{el}}>
+  {% endfor %}
+{% endmacro %}

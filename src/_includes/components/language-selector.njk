@@ -1,0 +1,20 @@
+{# Is this ludicrous or crafty? #}
+{% set pageUrl = page.url.split('/').slice(2).join('/') %}
+
+{% if locales.length %}
+  <div class="nav-lang">
+    <button
+      class="nav-lang__trigger btn--transparent"
+      aria-expanded="false"
+      aria-label="Change site language"
+    >{{ locale | getLocaleLabel }}</button>
+    <ul class="nav-lang__menu" role="list">
+      {% for locale in locales -%}
+      {# TODO: Set active language item class to `active-item` #}
+        <li class="nav-lang__item">
+          <a href="/{{ locale.code }}/{{ pageUrl }}" rel="alternate" hreflang="{{ locale.code }}">{{ locale.label }}</a>
+        </li>
+      {% endfor -%}
+    </ul>
+  </div>
+{% endif %}

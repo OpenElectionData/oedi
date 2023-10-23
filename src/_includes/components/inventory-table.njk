@@ -1,0 +1,89 @@
+{%- set categories = inventory.categories | getMainInventoryCategories -%}
+
+<div class="inventory__legend text--small">
+  {{ 'legend' | i18n }}
+  <ul class="inventory__legend-items" role="list">
+    <li class="mostly">
+      {{ 'mostly_open' | i18n }}
+      <i class="fas fa-check" aria-hidden="true"></i>
+    </li>
+    <li class="partially">
+      {{ 'partially_open' | i18n }}
+      <i class="fas fa-check" aria-hidden="true"></i>
+    </li>
+    <li class="not">
+      {{ 'not_open' | i18n }} <i class="fas fa-times" aria-hidden="true"></i>
+    </li>
+  </ul>
+</div>
+
+<div class="inventory__table-wrapper" id="inventory">
+  <table class="table inventory__table sortable">
+    <thead>
+      <tr>
+        <th>
+          <button
+            class="btn btn--transparent btn--sort sort asc"
+            data-sort="country"
+            data-default-order="asc"
+          >
+            {{ 'country' | i18n }}
+          </button>
+        </th>
+        {% for category in categories %} 
+          {%- set categoryName = ['inventory_lang', category.slug].join('.') | i18n %} 
+          {%- set categoryImg = [site.url, '/_assets/images/inventory/categories/', category.slug, '.png'].join('') -%}
+          <th>
+            <button
+              class="btn btn--transparent btn--sort sort"
+              data-sort="{{ category.slug | slugify }}"
+              data-tippy-content="{{ categoryName }}"
+              aria-label="{{ categoryName }}"
+            >
+              <img
+                src="{{ categoryImg }}"
+                alt="{{ categoryName }}"
+                width="36"
+                height="36"
+              />
+            </button>
+          </th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody class="list">
+      {% for country in inventory.countries %} 
+      <tr>
+        <td class="country">
+          <a href="{{ page.url }}{{ country.slug }}">{{ country.translations[locale] }}</a>
+        </td>
+        {% for category in categories %}
+          {%- set categoryName = ['inventory_lang', category.slug].join('.') | i18n %}
+          {%- set value = country.inventory.categories[category.slug].value -%} 
+          {%- set status = '' %}
+          {%- set icon = 'fa-check' -%}
+          {%- if value == '1' -%} 
+            {% set class = 'not' -%} 
+            {% set status = 'not_open' | i18n %}
+            {% set icon = 'fa-times' %} 
+          {%- elif value == '2' -%} 
+            {%- set class = 'partially' -%} 
+            {% set status = 'partially_open' | i18n %} 
+          {%- elif value == '3' -%} 
+            {%- set class = 'mostly' -%} 
+            {% set status = 'mostly_open' | i18n %} 
+          {%- endif -%}
+
+        <td class="{{ class }} {{ category.slug}}" data-value="{{ value }}">
+          <i
+            class="fas {{ icon }}"
+            data-tippy-content="{{ categoryName }}; {{ status }}"
+            aria-label="{{ status }}"
+          ></i>
+        </td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,54 @@
+{% extends "layouts/page-sidebar.njk" %}
+
+{% set hasPagination = true %}
+{% set items = collections.guide | filterCollectionByLocale(locale) | getGuideTOC %}
+{% set numItems = items | length %}
+{% set currentItemIndex = items | getCurrentItemIndex(page.url) %}
+
+{% set mainItems = items | getGuideMainItems %}
+
+{% set tocTitle = 'table_of_contents' | i18n %}
+
+{% block sidebar %}
+<h2>{{ tocTitle }}</h2>
+<ol>
+{%- for item in mainItems -%}
+  {% set itemTitle = item.data.toc_title or item.data.title %}
+  <li>
+    <a href="{{ item.url | locale_url }}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ itemTitle | safe }}</a>
+    {% if item.url in page.url %}
+      {% set subitems = items | getChildrenFromSection(item.data.section) %}
+      {% if subitems %}
+        <ul>
+          {% for subitem in subitems %}
+          {% set subitemTitle = subitem.data.toc_title or subitem.data.title %}
+          <li><a href="{{ subitem.url | locale_url }}" {% if page.url == subitem.url %} aria-current="page"{% endif %}>{{ subitemTitle | safe }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+  </li>
+{%- endfor -%}
+</ol>
+{% endblock %}
+
+{% block contentTOC %}
+<h2>{{ tocTitle }}</h2>
+<ul>
+{%- for item in mainItems -%}
+  {% set itemTitle = item.data.toc_title or item.data.title %}
+    {% set subitems = items | getChildrenFromSection(item.data.section) %}
+  <li>
+    <a href="{{ item.url | locale_url }}">{{ itemTitle | safe }}</a>
+      {% if subitems %}
+        <ul>
+          {% for subitem in subitems %}
+            {% set subitemTitle = subitem.data.toc_title or subitem.data.title %}
+            <li><a href="{{ subitem.url | locale_url }}">{{ subitemTitle | safe }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+  </li>
+{%- endfor -%}
+</ul>
+{% endblock %}

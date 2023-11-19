@@ -1,7 +1,7 @@
 # TODOs
 
 - Footer pagination for pages not included in ToC (like Supplementary materials page in assessment)
-- Format `:callout-exercise` in assessment pages
+- Format `:callout-exercise` in assessment pages - https://github.com/arve0/markdown-it-attrs one possible option to handle this. Alternatively...just drop it?
 - Force Assessment guide link to redirect to English version
 - Setup Netlify to use 11ty
 

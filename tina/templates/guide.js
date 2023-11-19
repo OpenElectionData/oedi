@@ -13,6 +13,11 @@ export function guide_fields() {
       label: 'title_short'
     },
     {
+      type: 'boolean',
+      name: 'main_section',
+      label: 'Is a main section page?'
+    },
+    {
       type: 'number',
       name: 'section',
       label: 'section'

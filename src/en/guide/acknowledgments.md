@@ -1,6 +1,7 @@
 ---
 title: Acknowledgments
 title_short: ''
+main_section: true
 section: 5
 chapter_id: 43
 ---
@@ -10,7 +11,5 @@ This guide was written by Michelle Brown, Elana Kreiger-Benson, Michael McNulty,
 The [first](/en/guide/electoral-integrity/) and [third](/en/guide/key-categories/) sections of this guide, on electoral integrity and key election processes, respectively, are based on the extensive experience and work of Patrick Merloe and draw heavily from his handbook, [Promoting Legal Frameworks for Democratic Elections](https://www.ndi.org/files/2404_ww_elect_legalframeworks_093008.pdf). The [second section](/en/guide/principles/), on open election data principles, owes a great debt to, and draws upon, the solid intellectual foundation set by Open Knowledge Foundation's Open Definition, the "[8 Principles of Open Government Data](https://public.resource.org/8_principles.html)" issued in the 2007 workshop of open government advocates, Joshua Tabeuer's [Open Government Data: The Book](https://opengovdata.io/), the Sunlight Foundation's [Open Data Policy Guidelines](http://sunlightfoundation.com/opendataguidelines/) and the examples set by the Open Government Partnership (OGP), Google.org and the [Transparency & Accountability Initiative (TAI)](http://www.transparency-initiative.org/), among others.
 
 The development of this guide was supported through a grant from Google Inc.[^1] This guide complements other resources available on electoral integrity and election observation, such as NDI's handbooks: The Quick Count and Election Observation (concerning parallel vote tabulations - PVTs); Building Confidence in the Voter Registration Process; Media Monitoring to Promote Democratic Elections; Monitoring and Mitigating Electoral Violence through Nonpartisan Citizen Election Observation; and How Domestic Organizations Monitor Elections. Additionally, NDI, with support from Google Inc., has developed a series of tutorials to help election monitoring organizations make better use of available election data. These and other resources are available at [www.ndi.org/elections](https://www.ndi.org/elections).
-
-testing!
 
 [^1]: This publication is made possible by the generous support of Google Inc. The opinions expressed herein are those of the authors and do not necessarily reflect the views of Google Inc.

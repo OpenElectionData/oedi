@@ -1,6 +1,7 @@
 ---
 layout: home
 title: الرئيسية
+_template: home
 cards:
   - slug: '/guide/key-categories/'
     title: 'عناصر العملية الانتخابية'

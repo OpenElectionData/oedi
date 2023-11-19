@@ -1,12 +1,22 @@
 import { defineConfig } from 'tinacms';
 import {
-  academy_fields,
+  translation_fields,
+  home_pages_fields,
+  other_pages_fields
+} from './templates';
+import { academy_fields } from './templates/academy';
+import {
   assessment_fields,
   assessment_forms_fields,
-  translationFields
-} from './templates';
-import { guideFields } from './templates';
-import { inventory_countryFields } from './templates';
+  assessment_supplemental_fields
+} from './templates/assessment';
+import { guide_fields } from './templates/guide';
+import {
+  inventory_index_fields,
+  inventory_countries_fields,
+  inventory_inventory_fields
+} from './templates/inventory';
+import { menu_fields } from './templates/menus';
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || 'main';
@@ -36,7 +46,7 @@ export default defineConfig({
         match: {
           include: '**/guide/**/*'
         },
-        fields: [...guideFields()]
+        fields: [...guide_fields()]
       },
       {
         format: 'md',
@@ -55,25 +65,37 @@ export default defineConfig({
         },
         fields: [...academy_fields()]
       },
-      // {
-      //   format: 'md',
-      //   label: 'Inventory',
-      //   name: 'inventory',
-      //   path: 'src',
-      //   match: {
-      //     include: '**/inventory'
-      //   },
-      //   fields: [
-      //     {
-      //       type: 'rich-text',
-      //       name: 'body',
-      //       label: 'Body of Document',
-      //       description: 'This is the markdown body',
-      //       isBody: true
-      //     },
-      //     ...inventory_countryFields()
-      //   ]
-      // }
+      {
+        format: 'md',
+        label: 'Inventory: Index pages',
+        name: 'inventory_index',
+        path: 'src',
+        match: {
+          include: '**/inventory'
+        },
+        fields: [...inventory_index_fields()]
+      },
+      {
+        format: 'json',
+        label: 'Inventory: Countries',
+        name: 'inventory_countries',
+        path: 'src/_data/inventory',
+        match: {
+          include: '{countries_meta,countries_inventory}'
+        },
+        templates: [
+          {
+            name: 'countries_meta',
+            label: 'Countries meta',
+            fields: [...inventory_countries_fields()]
+          },
+          {
+            name: 'countries_inventory',
+            label: 'Countries inventory',
+            fields: [...inventory_inventory_fields()]
+          }
+        ]
+      },
       {
         format: 'md',
         label: 'Assessment',
@@ -89,16 +111,7 @@ export default defineConfig({
             }
           }
         },
-        fields: [
-          {
-            type: 'rich-text',
-            name: 'body',
-            label: 'Body of Document',
-            description: 'This is the markdown body',
-            isBody: true
-          },
-          ...assessment_fields()
-        ]
+        fields: [...assessment_fields()]
       },
       {
         format: 'md',
@@ -119,6 +132,45 @@ export default defineConfig({
       },
       {
         format: 'json',
+        label: 'Assessment: Supplemental',
+        name: 'assessment_supplemental',
+        path: 'src/_data/assessment',
+        match: {
+          include: '*'
+        },
+        fields: [...assessment_supplemental_fields()]
+      },
+      {
+        format: 'md',
+        label: 'Other pages',
+        name: 'other_pages',
+        path: 'src',
+        match: {
+          include: '{en,es,ar,fr,my,uk}/*',
+          exclude: '{en,es,ar,fr,my,uk}/inventory'
+        },
+        ui: {
+          filename: {
+            slugify: (values) => {
+              return slugify(values?.title);
+            }
+          }
+        },
+        templates: [
+          {
+            name: 'page',
+            label: 'Page',
+            fields: [...other_pages_fields()]
+          },
+          {
+            name: 'home',
+            label: 'Home',
+            fields: [...home_pages_fields()]
+          }
+        ]
+      },
+      {
+        format: 'json',
         label: 'Translations',
         name: 'translations',
         path: 'src/_data/i18n',
@@ -129,26 +181,43 @@ export default defineConfig({
           }
         },
         match: {
-          include: '**/*'
+          include: '**/*',
+          exclude: 'assessment_supplemental'
         },
         templates: [
           {
             name: 'strings',
             label: 'Site strings',
-            fields: [...translationFields('strings')]
+            fields: [...translation_fields('strings')]
           },
           {
             name: 'inventory_categories',
             label: 'Inventory Categories',
-            fields: [...translationFields('inventory_categories')]
+            fields: [...translation_fields('inventory_categories')]
           },
           {
             name: 'inventory_principles',
             label: 'Inventory Principles',
-            fields: [...translationFields('inventory_principles')]
+            fields: [...translation_fields('inventory_principles')]
           }
-          // TODO: Assessment supplementary language
         ]
+      },
+      {
+        label: 'Menus',
+        name: 'menus',
+        path: 'src/_data/',
+        match: {
+          include: 'menus'
+        },
+        format: 'json',
+        ui: {
+          // Don't allow editors to create new menu items
+          allowedActions: {
+            create: false,
+            delete: false
+          }
+        },
+        fields: menu_fields()
       }
     ]
   }

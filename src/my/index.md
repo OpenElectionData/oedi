@@ -1,6 +1,7 @@
 ---
 layout: home
 title: ပင်မစာမျက်နှာ
+_template: home
 cards:
   - slug: '/guide/key-categories/'
     title: 'ရွေးကောက်ပွဲဆိုင်ရာ အမျိုးအစားများ'

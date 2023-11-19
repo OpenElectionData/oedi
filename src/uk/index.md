@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Головна
+_template: home
 cards:
   - slug: '/guide/key-categories/'
     title: 'Категорії виборчих даних'

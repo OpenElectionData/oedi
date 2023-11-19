@@ -1,196 +1,198 @@
-[
-  {
-    "process": "Legal Framework",
-    "datasets": [
-      "Consolidated laws and amendments",
-      "EMB regulations and instructions",
-      "Judicial challenges to electoral code"
-    ],
-    "datasources": [
-      "Constitution",
-      "Legislature and Executive Office",
-      "EMB",
-      "Judiciary"
-    ],
-    "timing": "Static and available early in the electoral cycle except for updates and amendments"
-  },
-  {
-    "process": "Electoral Boundaries",
-    "datasets": [
-      "Maps",
-      "Spatial data",
-      "Population data",
-      "Voter registration data",
-      "Demographic data"
-    ],
-    "datasources": [
-      "Legal Framework",
-      "EMB",
-      "Legislature",
-      "Census/Statistics Bureau",
-      "Interior Ministry/Geological Survey",
-      "Boundary authority"
-    ],
-    "timing": "Static and available early in the electoral cycle except for pending legal challenges"
-  },
-  {
-    "process": "Election Management Body and Administration",
-    "datasets": [
-      "EMB administrative structure and division of labor",
-      "Appointment process",
-      "Leadership profile and staff qualifications/ requirements at all levels",
-      "Composition information (party affiliation if partisan)",
-      "Staff training schedule and materials"
-    ],
-    "datasources": ["EMB", "Legal Framework"],
-    "timing": "Some static data available early but some generated closer to election day"
-  },
-  {
-    "process": "Election Management Body Processes",
-    "datasets": [
-      "EMB decisions, resolutions, meeting minutes, and notifications",
-      "Election regulations",
-      "Electoral calendar",
-      "EMB budget data",
-      "EMB procurement data",
-      "Accreditation procedures",
-      "Election evaluations/reports"
-    ],
-    "datasources": ["EMB", "Legislature/budgetary body"],
-    "timing": "Some data will be relatively static, however much will be variable and generated continuously, requiring regular collection and analysis"
-  },
-  {
-    "process": "Election Security",
-    "datasets": [
-      "Rules and parameters for security forces",
-      "Deployment plans for security forces",
-      "Data regarding security breaches and incidents of election violence"
-    ],
-    "datasources": ["EMB", "Legal Framework", "Security forces"],
-    "timing": "Most data will be continuous and variable, requiring regular collection and analysis"
-  },
-  {
-    "process": "Political Party Registration",
-    "datasets": [
-      "Party application data, including party applicants total, which were accepted and rejected by the EMB and reasons for rejection",
-      "Rules and requirements for nomination"
-    ],
-    "datasources": ["EMB", "Legal Framework"],
-    "timing": "Complete and static datasets will be generated following completion of the process"
-  },
-  {
-    "process": "Ballot Qualification",
-    "datasets": [
-      "Complete information on nomination requirements, rules, procedures, and appeals process",
-      "List of candidate applicants with party affiliation, age, gender and any available demographic information applied",
-      "Names of nomination signatories for each candidate/ number of nomination signatures",
-      "Candidates rejected (with justifications)",
-      "Appeals filed and those accepts and rejected (with justifications)",
-      "Final candidate list with party, age, gender, etc"
-    ],
-    "datasources": ["EMB", "Legal framework", "Judiciary/appeals court"],
-    "timing": "Complete and static datasets will be generated following completion of the process"
-  },
-  {
-    "process": "Election Campaigns",
-    "datasets": [
-      "Campaign regulations",
-      "Campaign codes of conduct",
-      "Timetable for official election campaigns",
-      "Data on media allocations",
-      "Campaign violations",
-      "Rally permitting",
-      "Allocation of public resources"
-    ],
-    "datasources": ["EMB", "Security forces"],
-    "timing": "Process will occur close to election day; data will be variable and generated continuously until campaign period ends"
-  },
-  {
-    "process": "Campaign Finance",
-    "datasets": [
-      "Campaign finance limits and regulations",
-      "Donation data",
-      "Expenditures data (date, purpose, amount, and recipient)",
-      "Allocations of public resources to each candidate/party",
-      "Reporting and disclosure data",
-      "Oversight and monitoring data",
-      "Sanctions and appeals data"
-    ],
-    "datasources": ["EMB", "Legal Framework"],
-    "timing": "Process will occur close to election day; data will be variable and generated continuously until filing and reporting deadlines"
-  },
-  {
-    "process": "Voter Registration",
-    "datasets": [
-      "Voter registration calendar and rules and regulations",
-      "Voter registration center list",
-      "Voter list exhibition locations (where applicable)",
-      "Exhibition period appeals and challenges data (where applicable)",
-      "Voter registration list and/or statistics (former and current) with age, gender, locations, party (if applicable), demographic data when possible",
-      "Population and demographic data"
-    ],
-    "datasources": ["EMB", "Census/Statistics Bureau"],
-    "timing": "Complete and static datasets will be generated following the registration and appeals deadline"
-  },
-  {
-    "process": "Voter Lists",
-    "datasets": [
-      "Voter registration list",
-      "Vital statistics",
-      "Civil registry information (if applicable)",
-      "Appeals, challenges, and updates data (where applicable)"
-    ],
-    "datasources": ["EMB"],
-    "timing": "Complete and static datasets will be generated following the registration and appeals deadline"
-  },
-  {
-    "process": "Voter Education",
-    "datasets": ["Voter education materials"],
-    "datasources": ["EMB", "Information ministry"],
-    "timing": "Data will be variable and generated continuously, requiring regular collection"
-  },
-  {
-    "process": "Polling Stations",
-    "datasets": [
-      "Polling station list with information on # voters per station, staff, location, disaggregated stream/booth information (if applicable)",
-      "Maps/spatial data",
-      "Population and demographic data"
-    ],
-    "datasources": ["EMB", "Census/Statistics Bureau"],
-    "timing": "Process will likely occur closer to election day; complete and static dataset will be generated following completion"
-  },
-  {
-    "process": "Election Results",
-    "datasets": [
-      "Granular and disaggregated results data",
-      "Voter turnout",
-      "Absentee ballot requests",
-      "Overseas voting data (when applicable)",
-      "Complaints and challenges filed",
-      "Audit data (when applicable)"
-    ],
-    "datasources": ["EMB", "Judiciary/elections court"],
-    "timing": "Data available on or immediately follow election day; should be complete and static datasets except for complaints/challenges"
-  },
-  {
-    "process": "Electronic Voting & Counting",
-    "datasets": [
-      "Granular and disaggregated results data",
-      "Procurement and budget data",
-      "Source codes for voting/counting machines",
-      "Voting machine audit data"
-    ],
-    "datasources": ["EMB", "Legislature/budget body"],
-    "timing": "Mix of process-based dataset and pre-existing or static data"
-  },
-  {
-    "process": "Electoral Complaints, Disputes and Resolution",
-    "datasets": [
-      "Complaint resolution process information",
-      "Complaints and challenges filed",
-      "Complaint resolution data (investigations, fines, outcomes of charges and appeals filed)"
-    ],
-    "datasources": ["EMB", "Legal framework", "Judiciary/elections court"],
-    "timing": "Data will be variable and generated continuously until court filing deadlines and official results announced"
-  }
-]
+{
+  "items": [
+    {
+      "process": "Legal Framework",
+      "datasets": [
+        "Consolidated laws and amendments",
+        "EMB regulations and instructions",
+        "Judicial challenges to electoral code"
+      ],
+      "datasources": [
+        "Constitution",
+        "Legislature and Executive Office",
+        "EMB",
+        "Judiciary"
+      ],
+      "timing": "Static and available early in the electoral cycle except for updates and amendments"
+    },
+    {
+      "process": "Electoral Boundaries",
+      "datasets": [
+        "Maps",
+        "Spatial data",
+        "Population data",
+        "Voter registration data",
+        "Demographic data"
+      ],
+      "datasources": [
+        "Legal Framework",
+        "EMB",
+        "Legislature",
+        "Census/Statistics Bureau",
+        "Interior Ministry/Geological Survey",
+        "Boundary authority"
+      ],
+      "timing": "Static and available early in the electoral cycle except for pending legal challenges"
+    },
+    {
+      "process": "Election Management Body and Administration",
+      "datasets": [
+        "EMB administrative structure and division of labor",
+        "Appointment process",
+        "Leadership profile and staff qualifications/ requirements at all levels",
+        "Composition information (party affiliation if partisan)",
+        "Staff training schedule and materials"
+      ],
+      "datasources": ["EMB", "Legal Framework"],
+      "timing": "Some static data available early but some generated closer to election day"
+    },
+    {
+      "process": "Election Management Body Processes",
+      "datasets": [
+        "EMB decisions, resolutions, meeting minutes, and notifications",
+        "Election regulations",
+        "Electoral calendar",
+        "EMB budget data",
+        "EMB procurement data",
+        "Accreditation procedures",
+        "Election evaluations/reports"
+      ],
+      "datasources": ["EMB", "Legislature/budgetary body"],
+      "timing": "Some data will be relatively static, however much will be variable and generated continuously, requiring regular collection and analysis"
+    },
+    {
+      "process": "Election Security",
+      "datasets": [
+        "Rules and parameters for security forces",
+        "Deployment plans for security forces",
+        "Data regarding security breaches and incidents of election violence"
+      ],
+      "datasources": ["EMB", "Legal Framework", "Security forces"],
+      "timing": "Most data will be continuous and variable, requiring regular collection and analysis"
+    },
+    {
+      "process": "Political Party Registration",
+      "datasets": [
+        "Party application data, including party applicants total, which were accepted and rejected by the EMB and reasons for rejection",
+        "Rules and requirements for nomination"
+      ],
+      "datasources": ["EMB", "Legal Framework"],
+      "timing": "Complete and static datasets will be generated following completion of the process"
+    },
+    {
+      "process": "Ballot Qualification",
+      "datasets": [
+        "Complete information on nomination requirements, rules, procedures, and appeals process",
+        "List of candidate applicants with party affiliation, age, gender and any available demographic information applied",
+        "Names of nomination signatories for each candidate/ number of nomination signatures",
+        "Candidates rejected (with justifications)",
+        "Appeals filed and those accepts and rejected (with justifications)",
+        "Final candidate list with party, age, gender, etc"
+      ],
+      "datasources": ["EMB", "Legal framework", "Judiciary/appeals court"],
+      "timing": "Complete and static datasets will be generated following completion of the process"
+    },
+    {
+      "process": "Election Campaigns",
+      "datasets": [
+        "Campaign regulations",
+        "Campaign codes of conduct",
+        "Timetable for official election campaigns",
+        "Data on media allocations",
+        "Campaign violations",
+        "Rally permitting",
+        "Allocation of public resources"
+      ],
+      "datasources": ["EMB", "Security forces"],
+      "timing": "Process will occur close to election day; data will be variable and generated continuously until campaign period ends"
+    },
+    {
+      "process": "Campaign Finance",
+      "datasets": [
+        "Campaign finance limits and regulations",
+        "Donation data",
+        "Expenditures data (date, purpose, amount, and recipient)",
+        "Allocations of public resources to each candidate/party",
+        "Reporting and disclosure data",
+        "Oversight and monitoring data",
+        "Sanctions and appeals data"
+      ],
+      "datasources": ["EMB", "Legal Framework"],
+      "timing": "Process will occur close to election day; data will be variable and generated continuously until filing and reporting deadlines"
+    },
+    {
+      "process": "Voter Registration",
+      "datasets": [
+        "Voter registration calendar and rules and regulations",
+        "Voter registration center list",
+        "Voter list exhibition locations (where applicable)",
+        "Exhibition period appeals and challenges data (where applicable)",
+        "Voter registration list and/or statistics (former and current) with age, gender, locations, party (if applicable), demographic data when possible",
+        "Population and demographic data"
+      ],
+      "datasources": ["EMB", "Census/Statistics Bureau"],
+      "timing": "Complete and static datasets will be generated following the registration and appeals deadline"
+    },
+    {
+      "process": "Voter Lists",
+      "datasets": [
+        "Voter registration list",
+        "Vital statistics",
+        "Civil registry information (if applicable)",
+        "Appeals, challenges, and updates data (where applicable)"
+      ],
+      "datasources": ["EMB"],
+      "timing": "Complete and static datasets will be generated following the registration and appeals deadline"
+    },
+    {
+      "process": "Voter Education",
+      "datasets": ["Voter education materials"],
+      "datasources": ["EMB", "Information ministry"],
+      "timing": "Data will be variable and generated continuously, requiring regular collection"
+    },
+    {
+      "process": "Polling Stations",
+      "datasets": [
+        "Polling station list with information on # voters per station, staff, location, disaggregated stream/booth information (if applicable)",
+        "Maps/spatial data",
+        "Population and demographic data"
+      ],
+      "datasources": ["EMB", "Census/Statistics Bureau"],
+      "timing": "Process will likely occur closer to election day; complete and static dataset will be generated following completion"
+    },
+    {
+      "process": "Election Results",
+      "datasets": [
+        "Granular and disaggregated results data",
+        "Voter turnout",
+        "Absentee ballot requests",
+        "Overseas voting data (when applicable)",
+        "Complaints and challenges filed",
+        "Audit data (when applicable)"
+      ],
+      "datasources": ["EMB", "Judiciary/elections court"],
+      "timing": "Data available on or immediately follow election day; should be complete and static datasets except for complaints/challenges"
+    },
+    {
+      "process": "Electronic Voting & Counting",
+      "datasets": [
+        "Granular and disaggregated results data",
+        "Procurement and budget data",
+        "Source codes for voting/counting machines",
+        "Voting machine audit data"
+      ],
+      "datasources": ["EMB", "Legislature/budget body"],
+      "timing": "Mix of process-based dataset and pre-existing or static data"
+    },
+    {
+      "process": "Electoral Complaints, Disputes and Resolution",
+      "datasets": [
+        "Complaint resolution process information",
+        "Complaints and challenges filed",
+        "Complaint resolution data (investigations, fines, outcomes of charges and appeals filed)"
+      ],
+      "datasources": ["EMB", "Legal framework", "Judiciary/elections court"],
+      "timing": "Data will be variable and generated continuously until court filing deadlines and official results announced"
+    }
+  ]
+}

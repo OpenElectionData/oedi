@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Inicio
+_template: home
 cards:
   - slug: '/guide/key-categories/'
     title: 'Componentes del proceso electoral'

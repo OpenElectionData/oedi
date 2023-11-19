@@ -30,7 +30,7 @@ useTippy: true
         <dt>{{ 'last_checked' | i18n }}</dt>
         <dd>{{ country.last_checked }}</dd>
         <dt>{{ 'open_data_information' | i18n }}</dt>
-        <dd>{{ country.open_data_information | safe }}</dd>
+        <dd>{{ country.open_data_information | renderMd | safe }}</dd>
       </dl>
       <img
         src="{{ mapImg }}"

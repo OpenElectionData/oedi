@@ -35,43 +35,5 @@
       "header": false,
       "footer": true
     }
-  ],
-  "languages": [
-    {
-      "identifier": "en",
-      "title": "English",
-      "url": "/en",
-      "weight": 1
-    },
-    {
-      "identifier": "ar",
-      "title": "العربية",
-      "url": "/ar",
-      "weight": 2
-    },
-    {
-      "identifier": "es",
-      "title": "Español",
-      "url": "/es",
-      "weight": 3
-    },
-    {
-      "identifier": "fr",
-      "title": "Français",
-      "url": "/fr",
-      "weight": 4
-    },
-    {
-      "identifier": "uk",
-      "title": "Українська",
-      "url": "/uk",
-      "weight": 5
-    },
-    {
-      "identifier": "my",
-      "title": "မြန်မာ",
-      "url": "/my",
-      "weight": 6
-    }
   ]
 }

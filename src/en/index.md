@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+_template: home
 cards:
   - slug: '/guide/key-categories/'
     title: 'Election Categories'

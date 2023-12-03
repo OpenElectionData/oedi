@@ -45,6 +45,10 @@ module.exports = function (eleventyConfig) {
     .use(markdownItFootnote);
   eleventyConfig.setLibrary('md', markdownLibrary);
 
+  eleventyConfig.addFilter('renderMd', function (rawString) {
+    return markdownLibrary.render(rawString);
+  });
+
   // Internationalization
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     // any valid BCP 47-compatible language tag is supported

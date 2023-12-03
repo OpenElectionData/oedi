@@ -1,0 +1,17 @@
+{% extends "layouts/assessment.njk" %}
+
+{% block pageContent %}
+  <h1 class="page__title">{{ title | safe}}</h1>
+  {{ content | safe }}
+
+  <ul>
+    {% for form in collections.assessment_forms %}
+      <li>
+        <a href="{{ form.url }}">
+          {{ form.data.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}

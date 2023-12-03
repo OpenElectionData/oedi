@@ -5,7 +5,7 @@ excerpt: 'Examples of datasets, sources, and timing considerations'
 
 **[Download as PDF ![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg)]({{ site.url }}/\_assets/assessment/Illustrative_Datasets.pdf)**
 
-{% for row in assessment.supplemental %}
+{% for row in assessment.supplemental.items %}
 
 <h2>{{ row.process }}</h2>
 

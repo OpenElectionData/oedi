@@ -15,8 +15,7 @@ The analysis of open data should not supplant or replace other observation activ
 
 A data analysis plan is a detailed document outlining procedures for conducting an analysis on open election data and what various steps in the analysis are going to be. An analysis plan should be created prior to beginning data analysis in order to guide how a group is going to collect and analyze the data. This document is a living document which may be revised during the data analysis. The following table outlines key components and example inputs of a data analysis plan. Groups will need to consider availability of data, capacities of staff, resources needed, etc. The remainder of Step 3 provides more details and exercises to help groups think about and complete a data analysis plan.
 
-[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) View and fill out your own Sample Data Monitoring and Analysis Plan.]({{ site.url }}/\_assets/assessment/Table_2.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) View and fill out your own Sample Data Monitoring and Analysis Plan.]({{ site.url }}/\_assets/assessment/Table_2.pdf){.callout--exercise}
 
 ## Matching Open Data with Analysis Capacity
 
@@ -45,8 +44,7 @@ Groups should reflect what capacity they have to:
 
 Groups limited in some capacity can consider if they have the budget to work with a third party vendor or consultant to acquire specialized software or technical assistance. Organizations can test out their analysis skills by participating in modules at the [Election Data Academy](/en/academy/) online and should answer the questions in the next exercise.
 
-[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Exercise B: Organizational Capacity to Use Open Election Data]({{ site.url }}/\_assets/assessment/exercises/Exercise_B.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Exercise B: Organizational Capacity to Use Open Election Data]({{ site.url }}/\_assets/assessment/exercises/Exercise_B.pdf){.callout--exercise}
 
 ## When Data is Easily Retrieved
 
@@ -95,10 +93,8 @@ At this point, monitoring organizations should have identified what election pro
 
 Based on this information, along with an organization’s monitoring strategy, groups should parse out what data can (and should) be gathered by observers, and what data can be gathered via open official sources. You should be ready to fill out Exercise C.
 
-[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Exercise C: Datasets, Sources, Timing, and Requests]({{ site.url }}/\_assets/assessment/exercises/Exercise_C.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Exercise C: Datasets, Sources, Timing, and Requests]({{ site.url }}/\_assets/assessment/exercises/Exercise_C.pdf){.callout--exercise}
 
 Then, based on your monitoring priorities and objectives, groups should specify a list of observation activities with a corresponding realistic, if not broad, timeline. Plot this out in Exercise B. You can use the chart in Exercise D as a guide, which includes some placeholder information as an example.
 
-[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Exercise D: Open Data and Election Observation Activity Timeline]({{ site.url }}/\_assets/assessment/exercises/Exercise_D.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Exercise D: Open Data and Election Observation Activity Timeline]({{ site.url }}/\_assets/assessment/exercises/Exercise_D.pdf){.callout--exercise}

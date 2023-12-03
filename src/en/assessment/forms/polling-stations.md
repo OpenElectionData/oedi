@@ -3,8 +3,7 @@ title: 'Polling Stations'
 form_id: 10
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Polling_Stations.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Polling_Stations.pdf){.callout--exercise}
 
 ## General
 

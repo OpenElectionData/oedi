@@ -82,12 +82,14 @@ export function inventory_countries_fields() {
         {
           type: 'string',
           name: 'election_evaluated',
-          label: 'Election evaluated'
+          label: 'Election evaluated',
+          searchable: false
         },
         {
           type: 'datetime',
           name: 'last_checked',
-          label: 'Last checked'
+          label: 'Last checked',
+          searchable: false
         },
         {
           type: 'rich-text',
@@ -98,7 +100,8 @@ export function inventory_countries_fields() {
           label: 'Translations',
           name: 'translations',
           type: 'object',
-          fields: translations
+          fields: translations,
+          searchable: false
         }
       ]
     }

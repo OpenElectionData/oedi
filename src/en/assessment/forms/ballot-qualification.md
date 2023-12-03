@@ -3,8 +3,7 @@ title: 'Ballot Qualification'
 form_id: 7
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Ballot_Qualification.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Ballot_Qualification.pdf){.callout--exercise}
 
 ## General
 

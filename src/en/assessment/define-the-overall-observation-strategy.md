@@ -25,8 +25,7 @@ Groups should determine which parts of the process are likely to have the greate
 
 After asking the above questions, consider how problems in accountability, competition, inclusion, and transparency may actually appear during the electoral process and how those issues could undermine electoral integrity.
 
-[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Complete Exercise A: Risk Diagnostic and Prioritization.]({{ site.url }}/\_assets/assessment/exercises/Exercise_A.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Complete Exercise A: Risk Diagnostic and Prioritization.]({{ site.url }}/\_assets/assessment/exercises/Exercise_A.pdf){.callout--exercise}
 
 ## What are the observation objectives?
 

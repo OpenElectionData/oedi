@@ -3,8 +3,7 @@ title: 'Political Party Registration'
 form_id: 6
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Political_Party_Registration.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Political_Party_Registration.pdf){.callout--exercise}
 
 ## General
 

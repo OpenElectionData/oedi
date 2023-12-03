@@ -192,14 +192,11 @@
     }
 
     .callout--exercise {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      width: 100%;
       font-weight: bold;
-
-      > * {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        width: 100%;
-      }
 
       img {
         top: initial;

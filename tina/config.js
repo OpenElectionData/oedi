@@ -36,6 +36,11 @@ export default defineConfig({
       publicFolder: 'dist'
     }
   },
+  search: {
+    tina: {
+      indexerToken: process.env.TINA_SEARCH_TOKEN,
+    }
+  },
   schema: {
     collections: [
       {

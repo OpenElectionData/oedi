@@ -11,6 +11,7 @@ const slugify = require('slugify');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItFootnote = require('markdown-it-footnote');
+const markdownItAttrs = require('markdown-it-attrs');
 
 const filters = require('./src/_utils/filters.js');
 const translations = require('./src/_data/i18n');
@@ -42,7 +43,10 @@ module.exports = function (eleventyConfig) {
           remove: /["]/g
         })
     })
-    .use(markdownItFootnote);
+    .use(markdownItFootnote)
+    .use(markdownItAttrs, {
+      allowedAttributes: ['id', 'class']
+    });
   eleventyConfig.setLibrary('md', markdownLibrary);
 
   eleventyConfig.addFilter('renderMd', function (rawString) {
@@ -98,15 +102,6 @@ module.exports = function (eleventyConfig) {
   });
 
   // Collections
-  // Get only content that matches a tag
-  eleventyConfig.addCollection('homeFeed', function (collectionApi) {
-    return collectionApi
-      .getFilteredByTag('stories')
-      .sort(function (a, b) {
-        return b.date - a.date;
-      })
-      .slice(0, 3);
-  });
 
   // Filters
   Object.keys(filters).forEach((filterName) => {

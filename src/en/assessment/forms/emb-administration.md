@@ -3,8 +3,7 @@ title: 'EMB Administration'
 form_id: 3
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_EMB.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_EMB.pdf){.callout--exercise}
 
 ## General
 

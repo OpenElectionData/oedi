@@ -3,8 +3,7 @@ title: 'Electoral Boundaries'
 form_id: 2
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Electoral_Boundaries.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Electoral_Boundaries.pdf){.callout--exercise}
 
 ## General
 

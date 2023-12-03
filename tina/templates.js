@@ -35,6 +35,7 @@ export function home_pages_fields() {
       label: 'Card navigation',
       type: 'object',
       list: true,
+      searchable: false,
       ui: {
         itemProps: (item) => {
           return {
@@ -102,6 +103,7 @@ export function translation_fields(type) {
       name: code.replaceAll('-', '_'),
       nameOverride: code,
       label: code,
+      searchable: false,
       ui: {
         component
       }

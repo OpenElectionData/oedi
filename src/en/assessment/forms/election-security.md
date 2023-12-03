@@ -3,8 +3,7 @@ title: 'Election Security'
 form_id: 5
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Election_Security.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Election_Security.pdf){.callout--exercise}
 
 ## General
 

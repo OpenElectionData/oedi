@@ -3,8 +3,7 @@ title: 'Election Campaigns'
 form_id: 8
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Election_Campaigns.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Election_Campaigns.pdf){.callout--exercise}
 
 ## General
 

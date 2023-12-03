@@ -66,6 +66,7 @@ export function assessment_supplemental_fields() {
       label: 'Items',
       type: 'object',
       list: true,
+      searchable: false,
       ui: {
         itemProps: (item) => {
           return {

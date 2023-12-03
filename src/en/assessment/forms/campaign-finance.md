@@ -3,8 +3,7 @@ title: 'Campaign Finance'
 form_id: 9
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Campaign_Finance.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Campaign_Finance.pdf){.callout--exercise}
 
 ## General
 

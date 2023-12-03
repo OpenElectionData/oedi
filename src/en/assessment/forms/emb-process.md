@@ -3,8 +3,7 @@ title: 'EMB Process'
 form_id: 4
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_EMB_Process.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_EMB_Process.pdf){.callout--exercise}
 
 ## General
 

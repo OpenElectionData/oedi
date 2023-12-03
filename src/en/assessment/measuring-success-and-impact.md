@@ -45,10 +45,8 @@ An important part of evaluating progress is assessing how the group’s internal
 
 In Step 3, groups assessed their organizational capacity to use open election data as part of defining an open election data plan. Consider how your internal staffing and operational capacities affected your ability to conduct activities effectively. Are there any improvements in internal expertise or limitations of internal expertise? Did you have the capacities to achieve goals? If not, what could change? What skills, staffing, or other operational considerations are needed to continue progress towards goals? Refer back to Exercise B to think about what may have changed since then.
 
-[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Review Exercise B: Organizational Capacity to Use Open Election Data]({{ site.url }}/\_assets/assessment/exercises/Exercise_B.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Review Exercise B: Organizational Capacity to Use Open Election Data]({{ site.url }}/\_assets/assessment/exercises/Exercise_B.pdf){.callout--exercise}
 
 Use Exercise E as a guide to how groups can structure their reflection on their progress towards established goals.
 
-[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Exercise E: Reflect on Progress]({{ site.url }}/\_assets/assessment/exercises/Exercise_E.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/exercise_icon.svg) Exercise E: Reflect on Progress]({{ site.url }}/\_assets/assessment/exercises/Exercise_E.pdf){.callout--exercise}

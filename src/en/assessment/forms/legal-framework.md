@@ -3,8 +3,7 @@ title: 'Legal Framework'
 form_id: 1
 ---
 
-[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Legal_Framework.pdf)
-{: .callout--exercise}
+[![]({{ site.url }}/\_assets/images/assessment/supplemental_icon.svg) Download as PDF]({{ site.url }}/\_assets/assessment/forms/A_Legal_Framework.pdf){.callout--exercise}
 
 ## General
 
